@@ -1,0 +1,1002 @@
+[
+    {
+        "topic": "Java",
+        "sub_topic": "Java Basics",
+        "question_prompt": "Generate 20 questions about Java Basics with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "JVM and JRE",
+        "question_prompt": "Generate 20 questions about JVM and JRE with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Data Types and Variables",
+        "question_prompt": "Generate 20 questions about Data Types and Variables with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Operators in Java",
+        "question_prompt": "Generate 20 questions about Operators in Java with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Control Statements",
+        "question_prompt": "Generate 20 questions about Control Statements with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Object-Oriented Programming",
+        "question_prompt": "Generate 20 questions about Object-Oriented Programming with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Classes and Objects",
+        "question_prompt": "Generate 20 questions about Classes and Objects with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Constructors",
+        "question_prompt": "Generate 20 questions about Constructors with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Inheritance",
+        "question_prompt": "Generate 20 questions about Inheritance with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Polymorphism",
+        "question_prompt": "Generate 20 questions about Polymorphism with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Abstraction",
+        "question_prompt": "Generate 20 questions about Abstraction with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Encapsulation",
+        "question_prompt": "Generate 20 questions about Encapsulation with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Interfaces",
+        "question_prompt": "Generate 20 questions about Interfaces with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Exception Handling",
+        "question_prompt": "Generate 20 questions about Exception Handling with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Collections Framework",
+        "question_prompt": "Generate 20 questions about Collections Framework with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Multithreading",
+        "question_prompt": "Generate 20 questions about Multithreading with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "File I/O",
+        "question_prompt": "Generate 20 questions about File I/O with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Generics",
+        "question_prompt": "Generate 20 questions about Generics with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Lambda Expressions",
+        "question_prompt": "Generate 20 questions about Lambda Expressions with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Streams API",
+        "question_prompt": "Generate 20 questions about Streams API with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Serialization",
+        "question_prompt": "Generate 20 questions about Serialization with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "JDBC",
+        "question_prompt": "Generate 20 questions about JDBC with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Garbage Collection",
+        "question_prompt": "Generate 20 questions about Garbage Collection with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Java 8 Features",
+        "question_prompt": "Generate 20 questions about Java 8 Features with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Design Patterns",
+        "question_prompt": "Generate 20 questions about Design Patterns with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Python Basics",
+        "question_prompt": "Generate 20 questions about Python Basics with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Data Types and Variables",
+        "question_prompt": "Generate 20 questions about Data Types and Variables with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Operators",
+        "question_prompt": "Generate 20 questions about Operators with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Control Flow",
+        "question_prompt": "Generate 20 questions about Control Flow with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Functions",
+        "question_prompt": "Generate 20 questions about Functions with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Classes and Objects",
+        "question_prompt": "Generate 20 questions about Classes and Objects with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Inheritance",
+        "question_prompt": "Generate 20 questions about Inheritance with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Polymorphism",
+        "question_prompt": "Generate 20 questions about Polymorphism with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Exception Handling",
+        "question_prompt": "Generate 20 questions about Exception Handling with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "File Handling",
+        "question_prompt": "Generate 20 questions about File Handling with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Modules and Packages",
+        "question_prompt": "Generate 20 questions about Modules and Packages with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Libraries (Pandas, NumPy)",
+        "question_prompt": "Generate 20 questions about Libraries (Pandas, NumPy) with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Decorators",
+        "question_prompt": "Generate 20 questions about Decorators with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Generators",
+        "question_prompt": "Generate 20 questions about Generators with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Comprehensions",
+        "question_prompt": "Generate 20 questions about Comprehensions with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Regular Expressions",
+        "question_prompt": "Generate 20 questions about Regular Expressions with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Data Visualization",
+        "question_prompt": "Generate 20 questions about Data Visualization with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Database Connectivity",
+        "question_prompt": "Generate 20 questions about Database Connectivity with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Multithreading",
+        "question_prompt": "Generate 20 questions about Multithreading with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Asyncio in Python",
+        "question_prompt": "Generate 20 questions about Asyncio in Python with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Python Web Frameworks",
+        "question_prompt": "Generate 20 questions about Python Web Frameworks with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "APIs in Python",
+        "question_prompt": "Generate 20 questions about APIs in Python with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Python Scripts in DevOps",
+        "question_prompt": "Generate 20 questions about Python Scripts in DevOps with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Machine Learning Libraries",
+        "question_prompt": "Generate 20 questions about Machine Learning Libraries with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Python",
+        "sub_topic": "Python Debugging",
+        "question_prompt": "Generate 20 questions about Python Debugging with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "React Basics",
+        "question_prompt": "Generate 20 questions about React Basics with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "JSX (JavaScript XML)",
+        "question_prompt": "Generate 20 questions about JSX (JavaScript XML) with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "Components and Props",
+        "question_prompt": "Generate 20 questions about Components and Props with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "State Management",
+        "question_prompt": "Generate 20 questions about State Management with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "Lifecycle Methods",
+        "question_prompt": "Generate 20 questions about Lifecycle Methods with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "React Hooks",
+        "question_prompt": "Generate 20 questions about React Hooks with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "React Router",
+        "question_prompt": "Generate 20 questions about React Router with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "Event Handling",
+        "question_prompt": "Generate 20 questions about Event Handling with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "Forms in React",
+        "question_prompt": "Generate 20 questions about Forms in React with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "Conditional Rendering",
+        "question_prompt": "Generate 20 questions about Conditional Rendering with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "Lists and Keys",
+        "question_prompt": "Generate 20 questions about Lists and Keys with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "Context API",
+        "question_prompt": "Generate 20 questions about Context API with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "Redux Basics",
+        "question_prompt": "Generate 20 questions about Redux Basics with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "Middleware in Redux",
+        "question_prompt": "Generate 20 questions about Middleware in Redux with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "React-Redux Integration",
+        "question_prompt": "Generate 20 questions about React-Redux Integration with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "React Fragments",
+        "question_prompt": "Generate 20 questions about React Fragments with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "Higher-Order Components (HOCs)",
+        "question_prompt": "Generate 20 questions about Higher-Order Components (HOCs) with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "React Performance Optimization",
+        "question_prompt": "Generate 20 questions about React Performance Optimization with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "React Portals",
+        "question_prompt": "Generate 20 questions about React Portals with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "Error Boundaries",
+        "question_prompt": "Generate 20 questions about Error Boundaries with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "Testing in React",
+        "question_prompt": "Generate 20 questions about Testing in React with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "Server-Side Rendering (SSR)",
+        "question_prompt": "Generate 20 questions about Server-Side Rendering (SSR) with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "React with APIs",
+        "question_prompt": "Generate 20 questions about React with APIs with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "Material-UI and Styled Components",
+        "question_prompt": "Generate 20 questions about Material-UI and Styled Components with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "React",
+        "sub_topic": "React Deployment",
+        "question_prompt": "Generate 20 questions about React Deployment with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "SQL Basics",
+        "question_prompt": "Generate 20 questions about SQL Basics with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "SQL Syntax",
+        "question_prompt": "Generate 20 questions about SQL Syntax with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "Data Types in SQL",
+        "question_prompt": "Generate 20 questions about Data Types in SQL with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "DDL Commands",
+        "question_prompt": "Generate 20 questions about DDL Commands with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "DML Commands",
+        "question_prompt": "Generate 20 questions about DML Commands with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "TCL Commands",
+        "question_prompt": "Generate 20 questions about TCL Commands with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "DCL Commands",
+        "question_prompt": "Generate 20 questions about DCL Commands with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "Joins in SQL",
+        "question_prompt": "Generate 20 questions about Joins in SQL with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "Subqueries",
+        "question_prompt": "Generate 20 questions about Subqueries with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "Views",
+        "question_prompt": "Generate 20 questions about Views with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "Indexing",
+        "question_prompt": "Generate 20 questions about Indexing with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "Stored Procedures",
+        "question_prompt": "Generate 20 questions about Stored Procedures with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "Triggers",
+        "question_prompt": "Generate 20 questions about Triggers with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "Transactions",
+        "question_prompt": "Generate 20 questions about Transactions with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "Constraints",
+        "question_prompt": "Generate 20 questions about Constraints with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "Keys (Primary, Foreign)",
+        "question_prompt": "Generate 20 questions about Keys (Primary, Foreign) with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "Normalization",
+        "question_prompt": "Generate 20 questions about Normalization with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "ACID Properties",
+        "question_prompt": "Generate 20 questions about ACID Properties with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "Aggregate Functions",
+        "question_prompt": "Generate 20 questions about Aggregate Functions with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "Group By and Having",
+        "question_prompt": "Generate 20 questions about Group By and Having with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "Window Functions",
+        "question_prompt": "Generate 20 questions about Window Functions with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "SQL Optimization",
+        "question_prompt": "Generate 20 questions about SQL Optimization with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "SQL Injection",
+        "question_prompt": "Generate 20 questions about SQL Injection with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "Database Design",
+        "question_prompt": "Generate 20 questions about Database Design with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "SQL Databases",
+        "sub_topic": "Backup and Recovery",
+        "question_prompt": "Generate 20 questions about Backup and Recovery with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Linux Basics",
+        "question_prompt": "Generate 20 questions about Linux Basics with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "File System",
+        "question_prompt": "Generate 20 questions about File System with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Commands in Linux",
+        "question_prompt": "Generate 20 questions about Commands in Linux with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "File Permissions",
+        "question_prompt": "Generate 20 questions about File Permissions with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "User and Group Management",
+        "question_prompt": "Generate 20 questions about User and Group Management with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Process Management",
+        "question_prompt": "Generate 20 questions about Process Management with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Shell Scripting",
+        "question_prompt": "Generate 20 questions about Shell Scripting with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Editors (Vim/Nano)",
+        "question_prompt": "Generate 20 questions about Editors (Vim/Nano) with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Package Management",
+        "question_prompt": "Generate 20 questions about Package Management with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Networking in Linux",
+        "question_prompt": "Generate 20 questions about Networking in Linux with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "System Logs",
+        "question_prompt": "Generate 20 questions about System Logs with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Cron Jobs",
+        "question_prompt": "Generate 20 questions about Cron Jobs with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "File Compression",
+        "question_prompt": "Generate 20 questions about File Compression with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Disk Partitioning",
+        "question_prompt": "Generate 20 questions about Disk Partitioning with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Boot Process",
+        "question_prompt": "Generate 20 questions about Boot Process with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Kernel and Shell",
+        "question_prompt": "Generate 20 questions about Kernel and Shell with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Pipes and Redirection",
+        "question_prompt": "Generate 20 questions about Pipes and Redirection with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Linux Daemons",
+        "question_prompt": "Generate 20 questions about Linux Daemons with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Environment Variables",
+        "question_prompt": "Generate 20 questions about Environment Variables with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Signals in Linux",
+        "question_prompt": "Generate 20 questions about Signals in Linux with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "System Monitoring",
+        "question_prompt": "Generate 20 questions about System Monitoring with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Troubleshooting",
+        "question_prompt": "Generate 20 questions about Troubleshooting with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "SSH and Remote Access",
+        "question_prompt": "Generate 20 questions about SSH and Remote Access with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Security in Linux",
+        "question_prompt": "Generate 20 questions about Security in Linux with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Linux",
+        "sub_topic": "Linux Performance Tuning",
+        "question_prompt": "Generate 20 questions about Linux Performance Tuning with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "OSI Model",
+        "question_prompt": "Generate 20 questions about OSI Model with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "TCP/IP Model",
+        "question_prompt": "Generate 20 questions about TCP/IP Model with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "IP Addressing",
+        "question_prompt": "Generate 20 questions about IP Addressing with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "Subnetting",
+        "question_prompt": "Generate 20 questions about Subnetting with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "Routing Protocols",
+        "question_prompt": "Generate 20 questions about Routing Protocols with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "Switching Concepts",
+        "question_prompt": "Generate 20 questions about Switching Concepts with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "DNS",
+        "question_prompt": "Generate 20 questions about DNS with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "DHCP",
+        "question_prompt": "Generate 20 questions about DHCP with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "HTTP and HTTPS",
+        "question_prompt": "Generate 20 questions about HTTP and HTTPS with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "ARP",
+        "question_prompt": "Generate 20 questions about ARP with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "TCP and UDP",
+        "question_prompt": "Generate 20 questions about TCP and UDP with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "Firewalls",
+        "question_prompt": "Generate 20 questions about Firewalls with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "Network Security",
+        "question_prompt": "Generate 20 questions about Network Security with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "VPN",
+        "question_prompt": "Generate 20 questions about VPN with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "Proxy Servers",
+        "question_prompt": "Generate 20 questions about Proxy Servers with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "LAN and WAN",
+        "question_prompt": "Generate 20 questions about LAN and WAN with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "VLAN",
+        "question_prompt": "Generate 20 questions about VLAN with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "NAT",
+        "question_prompt": "Generate 20 questions about NAT with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "Network Devices",
+        "question_prompt": "Generate 20 questions about Network Devices with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "Wi-Fi Standards",
+        "question_prompt": "Generate 20 questions about Wi-Fi Standards with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "Bandwidth and Latency",
+        "question_prompt": "Generate 20 questions about Bandwidth and Latency with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "Packet Sniffing",
+        "question_prompt": "Generate 20 questions about Packet Sniffing with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "Network Troubleshooting",
+        "question_prompt": "Generate 20 questions about Network Troubleshooting with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "Port Forwarding",
+        "question_prompt": "Generate 20 questions about Port Forwarding with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Computer Networks",
+        "sub_topic": "Cloud Networking",
+        "question_prompt": "Generate 20 questions about Cloud Networking with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "OS Basics",
+        "question_prompt": "Generate 20 questions about OS Basics with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Process Management",
+        "question_prompt": "Generate 20 questions about Process Management with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Threads and Concurrency",
+        "question_prompt": "Generate 20 questions about Threads and Concurrency with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Scheduling Algorithms",
+        "question_prompt": "Generate 20 questions about Scheduling Algorithms with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Memory Management",
+        "question_prompt": "Generate 20 questions about Memory Management with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Virtual Memory",
+        "question_prompt": "Generate 20 questions about Virtual Memory with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Paging and Segmentation",
+        "question_prompt": "Generate 20 questions about Paging and Segmentation with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Deadlocks",
+        "question_prompt": "Generate 20 questions about Deadlocks with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "File Systems",
+        "question_prompt": "Generate 20 questions about File Systems with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Disk Management",
+        "question_prompt": "Generate 20 questions about Disk Management with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Input/Output Management",
+        "question_prompt": "Generate 20 questions about Input/Output Management with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Shell and Commands",
+        "question_prompt": "Generate 20 questions about Shell and Commands with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "System Calls",
+        "question_prompt": "Generate 20 questions about System Calls with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Interprocess Communication",
+        "question_prompt": "Generate 20 questions about Interprocess Communication with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Semaphores and Mutex",
+        "question_prompt": "Generate 20 questions about Semaphores and Mutex with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Signals",
+        "question_prompt": "Generate 20 questions about Signals with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Distributed Systems",
+        "question_prompt": "Generate 20 questions about Distributed Systems with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "OS Security",
+        "question_prompt": "Generate 20 questions about OS Security with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "OS Virtualization",
+        "question_prompt": "Generate 20 questions about OS Virtualization with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Linux vs Windows OS",
+        "question_prompt": "Generate 20 questions about Linux vs Windows OS with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Device Drivers",
+        "question_prompt": "Generate 20 questions about Device Drivers with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Process Synchronization",
+        "question_prompt": "Generate 20 questions about Process Synchronization with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Booting Process",
+        "question_prompt": "Generate 20 questions about Booting Process with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "Kernel Architecture",
+        "question_prompt": "Generate 20 questions about Kernel Architecture with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Operating Systems",
+        "sub_topic": "OS Debugging Tools",
+        "question_prompt": "Generate 20 questions about OS Debugging Tools with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Class and Object Scenarios",
+        "question_prompt": "Generate 20 questions about Class and Object Scenarios with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Constructor Scenarios",
+        "question_prompt": "Generate 20 questions about Constructor Scenarios with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Method Overloading",
+        "question_prompt": "Generate 20 questions about Method Overloading with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Method Overriding",
+        "question_prompt": "Generate 20 questions about Method Overriding with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Inheritance Scenarios",
+        "question_prompt": "Generate 20 questions about Inheritance Scenarios with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Abstract Classes",
+        "question_prompt": "Generate 20 questions about Abstract Classes with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Interface Scenarios",
+        "question_prompt": "Generate 20 questions about Interface Scenarios with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Encapsulation Examples",
+        "question_prompt": "Generate 20 questions about Encapsulation Examples with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Polymorphism Examples",
+        "question_prompt": "Generate 20 questions about Polymorphism Examples with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Composition and Aggregation",
+        "question_prompt": "Generate 20 questions about Composition and Aggregation with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Object Lifecycle",
+        "question_prompt": "Generate 20 questions about Object Lifecycle with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Static Methods",
+        "question_prompt": "Generate 20 questions about Static Methods with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Final Keyword Usage",
+        "question_prompt": "Generate 20 questions about Final Keyword Usage with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Access Modifiers",
+        "question_prompt": "Generate 20 questions about Access Modifiers with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Multiple Inheritance",
+        "question_prompt": "Generate 20 questions about Multiple Inheritance with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Diamond Problem",
+        "question_prompt": "Generate 20 questions about Diamond Problem with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "SOLID Principles",
+        "question_prompt": "Generate 20 questions about SOLID Principles with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Design Patterns",
+        "question_prompt": "Generate 20 questions about Design Patterns with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Object Cloning",
+        "question_prompt": "Generate 20 questions about Object Cloning with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Exception Handling Scenarios",
+        "question_prompt": "Generate 20 questions about Exception Handling Scenarios with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Serialization Scenarios",
+        "question_prompt": "Generate 20 questions about Serialization Scenarios with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Overriding vs Overloading",
+        "question_prompt": "Generate 20 questions about Overriding vs Overloading with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Real-World OOP Examples",
+        "question_prompt": "Generate 20 questions about Real-World OOP Examples with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Thread Safety in OOP",
+        "question_prompt": "Generate 20 questions about Thread Safety in OOP with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "OOPS (Scenario-Based)",
+        "sub_topic": "Memory Leaks",
+        "question_prompt": "Generate 20 questions about Memory Leaks with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    }
+]
