@@ -76,7 +76,7 @@ for topic, sub_topics in topics.items():
         output.append(prompt)
 
 # Save to JSON file
-output_file_path = r"C:\Kanak\BootCoding\Consume GPT APIs\Json Files\Generated_Prompts.json"
+output_file_path = r"Generated_Prompts.json"
 with open(output_file_path, "w") as file:
     json.dump(output, file, indent=4)
 
