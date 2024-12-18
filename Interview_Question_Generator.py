@@ -5,7 +5,7 @@ import re
 import time
 
 # Configure the Gemini API
-genai.configure(api_key="AIzaSyDASsvvspdyZyGoX_CV2VF7Go-SFaF7MZY") #insert API key here
+genai.configure(api_key="YOUR_API_KEY") #insert API key here
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 prompts_file = "./json-files/Generated_Prompts.json" #Generated_Prompts.json
