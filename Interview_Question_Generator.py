@@ -8,7 +8,7 @@ import time
 genai.configure(api_key="AIzaSyDASsvvspdyZyGoX_CV2VF7Go-SFaF7MZY") #insert API key here
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-prompts_file = "./json-files/Generated_Prompts.json" #Generated_Prompts.json
+prompts_file = "./json-files/Generated_Prompts1.json" #Generated_Prompts.json
 
 # Load prompts from JSON file
 with open(prompts_file, "r") as file:
@@ -72,7 +72,7 @@ for prompt in prompts:
         print(f"Unexpected error while processing '{question_prompt}': {e}")
 
 # Save the results to a JSON file
-output_file = r"Master_Interview_Questions.json" #Master_Interview_Questions
+output_file = r"Master_Interview_Questions1.json" #Master_Interview_Questions
 with open(output_file, "w") as file:
     json.dump(formatted_results, file, indent=4)
 
