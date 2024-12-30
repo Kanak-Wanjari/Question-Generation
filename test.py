@@ -146,17 +146,13 @@ def save_to_json(data: Dict, subject: str) -> str:
 def main():
 
     load_dotenv()
-    # Replace this with your actual API key
     api_key = os.getenv("GEMINI_API_KYE")  # Replace this with your Gemini API key
     
-    # Get subject from user
     subject = input("Enter the subject for interview questions (e.g., Python, Machine Learning, Web Development): ")
     
-    # Generate the structure
     print(f"Generating interview structure for {subject}...")
     result = generate_interview_structure(subject, api_key)
     
-    # Save to file
     filename = save_to_json(result, subject)
     print(f"Interview structure has been saved to {filename}")
 

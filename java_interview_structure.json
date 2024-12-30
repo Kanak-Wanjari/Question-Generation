@@ -1,41 +1,34 @@
 {
   "tags": [
     "Java",
-    "Object-Oriented Programming",
+    "Interviews",
+    "Core Java",
     "Data Structures",
     "Algorithms",
+    "OOP",
     "Collections",
-    "Exception Handling",
-    "Multithreading",
-    "Design Patterns"
+    "Exception Handling"
   ],
   "categories": [
     {
       "category": "Core Java",
       "sub_categories": [
         {
-          "sub_category": "Object-Oriented Programming",
+          "sub_category": "OOP Concepts",
           "topics": [
             {
               "topic": "Encapsulation",
               "sub_topics": [
                 "Data Hiding",
-                "Abstraction",
-                "Information Hiding"
+                "Information Hiding",
+                "Access Modifiers"
               ]
-              
             },
             {
               "topic": "Polymorphism",
               "sub_topics": [
-                "* Method Overloading\n* Method Overriding"
-              ]
-            },
-            {
-              "topic": "Inheritance",
-              "sub_topics": [
-                "Inheritance Types",
-                "Overriding vs Overloading"
+                "Method Overloading",
+                "Method Overriding"
               ]
             }
           ]
@@ -44,69 +37,42 @@
           "sub_category": "Exception Handling",
           "topics": [
             {
-              "topic": "Checked Exceptions",
+              "topic": "- Custom Exception Classes\n- try-with-resources Statement for Automatic Resource Management",
               "sub_topics": [
-                "Checked vs Unchecked Exceptions",
-                "Custom Checked Exceptions",
-                "Exception Hierarchy"
-              ]
-            },
-            {
-              "topic": "Unchecked Exceptions",
-              "sub_topics": [
-                "Unchecked Exceptions",
-                "Runtime Exceptions"
-              ]
-            },
-            {
-              "topic": "Custom/User-Defined Exceptions",
-              "sub_topics": [
-                "Creating Custom Exceptions",
-                "Handling Custom Exceptions"
+                "Custom exceptions",
+                "Resource management using try-with-resources statement"
               ]
             }
           ]
         },
         {
-          "sub_category": "Collections Framework",
+          "sub_category": "Collections",
           "topics": [
             {
-              "topic": "List Iterators",
+              "topic": "ConcurrentHashMap",
               "sub_topics": [
-                "Iteration Methods",
-                "Iterator vs. List Iterator"
+                "- Lock-Free Concurrency",
+                "- Scalability and Performance"
               ]
             },
             {
-              "topic": "Set and Map views",
+              "topic": "HashMap performance and optimization",
               "sub_topics": [
-                "* Set Operations\n* Map Features"
+                "HashMap initialization and capacity",
+                "Load factor and resizing"
               ]
             }
           ]
         },
         {
-          "sub_category": "Generics",
+          "sub_category": "I/O Operations",
           "topics": [
             {
-              "topic": "Bounded Types",
+              "topic": "- File and Directory Operations\n- Streams and I/O Buffers\n- Advanced I/O Techniques (NIO/NIO.2)",
               "sub_topics": [
-                "Generics with Bounded Types",
-                "Type Arguments with Bounded Types",
-                "Bounds in Parameterized Types"
-              ]
-            },
-            {
-              "topic": "Wildcard Types",
-              "sub_topics": [
-                "- Unbounded Wildcards\n- Bounded Wildcards"
-              ]
-            },
-            {
-              "topic": "Type Erasure",
-              "sub_topics": [
-                "Type Erasure Mechanisms",
-                "Downcasting and Polymorphism"
+                "File and Directory Permissions",
+                "File Attribute Operations",
+                "Directory and Link Operations"
               ]
             }
           ]
@@ -114,91 +80,153 @@
       ]
     },
     {
-      "category": "Data Structures and Algorithms",
+      "category": "Object-Oriented Programming",
       "sub_categories": [
         {
-          "sub_category": "Sorting",
+          "sub_category": "Encapsulation",
           "topics": [
             {
-              "topic": "Bucket Sort",
+              "topic": "Getters and Setters",
               "sub_topics": [
-                "Creating Buckets",
-                "Distributing Elements",
-                "Sorting Buckets"
+                "Encapsulation",
+                "Data Hiding",
+                "Property Accessors"
               ]
             },
             {
-              "topic": "Merge Sort",
+              "topic": "Data Hiding",
               "sub_topics": [
-                "Merge Sort Algorithm",
-                "Time Complexity of Merge Sort",
-                "Implementation of Merge Sort in Java"
+                "Encapsulation",
+                "Information Hiding",
+                "Access Control"
               ]
             },
             {
-              "topic": "Heap Sort",
+              "topic": "Information Hiding",
               "sub_topics": [
-                "Building the Max Heap",
-                "Heapify Operation",
-                "In-place Sorting"
+                "Steganography",
+                "Cryptography",
+                "Advanced Encryption Standard (AES)"
               ]
             }
           ]
         },
         {
-          "sub_category": "Searching",
+          "sub_category": "Inheritance",
           "topics": [
             {
-              "topic": "- Search Algorithms (e.g.",
+              "topic": "Constructor Chaining",
               "sub_topics": [
-                "- Depth-First Search (DFS)",
-                "Breadth-First Search (BFS)"
+                "- Constructor Call Sequence\n- Overloading Constructors with Chaining\n- Implicit and Explicit Constructor Chaining"
               ]
             },
             {
-              "topic": "DFS",
+              "topic": "Method Overriding",
               "sub_topics": [
-                "DFS Trees and Edges",
-                "DFS Applications in Graphs"
-              ]
-            },
-            {
-              "topic": "BFS)\n- Data Structures for Searching (e.g.",
-              "sub_topics": [
-                "- Queue Data Structure\n- Graph Traversal"
-              ]
-            },
-            {
-              "topic": "Trees",
-              "sub_topics": [
-                "Tree Data Structures",
-                "Binary Search Trees"
-              ]
-            },
-            {
-              "topic": "Hash Maps)",
-              "sub_topics": [
-                "Hash Functions",
-                "Collision Handling"
+                "Covariant Return Types",
+                "Access Level in Overriding Methods",
+                "@Override Annotation"
               ]
             }
           ]
         },
         {
-          "sub_category": "Stacks",
+          "sub_category": "Polymorphism",
           "topics": [
             {
-              "topic": "Stacks",
+              "topic": "Method Overloading",
               "sub_topics": [
-                "Stack operations",
-                "Stack applications"
+                "Method Signature",
+                "Overloading Rules",
+                "Benefits of Method Overloading"
               ]
             },
             {
-              "topic": "Stack API",
+              "topic": "Covariance and Contravariance in Return Types",
               "sub_topics": [
-                "Stack Creation",
-                "Stack Manipulation"
+                "Covariant Return Types",
+                "Contravariant Return Types",
+                "Bounded Return Types"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Abstraction",
+          "topics": [
+            {
+              "topic": "Abstraction Mechanisms",
+              "sub_topics": [
+                "Encapsulation",
+                "Inheritance",
+                "Polymorphism"
+              ]
+            },
+            {
+              "topic": "Abstract Classes and Methods",
+              "sub_topics": [
+                "Abstract Class Declaration",
+                "Abstract Method Declaration"
+              ]
+            },
+            {
+              "topic": "Interface Implementation",
+              "sub_topics": [
+                "Implementing Multiple Interfaces",
+                "Implementing Interface Default Methods",
+                "Adapter Classes"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Data Structures",
+      "sub_categories": [
+        {
+          "sub_category": "Arrays",
+          "topics": [
+            {
+              "topic": "Array Initialization",
+              "sub_topics": [
+                "Array Literals",
+                "Multidimensional Array Initialization"
+              ]
+            },
+            {
+              "topic": "Array Operations",
+              "sub_topics": [
+                "Creating and Initializing Arrays",
+                "Manipulating Array Elements",
+                "Sorting and Searching Arrays"
+              ]
+            },
+            {
+              "topic": "Multidimensional Arrays",
+              "sub_topics": [
+                "Multidimensional Array Declaration",
+                "Multidimensional Array Initialization",
+                "Multidimensional Array Access"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Linked Lists",
+          "topics": [
+            {
+              "topic": "Reversing Linked Lists",
+              "sub_topics": [
+                "Reversing using recursion",
+                "Reversing using iteration"
+              ]
+            },
+            {
+              "topic": "Detecting and Resolving Cycles in Linked Lists",
+              "sub_topics": [
+                "- Identifying Cycles Using Floyd's Tortoise and Hare Algorithm",
+                "- Breaking Cycles by Reversing Lists or Removing Nodes"
               ]
             }
           ]
@@ -209,114 +237,45 @@
             {
               "topic": "Blocking Queues",
               "sub_topics": [
-                "Using ArrayBlockingQueue",
-                "LinkedBlockingQueue"
+                "Bounded Blocking Queues",
+                "Unbounded Blocking Queues"
               ]
             },
             {
               "topic": "Priority Queues",
               "sub_topics": [
-                "Comparison-based Priority Queues",
-                "Heap-based Priority Queues"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "category": "OOP",
-      "sub_categories": [
-        {
-          "sub_category": "Encapsulation",
-          "topics": [
-            {
-              "topic": "Getters and Setters",
-              "sub_topics": [
-                "Encapsulation",
-                "Data Binding",
-                "Property Interfaces"
-              ]
-            },
-            {
-              "topic": "Data Hiding",
-              "sub_topics": [
-                "Encapsulation",
-                "Information Hiding"
-              ]
-            },
-            {
-              "topic": "and Access Modifiers",
-              "sub_topics": [
-                "Visibility Rules",
-                "Default Access Levels"
+                "Heap Implementation",
+                "Priority Queue Operations"
               ]
             }
           ]
         },
         {
-          "sub_category": "Inheritance",
+          "sub_category": "Trees",
           "topics": [
             {
-              "topic": "Super Keyword",
+              "topic": "Binary Search Trees",
               "sub_topics": [
-                "Using Super to Access Parent Class Members",
-                "Invoking Parent Class Constructors"
+                "- In-Order",
+                "Pre-Order",
+                "Post-Order Traversals\n- BST Deletion"
               ]
             },
             {
-              "topic": "Method Overriding",
+              "topic": "Trie",
               "sub_topics": [
-                "Benefits of Method Overriding",
-                "Implementation of Method Overriding",
-                "Overriding Rules"
+                "- Implementation Details",
+                "Optimizations\n- Trie Applications: Dictionary",
+                "Autocomplete",
+                "Data Compression"
               ]
             },
             {
-              "topic": "Constructor Chaining",
+              "topic": "AVL Trees",
               "sub_topics": [
-                "Constructor Chaining",
-                "Order of Constructor Invocation",
-                "Super Keyword in Constructor Chaining"
-              ]
-            }
-          ]
-        },
-        {
-          "sub_category": "Polymorphism",
-          "topics": [
-            {
-              "topic": "Overriding",
-              "sub_topics": [
-                "Method Overriding",
-                "Overriding with Final and Static Methods"
-              ]
-            },
-            {
-              "topic": "Method Overloading",
-              "sub_topics": [
-                "Signature of Overloaded Methods",
-                "Overloading Constructors",
-                "Method Overloading and Argument Promotion"
-              ]
-            }
-          ]
-        },
-        {
-          "sub_category": "Abstraction",
-          "topics": [
-            {
-              "topic": "Abstract Classes",
-              "sub_topics": [
-                "Defining and Implementing Abstract Classes",
-                "Creating Subclasses and Method Overriding"
-              ]
-            },
-            {
-              "topic": "Interfaces",
-              "sub_topics": [
-                "Marker Interfaces",
-                "Functional Interfaces"
+                "AVL Tree Rotation",
+                "AVL Tree Properties",
+                "AVL Tree Applications"
               ]
             }
           ]
@@ -327,72 +286,89 @@
       "category": "Collections Framework",
       "sub_categories": [
         {
-          "sub_category": "List",
+          "sub_category": "Collections",
           "topics": [
             {
-              "topic": "Linked Lists",
+              "topic": "Frameworks",
               "sub_topics": [
-                "Doubly Linked Lists",
-                "Circular Linked Lists"
+                "Object-Oriented Design Principles",
+                "Design Patterns",
+                "Architectural Patterns"
               ]
             },
             {
-              "topic": "ArrayLists",
+              "topic": "Data Structures",
               "sub_topics": [
-                "List Iterators",
-                "ArrayList Size and Capacity"
+                "Arrays",
+                "Lists",
+                "Stacks"
+              ]
+            },
+            {
+              "topic": "Algorithms",
+              "sub_topics": [
+                "Sorting Algorithms",
+                "Recursion"
               ]
             }
           ]
         },
         {
-          "sub_category": "Set",
+          "sub_category": "Maps",
           "topics": [
             {
-              "topic": "Set Implementations",
+              "topic": "Geocoding",
               "sub_topics": [
-                "HashSet",
-                "LinkedHashSet",
-                "TreeSet"
+                "- Forward Geocoding\n- Reverse Geocoding"
               ]
             },
             {
-              "topic": "Set Operations",
+              "topic": "Routing",
               "sub_topics": [
-                "Set Union",
-                "Set Intersection"
+                "Path variables",
+                "Query parameters",
+                "Request mapping"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Sets",
+          "topics": [
+            {
+              "topic": "Union and Intersection Operations",
+              "sub_topics": [
+                "Basic Union and Intersection Operations",
+                "Advanced Union and Intersection Operations",
+                "Performance Considerations for Union and Intersection Operations"
               ]
             },
             {
-              "topic": "Set Theory Concepts",
+              "topic": "Set Theory Applications",
               "sub_topics": [
-                "Sets",
-                "Subsets and Supersets",
+                "Power Sets",
+                "Cardinality",
                 "Set Operations"
               ]
             }
           ]
         },
         {
-          "sub_category": "Map",
+          "sub_category": "Queues",
           "topics": [
             {
-              "topic": "* Collections API\n* Concurrency and Thread Safety\n* Functional Interfaces and Lambda Expressions",
+              "topic": "Priority Queues",
               "sub_topics": [
-                "**Concurrency and Thread Safety:** Functional Interfaces and Lambda Expressions",
-                "Thread-safe collections\n**Functional Interfaces and Lambda Expressions:** Method references",
-                "Lambda expressions syntax and usage"
+                "Priority Queue Implementation",
+                "Heap Data Structure",
+                "Applications of Priority Queues"
               ]
-            }
-          ]
-        },
-        {
-          "sub_category": "Queue",
-          "topics": [
+            },
             {
-              "topic": "- Queue Data Structures\n- Queue Algorithms",
+              "topic": "Concurrent Queues",
               "sub_topics": [
-                "- Array Implementation of Queue\n- Linked List Implementation of Queue"
+                "- ConcurrentLinkedQueue",
+                "- ConcurrentLinkedDeque"
               ]
             }
           ]
@@ -406,24 +382,25 @@
           "sub_category": "Checked Exceptions",
           "topics": [
             {
-              "topic": "Checked IOExceptions",
+              "topic": "Checked Exceptions",
               "sub_topics": [
-                "Checked IOExceptions in Streams",
-                "Custom Checked IOExceptions"
+                "Types of Checked Exceptions",
+                "Handling Checked Exceptions"
               ]
             },
             {
-              "topic": "Checked SQLExceptions",
+              "topic": "IOExceptions in Checked Exceptions",
               "sub_topics": [
-                "SQLState",
-                "ErrorCode",
-                "SQLIntegrityConstraintViolationException"
+                "Input/Output Errors",
+                "File System Errors"
               ]
             },
             {
-              "topic": "Checked FileNotFoundException",
+              "topic": "SQL Exceptions in Checked Exceptions",
               "sub_topics": [
-                "* Methods\n* Constructors"
+                "Checked SQL Exceptions",
+                "Unchecked SQL Exceptions",
+                "Custom SQL Exceptions"
               ]
             }
           ]
@@ -434,235 +411,71 @@
             {
               "topic": "NullPointerException",
               "sub_topics": [
-                "What is a NullPointerException?",
-                "Consequences of NullPointerExceptions"
+                "Causes of NullPointerExceptions",
+                "Handling NullPointerExceptions",
+                "Preventing NullPointerExceptions"
               ]
             },
             {
-              "topic": "ArithmeticException",
+              "topic": "ArrayIndexOutOfBoundsException",
               "sub_topics": [
-                "Checked vs Unchecked Exceptions",
-                "When ArithmeticException is Thrown",
-                "Handling ArithmeticException"
+                "Causes of ArrayIndexOutOfBoundsException",
+                "Handling ArrayIndexOutOfBoundsException"
+              ]
+            },
+            {
+              "topic": "IllegalArgumentException",
+              "sub_topics": [
+                "Constructor Argument Validation",
+                "Illegal Parameter Values"
               ]
             }
           ]
         },
         {
-          "sub_category": "Multi-catch",
+          "sub_category": "Exception Propagation",
           "topics": [
             {
-              "topic": "Catching Multiple Exceptions with Multi-Catch",
+              "topic": "Checked vs. Unchecked Exceptions",
               "sub_topics": [
-                "Handling multiple exception types in a single catch block",
-                "Chaining catch blocks"
-              ]
-            },
-            {
-              "topic": "Catching Exceptions with and without Exception Classes",
-              "sub_topics": [
-                "Handling checked exceptions",
-                "Handling unchecked exceptions",
-                "Custom exception classes"
-              ]
-            }
-          ]
-        },
-        {
-          "sub_category": "Custom Exceptions",
-          "topics": [
-            {
-              "topic": "Java Exception Handling: Creating Custom Exceptions",
-              "sub_topics": [
-                "Creating Checked Exceptions",
-                "Creating Unchecked Exceptions"
+                "Checked exceptions",
+                "Unchecked exceptions",
+                "Best practices for using checked and unchecked exceptions"
               ]
             },
             {
               "topic": "Exception Chaining",
               "sub_topics": [
-                "Root cause analysis",
-                "Nested exceptions",
-                "Exception chaining in constructors"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Multithreading",
-      "sub_categories": [
-        {
-          "sub_category": "Concurrency",
-          "topics": [
-            {
-              "topic": "Thread Synchronization",
-              "sub_topics": [
-                "Lock Mechanisms",
-                "Thread Safety",
-                "Concurrency Control"
-              ]
-            },
-            {
-              "topic": "Concurrency Collections",
-              "sub_topics": [
-                "ConcurrentHashMap",
-                "CopyOnWriteArrayList"
-              ]
-            },
-            {
-              "topic": "Lock-free Programming",
-              "sub_topics": [
-                "Data Structures for Lock-free Programming",
-                "Non-blocking Algorithms for Lock-free Programming"
+                "Nested Exceptions",
+                "Suppressed Exceptions"
               ]
             }
           ]
         },
         {
-          "sub_category": "Synchronization",
+          "sub_category": "Exception Chaining",
           "topics": [
             {
-              "topic": "Atomic variables",
+              "topic": "Exception Hierarchy",
               "sub_topics": [
-                "* Visibility Guarantees\n* Memory Ordering"
+                "Checked vs. Unchecked Exceptions",
+                "Exception Chaining",
+                "Error vs. Exception"
               ]
             },
             {
-              "topic": "Synchronized blocks",
+              "topic": "Nested Exceptions",
               "sub_topics": [
-                "Synchronized methods",
-                "Synchronized statements"
-              ]
-            }
-          ]
-        },
-        {
-          "sub_category": "Deadlock Avoidance",
-          "topics": [
-            {
-              "topic": "- Banker's Algorithm\n- Resource Allocation Graphs",
-              "sub_topics": [
-                "- Banker's Algorithm in Action\n- Safety and Livelock Detection"
-              ]
-            }
-          ]
-        },
-        {
-          "sub_category": "Task Management",
-          "topics": [
-            {
-              "topic": "- Managing Task Dependencies\n- Task Prioritization Techniques\n- Task Scheduling and Time Management",
-              "sub_topics": [
-                "Subtopic 1: Strategies for Identifying and Managing Task Interdependencies\nSubtopic 2: Prioritizing Tasks Based on Impact and Urgency\nSubtopic 3: Time Blocking Techniques for Optimized Scheduling"
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "category": "Design Patterns",
-      "sub_categories": [
-        {
-          "sub_category": "Creational Patterns",
-          "topics": [
-            {
-              "topic": "Factory Method",
-              "sub_topics": [
-                "Factory Method Definition",
-                "Creation Strategy",
-                "Implementation Details"
+                "Handling Multiple Exceptions",
+                "Chained Exceptions"
               ]
             },
             {
-              "topic": "Singleton",
+              "topic": "Suppressed Exceptions",
               "sub_topics": [
-                "Eager Initialization",
-                "Lazy Initialization",
-                "Thread Safety"
-              ]
-            },
-            {
-              "topic": "Builder",
-              "sub_topics": [
-                "- Builder Pattern Implementation\n- Applicability of Builder Pattern"
-              ]
-            }
-          ]
-        },
-        {
-          "sub_category": "Structural Patterns",
-          "topics": [
-            {
-              "topic": "Composite",
-              "sub_topics": [
-                "Composite Pattern",
-                "Composite Tree"
-              ]
-            },
-            {
-              "topic": "Proxy",
-              "sub_topics": [
-                "Invocation Handlers",
-                "Dynamic Proxies",
-                "Proxy Classes"
-              ]
-            },
-            {
-              "topic": "Bridge",
-              "sub_topics": [
-                "Data Structures",
-                "Object-Oriented Concepts"
-              ]
-            }
-          ]
-        },
-        {
-          "sub_category": "Behavioral Patterns",
-          "topics": [
-            {
-              "topic": "Command",
-              "sub_topics": [
-                "Implementing Commands",
-                "Command Execution"
-              ]
-            },
-            {
-              "topic": "Strategy",
-              "sub_topics": [
-                "Design Patterns",
-                "Concurrency"
-              ]
-            }
-          ]
-        },
-        {
-          "sub_category": "Architectural Patterns",
-          "topics": [
-            {
-              "topic": "Model-View-Controller (MVC)",
-              "sub_topics": [
-                "Model",
-                "View",
-                "Controller"
-              ]
-            },
-            {
-              "topic": "Layered Architecture",
-              "sub_topics": [
-                "Presentation Layer",
-                "Business Logic Layer",
-                "Data Access Layer"
-              ]
-            },
-            {
-              "topic": "Singleton Pattern",
-              "sub_topics": [
-                "Lazy initialization",
-                "Eager initialization",
-                "Thread safety"
+                "Uncaught Exception Handling",
+                "Custom Exception Handling",
+                "Exception Propagation"
               ]
             }
           ]

@@ -1,104 +1,68 @@
 import google.generativeai as genai
 import json
 import os
-from typing import Dict, List
+from typing import Dict, List, Optional
 import time
 from dotenv import load_dotenv
 
-def configure_genai(api_key: str) -> None:
+def generate_content(model, prompt: str, retries: int = 3, wait_time: int = 60) -> List[str]:
+    """Generate content with retry logic and return list of comma-separated items."""
+    for attempt in range(1, retries + 1):
+        try:
+            response = model.generate_content(prompt)
+            return [item.strip() for item in response.text.split(',')]
+        except Exception as e:
+            print(f"Attempt {attempt}: Error - {str(e)}")
+            if "429" in str(e) or "quota" in str(e).lower():
+                if attempt < retries:
+                    print(f"Rate limit hit. Waiting {wait_time}s...")
+                    time.sleep(wait_time)
+                else:
+                    print("Max retries reached.")
+            else:
+                print("Non-retryable error. Skipping.")
+                break
+    return []
 
-    genai.configure(api_key=api_key)
-    
-def generate_categories(model, subject: str) -> List[str]:
-   
-    prompt = f"""Generate 5-7 main categories for {subject} interview questions. 
-    Return only the category names separated by commas. Keep them broad and comprehensive."""
-    
-    response = model.generate_content(prompt)
-    categories = [cat.strip() for cat in response.text.split(',')]
-    return categories
-
-def generate_subcategories(model, category: str, subject: str) -> List[str]:
-  
-    prompt = f"""Generate 3-4 subcategories for the {category} category in {subject}.
-    These should be specific areas within {category}. Return only the subcategory names separated by commas."""
-    
-    response = model.generate_content(prompt)
-    subcategories = [subcat.strip() for subcat in response.text.split(',')]
-    return subcategories
-
-def generate_topics(model, subcategory: str, subject: str) -> List[str]:
-  
-    prompt = f"""Generate 2-3 specific topics for the {subcategory} subcategory in {subject}.
-    These should be concrete areas that interview questions can focus on.
-    Return only the topic names separated by commas."""
-    
-    response = model.generate_content(prompt)
-    topics = [topic.strip() for topic in response.text.split(',')]
-    return topics
-
-def generate_subtopics(model, topic: str, subject: str) -> List[str]:
-
-    prompt = f"""Generate 2-3 subtopics for the {topic} topic in {subject}.
-    These should be specific concepts or areas within the topic.
-    Return only the subtopic names separated by commas."""
-    
-    response = model.generate_content(prompt)
-    subtopics = [subtopic.strip() for subtopic in response.text.split(',')]
-    return subtopics
-
-def generate_tags(model, subject: str) -> List[str]:
-   
-    prompt = f"""Generate 5-8 relevant tags for {subject} interview questions.
-    These should be keywords that help categorize and search the content.
-    Return only the tags separated by commas."""
-    
-    response = model.generate_content(prompt)
-    tags = [tag.strip() for tag in response.text.split(',')]
-    return tags
+def generate_structure(model, item_type: str, context: str, subject: str, count: str) -> List[str]:
+    """Generic function to generate structure items."""
+    prompt = f"""Generate {count} {item_type} for {context} in {subject}. 
+                Return only the names separated by commas."""
+    return generate_content(model, prompt)
 
 def generate_interview_structure(subject: str, api_key: str) -> Dict:
+    """Generate the complete interview question structure."""
+    genai.configure(api_key=api_key)
+    model = genai.GenerativeModel('gemini-pro')
+    result = {"tags": [], "categories": []}
     
-    configure_genai(api_key)
+    print("Generating tags...")
+    result["tags"] = generate_content(model, 
+        f"Generate 5-8 relevant tags for {subject} interview questions. Return only tags separated by commas.")
     
-    # Initialize the Gemini model
-    model = genai.GenerativeModel('gemini-1.5-flash')
-    
-    # Initialize the result structure
-    result = {
-        "tags": [],
-        "categories": []
-    }
-    
-    # Generate tags
-    result["tags"] = generate_tags(model, subject)
-    
-    # Generate categories and their hierarchical structure
-    categories = generate_categories(model, subject)
+    print("Generating categories...")
+    categories = generate_structure(model, "categories", subject, subject, "5-7")
     
     for category in categories:
-        category_dict = {
-            "category": category,
-            "sub_categories": []
-        }
+        print(f"Processing category: {category}")
+        category_dict = {"category": category, "sub_categories": []}
         
-        subcategories = generate_subcategories(model, category, subject)
+        subcategories = generate_structure(model, "subcategories", category, subject, "3-4")
         
         for subcategory in subcategories:
-            subcategory_dict = {
-                "sub_category": subcategory,
-                "topics": []
-            }
+            print(f"Processing subcategory: {subcategory}")
+            subcategory_dict = {"sub_category": subcategory, "topics": []}
             
-            topics = generate_topics(model, subcategory, subject)
+            topics = generate_structure(model, "topics", subcategory, subject, "2-3")
             
             for topic in topics:
-                topic_dict = {
+                print(f"Processing topic: {topic}")
+                subtopics = generate_structure(model, "subtopics", topic, subject, "2-3")
+                subcategory_dict["topics"].append({
                     "topic": topic,
-                    "sub_topics": generate_subtopics(model, topic, subject)
-                }
-                subcategory_dict["topics"].append(topic_dict)
-                time.sleep(1)  # Rate limiting
+                    "sub_topics": subtopics
+                })
+                time.sleep(2)
             
             category_dict["sub_categories"].append(subcategory_dict)
         
@@ -106,30 +70,17 @@ def generate_interview_structure(subject: str, api_key: str) -> Dict:
     
     return result
 
-def save_to_json(data: Dict, subject: str) -> str:
-    """Save the generated structure to a JSON file."""
-    filename = f"{subject.lower().replace(' ', '_')}_interview_structure.json"
-    with open(filename, 'w', encoding='utf-8') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-    return filename
-
 def main():
-    
     load_dotenv()
-    # Get the API key from environment variable
-    api_key = os.getenv('GOOGLE_API_KEY')
-    if not api_key:
-        raise ValueError("Please set the GOOGLE_API_KEY environment variable")
+    api_key = os.getenv("GEMINI_API_KYE")
+    subject = input("Enter the subject for interview questions (e.g., Python, Machine Learning): ")
     
-    # Get subject from user
-    subject = input("Enter the subject for interview questions (e.g., Python, Machine Learning, Web Development): ")
-    
-    # Generate the structure
     print(f"Generating interview structure for {subject}...")
     result = generate_interview_structure(subject, api_key)
     
-    # Save to file
-    filename = save_to_json(result, subject)
+    filename = f"{subject.lower().replace(' ', '_')}_interview_structure.json"
+    with open(filename, 'w', encoding='utf-8') as f:
+        json.dump(result, f, indent=2, ensure_ascii=False)
     print(f"Interview structure has been saved to {filename}")
 
 if __name__ == "__main__":
