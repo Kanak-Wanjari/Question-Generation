@@ -1,0 +1,337 @@
+{
+  "categories": [
+    {
+      "category": "Core Java",
+      "sub_categories": [
+        {
+          "sub_category": "Basic Syntax",
+          "topics": []
+        },
+        {
+          "sub_category": "Data Types and Variables",
+          "topics": []
+        },
+        {
+          "sub_category": "Operators",
+          "topics": []
+        },
+        {
+          "sub_category": "Control Flow Statements",
+          "topics": []
+        },
+        {
+          "sub_category": "Arrays and Strings",
+          "topics": []
+        },
+        {
+          "sub_category": "Methods and Functions",
+          "topics": []
+        },
+        {
+          "sub_category": "Exception Handling",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Object-Oriented Programming (OOP)",
+      "sub_categories": [
+        {
+          "sub_category": "Classes and Objects",
+          "topics": []
+        },
+        {
+          "sub_category": "Encapsulation",
+          "topics": []
+        },
+        {
+          "sub_category": "Inheritance",
+          "topics": []
+        },
+        {
+          "sub_category": "Polymorphism",
+          "topics": []
+        },
+        {
+          "sub_category": "Abstraction",
+          "topics": []
+        },
+        {
+          "sub_category": "Interfaces",
+          "topics": []
+        },
+        {
+          "sub_category": "Inner Classes",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Collections Framework",
+      "sub_categories": [
+        {
+          "sub_category": "List Interface",
+          "topics": []
+        },
+        {
+          "sub_category": "Set Interface",
+          "topics": []
+        },
+        {
+          "sub_category": "Map Interface",
+          "topics": []
+        },
+        {
+          "sub_category": "Queue Interface",
+          "topics": []
+        },
+        {
+          "sub_category": "Iterators",
+          "topics": []
+        },
+        {
+          "sub_category": "Comparator and Comparable",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Advanced Java",
+      "sub_categories": [
+        {
+          "sub_category": "Multithreading",
+          "topics": []
+        },
+        {
+          "sub_category": "Concurrency",
+          "topics": []
+        },
+        {
+          "sub_category": "Lambda Expressions",
+          "topics": []
+        },
+        {
+          "sub_category": "Streams API",
+          "topics": []
+        },
+        {
+          "sub_category": "Serialization",
+          "topics": []
+        },
+        {
+          "sub_category": "Java Reflection",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Java I/O",
+      "sub_categories": [
+        {
+          "sub_category": "File I/O",
+          "topics": []
+        },
+        {
+          "sub_category": "Buffered Streams",
+          "topics": []
+        },
+        {
+          "sub_category": "Object Serialization",
+          "topics": []
+        },
+        {
+          "sub_category": "Random Access Files",
+          "topics": []
+        },
+        {
+          "sub_category": "NIO (New I/O)",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Java Networking",
+      "sub_categories": [
+        {
+          "sub_category": "Socket Programming",
+          "topics": []
+        },
+        {
+          "sub_category": "URL and HTTP",
+          "topics": []
+        },
+        {
+          "sub_category": "ServerSocket",
+          "topics": []
+        },
+        {
+          "sub_category": "Client-Server Communication",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Java Database Connectivity (JDBC)",
+      "sub_categories": [
+        {
+          "sub_category": "Connecting to a Database",
+          "topics": []
+        },
+        {
+          "sub_category": "Executing Queries",
+          "topics": []
+        },
+        {
+          "sub_category": "PreparedStatement",
+          "topics": []
+        },
+        {
+          "sub_category": "Transaction Management",
+          "topics": []
+        },
+        {
+          "sub_category": "Connection Pooling",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Java Frameworks",
+      "sub_categories": [
+        {
+          "sub_category": "Spring Framework",
+          "topics": []
+        },
+        {
+          "sub_category": "Hibernate",
+          "topics": []
+        },
+        {
+          "sub_category": "JavaFX",
+          "topics": []
+        },
+        {
+          "sub_category": "Apache Struts",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Java Web Development",
+      "sub_categories": [
+        {
+          "sub_category": "Servlets",
+          "topics": []
+        },
+        {
+          "sub_category": "JSP (Java Server Pages)",
+          "topics": []
+        },
+        {
+          "sub_category": "RESTful APIs",
+          "topics": []
+        },
+        {
+          "sub_category": "WebSockets",
+          "topics": []
+        },
+        {
+          "sub_category": "Java Web Services (SOAP)",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Design Patterns",
+      "sub_categories": [
+        {
+          "sub_category": "Creational Patterns",
+          "topics": []
+        },
+        {
+          "sub_category": "Structural Patterns",
+          "topics": []
+        },
+        {
+          "sub_category": "Behavioral Patterns",
+          "topics": []
+        },
+        {
+          "sub_category": "Singleton Pattern",
+          "topics": []
+        },
+        {
+          "sub_category": "Factory Pattern",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Java 8 Features",
+      "sub_categories": [
+        {
+          "sub_category": "Lambda Expressions",
+          "topics": []
+        },
+        {
+          "sub_category": "Stream API",
+          "topics": []
+        },
+        {
+          "sub_category": "Optional Class",
+          "topics": []
+        },
+        {
+          "sub_category": "Date and Time API",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Java Security",
+      "sub_categories": [
+        {
+          "sub_category": "Encryption and Decryption",
+          "topics": []
+        },
+        {
+          "sub_category": "Key Management",
+          "topics": []
+        },
+        {
+          "sub_category": "Secure Communication",
+          "topics": []
+        },
+        {
+          "sub_category": "Digital Signatures",
+          "topics": []
+        },
+        {
+          "sub_category": "Java Security APIs",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Java Performance Tuning",
+      "sub_categories": [
+        {
+          "sub_category": "Garbage Collection",
+          "topics": []
+        },
+        {
+          "sub_category": "JVM Tuning",
+          "topics": []
+        },
+        {
+          "sub_category": "Profiling and Monitoring",
+          "topics": []
+        },
+        {
+          "sub_category": "Memory Management",
+          "topics": []
+        }
+      ]
+    }
+  ]
+}

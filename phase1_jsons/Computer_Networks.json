@@ -1,0 +1,289 @@
+{
+    "categories": [
+      {
+        "category": "Introduction to Computer Networks",
+        "sub_categories": [
+          {
+            "sub_category": "Overview of Computer Networks",
+            "topics": []
+          },
+          {
+            "sub_category": "Types of Networks (LAN, MAN, WAN)",
+            "topics": []
+          },
+          {
+            "sub_category": "Network Topologies",
+            "topics": []
+          },
+          {
+            "sub_category": "Network Devices (Router, Switch, Hub, Bridge)",
+            "topics": []
+          },
+          {
+            "sub_category": "IP Addressing (IPv4, IPv6)",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Network Models",
+        "sub_categories": [
+          {
+            "sub_category": "OSI Model",
+            "topics": []
+          },
+          {
+            "sub_category": "TCP/IP Model",
+            "topics": []
+          },
+          {
+            "sub_category": "Comparing OSI and TCP/IP Models",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Data Link Layer",
+        "sub_categories": [
+          {
+            "sub_category": "Frame and Frame Structure",
+            "topics": []
+          },
+          {
+            "sub_category": "Error Detection and Correction",
+            "topics": []
+          },
+          {
+            "sub_category": "Flow Control",
+            "topics": []
+          },
+          {
+            "sub_category": "MAC Addressing",
+            "topics": []
+          },
+          {
+            "sub_category": "Ethernet",
+            "topics": []
+          },
+          {
+            "sub_category": "PPP (Point-to-Point Protocol)",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Network Layer",
+        "sub_categories": [
+          {
+            "sub_category": "Routing Algorithms",
+            "topics": []
+          },
+          {
+            "sub_category": "IP Addressing and Subnetting",
+            "topics": []
+          },
+          {
+            "sub_category": "Routing Protocols (RIP, OSPF, BGP)",
+            "topics": []
+          },
+          {
+            "sub_category": "NAT (Network Address Translation)",
+            "topics": []
+          },
+          {
+            "sub_category": "ICMP (Internet Control Message Protocol)",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Transport Layer",
+        "sub_categories": [
+          {
+            "sub_category": "TCP Protocol",
+            "topics": []
+          },
+          {
+            "sub_category": "UDP Protocol",
+            "topics": []
+          },
+          {
+            "sub_category": "Flow Control and Congestion Control",
+            "topics": []
+          },
+          {
+            "sub_category": "Port Numbers and Socket Programming",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Application Layer",
+        "sub_categories": [
+          {
+            "sub_category": "DNS (Domain Name System)",
+            "topics": []
+          },
+          {
+            "sub_category": "HTTP/HTTPS Protocol",
+            "topics": []
+          },
+          {
+            "sub_category": "FTP (File Transfer Protocol)",
+            "topics": []
+          },
+          {
+            "sub_category": "SMTP (Simple Mail Transfer Protocol)",
+            "topics": []
+          },
+          {
+            "sub_category": "POP3/IMAP",
+            "topics": []
+          },
+          {
+            "sub_category": "SNMP (Simple Network Management Protocol)",
+            "topics": []
+          },
+          {
+            "sub_category": "DHCP (Dynamic Host Configuration Protocol)",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Wireless Networks",
+        "sub_categories": [
+          {
+            "sub_category": "Wi-Fi",
+            "topics": []
+          },
+          {
+            "sub_category": "Bluetooth",
+            "topics": []
+          },
+          {
+            "sub_category": "Mobile Networks (3G, 4G, 5G)",
+            "topics": []
+          },
+          {
+            "sub_category": "Satellite Communication",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Network Security",
+        "sub_categories": [
+          {
+            "sub_category": "Cryptography",
+            "topics": []
+          },
+          {
+            "sub_category": "SSL/TLS",
+            "topics": []
+          },
+          {
+            "sub_category": "Firewall and IDS/IPS",
+            "topics": []
+          },
+          {
+            "sub_category": "Authentication and Authorization",
+            "topics": []
+          },
+          {
+            "sub_category": "VPN (Virtual Private Network)",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Network Management and Monitoring",
+        "sub_categories": [
+          {
+            "sub_category": "SNMP (Simple Network Management Protocol)",
+            "topics": []
+          },
+          {
+            "sub_category": "Network Monitoring Tools (Wireshark, Nmap)",
+            "topics": []
+          },
+          {
+            "sub_category": "Network Traffic Analysis",
+            "topics": []
+          },
+          {
+            "sub_category": "Bandwidth Management",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "IP Routing",
+        "sub_categories": [
+          {
+            "sub_category": "Static Routing",
+            "topics": []
+          },
+          {
+            "sub_category": "Dynamic Routing",
+            "topics": []
+          },
+          {
+            "sub_category": "Link-State Routing (OSPF)",
+            "topics": []
+          },
+          {
+            "sub_category": "Distance-Vector Routing (RIP)",
+            "topics": []
+          },
+          {
+            "sub_category": "BGP (Border Gateway Protocol)",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Network Troubleshooting",
+        "sub_categories": [
+          {
+            "sub_category": "Ping and Traceroute",
+            "topics": []
+          },
+          {
+            "sub_category": "Network Debugging",
+            "topics": []
+          },
+          {
+            "sub_category": "IP Configuration Tools (ifconfig, ipconfig)",
+            "topics": []
+          },
+          {
+            "sub_category": "Packet Sniffing and Analysis",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Emerging Networking Technologies",
+        "sub_categories": [
+          {
+            "sub_category": "SDN (Software-Defined Networking)",
+            "topics": []
+          },
+          {
+            "sub_category": "NFV (Network Function Virtualization)",
+            "topics": []
+          },
+          {
+            "sub_category": "IoT (Internet of Things) Networks",
+            "topics": []
+          },
+          {
+            "sub_category": "5G and Beyond",
+            "topics": []
+          }
+        ]
+      }
+    ]
+  }
+  

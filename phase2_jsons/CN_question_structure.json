@@ -1,0 +1,2424 @@
+{
+  "categories": [
+    {
+      "category": "Introduction to Computer Networks",
+      "sub_categories": [
+        {
+          "sub_category": "Overview of Computer Networks",
+          "topics": [
+            {
+              "topic": "Definition and Purpose of Computer Networks",
+              "sub_topic": [
+                "What is a computer network?",
+                "Purpose and benefits of computer networks"
+              ]
+            },
+            {
+              "topic": "Network Topologies",
+              "sub_topic": [
+                "Bus topology",
+                "Star topology",
+                "Ring topology",
+                "Mesh topology",
+                "Hybrid topologies"
+              ]
+            },
+            {
+              "topic": "Network Protocols and Standards",
+              "sub_topic": [
+                "OSI model",
+                "TCP/IP model",
+                "Network protocols (e.g., HTTP, FTP, SMTP)"
+              ]
+            },
+            {
+              "topic": "Network Devices",
+              "sub_topic": [
+                "Routers",
+                "Switches",
+                "Firewalls",
+                "Wireless access points"
+              ]
+            },
+            {
+              "topic": "Network Types",
+              "sub_topic": [
+                "LANs (Local Area Networks)",
+                "MANs (Metropolitan Area Networks)",
+                "WANs (Wide Area Networks)",
+                "PANs (Personal Area Networks)"
+              ]
+            },
+            {
+              "topic": "Network Applications",
+              "sub_topic": [
+                "Email",
+                "Web browsing",
+                "File sharing",
+                "Video conferencing"
+              ]
+            },
+            {
+              "topic": "Security and Privacy in Computer Networks",
+              "sub_topic": [
+                "Threats to network security",
+                "Security measures (e.g., encryption, firewalls)",
+                "Privacy concerns"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Types of Networks (LAN, MAN, WAN)",
+          "topics": [
+            {
+              "topic": "Types of Networks",
+              "sub_topic": [
+                "LAN",
+                "MAN",
+                "WAN"
+              ]
+            },
+            {
+              "topic": "Local Area Network (LAN)",
+              "sub_topic": [
+                "Characteristics",
+                "Implementations",
+                "Advantages and Disadvantages"
+              ]
+            },
+            {
+              "topic": "Metropolitan Area Network (MAN)",
+              "sub_topic": [
+                "Characteristics",
+                "Applications",
+                "Advantages and Disadvantages"
+              ]
+            },
+            {
+              "topic": "Wide Area Network (WAN)",
+              "sub_topic": [
+                "Characteristics",
+                "Technologies",
+                "Advantages and Disadvantages"
+              ]
+            },
+            {
+              "topic": "Comparison of LAN, MAN, and WAN",
+              "sub_topic": [
+                "Similarities and Differences",
+                "Applications",
+                "Design Considerations"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Network Topologies",
+          "topics": [
+            {
+              "topic": "Bus Topology",
+              "sub_topic": [
+                "Definition and Characteristics",
+                "Advantages and Disadvantages",
+                "Examples and Applications"
+              ]
+            },
+            {
+              "topic": "Star Topology",
+              "sub_topic": [
+                "Definition and Characteristics",
+                "Advantages and Disadvantages",
+                "Examples and Applications"
+              ]
+            },
+            {
+              "topic": "Ring Topology",
+              "sub_topic": [
+                "Definition and Characteristics",
+                "Advantages and Disadvantages",
+                "Examples and Applications"
+              ]
+            },
+            {
+              "topic": "Mesh Topology",
+              "sub_topic": [
+                "Definition and Characteristics",
+                "Advantages and Disadvantages",
+                "Examples and Applications"
+              ]
+            },
+            {
+              "topic": "Tree Topology",
+              "sub_topic": [
+                "Definition and Characteristics",
+                "Advantages and Disadvantages",
+                "Examples and Applications"
+              ]
+            },
+            {
+              "topic": "Hybrid Topology",
+              "sub_topic": [
+                "Definition and Characteristics",
+                "Advantages and Disadvantages",
+                "Examples and Applications"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Network Devices (Router, Switch, Hub, Bridge)",
+          "topics": [
+            {
+              "topic": "Router",
+              "sub_topic": [
+                "Types of routers",
+                "Router functions",
+                "Router configuration",
+                "Routing protocols"
+              ]
+            },
+            {
+              "topic": "Switch",
+              "sub_topic": [
+                "Types of switches",
+                "Switch functions",
+                "Switch configuration",
+                "VLANs and trunking"
+              ]
+            },
+            {
+              "topic": "Hub",
+              "sub_topic": [
+                "Types of hubs",
+                "Hub functions",
+                "Hub configuration"
+              ]
+            },
+            {
+              "topic": "Bridge",
+              "sub_topic": [
+                "Types of bridges",
+                "Bridge functions",
+                "Bridge configuration"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "IP Addressing (IPv4, IPv6)",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Network Models",
+      "sub_categories": [
+        {
+          "sub_category": "OSI Model",
+          "topics": [
+            {
+              "topic": "Introduction to the OSI Model",
+              "sub_topic": [
+                "Overview of the OSI Model",
+                "Purpose and Benefits of the OSI Model",
+                "Layers of the OSI Model"
+              ]
+            },
+            {
+              "topic": "Physical Layer",
+              "sub_topic": [
+                "Functions of the Physical Layer",
+                "Components of the Physical Layer",
+                "Transmission Media and Topologies"
+              ]
+            },
+            {
+              "topic": "Data Link Layer",
+              "sub_topic": [
+                "Functions of the Data Link Layer",
+                "MAC Addresses and Frame Formats",
+                "Error Detection and Correction Techniques"
+              ]
+            },
+            {
+              "topic": "Network Layer",
+              "sub_topic": [
+                "Functions of the Network Layer",
+                "IP Addresses and Subnetting",
+                "Routing Protocols and Algorithms"
+              ]
+            },
+            {
+              "topic": "Transport Layer",
+              "sub_topic": [
+                "Functions of the Transport Layer",
+                "TCP and UDP Protocols",
+                "Flow Control and Error Handling"
+              ]
+            },
+            {
+              "topic": "Session Layer",
+              "sub_topic": [
+                "Functions of the Session Layer",
+                "Session Establishment and Termination",
+                "Synchronization and Recovery Mechanisms"
+              ]
+            },
+            {
+              "topic": "Presentation Layer",
+              "sub_topic": [
+                "Functions of the Presentation Layer",
+                "Data Representation and Translation",
+                "Encryption and Decryption"
+              ]
+            },
+            {
+              "topic": "Application Layer",
+              "sub_topic": [
+                "Functions of the Application Layer",
+                "Common Application Layer Protocols",
+                "Network Management and Security"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "TCP/IP Model",
+          "topics": [
+            {
+              "topic": "TCP/IP Model Overview",
+              "sub_topic": [
+                "Definition and purpose of the TCP/IP model",
+                "History and evolution of the TCP/IP model",
+                "Benefits and applications of the TCP/IP model"
+              ]
+            },
+            {
+              "topic": "TCP/IP Model Layers",
+              "sub_topic": [
+                "Physical layer: Functions and protocols",
+                "Data link layer: Functions and protocols",
+                "Network layer: Functions and protocols (including IP)",
+                "Transport layer: Functions and protocols (including TCP and UDP)",
+                "Application layer: Functions and protocols (including HTTP, FTP, and SMTP)"
+              ]
+            },
+            {
+              "topic": "TCP/IP Model Encapsulation and Demultiplexing",
+              "sub_topic": [
+                "Encapsulation process in the TCP/IP model",
+                "Demultiplexing process in the TCP/IP model",
+                "Role of headers and trailers in encapsulation and demultiplexing"
+              ]
+            },
+            {
+              "topic": "TCP/IP Model Addressing and Routing",
+              "sub_topic": [
+                "IP addressing and subnetting",
+                "MAC addressing and ARP",
+                "Routing mechanisms in the TCP/IP model",
+                "DNS and its role in the TCP/IP model"
+              ]
+            },
+            {
+              "topic": "TCP/IP Model Security",
+              "sub_topic": [
+                "Security threats and vulnerabilities in the TCP/IP model",
+                "Security protocols and mechanisms used in the TCP/IP model",
+                "Firewalls and their role in TCP/IP security"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Comparing OSI and TCP/IP Models",
+          "topics": [
+            {
+              "topic": "Overview of the OSI and TCP/IP Models",
+              "sub_topic": [
+                "Definition and purpose of the OSI and TCP/IP models",
+                "Layers and protocols in each model"
+              ]
+            },
+            {
+              "topic": "Comparison of Layer Functions",
+              "sub_topic": [
+                "Physical layer: transmission media and signals",
+                "Data link layer: framing, error detection, and access control",
+                "Network layer: routing and addressing",
+                "Transport layer: reliable data transfer",
+                "Session layer: session management",
+                "Presentation layer: data representation and encryption",
+                "Application layer: user applications and services"
+              ]
+            },
+            {
+              "topic": "Encapsulation and Decapsulation",
+              "sub_topic": [
+                "How data is encapsulated in different layers",
+                "Decapsulation process as data travels through the network"
+              ]
+            },
+            {
+              "topic": "Advantages and Disadvantages",
+              "sub_topic": [
+                "OSI model: layered approach, flexibility, and standardization",
+                "TCP/IP model: simplicity, widespread adoption, and interoperability"
+              ]
+            },
+            {
+              "topic": "Applications and Use Cases",
+              "sub_topic": [
+                "OSI model: enterprise networks and large-scale systems",
+                "TCP/IP model: internetworking, web applications, and client-server computing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Data Link Layer",
+      "sub_categories": [
+        {
+          "sub_category": "Frame and Frame Structure",
+          "topics": []
+        },
+        {
+          "sub_category": "Error Detection and Correction",
+          "topics": [
+            {
+              "topic": "Data Link Layer Error Detection and Correction",
+              "sub_topic": [
+                "Forward Error Correction (FEC)",
+                "Automatic Repeat Request (ARQ)",
+                "Checksums",
+                "Cyclic Redundancy Check (CRC)",
+                "Hamming Distance and Hamming Code"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Flow Control",
+          "topics": [
+            {
+              "topic": "Stop and Wait Protocol",
+              "sub_topic": [
+                "Principle of Operation",
+                "Efficiency",
+                "Applications"
+              ]
+            },
+            {
+              "topic": "Sliding Window Protocol",
+              "sub_topic": [
+                "Concept of Window",
+                "Types of Sliding Window Protocols",
+                "Efficiency and Performance"
+              ]
+            },
+            {
+              "topic": "Other Flow Control Mechanisms",
+              "sub_topic": [
+                "Leaky Bucket Algorithm",
+                "Token Bucket Algorithm",
+                "Credit-Based Flow Control"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "MAC Addressing",
+          "topics": [
+            {
+              "topic": "MAC Address Overview",
+              "sub_topic": [
+                "Definition and Purpose",
+                "Structure and Format",
+                "Types of MAC Addresses"
+              ]
+            },
+            {
+              "topic": "MAC Address Configuration",
+              "sub_topic": [
+                "Assigning MAC Addresses",
+                "Changing MAC Addresses",
+                "MAC Address Spoofing"
+              ]
+            },
+            {
+              "topic": "MAC Address Resolution",
+              "sub_topic": [
+                "ARP (Address Resolution Protocol)",
+                "NDP (Neighbor Discovery Protocol)",
+                "MAC Address Tables"
+              ]
+            },
+            {
+              "topic": "MAC Address Filtering",
+              "sub_topic": [
+                "Purpose and Benefits",
+                "Types of MAC Address Filters",
+                "Implementation and Configuration"
+              ]
+            },
+            {
+              "topic": "MAC Address Security",
+              "sub_topic": [
+                "MAC Address Whitelisting/Blacklisting",
+                "MAC Address Randomization",
+                "MACsec (Media Access Control Security)"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Ethernet",
+          "topics": [
+            {
+              "topic": "Ethernet Frame Structure",
+              "sub_topic": [
+                "Preamble and Start of Frame",
+                "Destination MAC Address",
+                "Source MAC Address",
+                "Type/Length Field",
+                "Payload",
+                "Frame Check Sequence"
+              ]
+            },
+            {
+              "topic": "Ethernet Standards",
+              "sub_topic": [
+                "Ethernet II",
+                "IEEE 802.3",
+                "10BASE-T",
+                "100BASE-TX",
+                "Gigabit Ethernet",
+                "10 Gigabit Ethernet"
+              ]
+            },
+            {
+              "topic": "Ethernet Media Access Control (MAC)",
+              "sub_topic": [
+                "MAC Address Structure",
+                " unicast, multicast, and broadcast addresses",
+                "ARP (Address Resolution Protocol)",
+                "CSMA/CD (Carrier Sense Multiple Access with Collision Detection)"
+              ]
+            },
+            {
+              "topic": "Ethernet Switching",
+              "sub_topic": [
+                "Switched Ethernet",
+                "Switching Techniques",
+                "VLANs (Virtual LANs)",
+                "Spanning Tree Protocol (STP)"
+              ]
+            },
+            {
+              "topic": "Ethernet Security",
+              "sub_topic": [
+                "MAC Security",
+                "802.1X Authentication",
+                "Port Security"
+              ]
+            },
+            {
+              "topic": "Ethernet Troubleshooting",
+              "sub_topic": [
+                "Troubleshooting Ethernet Connectivity",
+                "Troubleshooting Ethernet Performance",
+                "Troubleshooting Ethernet Security"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "PPP (Point-to-Point Protocol)",
+          "topics": [
+            {
+              "topic": "PPP Overview",
+              "sub_topic": [
+                "Introduction to PPP",
+                "Purpose and Benefits of PPP",
+                "PPP Architecture and Components",
+                "PPP Encapsulation and Framing"
+              ]
+            },
+            {
+              "topic": "PPP Link Control Protocol (LCP)",
+              "sub_topic": [
+                "Function and Purpose of LCP",
+                "LCP States and Transitions",
+                "LCP Options and Configuration",
+                "LCP Negotiation Process"
+              ]
+            },
+            {
+              "topic": "PPP Network Control Protocol (NCP)",
+              "sub_topic": [
+                "Introduction to NCP",
+                "Types of NCPs and Their Use",
+                "NCP Configuration and Negotiation",
+                "IPV4 NCP (IPCP)"
+              ]
+            },
+            {
+              "topic": "PPP Authentication Protocols",
+              "sub_topic": [
+                "Need for PPP Authentication",
+                "PAP (Password Authentication Protocol)",
+                "CHAP (Challenge Handshake Authentication Protocol)",
+                "EAP (Extensible Authentication Protocol)"
+              ]
+            },
+            {
+              "topic": "PPP Security Features",
+              "sub_topic": [
+                "Data Link Security (LZS)",
+                "Encryption (PPP over SSH)",
+                "Compression (VJ Data Compression)"
+              ]
+            },
+            {
+              "topic": "PPP Troubleshooting",
+              "sub_topic": [
+                "Common PPP Issues and Resolutions",
+                "Debugging PPP Configurations and Errors",
+                "PPP Monitoring and Analysis Tools"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Network Layer",
+      "sub_categories": [
+        {
+          "sub_category": "Routing Algorithms",
+          "topics": [
+            {
+              "topic": "Routing Algorithms: Distance Vector Routing",
+              "sub_topic": [
+                "Bellman-Ford Algorithm",
+                "Distance Vector Exchange Protocol (DVEP)"
+              ]
+            },
+            {
+              "topic": "Routing Algorithms: Link State Routing",
+              "sub_topic": [
+                "Dijkstra's Algorithm",
+                "Link State Advertisement (LSA)",
+                "Open Shortest Path First (OSPF)",
+                "Intermediate System to Intermediate System (IS-IS)"
+              ]
+            },
+            {
+              "topic": "Routing Algorithms: Path Vector Routing",
+              "sub_topic": [
+                "Border Gateway Protocol (BGP)"
+              ]
+            },
+            {
+              "topic": "Routing Algorithms: Hybrid Routing",
+              "sub_topic": [
+                "Enhanced Interior Gateway Routing Protocol (EIGRP)"
+              ]
+            },
+            {
+              "topic": "Routing Protocols",
+              "sub_topic": [
+                "Routing Information Protocol (RIP)",
+                "Open Shortest Path First (OSPF)",
+                "Intermediate System to Intermediate System (IS-IS)",
+                "Border Gateway Protocol (BGP)",
+                "Enhanced Interior Gateway Routing Protocol (EIGRP)"
+              ]
+            },
+            {
+              "topic": "Routing Table",
+              "sub_topic": [
+                "Structure and Contents",
+                "Routing Table Maintenance"
+              ]
+            },
+            {
+              "topic": "Routing Metrics",
+              "sub_topic": [
+                "Hop Count",
+                "Bandwidth",
+                "Delay",
+                "Cost"
+              ]
+            },
+            {
+              "topic": "Routing Optimization",
+              "sub_topic": [
+                "Load Balancing",
+                "Fault Tolerance",
+                "Security"
+              ]
+            },
+            {
+              "topic": "Dynamic Routing",
+              "sub_topic": [
+                "Adaptive Routing",
+                "Self-Organizing Routing"
+              ]
+            },
+            {
+              "topic": "Static Routing",
+              "sub_topic": [
+                "Manual Configuration",
+                "Limited Flexibility"
+              ]
+            },
+            {
+              "topic": "Network Layer: Routing Algorithms",
+              "sub_topic": [
+                "Distance Vector Routing",
+                "Link State Routing",
+                "Path Vector Routing",
+                "Hybrid Routing"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "IP Addressing and Subnetting",
+          "topics": [
+            {
+              "topic": "IPv4 Addressing",
+              "sub_topic": [
+                "IPv4 address structure",
+                "IPv4 classes",
+                "Default subnet masks",
+                "Variable-length subnet masks (VLSMs)",
+                "Classless inter-domain routing (CIDR)",
+                "Public and private IPv4 addresses"
+              ]
+            },
+            {
+              "topic": "IPv6 Addressing",
+              "sub_topic": [
+                "IPv6 address structure",
+                "IPv6 address types",
+                "IPv6 prefixes",
+                "IPv6 subnet masks",
+                "IPv6 address assignment",
+                "IPv6 address translation"
+              ]
+            },
+            {
+              "topic": "Subnetting",
+              "sub_topic": [
+                "Purpose of subnetting",
+                "Subnet mask and subnet ID",
+                "Network address and broadcast address",
+                "Host address range",
+                "Subnetting calculations",
+                "Variable-length subnet masking (VLSM)",
+                "Supernetting"
+              ]
+            },
+            {
+              "topic": "IP Address Management",
+              "sub_topic": [
+                "IP address allocation and assignment",
+                "DHCP",
+                "NAT",
+                "IP address tracking and monitoring",
+                "IP address security"
+              ]
+            },
+            {
+              "topic": "Special IP Addresses",
+              "sub_topic": [
+                "Loopback address",
+                "Broadcast address",
+                "Multicast address",
+                "Anycast address",
+                "Reserved IP addresses"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Routing Protocols (RIP, OSPF, BGP)",
+          "topics": [
+            {
+              "topic": "Routing Information Protocol (RIP)",
+              "sub_topic": [
+                "Introduction to RIP",
+                "RIP Version 1 and Version 2",
+                "RIP Routing Algorithm",
+                "RIP Packet Format",
+                "Advantages and Disadvantages of RIP"
+              ]
+            },
+            {
+              "topic": "Open Shortest Path First (OSPF)",
+              "sub_topic": [
+                "Introduction to OSPF",
+                "OSPF Link State Database (LSDB)",
+                "OSPF Routing Algorithm",
+                "OSPF Packet Formats",
+                "OSPF Area Hierarchy",
+                "Advantages and Disadvantages of OSPF"
+              ]
+            },
+            {
+              "topic": "Border Gateway Protocol (BGP)",
+              "sub_topic": [
+                "Introduction to BGP",
+                "BGP Autonomous Systems (ASes)",
+                "BGP Routing Policies",
+                "BGP Packet Formats",
+                "BGP Path Selection",
+                "Advantages and Disadvantages of BGP"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "NAT (Network Address Translation)",
+          "topics": []
+        },
+        {
+          "sub_category": "ICMP (Internet Control Message Protocol)",
+          "topics": [
+            {
+              "topic": "Introduction to ICMP",
+              "sub_topic": [
+                "Overview of ICMP",
+                "Purpose and Functions of ICMP"
+              ]
+            },
+            {
+              "topic": "ICMP Message Types",
+              "sub_topic": [
+                "Echo Request and Reply",
+                "Destination Unreachable",
+                "Time Exceeded",
+                "Parameter Problem",
+                "Timestamp Request and Reply"
+              ]
+            },
+            {
+              "topic": "ICMPv6",
+              "sub_topic": [
+                "Differences between ICMPv4 and ICMPv6",
+                "New Message Types in ICMPv6",
+                "Applications of ICMPv6"
+              ]
+            },
+            {
+              "topic": "ICMP Applications",
+              "sub_topic": [
+                "Ping",
+                "Traceroute",
+                "Network Diagnostics",
+                "Security Monitoring"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Transport Layer",
+      "sub_categories": [
+        {
+          "sub_category": "TCP Protocol",
+          "topics": []
+        },
+        {
+          "sub_category": "UDP Protocol",
+          "topics": [
+            {
+              "topic": "UDP Protocol Overview",
+              "sub_topic": [
+                "Definition and Characteristics",
+                "UDP Port Numbers",
+                "Comparison with TCP"
+              ]
+            },
+            {
+              "topic": "UDP Header Structure",
+              "sub_topic": [
+                "Header Fields",
+                "Checksum (Optional)",
+                "Header Length"
+              ]
+            },
+            {
+              "topic": "UDP Encapsulation",
+              "sub_topic": [
+                "Transport Layer Encapsulation",
+                "Network Layer Encapsulation"
+              ]
+            },
+            {
+              "topic": "Applications Using UDP",
+              "sub_topic": [
+                "DNS (Domain Name System)",
+                "SNMP (Simple Network Management Protocol)",
+                "Video and Audio Streaming"
+              ]
+            },
+            {
+              "topic": "UDP Performance Considerations",
+              "sub_topic": [
+                "Reliability and Error Handling",
+                "Congestion Control",
+                "Performance Tuning"
+              ]
+            },
+            {
+              "topic": "UDP Vulnerabilities and Mitigation",
+              "sub_topic": [
+                "UDP Flood Attacks",
+                "Port Scanning",
+                "Mitigation Techniques"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Flow Control and Congestion Control",
+          "topics": [
+            {
+              "topic": "Techniques for Flow Control",
+              "sub_topic": [
+                "Stop-and-wait Flow Control",
+                "Sliding Window Protocol",
+                "End-to-End and Hop-by-Hop Flow Control",
+                "Rate-Based Flow Control"
+              ]
+            },
+            {
+              "topic": "Congestion Control Algorithms",
+              "sub_topic": [
+                "Open-Loop Congestion Control",
+                "Closed-Loop Congestion Control",
+                "Examples of Congestion Control Algorithms"
+              ]
+            },
+            {
+              "topic": "Quality of Service (QoS)",
+              "sub_topic": [
+                "Types of QoS",
+                "QoS Parameters",
+                "QoS Mechanisms",
+                "Integrated Services (IntServ)",
+                "Differentiated Services (DiffServ)"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Port Numbers and Socket Programming",
+          "topics": [
+            {
+              "topic": "Overview of Port Numbers",
+              "sub_topic": [
+                "Importance and Use of Port Numbers",
+                "Standard Port Numbers and Their Uses (e.g., HTTP, FTP, SSH)",
+                "Dynamic and Ephemeral Port Numbers",
+                "Port Number Management and Assignment"
+              ]
+            },
+            {
+              "topic": "Socket Programming",
+              "sub_topic": [
+                "Sockets Introduction and Concepts (e.g., Stream vs. Datagram, Client vs. Server)",
+                "Creating and Configuring Sockets",
+                "Socket Addressing and Binding",
+                "Send and Receive Operations (e.g., send(), recv())",
+                "Socket Options and Control",
+                "Working with Socket Buffers"
+              ]
+            },
+            {
+              "topic": "Socket Programming Applications",
+              "sub_topic": [
+                "Building Simple Client-Server Applications (e.g., Chat, File Transfer)",
+                "Developing Networked Games and Applications",
+                "Customizing and Extending Socket Functionality"
+              ]
+            },
+            {
+              "topic": "Advanced Socket Programming",
+              "sub_topic": [
+                "Socket Multiplexing and Non-Blocking I/O (e.g., select(), poll())",
+                "Socket Error Handling and Debugging",
+                "Advanced Socket Options (e.g., IP_HDRINCL, SO_REUSEADDR)",
+                "Socket Security and Encryption (e.g., TLS/SSL)"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Application Layer",
+      "sub_categories": [
+        {
+          "sub_category": "DNS (Domain Name System)",
+          "topics": [
+            {
+              "topic": "Overview of DNS",
+              "sub_topic": [
+                "Purpose and functionality of DNS",
+                "Structure and components of the DNS system",
+                "DNS records types (e.g., A, CNAME, MX)",
+                "DNS lookup process and resolution"
+              ]
+            },
+            {
+              "topic": "DNS Management and Administration",
+              "sub_topic": [
+                "DNS server configuration and setup",
+                "DNS zone management and delegation",
+                "DNS security measures (e.g., DNSSEC)",
+                "Troubleshooting common DNS issues"
+              ]
+            },
+            {
+              "topic": "Advanced DNS Concepts",
+              "sub_topic": [
+                "DNS caching and performance optimization",
+                "Split-horizon DNS and GeoDNS",
+                "Dynamic DNS and its applications",
+                "DNS load balancing and failover mechanisms"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "HTTP/HTTPS Protocol",
+          "topics": [
+            {
+              "topic": "HTTP Protocol Basics",
+              "sub_topic": [
+                "HTTP Overview",
+                "HTTP Methods (GET, POST, PUT, DELETE, etc.)",
+                "HTTP Status Codes (200, 404, 500, etc.)",
+                "HTTP Headers (Request and Response)",
+                "HTTP Message Structure",
+                "HTTP Caching"
+              ]
+            },
+            {
+              "topic": "HTTPS Protocol Basics",
+              "sub_topic": [
+                "HTTPS Overview",
+                "SSL/TLS Encryption",
+                "HTTPS Certificates",
+                "HTTPS Handshake Process",
+                "HTTPS Benefits and Limitations"
+              ]
+            },
+            {
+              "topic": "HTTP/HTTPS Security Considerations",
+              "sub_topic": [
+                "HTTP Security Vulnerabilities (e.g., Cross-Site Scripting, SQL Injection)",
+                "HTTPS Security Benefits",
+                "HTTP/HTTPS Best Practices for Secure Communication"
+              ]
+            },
+            {
+              "topic": "HTTP/HTTPS Performance Optimization",
+              "sub_topic": [
+                "HTTP/HTTPS Caching",
+                "HTTP/2 and HTTP/3 Protocols",
+                "Content Delivery Networks (CDNs)",
+                "HTTP/HTTPS Load Balancing"
+              ]
+            },
+            {
+              "topic": "HTTP/HTTPS in Practice",
+              "sub_topic": [
+                "HTTP/HTTPS in Web Applications",
+                "HTTP/HTTPS in Mobile Applications",
+                "HTTP/HTTPS in Cloud Computing",
+                "Case Studies and Examples of HTTP/HTTPS Usage"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "FTP (File Transfer Protocol)",
+          "topics": [
+            {
+              "topic": "FTP Architecture",
+              "sub_topic": [
+                "Client-server model",
+                "Control connection",
+                "Data connection",
+                "Passive and active modes"
+              ]
+            },
+            {
+              "topic": "FTP Commands",
+              "sub_topic": [
+                "USER",
+                "PASS",
+                "CWD",
+                "CDUP",
+                "PWD",
+                "LIST",
+                "RETR",
+                "STOR",
+                "DELE",
+                "RENAME"
+              ]
+            },
+            {
+              "topic": "FTP Security",
+              "sub_topic": [
+                "Cleartext credentials",
+                "TLS/SSL encryption",
+                "SFTP"
+              ]
+            },
+            {
+              "topic": "FTP Applications",
+              "sub_topic": [
+                "File sharing",
+                "Website hosting",
+                "Software distribution"
+              ]
+            },
+            {
+              "topic": "FTP Troubleshooting",
+              "sub_topic": [
+                "Connection issues",
+                "Authentication errors",
+                "File transfer errors"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "SMTP (Simple Mail Transfer Protocol)",
+          "topics": [
+            {
+              "topic": "SMTP (Simple Mail Transfer Protocol)",
+              "sub_topic": [
+                "Overview",
+                "Operation",
+                "Components (SMTP Server, SMTP Client)",
+                "Security (TLS, STARTTLS)",
+                "SMTP Commands (HELO, MAIL FROM, RCPT TO, DATA, QUIT)",
+                "Email Structure (Envelope, Header, Body)",
+                "SMTP Extensions (EAI, EDNS0, DSN)"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "POP3/IMAP",
+          "topics": [
+            {
+              "topic": "POP3",
+              "sub_topic": [
+                "Overview",
+                "POP3 Commands",
+                "POP3 Security",
+                "POP3 over SSL (POP3S)"
+              ]
+            },
+            {
+              "topic": "IMAP",
+              "sub_topic": [
+                "Overview",
+                "IMAP Commands",
+                "IMAP Security",
+                "IMAP over SSL (IMAPS)"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "SNMP (Simple Network Management Protocol)",
+          "topics": [
+            {
+              "topic": "SNMP Overview",
+              "sub_topic": [
+                "Introduction to SNMP",
+                "SNMP Architecture",
+                "SNMP Management Information Base (MIB)",
+                "SNMP Operations"
+              ]
+            },
+            {
+              "topic": "SNMP Message Formats",
+              "sub_topic": [
+                "SNMP Get/GetResponse",
+                "SNMP Set/SetResponse",
+                "SNMP Trap"
+              ]
+            },
+            {
+              "topic": "SNMP Management Tools",
+              "sub_topic": [
+                "SNMP Network Management System (NMS)",
+                "SNMP Agent"
+              ]
+            },
+            {
+              "topic": "SNMPv2 and SNMPv3",
+              "sub_topic": [
+                "SNMPv2 Enhancements",
+                "SNMPv3 Security Features",
+                "SNMPv3 User-Based Security Model (USM)"
+              ]
+            },
+            {
+              "topic": "SNMP Applications",
+              "sub_topic": [
+                "Network Monitoring",
+                "Configuration Management",
+                "Fault Diagnosis"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "DHCP (Dynamic Host Configuration Protocol)",
+          "topics": [
+            {
+              "topic": "DHCP Overview",
+              "sub_topic": [
+                "Purpose and functionality of DHCP",
+                "DHCP message types (DISCOVER, OFFER, REQUEST, ACK, NACK)",
+                "DHCP lease management"
+              ]
+            },
+            {
+              "topic": "DHCP Configuration",
+              "sub_topic": [
+                "Configuring DHCP server and client settings",
+                "DHCP scope options and configuration parameters",
+                "DHCP failover and redundancy mechanisms"
+              ]
+            },
+            {
+              "topic": "DHCP Troubleshooting",
+              "sub_topic": [
+                "Common DHCP errors and troubleshooting techniques",
+                "Analyzing DHCP logs and identifying issues",
+                "Advanced troubleshooting scenarios"
+              ]
+            },
+            {
+              "topic": "DHCP Security",
+              "sub_topic": [
+                "DHCP security threats and vulnerabilities",
+                "DHCP server and client authentication mechanisms",
+                "DHCP message encryption and protection"
+              ]
+            },
+            {
+              "topic": "DHCP Advanced Concepts",
+              "sub_topic": [
+                "DHCPv6 (IPv6 Dynamic Host Configuration Protocol)",
+                "DHCP relay agents and their role in DHCP communication",
+                "Integrating DHCP with other network services and protocols"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Wireless Networks",
+      "sub_categories": [
+        {
+          "sub_category": "Wi-Fi",
+          "topics": [
+            {
+              "topic": "Wi-Fi Standards",
+              "sub_topic": [
+                "802.11a",
+                "802.11b",
+                "802.11g",
+                "802.11n",
+                "802.11ac",
+                "802.11ax"
+              ]
+            },
+            {
+              "topic": "Wi-Fi Security",
+              "sub_topic": [
+                "WEP",
+                "WPA",
+                "WPA2",
+                "WPA3",
+                "MAC filtering"
+              ]
+            },
+            {
+              "topic": "Wi-Fi Configuration",
+              "sub_topic": [
+                "SSID",
+                "Channel selection",
+                "Frequency band selection",
+                "Antenna placement"
+              ]
+            },
+            {
+              "topic": "Wi-Fi Troubleshooting",
+              "sub_topic": [
+                "Signal strength issues",
+                "Connection problems",
+                "Slow speeds",
+                "Interference"
+              ]
+            },
+            {
+              "topic": "Wi-Fi Applications",
+              "sub_topic": [
+                "Home networking",
+                "Business networking",
+                "Public Wi-Fi",
+                "Industrial applications"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Bluetooth",
+          "topics": [
+            {
+              "topic": "Bluetooth Technology",
+              "sub_topic": [
+                "History and Evolution",
+                "Architecture and Protocols",
+                "Types of Bluetooth Devices",
+                "Applications",
+                "Advantages and Disadvantages"
+              ]
+            },
+            {
+              "topic": "Bluetooth Standards and Specifications",
+              "sub_topic": [
+                "Bluetooth Core Specifications",
+                "Extended Profiles",
+                "Bluetooth Special Interest Group (SIG)"
+              ]
+            },
+            {
+              "topic": "Bluetooth Security",
+              "sub_topic": [
+                "Pairing and Authentication",
+                "Encryption Methods",
+                "Vulnerabilities and Attacks",
+                "Security Enhancements"
+              ]
+            },
+            {
+              "topic": "Bluetooth Applications and Use Cases",
+              "sub_topic": [
+                "Wireless Connectivity in Personal Area Networks",
+                "File Transfer and Sharing",
+                "Audio Streaming and Hands-Free Calling",
+                "Home Automation and Internet of Things (IoT)",
+                "Healthcare and Medical Applications",
+                "Industrial and Commercial Applications"
+              ]
+            },
+            {
+              "topic": "Bluetooth Troubleshooting and Support",
+              "sub_topic": [
+                "Common Bluetooth Problems and Solutions",
+                "Troubleshooting Tools and Techniques",
+                "Support Resources and Forums",
+                "FAQs and Online Resources"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Mobile Networks (3G, 4G, 5G)",
+          "topics": [
+            {
+              "topic": "3G (Third-Generation) Networks",
+              "sub_topic": [
+                "Introduction to 3G",
+                "3G Standards: UMTS, CDMA2000, WCDMA",
+                "3G Network Architecture",
+                "3G Service Capabilities and Applications",
+                "Evolution of 3G to 3.5G and 3.75G"
+              ]
+            },
+            {
+              "topic": "4G (Fourth-Generation) Networks",
+              "sub_topic": [
+                "Introduction to 4G",
+                "4G Standards: LTE, WiMAX",
+                "4G Network Architecture",
+                "4G Service Capabilities and Applications",
+                "Evolution of 4G to 4.5G and 4.9G"
+              ]
+            },
+            {
+              "topic": "5G (Fifth-Generation) Networks",
+              "sub_topic": [
+                "Introduction to 5G",
+                "5G Standards: NR (New Radio), 5G Core",
+                "5G Network Architecture",
+                "5G Service Capabilities and Applications",
+                "5G Use Cases and Deployment Scenarios"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Satellite Communication",
+          "topics": [
+            {
+              "topic": "Satellite Communication Fundamentals",
+              "sub_topic": [
+                "History and Evolution of Satellite Communication",
+                "Types of Satellite Orbits",
+                "Satellite Link Budget Analysis",
+                "Satellite Modulation and Coding Techniques",
+                "Multiple Access Techniques in Satellite Communication"
+              ]
+            },
+            {
+              "topic": "Satellite Network Architecture",
+              "sub_topic": [
+                "Geostationary Satellite Networks",
+                "Medium Earth Orbit (MEO) Satellite Networks",
+                "Low Earth Orbit (LEO) Satellite Networks",
+                "Hybrid Satellite Networks",
+                "Satellite Network Management and Control"
+              ]
+            },
+            {
+              "topic": "Satellite Applications",
+              "sub_topic": [
+                "Satellite Broadcasting and Television",
+                "Satellite Telecommunications",
+                "Satellite Navigation and Positioning",
+                "Satellite Earth Observation and Remote Sensing",
+                "Satellite Disaster Management and Emergency Communication"
+              ]
+            },
+            {
+              "topic": "Emerging Trends in Satellite Communication",
+              "sub_topic": [
+                "High-Throughput Satellites (HTS)",
+                "Software-Defined Satellite Networks",
+                "Satellite-Integrated Networks",
+                "Satellite Quantum Communication",
+                "Artificial Intelligence in Satellite Communication"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Network Security",
+      "sub_categories": [
+        {
+          "sub_category": "Cryptography",
+          "topics": [
+            {
+              "topic": "Encryption Algorithms",
+              "sub_topic": [
+                "Symmetric-key algorithms (e.g., AES, DES, 3DES)",
+                "Asymmetric-key algorithms (e.g., RSA, DSA,ECC)",
+                "Hash functions (e.g., MD5, SHA-1, SHA-256)",
+                "Message Authentication Codes (MACs)"
+              ]
+            },
+            {
+              "topic": "Cryptographic Protocols",
+              "sub_topic": [
+                "Key exchange protocols (e.g., Diffie-Hellman, SSL/TLS)",
+                "Digital signature schemes (e.g., RSA, DSA)",
+                "Public-key infrastructure (PKI)",
+                "Zero-knowledge proofs"
+              ]
+            },
+            {
+              "topic": "Network Security Applications",
+              "sub_topic": [
+                "Secure communication (e.g., VPNs, SSH)",
+                "Data protection (e.g., encryption, tokenization)",
+                "Authentication and authorization (e.g., biometrics, two-factor authentication)",
+                "Intrusion detection and prevention systems (IDS/IPS)"
+              ]
+            },
+            {
+              "topic": "Cryptography Standards",
+              "sub_topic": [
+                "Federal Information Processing Standards (FIPS)",
+                "National Institute of Standards and Technology (NIST)",
+                "International Organization for Standardization (ISO)",
+                "Internet Engineering Task Force (IETF)"
+              ]
+            },
+            {
+              "topic": "Emerging Trends in Cryptography",
+              "sub_topic": [
+                "Quantum cryptography",
+                "Post-quantum cryptography",
+                "Blockchain and distributed ledger technology",
+                "Homomorphic encryption"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "SSL/TLS",
+          "topics": [
+            {
+              "topic": "SSL/TLS Overview",
+              "sub_topic": [
+                "History and evolution of SSL/TLS",
+                "Benefits and applications of SSL/TLS",
+                "Limitations and considerations of SSL/TLS"
+              ]
+            },
+            {
+              "topic": "SSL/TLS Protocols",
+              "sub_topic": [
+                "SSL 2.0 and 3.0",
+                "TLS 1.0, 1.1, 1.2, and 1.3",
+                "Comparison of SSL and TLS protocols"
+              ]
+            },
+            {
+              "topic": "SSL/TLS Certificates",
+              "sub_topic": [
+                "Types of SSL/TLS certificates",
+                "Certificate authorities and trust models",
+                "Certificate management and renewal"
+              ]
+            },
+            {
+              "topic": "SSL/TLS Implementation",
+              "sub_topic": [
+                "Configuring SSL/TLS on web servers",
+                "Using SSL/TLS in email and other applications",
+                "Best practices for SSL/TLS deployment"
+              ]
+            },
+            {
+              "topic": "SSL/TLS Vulnerabilities and Attacks",
+              "sub_topic": [
+                "Common SSL/TLS vulnerabilities",
+                "Man-in-the-middle attacks",
+                "Certificate transparency and validation"
+              ]
+            },
+            {
+              "topic": "SSL/TLS Standards and Regulations",
+              "sub_topic": [
+                "PCI DSS and SSL/TLS requirements",
+                "NIST guidelines for SSL/TLS",
+                "Industry best practices and standards"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Firewall and IDS/IPS",
+          "topics": [
+            {
+              "topic": "Firewall",
+              "sub_topic": [
+                "Firewall Architecture and Types",
+                "Firewall Rules and Policies",
+                "Firewall Management and Monitoring",
+                "Next-Generation Firewalls (NGFWs)",
+                "Firewall Best Practices and Troubleshooting"
+              ]
+            },
+            {
+              "topic": "Intrusion Detection System (IDS)",
+              "sub_topic": [
+                "IDS Types and Architectures",
+                "IDS Signature-Based Detection",
+                "IDS Anomaly-Based Detection",
+                "IDS Deployment and Configuration",
+                "IDS Management and Monitoring"
+              ]
+            },
+            {
+              "topic": "Intrusion Prevention System (IPS)",
+              "sub_topic": [
+                "IPS Types and Architectures",
+                "IPS Signature-Based Blocking",
+                "IPS Anomaly-Based Blocking",
+                "IPS Deployment and Configuration",
+                "IPS Management and Monitoring"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Authentication and Authorization",
+          "topics": [
+            {
+              "topic": "Authentication Methods",
+              "sub_topic": [
+                "Password-based authentication",
+                "Token-based authentication",
+                "Biometric authentication",
+                "Multi-factor authentication"
+              ]
+            },
+            {
+              "topic": "Authorization Models",
+              "sub_topic": [
+                "Role-based access control (RBAC)",
+                "Attribute-based access control (ABAC)",
+                "Identity-based access control (IBAC)"
+              ]
+            },
+            {
+              "topic": "Authentication Protocols",
+              "sub_topic": [
+                "LDAP",
+                "Kerberos",
+                "RADIUS",
+                "TACACS+"
+              ]
+            },
+            {
+              "topic": "Authorization Services",
+              "sub_topic": [
+                "Active Directory",
+                "OpenLDAP",
+                "Shibboleth",
+                "OAuth2"
+              ]
+            },
+            {
+              "topic": "Best Practices for Authentication and Authorization",
+              "sub_topic": [
+                "Use strong authentication methods",
+                "Implement multi-factor authentication",
+                "Use a centralized authentication and authorization system",
+                "Monitor and audit authentication and authorization activity"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "VPN (Virtual Private Network)",
+          "topics": [
+            {
+              "topic": "Types of VPNs",
+              "sub_topic": [
+                "Remote Access VPN",
+                "Site-to-Site VPN",
+                "Intranet VPN"
+              ]
+            },
+            {
+              "topic": "VPN Protocols",
+              "sub_topic": [
+                "IPsec",
+                "PPTP",
+                "L2TP/IPsec",
+                "OpenVPN",
+                "WireGuard"
+              ]
+            },
+            {
+              "topic": "VPN Features and Benefits",
+              "sub_topic": [
+                "Enhanced security",
+                "Remote access",
+                "Data encryption",
+                "Network access control",
+                "Improved performance"
+              ]
+            },
+            {
+              "topic": "VPN Deployment and Management",
+              "sub_topic": [
+                "VPN hardware",
+                "VPN software",
+                "VPN configuration",
+                "VPN troubleshooting"
+              ]
+            },
+            {
+              "topic": "VPN Best Practices",
+              "sub_topic": [
+                "Strong encryption",
+                "Two-factor authentication",
+                "Regular security updates",
+                "Employee education",
+                "Network monitoring"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Network Management and Monitoring",
+      "sub_categories": [
+        {
+          "sub_category": "SNMP (Simple Network Management Protocol)",
+          "topics": [
+            {
+              "topic": "Introduction to SNMP",
+              "sub_topic": [
+                "Definition and Overview of SNMP",
+                "Benefits and Applications of SNMP",
+                "SNMP Architecture and Components",
+                "SNMP Versions and Standards"
+              ]
+            },
+            {
+              "topic": "SNMP Operations and Functionality",
+              "sub_topic": [
+                "SNMP Get, Set, and Trap Operations",
+                "Management Information Bases (MIBs)",
+                "SNMP Walk and Table Operations",
+                "SNMP Notifications and Traps"
+              ]
+            },
+            {
+              "topic": "SNMP Configuration and Management",
+              "sub_topic": [
+                "Configuring SNMP Agents and Managers",
+                "Setting Up SNMP Traps and Notifications",
+                "SNMPv3 Security and Authentication",
+                "Best Practices for SNMP Management"
+              ]
+            },
+            {
+              "topic": "SNMP Tools and Applications",
+              "sub_topic": [
+                "SNMP Monitoring and Troubleshooting Tools",
+                "SNMP Network Management Systems (NMS)",
+                "SNMP MIB Browsers and Editors",
+                "Advanced SNMP Applications"
+              ]
+            },
+            {
+              "topic": "SNMP Security Considerations",
+              "sub_topic": [
+                "SNMPv1 and SNMPv2 Security Vulnerabilities",
+                "SNMPv3 Security Enhancements",
+                "Mitigation Strategies for SNMP Security Risks",
+                "Best Practices for Secure SNMP Deployment"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Network Monitoring Tools (Wireshark, Nmap)",
+          "topics": [
+            {
+              "topic": "Network Analysis Tools",
+              "sub_topic": [
+                "Wireshark",
+                "Tcpdump",
+                "Nmap",
+                "Metasploit",
+                "Nessus"
+              ]
+            },
+            {
+              "topic": "Network Monitoring Tools",
+              "sub_topic": [
+                "Nagios",
+                "Zabbix",
+                "Splunk",
+                "SolarWinds NPM",
+                "PRTG Network Monitor"
+              ]
+            },
+            {
+              "topic": "Cloud-Based Network Monitoring Tools",
+              "sub_topic": [
+                "AWS CloudWatch",
+                "Azure Monitor",
+                "Google Cloud Monitoring",
+                "Datadog",
+                "New Relic"
+              ]
+            },
+            {
+              "topic": "Open Source Network Monitoring Tools",
+              "sub_topic": [
+                "Nagios",
+                "Zabbix",
+                "Cacti",
+                "Munin",
+                "Smokeping"
+              ]
+            },
+            {
+              "topic": "Commercial Network Monitoring Tools",
+              "sub_topic": [
+                "SolarWinds NPM",
+                "PRTG Network Monitor",
+                "ManageEngine OpManager",
+                "WhatsUp Gold",
+                "IBM Tivoli Netcool"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Network Traffic Analysis",
+          "topics": [
+            {
+              "topic": "Network Traffic Analysis Tools",
+              "sub_topic": [
+                "Packet sniffing tools (e.g., Wireshark, tcpdump)",
+                "Flow analysis tools (e.g., NetFlow, sFlow)",
+                "Log analysis tools (e.g., Splunk, ELK Stack)",
+                "Visualization tools (e.g., Kibana, Grafana)"
+              ]
+            },
+            {
+              "topic": "Network Traffic Analysis Techniques",
+              "sub_topic": [
+                "Traffic classification (e.g., machine learning, signature-based)",
+                "Anomaly detection (e.g., statistical analysis, machine learning)",
+                "Performance analysis (e.g., bandwidth utilization, latency)",
+                "Security analysis (e.g., intrusion detection, malware detection)"
+              ]
+            },
+            {
+              "topic": "Network Traffic Analysis Applications",
+              "sub_topic": [
+                "Network security monitoring",
+                "Network performance optimization",
+                "Capacity planning",
+                "Troubleshooting and diagnostics",
+                "Compliance and auditing"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Bandwidth Management",
+          "topics": [
+            {
+              "topic": "Bandwidth Monitoring",
+              "sub_topic": [
+                "Real-time traffic monitoring",
+                "Historical trend analysis",
+                "Capacity planning and forecasting"
+              ]
+            },
+            {
+              "topic": "Bandwidth Optimization",
+              "sub_topic": [
+                "Traffic shaping and prioritization",
+                "Quality of Service (QoS) management",
+                "Application-aware traffic management"
+              ]
+            },
+            {
+              "topic": "Bandwidth Allocation",
+              "sub_topic": [
+                "Fair and equitable bandwidth distribution",
+                "Dynamic bandwidth allocation based on demand",
+                "Bandwidth reservation and provisioning"
+              ]
+            },
+            {
+              "topic": "Bandwidth Reporting",
+              "sub_topic": [
+                "Detailed usage reports for billing and planning",
+                "Customizable reports for specific requirements",
+                "Real-time alerts for bandwidth-related issues"
+              ]
+            },
+            {
+              "topic": "Bandwidth Control",
+              "sub_topic": [
+                "Manual bandwidth adjustment for specific applications or users",
+                "Automated bandwidth throttling based on policies",
+                "External bandwidth control via APIs"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "IP Routing",
+      "sub_categories": [
+        {
+          "sub_category": "Static Routing",
+          "topics": [
+            {
+              "topic": "Static Routing Configuration",
+              "sub_topic": [
+                "Configuring Static Routes",
+                "Verifying Static Routes"
+              ]
+            },
+            {
+              "topic": "Static Routing Management",
+              "sub_topic": [
+                "Monitoring Static Routes",
+                "Troubleshooting Static Routes"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Dynamic Routing",
+          "topics": [
+            {
+              "topic": "RIP",
+              "sub_topic": [
+                "RIPv1",
+                "RIPv2"
+              ]
+            },
+            {
+              "topic": "OSPF",
+              "sub_topic": [
+                "OSPFv2",
+                "OSPFv3"
+              ]
+            },
+            {
+              "topic": "BGP",
+              "sub_topic": [
+                "BGPv4",
+                "BGPv6"
+              ]
+            },
+            {
+              "topic": "IS-IS",
+              "sub_topic": [
+                "IS-IS Level 1",
+                "IS-IS Level 2"
+              ]
+            },
+            {
+              "topic": "EIGRP",
+              "sub_topic": [
+                "EIGRP Classic",
+                "EIGRP Enhanced"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Link-State Routing (OSPF)",
+          "topics": [
+            {
+              "topic": "OSPF Overview",
+              "sub_topic": [
+                "Purpose and Benefits of OSPF",
+                "OSPF Routing Algorithm",
+                "OSPF Packet Types and Formats",
+                "Areas and Hierarchies in OSPF",
+                "Administrative Distance and Metric Calculation"
+              ]
+            },
+            {
+              "topic": "OSPF Configuration",
+              "sub_topic": [
+                "Configuring OSPF on a Router",
+                "Defining OSPF Areas and Interfaces",
+                "Adjusting OSPF Parameters (Cost, Priority, etc.)",
+                "Troubleshooting OSPF Configuration Issues"
+              ]
+            },
+            {
+              "topic": "OSPF Operation and Maintenance",
+              "sub_topic": [
+                "OSPF Neighbor Discovery and Establishment",
+                "OSPF Topology Database Construction",
+                "OSPF Routing Table Maintenance",
+                "Monitoring and Troubleshooting OSPF Operations"
+              ]
+            },
+            {
+              "topic": "OSPF Security",
+              "sub_topic": [
+                "Authentication Mechanisms in OSPF",
+                "Encryption and Confidentiality in OSPF",
+                "Best Practices for Securing OSPF"
+              ]
+            },
+            {
+              "topic": "Advanced OSPF Features",
+              "sub_topic": [
+                "OSPF Virtual Links",
+                "OSPF Stub Areas",
+                "OSPF Graceful Restart",
+                "OSPF Multicast Routing"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Distance-Vector Routing (RIP)",
+          "topics": [
+            {
+              "topic": "Routing Information Protocol (RIP)",
+              "sub_topic": [
+                "Overview of RIP",
+                "RIP Packet Format",
+                "RIP Routing Table",
+                "RIP Timers and Metrics",
+                "RIP Convergence"
+              ]
+            },
+            {
+              "topic": "RIP Versions",
+              "sub_topic": [
+                "RIPv1",
+                "RIPv2",
+                "RIPng"
+              ]
+            },
+            {
+              "topic": "RIP Configuration",
+              "sub_topic": [
+                "RIP Configuration on Cisco Routers",
+                "RIP Configuration on Other Vendors' Routers",
+                "Common RIP Configuration Commands"
+              ]
+            },
+            {
+              "topic": "RIP Troubleshooting",
+              "sub_topic": [
+                "Troubleshooting RIP Convergence Issues",
+                "Troubleshooting RIP Looping Issues",
+                "Troubleshooting RIP Neighbor Issues"
+              ]
+            },
+            {
+              "topic": "RIP Best Practices",
+              "sub_topic": [
+                "Best Practices for RIP Deployment",
+                "Best Practices for RIP Configuration",
+                "Best Practices for RIP Troubleshooting"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "BGP (Border Gateway Protocol)",
+          "topics": [
+            {
+              "topic": "BGP Fundamentals",
+              "sub_topic": [
+                "Definition and Purpose of BGP",
+                "BGP Routing Table and RIB",
+                "BGP Message Types and Formats (e.g., OPEN, UPDATE, KEEPALIVE)"
+              ]
+            },
+            {
+              "topic": "BGP Path Selection",
+              "sub_topic": [
+                "BGP Decision Process: Local Preference, AS_PATH, and MED",
+                "BGP Route Aggregation and Summarization",
+                "BGP Attribute Manipulation (e.g., AS_PATH Prepending, Community)"
+              ]
+            },
+            {
+              "topic": "BGP Routing Policies",
+              "sub_topic": [
+                "BGP Route Filtering (e.g., prefix lists, route maps)",
+                "BGP Import and Export Policies",
+                "BGP Communities and Extended Communities"
+              ]
+            },
+            {
+              "topic": "BGP Neighbor Relationships",
+              "sub_topic": [
+                "BGP Neighbor States (e.g., Idle, Connect, Established)",
+                "BGP Neighbor Advertisement (BGP OPEN Message)",
+                "BGP Keepalive and Hold timers"
+              ]
+            },
+            {
+              "topic": "BGP Security and Troubleshooting",
+              "sub_topic": [
+                "BGP Hijacking and Spoofing",
+                "BGP Route Flap Dampening and Graceful Restart",
+                "BGP Troubleshooting Tools and Techniques"
+              ]
+            },
+            {
+              "topic": "Advanced BGP Features",
+              "sub_topic": [
+                "BGP Route Reflectors",
+                "BGP Confederations and Route Servers",
+                "BGP Multipathing and Load Balancing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Network Troubleshooting",
+      "sub_categories": [
+        {
+          "sub_category": "Ping and Traceroute",
+          "topics": [
+            {
+              "topic": "Basic Ping Troubleshooting",
+              "sub_topic": [
+                "Troubleshooting packet loss",
+                "Latency troubleshooting",
+                "Intermittent network connectivity",
+                "Troubleshooting \"Request Timed Out\" errors",
+                "Troubleshooting destination host unreachable errors"
+              ]
+            },
+            {
+              "topic": "Advanced Ping Troubleshooting",
+              "sub_topic": [
+                "Troubleshooting ping packets with size options",
+                "Troubleshooting ping packets with different protocols (ICMP, UDP, TCP)",
+                "Troubleshooting ping packets with different payload options",
+                "Troubleshooting ping packets with different packet fragmentation options",
+                "Troubleshooting ping packets with different source and destination address options"
+              ]
+            },
+            {
+              "topic": "Traceroute Troubleshooting",
+              "sub_topic": [
+                "Troubleshooting traceroute hops",
+                "Latency troubleshooting with traceroute",
+                "Troubleshooting traceroute path errors",
+                "Troubleshooting traceroute with different protocols (ICMP, UDP, TCP)",
+                "Troubleshooting traceroute with different payload options",
+                "Troubleshooting traceroute with different source and destination address options"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Network Debugging",
+          "topics": [
+            {
+              "topic": "Analyze Network Traffic",
+              "sub_topic": [
+                "Using Wireshark to Capture and Analyze Network Traffic",
+                "Using tcpdump to Capture and Analyze Network Traffic",
+                "Using Network Monitor to Capture and Analyze Network Traffic",
+                "Using Performance Monitor to Capture and Analyze Network Traffic",
+                "Using Netstat to Capture and Analyze Network Traffic"
+              ]
+            },
+            {
+              "topic": "Troubleshoot Network Connectivity Issues",
+              "sub_topic": [
+                "Troubleshooting Physical Layer Connectivity Issues",
+                "Troubleshooting Link Layer Connectivity Issues",
+                "Troubleshooting Network Layer Connectivity Issues",
+                "Troubleshooting Transport Layer Connectivity Issues",
+                "Troubleshooting Application Layer Connectivity Issues"
+              ]
+            },
+            {
+              "topic": "Troubleshoot Network Performance Issues",
+              "sub_topic": [
+                "Troubleshooting Slow Network Performance",
+                "Troubleshooting High Network Latency",
+                "Troubleshooting Packet Loss",
+                "Troubleshooting Network Congestion",
+                "Troubleshooting Network Jitter"
+              ]
+            },
+            {
+              "topic": "Troubleshoot Network Security Issues",
+              "sub_topic": [
+                "Troubleshooting Network Security Breaches",
+                "Troubleshooting Network Intrusion Detection",
+                "Troubleshooting Network Access Control",
+                "Troubleshooting Network Firewall Issues",
+                "Troubleshooting Network Anti-Malware Issues"
+              ]
+            },
+            {
+              "topic": "Troubleshoot Network Management Issues",
+              "sub_topic": [
+                "Troubleshooting Network Management Tools",
+                "Troubleshooting Network Management Protocols",
+                "Troubleshooting Network Management Systems",
+                "Troubleshooting Network Management Applications",
+                "Troubleshooting Network Management Security Issues"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "IP Configuration Tools (ifconfig, ipconfig)",
+          "topics": [
+            {
+              "topic": "IP Configuration Overview",
+              "sub_topic": [
+                "Understanding IP Addressing",
+                "Subnet Masks and Network Segmentation",
+                "Default Gateways and DNS Servers"
+              ]
+            },
+            {
+              "topic": "ifconfig Utility (Unix/Linux)",
+              "sub_topic": [
+                "Command Syntax and Options",
+                "Displaying IP Configuration Information",
+                "Modifying IP Addresses and Network Settings"
+              ]
+            },
+            {
+              "topic": "ipconfig Utility (Windows)",
+              "sub_topic": [
+                "Command Syntax and Options",
+                "Obtaining IP Configuration Information",
+                "Releasing and Renewing IP Addresses"
+              ]
+            },
+            {
+              "topic": "Advanced IP Configuration Tools",
+              "sub_topic": [
+                "Using arp Command for Address Resolution",
+                "Troubleshooting DHCP Issues with dhclient",
+                "Network Configuration with netstat"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Packet Sniffing and Analysis",
+          "topics": [
+            {
+              "topic": "Packet Sniffing Techniques",
+              "sub_topic": [
+                "Types of Sniffing Tools",
+                "Techniques for Efficient Sniffing",
+                "Ethical Considerations in Packet Sniffing"
+              ]
+            },
+            {
+              "topic": "Protocol Analysis",
+              "sub_topic": [
+                "Understanding Network Protocols",
+                "Decoding and Interpreting Packet Data",
+                "Identifying Protocol Anomalies"
+              ]
+            },
+            {
+              "topic": "Troubleshooting Common Network Issues",
+              "sub_topic": [
+                "Using Packet Sniffing to Diagnose Connectivity Problems",
+                "Identifying Performance Bottlenecks",
+                "Detecting Security Vulnerabilities"
+              ]
+            },
+            {
+              "topic": "Advanced Packet Analysis Tools",
+              "sub_topic": [
+                "Wireshark and Its Features",
+                "Tcpdump and Its Capabilities",
+                "Specialized Tools for Network Forensics"
+              ]
+            },
+            {
+              "topic": "Troubleshooting Specific Network Protocols",
+              "sub_topic": [
+                "Analyze TCP Packets for Connection Problems",
+                "Investigate UDP Packets for Data Loss",
+                "Examine ICMP Packets for Network Unreachability"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Emerging Networking Technologies",
+      "sub_categories": [
+        {
+          "sub_category": "SDN (Software-Defined Networking)",
+          "topics": [
+            {
+              "topic": "SDN Concepts and Architecture",
+              "sub_topic": [
+                "Definition and Overview of SDN",
+                "Benefits and Features of SDN",
+                "Key Components and Roles in SDN",
+                "SDN Controllers and their Functions",
+                "OpenFlow Protocol and its Role in SDN",
+                "Network Virtualization using SDN"
+              ]
+            },
+            {
+              "topic": "SDN Applications and Use Cases",
+              "sub_topic": [
+                "SDN in Data Centers and Cloud Computing",
+                "SDN for Network Automation and Management",
+                "SDN for Security and Threat Detection",
+                "SDN for Service Chaining and Network Slicing",
+                "SDN for IoT and Edge Computing"
+              ]
+            },
+            {
+              "topic": "SDN Implementation and Deployment",
+              "sub_topic": [
+                "SDN Controller Selection and Deployment",
+                "OpenFlow Switch Configuration and Management",
+                "Integration of SDN with Existing Networks",
+                "Planning and Best Practices for SDN Deployment",
+                "Case Studies and Examples of SDN Implementations"
+              ]
+            },
+            {
+              "topic": "SDN Standardization and Industry Trends",
+              "sub_topic": [
+                "ONF (Open Networking Foundation) and SDN Standards",
+                "IETF and SDN Working Groups",
+                "Industry Consortiums and SDN Initiatives",
+                "Emerging SDN Technologies and Innovations",
+                "Future Directions and Evolution of SDN"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "NFV (Network Function Virtualization)",
+          "topics": [
+            {
+              "topic": "NFV Fundamentals",
+              "sub_topic": [
+                "Definition and Benefits of NFV",
+                "Components of NFV",
+                "NFV Deployment Models",
+                "Security Considerations in NFV"
+              ]
+            },
+            {
+              "topic": "NFV Orchestration and Management",
+              "sub_topic": [
+                "NFV Orchestrators and Their Functions",
+                "VNFM (Virtual Network Function Manager)",
+                "Service Lifecycle Management in NFV",
+                "Network Slicing and NFV"
+              ]
+            },
+            {
+              "topic": "NFV Use Cases and Applications",
+              "sub_topic": [
+                "Virtualization of Core Network Functions",
+                "NFV in 5G Networks",
+                "Edge Computing and NFV",
+                "Cloud-Native NFV"
+              ]
+            },
+            {
+              "topic": "Challenges and Future of NFV",
+              "sub_topic": [
+                "Performance and Scalability Issues",
+                "Integration with Legacy Networks",
+                "Security and Trust in NFV",
+                "Emerging Trends and Innovations in NFV"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "IoT (Internet of Things) Networks",
+          "topics": [
+            {
+              "topic": "Network Architectures for IoT",
+              "sub_topic": [
+                "Fog computing and edge computing",
+                "Mesh networks and ad hoc networks",
+                "Cloud-based IoT architectures",
+                "Blockchain-based IoT architectures"
+              ]
+            },
+            {
+              "topic": "Network Protocols for IoT",
+              "sub_topic": [
+                "MQTT",
+                "CoAP",
+                "LoRaWAN",
+                "NB-IoT"
+              ]
+            },
+            {
+              "topic": "Security and Privacy in IoT Networks",
+              "sub_topic": [
+                "Device authentication and authorization",
+                "Data encryption and confidentiality",
+                "Network security and intrusion detection",
+                "Privacy-preserving techniques"
+              ]
+            },
+            {
+              "topic": "IoT Network Management",
+              "sub_topic": [
+                "Device management and onboarding",
+                "Network monitoring and diagnostics",
+                "Firmware updates and patching",
+                "Network performance optimization"
+              ]
+            },
+            {
+              "topic": "Applications and Use Cases of IoT Networks",
+              "sub_topic": [
+                "Smart cities and smart homes",
+                "Industrial IoT and automation",
+                "Wearables and health monitoring",
+                "Vehicle telematics and connected cars"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "5G and Beyond",
+          "topics": [
+            {
+              "topic": "5G Networks",
+              "sub_topic": [
+                "5G Architecture",
+                "5G Spectrum",
+                "5G Use Cases"
+              ]
+            },
+            {
+              "topic": "6G Networks",
+              "sub_topic": [
+                "6G Vision",
+                "6G Technologies",
+                "6G Applications"
+              ]
+            },
+            {
+              "topic": "Beyond 6G Networks",
+              "sub_topic": [
+                "Terahertz Communications",
+                "Quantum Networking",
+                "Cognitive Networking"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2531 @@
+{
+  "categories": [
+    {
+      "category": "Database Fundamentals",
+      "sub_categories": [
+        {
+          "sub_category": "Introduction to Databases",
+          "topics": []
+        },
+        {
+          "sub_category": "Types of Databases (Relational, NoSQL, etc.)",
+          "topics": [
+            {
+              "topic": "Relational Databases",
+              "sub_topic": [
+                "Structured Query Language (SQL)",
+                "Table structures and relationships",
+                "Data normalization and optimization"
+              ]
+            },
+            {
+              "topic": "NoSQL Databases",
+              "sub_topic": [
+                "Types of NoSQL databases (e.g., document, key-value, column-family)",
+                "CAP theorem and its implications for NoSQL systems",
+                "Use cases and limitations of NoSQL databases"
+              ]
+            },
+            {
+              "topic": "Other Database Types",
+              "sub_topic": [
+                "Graph databases",
+                "Time-series databases",
+                "Object-oriented databases"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Database Models",
+          "topics": [
+            {
+              "topic": "Databases",
+              "sub_topic": [
+                "Database Management Systems and RDBMS",
+                "Keys",
+                "ER Models",
+                "Normalization",
+                "Query languages",
+                "Components and Architecture",
+                "Indexing",
+                "Data Manipulation",
+                "Transaction Management"
+              ]
+            },
+            {
+              "topic": "Database Models",
+              "sub_topic": [
+                "Relational",
+                "Hierarchical",
+                "Network",
+                "Object-Oriented",
+                "Document-Oriented",
+                "Column-Family",
+                "Graph"
+              ]
+            },
+            {
+              "topic": "Relational Database Model",
+              "sub_topic": [
+                "Tables",
+                "Rows",
+                "Columns",
+                "Relationships",
+                "Primary and Foreign Keys",
+                "Data Types",
+                "Constraints",
+                "Queries"
+              ]
+            },
+            {
+              "topic": "Normalization",
+              "sub_topic": [
+                "Purpose of Normalization",
+                "Different Normal Forms",
+                "Advantages and Disadvantages of Normalization",
+                "Denormalization"
+              ]
+            },
+            {
+              "topic": "Entity-Relationship (ER) Model",
+              "sub_topic": [
+                "Entities",
+                "Attributes",
+                "Relationships",
+                "ER Diagrams",
+                "Cardinality and Modality"
+              ]
+            },
+            {
+              "topic": "Object-Oriented Database Model",
+              "sub_topic": [
+                "Objects",
+                "Classes and Inheritance",
+                "Encapsulation",
+                "Polymorphism",
+                "Object-Relational Mapping (ORM)"
+              ]
+            },
+            {
+              "topic": "Document-Oriented Database Model",
+              "sub_topic": [
+                "Collections",
+                "Documents",
+                "Key-Value Stores",
+                "JSON",
+                "XML",
+                "Querying Document Databases"
+              ]
+            },
+            {
+              "topic": "Column-Family Database Model",
+              "sub_topic": [
+                "Column Families",
+                "Column Qualifiers",
+                "Rows",
+                "Data Organization and Storage",
+                "Apache Cassandra"
+              ]
+            },
+            {
+              "topic": "Graph Database Model",
+              "sub_topic": [
+                "Nodes",
+                "Edges",
+                "Properties",
+                "Relationships",
+                "Cypher Query Language",
+                "Traversal Algorithms"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "DBMS Architecture",
+          "topics": [
+            {
+              "topic": "Database Management System Architecture",
+              "sub_topic": [
+                "Introduction to DBMS Architecture",
+                "Components of DBMS Architecture",
+                "Data Independence and Data Abstraction",
+                "Client-Server Architecture vs. File Server Architecture",
+                "Centralized vs. Decentralized DBMS Architecture",
+                "Distributed DBMS Architecture",
+                "Cloud-Based DBMS Architecture"
+              ]
+            },
+            {
+              "topic": "Data Storage and Management",
+              "sub_topic": [
+                "File Organization and Indexing",
+                "Data Structures for Database Storage",
+                "Buffer Management and Caching",
+                "Data Dictionary and Metadata Management",
+                "Concurrency Control and Transaction Management",
+                "Recovery and Backup Mechanisms"
+              ]
+            },
+            {
+              "topic": "Query Processing and Optimization",
+              "sub_topic": [
+                "Query Parsing and Optimization",
+                "Cost-Based Query Optimization",
+                "Join Algorithms and Techniques",
+                "Query Execution Plans",
+                "Database Tuning and Performance Optimization"
+              ]
+            },
+            {
+              "topic": "Security and Authorization",
+              "sub_topic": [
+                "Database Security Concepts and Mechanisms",
+                "Authentication and Access Control",
+                "Data Encryption and Decryption",
+                "Data Auditing and Compliance",
+                "Security Best Practices for DBMS"
+              ]
+            },
+            {
+              "topic": "Advanced DBMS Concepts",
+              "sub_topic": [
+                "Object-Oriented and NoSQL Databases",
+                "Big Data and Data Warehousing",
+                "Database Replication and Clustering",
+                "Emerging Trends in DBMS Technology",
+                "Future Directions and Research in DBMS Architecture"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Data Integrity and Constraints",
+          "topics": [
+            {
+              "topic": "Data Integrity",
+              "sub_topic": [
+                "Overview of data integrity",
+                "Types of data integrity: referential integrity, domain integrity, entity integrity",
+                "Importance of data integrity"
+              ]
+            },
+            {
+              "topic": "Constraints",
+              "sub_topic": [
+                "Overview of constraints",
+                "Types of constraints: primary key, foreign key, unique key, check constraint",
+                "Benefits of using constraints"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Relational Databases",
+      "sub_categories": [
+        {
+          "sub_category": "Relational Data Model",
+          "topics": [
+            {
+              "topic": "Relational Data Model Concepts",
+              "sub_topic": [
+                "Definition and Overview",
+                "Tables, Rows, and Columns",
+                "Primary Keys and Foreign Keys",
+                "Relationships and Referential Integrity",
+                "Normalization and Denormalization"
+              ]
+            },
+            {
+              "topic": "Entity-Relationship (ER) Modeling",
+              "sub_topic": [
+                "Basic Concepts and Notation",
+                "Entity Types and Attributes",
+                "Relationships and Cardinality",
+                "ER Diagrams and Design",
+                "Converting ER Diagrams to Relational Schemas"
+              ]
+            },
+            {
+              "topic": "Data Manipulation and Integrity",
+              "sub_topic": [
+                "SQL Commands: SELECT, INSERT, UPDATE, DELETE",
+                "Data Types and Constraints",
+                "Transactions and Concurrency Control",
+                "Referential Integrity Enforcement and Triggers",
+                "Data Validation and Business Rules"
+              ]
+            },
+            {
+              "topic": "Relational Database Schemas and Design",
+              "sub_topic": [
+                "Schema Design Principles and Guidelines",
+                "Normalization Techniques: 1NF, 2NF, 3NF, BCNF",
+                "Schema Evolution and Versioning",
+                "Physical Database Design and Optimization",
+                "Data Warehousing and Star Schemas"
+              ]
+            },
+            {
+              "topic": "Advanced Relational Database Concepts",
+              "sub_topic": [
+                "Multi-Valued Attributes and Nested Tables",
+                "Recursive Queries and Hierarchical Data",
+                "XML Support in Relational Databases",
+                "Object-Oriented Extensions and SQL/XML",
+                "NoSQL and NewSQL Databases"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Keys (Primary, Foreign, Composite, Candidate)",
+          "topics": [
+            {
+              "topic": "Primary Keys",
+              "sub_topic": [
+                "Purpose",
+                "Uniqueness",
+                "Not Null Constraint",
+                "Single-column and Multi-column Primary Keys",
+                "Benefits and Drawbacks",
+                "Examples"
+              ]
+            },
+            {
+              "topic": "Foreign Keys",
+              "sub_topic": [
+                "Purpose",
+                "Referential Integrity",
+                "Enforcing Constraints",
+                "Types of Foreign Keys",
+                "Cascading Operations",
+                "Examples"
+              ]
+            },
+            {
+              "topic": "Composite Keys",
+              "sub_topic": [
+                "Purpose",
+                "Benefits and Drawbacks",
+                "Examples"
+              ]
+            },
+            {
+              "topic": "Candidate Keys",
+              "sub_topic": [
+                "Purpose",
+                "Definition",
+                "Minimal Superkey",
+                "Examples"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Normalization",
+          "topics": [
+            {
+              "topic": "First Normal Form (1NF)",
+              "sub_topic": [
+                "Definition and rules",
+                "Example",
+                "Benefits and limitations"
+              ]
+            },
+            {
+              "topic": "Second Normal Form (2NF)",
+              "sub_topic": [
+                "Definition and rules",
+                "Example",
+                "Benefits and limitations"
+              ]
+            },
+            {
+              "topic": "Third Normal Form (3NF)",
+              "sub_topic": [
+                "Definition and rules",
+                "Example",
+                "Benefits and limitations"
+              ]
+            },
+            {
+              "topic": "Boyce-Codd Normal Form (BCNF)",
+              "sub_topic": [
+                "Definition and rules",
+                "Example",
+                "Benefits and limitations"
+              ]
+            },
+            {
+              "topic": "Fourth Normal Form (4NF)",
+              "sub_topic": [
+                "Definition and rules",
+                "Example",
+                "Benefits and limitations"
+              ]
+            },
+            {
+              "topic": "Fifth Normal Form (5NF)",
+              "sub_topic": [
+                "Definition and rules",
+                "Example",
+                "Benefits and limitations"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "ER Models and Diagrams",
+          "topics": [
+            {
+              "topic": "The Basics of ER Models and Diagrams",
+              "sub_topic": [
+                "What is an ER model?",
+                "What is an ER diagram?",
+                "What are the different types of ER diagrams?",
+                "How to create an ER diagram?"
+              ]
+            },
+            {
+              "topic": "Entity Types and Attributes",
+              "sub_topic": [
+                "What is an entity type?",
+                "What is an attribute?",
+                "What are the different types of attributes?",
+                "How to identify entity types and attributes?"
+              ]
+            },
+            {
+              "topic": "Relationships Between Entities",
+              "sub_topic": [
+                "What is a relationship?",
+                "What are the different types of relationships?",
+                "How to represent relationships in an ER diagram?"
+              ]
+            },
+            {
+              "topic": "Cardinality and Modality",
+              "sub_topic": [
+                "What is cardinality?",
+                "What is modality?",
+                "How to determine the cardinality and modality of a relationship?"
+              ]
+            },
+            {
+              "topic": "Normalization",
+              "sub_topic": [
+                "What is normalization?",
+                "What are the different normal forms?",
+                "How to normalize an ER diagram?"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "SQL (Structured Query Language)",
+          "topics": [
+            {
+              "topic": "Introduction to SQL",
+              "sub_topic": [
+                "What is SQL?",
+                "History of SQL",
+                "Benefits of using SQL",
+                "Applications of SQL"
+              ]
+            },
+            {
+              "topic": "SQL Syntax and Data Types",
+              "sub_topic": [
+                "SQL keywords and commands",
+                "SQL data types",
+                "SQL operators",
+                "SQL functions"
+              ]
+            },
+            {
+              "topic": "Data Manipulation Language (DML)",
+              "sub_topic": [
+                "INSERT statement",
+                "UPDATE statement",
+                "DELETE statement",
+                "MERGE statement"
+              ]
+            },
+            {
+              "topic": "Data Query Language (DQL)",
+              "sub_topic": [
+                "SELECT statement",
+                "WHERE clause",
+                "ORDER BY clause",
+                "GROUP BY clause"
+              ]
+            },
+            {
+              "topic": "Data Definition Language (DDL)",
+              "sub_topic": [
+                "CREATE TABLE statement",
+                "ALTER TABLE statement",
+                "DROP TABLE statement",
+                "CREATE INDEX statement"
+              ]
+            },
+            {
+              "topic": "Advanced SQL Concepts",
+              "sub_topic": [
+                "Joins",
+                "Subqueries",
+                "Views",
+                "Stored procedures"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "SQL Queries and Operations",
+      "sub_categories": [
+        {
+          "sub_category": "Basic SQL Queries (SELECT, INSERT, UPDATE, DELETE)",
+          "topics": [
+            {
+              "topic": "SELECT Statement",
+              "sub_topic": [
+                "Syntax and Basic Usage",
+                "Selecting Specific Columns",
+                "Using WHERE Clause for Filtering",
+                "Sorting Results with ORDER BY Clause",
+                "Limiting Results with LIMIT Clause"
+              ]
+            },
+            {
+              "topic": "INSERT Statement",
+              "sub_topic": [
+                "Syntax and Basic Usage",
+                "Inserting Single and Multiple Rows",
+                "Using INSERT ... SELECT for Data Transfer",
+                "Handling Duplicate Keys and Auto-Increment"
+              ]
+            },
+            {
+              "topic": "UPDATE Statement",
+              "sub_topic": [
+                "Syntax and Basic Usage",
+                "Updating Multiple Rows Using WHERE Clause",
+                "Using SET Clause to Modify Columns",
+                "Handling NULL Values and Default Values"
+              ]
+            },
+            {
+              "topic": "DELETE Statement",
+              "sub_topic": [
+                "Syntax and Basic Usage",
+                "Deleting Single and Multiple Rows",
+                "Using WHERE Clause for Filtering",
+                "Cascading Deletes and Foreign Key Constraints"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Aggregate Functions (COUNT, SUM, AVG, etc.)",
+          "topics": [
+            {
+              "topic": "COUNT Function",
+              "sub_topic": [
+                "Counting Rows in a Table",
+                "Counting Distinct Values",
+                "Counting Occurrences"
+              ]
+            },
+            {
+              "topic": "SUM Function",
+              "sub_topic": [
+                "Adding Values in a Column",
+                "Ignoring Null Values",
+                "Using SUM with Group BY"
+              ]
+            },
+            {
+              "topic": "AVG Function",
+              "sub_topic": [
+                "Calculating Average Values",
+                "Handling Null Values",
+                "Using AVG with Group BY"
+              ]
+            },
+            {
+              "topic": "MIN and MAX Functions",
+              "sub_topic": [
+                "Finding Minimum and Maximum Values",
+                "Using MIN and MAX with Group BY",
+                "Null Handling"
+              ]
+            },
+            {
+              "topic": "Other Aggregate Functions",
+              "sub_topic": [
+                "STDEV and VARIANCE Functions",
+                "MEDIAN Function"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Joins (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN)",
+          "topics": [
+            {
+              "topic": "INNER JOIN",
+              "sub_topic": [
+                "Syntax and Usage",
+                "Example Queries",
+                "Benefits and Limitations",
+                "Performance Considerations"
+              ]
+            },
+            {
+              "topic": "LEFT JOIN",
+              "sub_topic": [
+                "Syntax and Usage",
+                "Example Queries",
+                "Benefits and Limitations",
+                "Performance Considerations"
+              ]
+            },
+            {
+              "topic": "RIGHT JOIN",
+              "sub_topic": [
+                "Syntax and Usage",
+                "Example Queries",
+                "Benefits and Limitations",
+                "Performance Considerations"
+              ]
+            },
+            {
+              "topic": "FULL JOIN",
+              "sub_topic": [
+                "Syntax and Usage",
+                "Example Queries",
+                "Benefits and Limitations",
+                "Performance Considerations"
+              ]
+            },
+            {
+              "topic": "Join Types Comparison",
+              "sub_topic": [
+                "Differences between INNER JOIN, LEFT JOIN, RIGHT JOIN, and FULL JOIN",
+                "When to use each type of join",
+                "Performance implications of different join types"
+              ]
+            },
+            {
+              "topic": "Advanced Join Techniques",
+              "sub_topic": [
+                "Using subqueries in joins",
+                "Self-joins",
+                "Using aliases with joins"
+              ]
+            },
+            {
+              "topic": "Troubleshooting Joins",
+              "sub_topic": [
+                "Common errors and how to fix them",
+                "Tips for optimizing join performance"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Subqueries and Nested Queries",
+          "topics": [
+            {
+              "topic": "Types of Subqueries",
+              "sub_topic": [
+                "Scalar subqueries",
+                "Table subqueries"
+              ]
+            },
+            {
+              "topic": "Using Subqueries in Queries",
+              "sub_topic": [
+                "Using scalar subqueries in the SELECT, WHERE, and HAVING clauses",
+                "Using table subqueries in the FROM and JOIN clauses"
+              ]
+            },
+            {
+              "topic": "Nested Queries",
+              "sub_topic": [
+                "Introduction to nested queries",
+                "Using nested queries to solve complex problems"
+              ]
+            },
+            {
+              "topic": "Performance Considerations for Subqueries and Nested Queries",
+              "sub_topic": [
+                "Optimizing subqueries for performance",
+                "Avoidance of unnecessary subqueries"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Grouping and Sorting (GROUP BY, ORDER BY)",
+          "topics": [
+            {
+              "topic": "GROUP BY",
+              "sub_topic": [
+                "Grouping Data into Subsets",
+                "Using Aggregate Functions with GROUP BY"
+              ]
+            },
+            {
+              "topic": "ORDER BY",
+              "sub_topic": [
+                "Sorting Query Results",
+                "Using Multiple ORDER BY Clauses"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Indexes",
+          "topics": [
+            {
+              "topic": "Index Basics",
+              "sub_topic": [
+                "What are indexes?",
+                "Types of indexes",
+                "Benefits of using indexes",
+                "When to use indexes",
+                "Limitations of indexes"
+              ]
+            },
+            {
+              "topic": "Creating and Managing Indexes",
+              "sub_topic": [
+                "Creating indexes",
+                "Dropping indexes",
+                "Altering indexes",
+                "Monitoring indexes",
+                "Best practices for creating and managing indexes"
+              ]
+            },
+            {
+              "topic": "Advanced Indexing Techniques",
+              "sub_topic": [
+                "Clustered and non-clustered indexes",
+                "Unique and primary key indexes",
+                "Full-text indexes",
+                "Spatial indexes",
+                "Bitmap indexes"
+              ]
+            },
+            {
+              "topic": "Performance Considerations",
+              "sub_topic": [
+                "How indexes affect query performance",
+                "Index fragmentation",
+                "Index maintenance",
+                "Troubleshooting index-related performance issues"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Views and Materialized Views",
+          "topics": [
+            {
+              "topic": "Views",
+              "sub_topic": [
+                "Creating Views",
+                "Updating Views",
+                "Dropping Views",
+                "Using Views in Queries",
+                "Advantages and Disadvantages of Views"
+              ]
+            },
+            {
+              "topic": "Materialized Views",
+              "sub_topic": [
+                "Creating Materialized Views",
+                "Refreshing Materialized Views",
+                "Dropping Materialized Views",
+                "Using Materialized Views in Queries",
+                "Advantages and Disadvantages of Materialized Views"
+              ]
+            },
+            {
+              "topic": "Comparison of Views and Materialized Views",
+              "sub_topic": [
+                "Definition and Purpose",
+                "Implementation and Storage",
+                "Performance Considerations",
+                "Use Cases and Best Practices"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Stored Procedures and Functions",
+          "topics": [
+            {
+              "topic": "Stored Procedures",
+              "sub_topic": [
+                "Creating Stored Procedures",
+                "Using Parameters in Stored Procedures",
+                "Calling Stored Procedures",
+                "Modifying Data with Stored Procedures",
+                "Error Handling in Stored Procedures"
+              ]
+            },
+            {
+              "topic": "Functions",
+              "sub_topic": [
+                "Creating Functions",
+                "Using Parameters in Functions",
+                "Calling Functions",
+                "Returning Values from Functions",
+                "Error Handling in Functions"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Triggers",
+          "topics": [
+            {
+              "topic": "Triggers",
+              "sub_topic": [
+                "Creating Triggers",
+                "Updating Triggers",
+                "Deleting Triggers",
+                "Trigger Execution Order",
+                "Trigger Syntax",
+                "Trigger Event Types",
+                "Using Triggers for Data Security",
+                "Using Triggers for DataIntegrity",
+                "Using Triggers for Auditing",
+                "Trigger Performance Considerations",
+                "BestPractices for Using Triggers"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Database Design",
+      "sub_categories": [
+        {
+          "sub_category": "Normalization (1NF, 2NF, 3NF, BCNF)",
+          "topics": [
+            {
+              "topic": "1NF (First Normal Form)",
+              "sub_topic": [
+                "Definition and rules",
+                "Benefits of 1NF",
+                "Normalization to 1NF"
+              ]
+            },
+            {
+              "topic": "2NF (Second Normal Form)",
+              "sub_topic": [
+                "Definition and rules",
+                "Benefits of 2NF",
+                "Normalization to 2NF"
+              ]
+            },
+            {
+              "topic": "3NF (Third Normal Form)",
+              "sub_topic": [
+                "Definition and rules",
+                "Benefits of 3NF",
+                "Normalization to 3NF"
+              ]
+            },
+            {
+              "topic": "BCNF (Boyce-Codd Normal Form)",
+              "sub_topic": [
+                "Definition and rules",
+                "Benefits of BCNF",
+                "Normalization to BCNF"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Denormalization",
+          "topics": [
+            {
+              "topic": "Denormalization Techniques",
+              "sub_topic": [
+                "Create Derived Tables",
+                "Copy Data to Another Table",
+                "Add Redundant Data",
+                "Remove Parent-Child Joins"
+              ]
+            },
+            {
+              "topic": "Benefits of Denormalization",
+              "sub_topic": [
+                "Improved Query Performance",
+                "Simplified Data Structures",
+                "Reduced Join Operations"
+              ]
+            },
+            {
+              "topic": "Drawbacks of Denormalization",
+              "sub_topic": [
+                "Data Redundancy",
+                "Increased Storage Requirements",
+                "Data Integrity Issues"
+              ]
+            },
+            {
+              "topic": "When to Denormalize",
+              "sub_topic": [
+                "Frequent Queries Involving the Same Data",
+                "Complex Data Relationships",
+                "Data Integrity is Not a Major Concern"
+              ]
+            },
+            {
+              "topic": "When Not to Denormalize",
+              "sub_topic": [
+                "Data Integrity is Paramount",
+                "Data Changes Frequently",
+                "Tables are Subject to Frequent Modifications"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Relational Schema Design",
+          "topics": [
+            {
+              "topic": "Normalization",
+              "sub_topic": [
+                "First Normal Form (1NF)",
+                "Second Normal Form (2NF)",
+                "Third Normal Form (3NF)",
+                "Boyce-Codd Normal Form (BCNF)"
+              ]
+            },
+            {
+              "topic": "Entity Relationship Modeling (ERM)",
+              "sub_topic": [
+                "Entities and Attributes",
+                "Relationships and Cardinality",
+                "Entity Relationship Diagrams (ERDs)",
+                "Converting ERDs to Relational Schemas"
+              ]
+            },
+            {
+              "topic": "Data Types and Constraints",
+              "sub_topic": [
+                "Data Types (e.g., integer, string, date)",
+                "Constraints (e.g., primary key, foreign key, unique)",
+                "Default Values and Null Values"
+              ]
+            },
+            {
+              "topic": "Schema Design Patterns",
+              "sub_topic": [
+                "Star Schema",
+                "Snowflake Schema",
+                "Fact and Dimension Tables"
+              ]
+            },
+            {
+              "topic": "Database Integrity",
+              "sub_topic": [
+                "Referential Integrity",
+                "Data Validation",
+                "Transaction Management"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Entity-Relationship (ER) Diagrams",
+          "topics": [
+            {
+              "topic": "ER Diagram Basics",
+              "sub_topic": [
+                "Purpose and Benefits of ER Diagrams",
+                "ER Diagram Components and Notation",
+                "Types of ER Diagrams: Crow's Foot, Chen, and Extended"
+              ]
+            },
+            {
+              "topic": "Entity Types and Relationships",
+              "sub_topic": [
+                "Identifying Entities and Their Attributes",
+                "Different Types of Relationships: One-to-One, One-to-Many, Many-to-Many",
+                "Cardinality and Optionality in Relationships"
+              ]
+            },
+            {
+              "topic": "Advanced ER Diagram Concepts",
+              "sub_topic": [
+                "Generalization and Specialization (Inheritance)",
+                "Aggregation and Composition (Object-Oriented Modeling)",
+                "Weak Entities and Identifying Relationships"
+              ]
+            },
+            {
+              "topic": "ER Diagram Design Techniques",
+              "sub_topic": [
+                "Normalization: First, Second, and Third Normal Forms (NF)",
+                "Data Warehousing and Dimensional Modeling",
+                "Role Modeling for Business Process Analysis"
+              ]
+            },
+            {
+              "topic": "ER Diagram Tools and Software",
+              "sub_topic": [
+                "Popular ER Diagram Software: Visio, ERwin, DbSchema",
+                "Cloud-Based ER Diagram Tools",
+                "Best Practices for Using ER Diagram Tools"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Transactions and Concurrency Control",
+      "sub_categories": [
+        {
+          "sub_category": "ACID Properties",
+          "topics": [
+            {
+              "topic": "Atomicity",
+              "sub_topic": [
+                "Atomic execution",
+                "All-or-nothing property"
+              ]
+            },
+            {
+              "topic": "Consistency",
+              "sub_topic": [
+                "State transitions",
+                "Enforcement of constraints"
+              ]
+            },
+            {
+              "topic": "Isolation",
+              "sub_topic": [
+                "Concurrent execution",
+                "Non-interference",
+                "Serializable execution"
+              ]
+            },
+            {
+              "topic": "Durability",
+              "sub_topic": [
+                "Permanent storage",
+                "Recovery from failures"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Transaction Management",
+          "topics": [
+            {
+              "topic": "Transaction Management Concepts",
+              "sub_topic": [
+                "Definition of a transaction",
+                "Transaction properties (ACID), Transaction states, System and user transactions"
+              ]
+            },
+            {
+              "topic": "Concurrency Control",
+              "sub_topic": [
+                "Interference, Different types of locks, Lock escalation, Deadlocks"
+              ]
+            },
+            {
+              "topic": "Transaction Recovery",
+              "sub_topic": [
+                "Transaction log, Recovery techniques"
+              ]
+            },
+            {
+              "topic": "Database Backup and Recovery",
+              "sub_topic": [
+                "Backup types, Recovery techniques"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Concurrency Control Techniques",
+          "topics": [
+            {
+              "topic": "Timestamp Ordering",
+              "sub_topic": [
+                "Timestamp-Based Concurrency Control",
+                "Timestamp Ordering Protocol"
+              ]
+            },
+            {
+              "topic": "Multi-Version Concurrency Control",
+              "sub_topic": [
+                "Multi-Version Timestamp Ordering",
+                "Snapshot Isolation"
+              ]
+            },
+            {
+              "topic": "Lock-Based Concurrency Control",
+              "sub_topic": [
+                "Two-Phase Locking",
+                "Optimistic Concurrency Control",
+                "Deadlock Prevention and Detection"
+              ]
+            },
+            {
+              "topic": "Time-Stamp Ordering Concurrency Control",
+              "sub_topic": [
+                "Read Committed and Serializable Isolation Levels",
+                "Concurrency Control in SQL Server",
+                "Concurrency Control in Oracle"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Locking Mechanisms",
+          "topics": [
+            {
+              "topic": "Locking Mechanisms",
+              "sub_topic": [
+                "Overview of Locking Mechanisms",
+                "Types of Locking Mechanisms",
+                "Lock Compatibility and Granularity",
+                "Lock Management Techniques",
+                "Deadlock Handling and Recovery",
+                "Two-Phase Locking (2PL)",
+                "Timestamp-Based Concurrency Control",
+                "Optimistic Concurrency Control",
+                "Multi-Version Concurrency Control (MVCC)",
+                "Performance Considerations and Scalability"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Deadlock Handling",
+          "topics": [
+            {
+              "topic": "Deadlock Detection",
+              "sub_topic": [
+                "Timestamp Ordering",
+                "Wait-for Graph",
+                "Resource Allocation Graph"
+              ]
+            },
+            {
+              "topic": "Deadlock Prevention",
+              "sub_topic": [
+                "Mutual Exclusion",
+                "Hold and Wait",
+                "Wound-Wait"
+              ]
+            },
+            {
+              "topic": "Deadlock Avoidance",
+              "sub_topic": [
+                "Banker's Algorithm",
+                "Resource Ordering"
+              ]
+            },
+            {
+              "topic": "Deadlock Recovery",
+              "sub_topic": [
+                "Process Termination",
+                "Resource Preemption",
+                "Rollback"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Database Indexing and Optimization",
+      "sub_categories": [
+        {
+          "sub_category": "Indexing Techniques",
+          "topics": [
+            {
+              "topic": "Single-Value Indexes",
+              "sub_topic": [
+                "Definition and purpose",
+                "Advantages and disadvantages",
+                "Data types supported",
+                "Examples"
+              ]
+            },
+            {
+              "topic": "Multi-Value Indexes",
+              "sub_topic": [
+                "Definition and purpose",
+                "Advantages and disadvantages",
+                "Data types supported",
+                "Examples"
+              ]
+            },
+            {
+              "topic": "Composite Indexes",
+              "sub_topic": [
+                "Definition and purpose",
+                "Advantages and disadvantages",
+                "Best practices for creating",
+                "Examples"
+              ]
+            },
+            {
+              "topic": "Clustered Indexes",
+              "sub_topic": [
+                "Definition and purpose",
+                "Advantages and disadvantages",
+                "Considerations for creating",
+                "Examples"
+              ]
+            },
+            {
+              "topic": "Covered Indexes",
+              "sub_topic": [
+                "Definition and purpose",
+                "Advantages and disadvantages",
+                "Considerations for creating",
+                "Examples"
+              ]
+            },
+            {
+              "topic": "Sparse Indexes",
+              "sub_topic": [
+                "Definition and purpose",
+                "Advantages and disadvantages",
+                "Considerations for creating",
+                "Examples"
+              ]
+            },
+            {
+              "topic": "Hash Indexes",
+              "sub_topic": [
+                "Definition and purpose",
+                "Advantages and disadvantages",
+                "Considerations for creating",
+                "Examples"
+              ]
+            },
+            {
+              "topic": "Bitmap Indexes",
+              "sub_topic": [
+                "Definition and purpose",
+                "Advantages and disadvantages",
+                "Considerations for creating",
+                "Examples"
+              ]
+            },
+            {
+              "topic": "Full-Text Indexes",
+              "sub_topic": [
+                "Definition and purpose",
+                "Advantages and disadvantages",
+                "Considerations for creating",
+                "Examples"
+              ]
+            },
+            {
+              "topic": "Spatial Indexes",
+              "sub_topic": [
+                "Definition and purpose",
+                "Advantages and disadvantages",
+                "Considerations for creating",
+                "Examples"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "B-trees and Hash Indexes",
+          "topics": [
+            {
+              "topic": "B-Trees",
+              "sub_topic": [
+                "Structure and Properties",
+                "Insertion and Deletion",
+                "Range Queries and Search Optimization",
+                "Performance Considerations and Tuning"
+              ]
+            },
+            {
+              "topic": "Hash Indexes",
+              "sub_topic": [
+                "Basics and Implementation",
+                "Hash Function Selection and Collision Handling",
+                "Performance Characteristics and Limitations",
+                "Applications and Use Cases"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Query Optimization",
+          "topics": [
+            {
+              "topic": "Query Optimization Techniques",
+              "sub_topic": [
+                "Predicate Pushdown",
+                "Index Selection",
+                "Join Ordering",
+                "Eliminating Unnecessary Operations",
+                "Cardinality Estimation"
+              ]
+            },
+            {
+              "topic": "Query Tuning Tools",
+              "sub_topic": [
+                "EXPLAIN and EXPLAIN ANALYZE",
+                "Query Profilers",
+                "Database Monitoring Tools"
+              ]
+            },
+            {
+              "topic": "Advanced Query Optimization",
+              "sub_topic": [
+                "Cost-Based Optimization",
+                "Adaptive Query Execution",
+                "Parallel Query Execution"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Database Performance Tuning",
+          "topics": [
+            {
+              "topic": "Database Normalization",
+              "sub_topic": [
+                "Denormalization and Optimized Query Execution",
+                "Normalization and Avoiding Data Redundancy"
+              ]
+            },
+            {
+              "topic": "Query Optimization",
+              "sub_topic": [
+                "Query Execution Plans",
+                "Query Tuning Tools",
+                "Join Optimization"
+              ]
+            },
+            {
+              "topic": "Database Indexing",
+              "sub_topic": [
+                "Types of Indexes",
+                "B-Tree Indexing",
+                "Hash Indexing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "NoSQL Databases",
+      "sub_categories": [
+        {
+          "sub_category": "Introduction to NoSQL",
+          "topics": [
+            {
+              "topic": "Introduction to NoSQL",
+              "sub_topic": [
+                "What is NoSQL?",
+                "Why NoSQL?",
+                "Different Types of NoSQL Databases",
+                "CAP Theorem"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Types of NoSQL Databases (Document, Columnar, Graph, Key-Value)",
+          "topics": [
+            {
+              "topic": "Document Databases",
+              "sub_topic": [
+                "MongoDB",
+                "CouchDB",
+                "RavenDB",
+                "OrientDB"
+              ]
+            },
+            {
+              "topic": "Columnar Databases",
+              "sub_topic": [
+                "Cassandra",
+                "HBase",
+                "Vertica",
+                "ScyllaDB"
+              ]
+            },
+            {
+              "topic": "Graph Databases",
+              "sub_topic": [
+                "Neo4j",
+                "Titan",
+                "InfiniteGraph",
+                "AllegroGraph"
+              ]
+            },
+            {
+              "topic": "Key-Value Databases",
+              "sub_topic": [
+                "Redis",
+                "Memcached",
+                "DynamoDB",
+                "Aerospike"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "CAP Theorem",
+          "topics": [
+            {
+              "topic": "CAP Theorem Overview",
+              "sub_topic": [
+                "Definition of CAP Theorem",
+                "Implications of CAP Theorem",
+                "Trade-offs of CAP Theorem"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "MongoDB",
+          "topics": [
+            {
+              "topic": "Introduction to MongoDB",
+              "sub_topic": [
+                "Overview",
+                "Key features",
+                "Benefits",
+                "Use cases"
+              ]
+            },
+            {
+              "topic": "Data Modeling in MongoDB",
+              "sub_topic": [
+                "Document-oriented data model",
+                "Collections and documents",
+                "Schema design",
+                "Data types"
+              ]
+            },
+            {
+              "topic": "MongoDB Query Language (MQL)",
+              "sub_topic": [
+                "Basic query operators",
+                "Advanced query operators",
+                "Aggregation pipeline",
+                "Indexing"
+              ]
+            },
+            {
+              "topic": "MongoDB Performance and Scaling",
+              "sub_topic": [
+                "Performance optimization techniques",
+                "Replication and sharding",
+                "High availability and disaster recovery"
+              ]
+            },
+            {
+              "topic": "MongoDB Administration and Management",
+              "sub_topic": [
+                "Installation and setup",
+                "Configuration",
+                "Monitoring and troubleshooting",
+                "Backups and recovery"
+              ]
+            },
+            {
+              "topic": "Advanced MongoDB Features",
+              "sub_topic": [
+                "Geospatial queries",
+                "Text search",
+                "Time-series data storage",
+                "Change streams"
+              ]
+            },
+            {
+              "topic": "MongoDB Applications and Integrations",
+              "sub_topic": [
+                "Web development",
+                "Mobile applications",
+                "Data analytics",
+                "Cloud computing"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Cassandra",
+          "topics": [
+            {
+              "topic": "Introduction to Apache Cassandra",
+              "sub_topic": [
+                "What is Cassandra?",
+                "History of Cassandra",
+                "Core concepts of Cassandra"
+              ]
+            },
+            {
+              "topic": "Architecture of Cassandra",
+              "sub_topic": [
+                "Cluster architecture",
+                "Data model",
+                "READ and WRITE operations"
+              ]
+            },
+            {
+              "topic": "Apache Cassandra Query Language (CQL)",
+              "sub_topic": [
+                "Overview of CQL",
+                "Data manipulation language (DML)",
+                "Data query language (DQL)"
+              ]
+            },
+            {
+              "topic": "Cassandra Use Cases",
+              "sub_topic": [
+                "E-commerce",
+                "Social media",
+                "Finance",
+                "Telecommunications",
+                "Gaming"
+              ]
+            },
+            {
+              "topic": "Cassandra Performance Optimization",
+              "sub_topic": [
+                "Tuning Cassandra performance",
+                "Scaling Cassandra",
+                "Best practices for Cassandra performance"
+              ]
+            },
+            {
+              "topic": "Cassandra Security",
+              "sub_topic": [
+                "Authentication and authorization in Cassandra",
+                "Securing data in Cassandra"
+              ]
+            },
+            {
+              "topic": "Cassandra Ecosystem",
+              "sub_topic": [
+                "Cassandra drivers",
+                "Cassandra tools",
+                "Cassandra integrations"
+              ]
+            },
+            {
+              "topic": "Advanced Cassandra Topics",
+              "sub_topic": [
+                "Cassandra transactions",
+                "Cassandra materialized views",
+                "Cassandra secondary indexes"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Redis",
+          "topics": [
+            {
+              "topic": "Redis Basics",
+              "sub_topic": [
+                "What is Redis?",
+                "Redis Data Structures",
+                "Redis Commands"
+              ]
+            },
+            {
+              "topic": "Redis Performance",
+              "sub_topic": [
+                "Redis Performance Optimization",
+                "Redis Benchmarking"
+              ]
+            },
+            {
+              "topic": "Redis Replication",
+              "sub_topic": [
+                "Redis Replication Basics",
+                "Redis Sentinel",
+                "Redis Cluster"
+              ]
+            },
+            {
+              "topic": "Redis Persistence",
+              "sub_topic": [
+                "Redis Persistence Options",
+                "Redis AOF",
+                "Redis RDB"
+              ]
+            },
+            {
+              "topic": "Redis Security",
+              "sub_topic": [
+                "Redis Security Best Practices",
+                "Redis Authentication",
+                "Redis Authorization"
+              ]
+            },
+            {
+              "topic": "Redis Use Cases",
+              "sub_topic": [
+                "Redis Caching",
+                "Redis Pub/Sub",
+                "Redis Session Management"
+              ]
+            },
+            {
+              "topic": "Advanced Redis",
+              "sub_topic": [
+                "Redis Lua Scripting",
+                "Redis Modules",
+                "Redis Time Series"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Distributed Databases",
+      "sub_categories": [
+        {
+          "sub_category": "Distributed Database Concepts",
+          "topics": [
+            {
+              "topic": "Introduction to Distributed Databases",
+              "sub_topic": [
+                "Definition and Overview",
+                "Benefits and Drawbacks of Distributed Databases",
+                "Types of Distributed Databases (e.g., Sharding, Replication)"
+              ]
+            },
+            {
+              "topic": "Data Partitioning and Replication",
+              "sub_topic": [
+                "Horizontal Partitioning (Sharding)",
+                "Vertical Partitioning",
+                "Replication Techniques (e.g., Synchronous, Asynchronous)"
+              ]
+            },
+            {
+              "topic": "Data Consistency and Transactions",
+              "sub_topic": [
+                "Data Consistency Models (e.g., ACID, BASE)",
+                "Transaction Management in Distributed Systems",
+                "Distributed Concurrency Control (e.g., Two-Phase Commit)"
+              ]
+            },
+            {
+              "topic": "Fault Tolerance and High Availability",
+              "sub_topic": [
+                "Replication and Data Mirroring",
+                "Load Balancing and Failover",
+                "Disaster Recovery and Business Continuity"
+              ]
+            },
+            {
+              "topic": "Query Processing and Optimization",
+              "sub_topic": [
+                "Query Execution Plans",
+                "Distributed Query Optimization",
+                "Data Locality and Join Strategies"
+              ]
+            },
+            {
+              "topic": "Scalability and Performance",
+              "sub_topic": [
+                "Horizontal Scaling and Vertical Scaling",
+                "Performance Tuning and Benchmarking",
+                "Caching and Data Compression"
+              ]
+            },
+            {
+              "topic": "Security and Compliance",
+              "sub_topic": [
+                "Data Encryption and Access Control",
+                "Authentication and Authorization",
+                "Data Privacy and Compliance Regulations"
+              ]
+            },
+            {
+              "topic": "Applications and Use Cases",
+              "sub_topic": [
+                "E-commerce and Online Transaction Processing",
+                "Social Media and Big Data Analytics",
+                "Cloud Computing and SaaS Applications"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Replication and Sharding",
+          "topics": [
+            {
+              "topic": "Concepts of Replication",
+              "sub_topic": [
+                "Introduction to Data Replication",
+                "Types of Data Replication (Synchronous, Asynchronous)",
+                "Advantages and Disadvantages of Replication"
+              ]
+            },
+            {
+              "topic": "Master-Slave Replication",
+              "sub_topic": [
+                "Architecture and Components of Master-Slave Replication",
+                "Configuration and Setup of Master-Slave Replication",
+                "Data Synchronization and Consistency in Master-Slave Replication"
+              ]
+            },
+            {
+              "topic": "Multi-Master Replication",
+              "sub_topic": [
+                "Architecture and Benefits of Multi-Master Replication",
+                "Challenges and Considerations in Multi-Master Replication",
+                "Conflict Resolution and Data Integrity in Multi-Master Replication"
+              ]
+            },
+            {
+              "topic": "Sharding Techniques",
+              "sub_topic": [
+                "Concepts of Data Sharding",
+                "Horizontal Sharding vs Vertical Sharding",
+                "Partitioning and Load Balancing in Sharding"
+              ]
+            },
+            {
+              "topic": "Shard Key Management",
+              "sub_topic": [
+                "Principles and Strategies for Shard Key Selection",
+                "Data Distribution and Load Balancing with Shard Keys",
+                "Techniques for Managing Shard Key Changes and Rebalancing"
+              ]
+            },
+            {
+              "topic": "Performance Considerations",
+              "sub_topic": [
+                "Optimizing Read and Write Performance in Replicated Systems",
+                "Latency and Data Consistency Trade-offs in Sharded Databases",
+                "Scaling and Availability Strategies for Distributed Databases"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "CAP Theorem in Distributed Databases",
+          "topics": [
+            {
+              "topic": "Concepts",
+              "sub_topic": [
+                "Consistency",
+                "Availability",
+                "Partition Tolerance"
+              ]
+            },
+            {
+              "topic": "CAP Theorem",
+              "sub_topic": [
+                "Formal Statement",
+                "Implications"
+              ]
+            },
+            {
+              "topic": "Trade-offs in CAP",
+              "sub_topic": [
+                "Choosing the Right CAP Model",
+                "Optimizing for Specific Requirements"
+              ]
+            },
+            {
+              "topic": "Applications of CAP Theorem",
+              "sub_topic": [
+                "Wide-Area Replication Systems",
+                "Cloud Computing",
+                "Mobile Computing"
+              ]
+            },
+            {
+              "topic": "CAP and NewSQL",
+              "sub_topic": [
+                "Relaxed Consistency Models",
+                "Eventual Consistency",
+                "Hybrid CAP Systems"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Consistency and Availability Models",
+          "topics": [
+            {
+              "topic": "Consistency Models",
+              "sub_topic": [
+                "Strong Consistency",
+                "Eventual Consistency",
+                "Monotonic Read Consistency",
+                "Read-Your-Own-Write Consistency",
+                "Causal Consistency",
+                "Linearizability"
+              ]
+            },
+            {
+              "topic": "Availability Models",
+              "sub_topic": [
+                "High Availability",
+                "Always-On Availability",
+                "Fault Tolerance",
+                "Disaster Recovery",
+                "Replication",
+                "Load Balancing"
+              ]
+            },
+            {
+              "topic": "Trade-offs",
+              "sub_topic": [
+                "CAP Theorem",
+                "ACID vs. BASE",
+                "Tuning for Performance and Reliability",
+                "Choosing the Right Model for Your Application"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Database Security",
+      "sub_categories": [
+        {
+          "sub_category": "Authentication and Authorization",
+          "topics": [
+            {
+              "topic": "Authentication Methods",
+              "sub_topic": [
+                "Password-based Authentication",
+                "Token-based Authentication",
+                "Biometric Authentication"
+              ]
+            },
+            {
+              "topic": "Authorization Models",
+              "sub_topic": [
+                "Role-Based Access Control (RBAC)",
+                "Attribute-Based Access Control (ABAC)",
+                "Rule-Based Access Control (RBAC)"
+              ]
+            },
+            {
+              "topic": "Identity Management",
+              "sub_topic": [
+                "User Provisioning and Management",
+                "Single Sign-On (SSO)",
+                "Federated Identity Management"
+              ]
+            },
+            {
+              "topic": "Access Control Lists (ACLs)",
+              "sub_topic": [
+                "Types of ACLs",
+                "Managing ACLs",
+                "Best Practices for Using ACLs"
+              ]
+            },
+            {
+              "topic": "Auditing and Monitoring",
+              "sub_topic": [
+                "Logging and Auditing",
+                "Security Information and Event Management (SIEM)",
+                "Security Monitoring Tools"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Encryption and Decryption",
+          "topics": [
+            {
+              "topic": "Encryption Methods",
+              "sub_topic": [
+                "Symmetric Encryption",
+                "Asymmetric Encryption",
+                "Hashing"
+              ]
+            },
+            {
+              "topic": "Key Management",
+              "sub_topic": [
+                "Key Generation",
+                "Key Storage",
+                "Key Distribution"
+              ]
+            },
+            {
+              "topic": "Encryption and Decryption Algorithms",
+              "sub_topic": [
+                "AES",
+                "DES",
+                "RSA",
+                "ECC"
+              ]
+            },
+            {
+              "topic": "Best Practices for Encryption",
+              "sub_topic": [
+                "Secure Key Management Practices",
+                "Data Encryption at Rest",
+                "Data Encryption in Transit",
+                "Encryption for Sensitive Data"
+              ]
+            },
+            {
+              "topic": "Encryption Tools and Technologies",
+              "sub_topic": [
+                "Database Encryption Software",
+                "Encryption Appliances",
+                "Transparent Data Encryption"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "SQL Injection Prevention",
+          "topics": [
+            {
+              "topic": "Input Validation",
+              "sub_topic": [
+                "Use Prepared Statements",
+                "Use Parameterized Queries",
+                "Use Type Checking",
+                "Use Input Filtering"
+              ]
+            },
+            {
+              "topic": "Query Parameterization",
+              "sub_topic": [
+                "Use Prepared Statements",
+                "Use Parameterized Queries",
+                "Use Stored Procedures"
+              ]
+            },
+            {
+              "topic": "Input Filtering",
+              "sub_topic": [
+                "Use Whitelists",
+                "Use Blacklists",
+                "Use Regular Expressions",
+                "Use Encoding"
+              ]
+            },
+            {
+              "topic": "Secure Coding Practices",
+              "sub_topic": [
+                "Use Secure Coding Practices",
+                "Follow Secure Coding Standards",
+                "Use Code Review"
+              ]
+            },
+            {
+              "topic": "Threat Modeling",
+              "sub_topic": [
+                "Identify Threats",
+                "Mitigate Threats",
+                "Monitor Threats"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Backup and Recovery Techniques",
+          "topics": [
+            {
+              "topic": "Backup Techniques",
+              "sub_topic": [
+                "Full backups",
+                "Incremental backups",
+                "Differential backups",
+                "Log backups",
+                "Cloud backups"
+              ]
+            },
+            {
+              "topic": "Recovery Techniques",
+              "sub_topic": [
+                "Restoring from a full backup",
+                "Restoring from an incremental backup",
+                "Restoring from a differential backup",
+                "Restoring from a log backup",
+                "Point-in-time recovery",
+                "Failover and disaster recovery"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Database Administration",
+      "sub_categories": [
+        {
+          "sub_category": "Database Backup and Recovery",
+          "topics": [
+            {
+              "topic": "Backup Best Practices",
+              "sub_topic": [
+                "Frequency and scheduling",
+                "Types of backups (full, incremental, differential)",
+                "Backup storage and retention"
+              ]
+            },
+            {
+              "topic": "Recovery Strategies",
+              "sub_topic": [
+                "Disaster recovery plans",
+                "Point-in-time recovery",
+                "Recovery to a different environment"
+              ]
+            },
+            {
+              "topic": "Backup Tools and Technologies",
+              "sub_topic": [
+                "Database-native backup tools",
+                "Third-party backup software",
+                "Cloud-based backup services"
+              ]
+            },
+            {
+              "topic": "Monitoring and Automation",
+              "sub_topic": [
+                "Backup job monitoring and alerting",
+                "Automated backup and recovery scripts",
+                "Integration with monitoring tools"
+              ]
+            },
+            {
+              "topic": "Database Backup and Recovery for Specific DBMS",
+              "sub_topic": [
+                "Oracle",
+                "MySQL",
+                "SQL Server",
+                "PostgreSQL"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Database Replication",
+          "topics": [
+            {
+              "topic": "Types of Database Replication",
+              "sub_topic": [
+                "Log-based replication",
+                "Snapshot-based replication",
+                "Transactional replication"
+              ]
+            },
+            {
+              "topic": "Benefits of Database Replication",
+              "sub_topic": [
+                "Improved data availability",
+                "Increased data redundancy",
+                "Enhanced performance",
+                "Reduced data loss risk"
+              ]
+            },
+            {
+              "topic": "Challenges of Database Replication",
+              "sub_topic": [
+                "Complexity of configuration and management",
+                "Potential for data inconsistency",
+                "Performance overhead",
+                "Security concerns"
+              ]
+            },
+            {
+              "topic": "Best Practices for Database Replication",
+              "sub_topic": [
+                "Define clear replication goals",
+                "Choose the appropriate replication technology",
+                "Configure replication correctly",
+                "Monitor replication regularly",
+                "Test replication failover"
+              ]
+            },
+            {
+              "topic": "Tools for Database Replication",
+              "sub_topic": [
+                "Database replication software",
+                "Database management systems",
+                "Cloud-based replication services"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Database Security and Access Control",
+          "topics": [
+            {
+              "topic": "Authentication and Authorization",
+              "sub_topic": [
+                "Password management and complexity",
+                "Multi-factor authentication",
+                "Role-based access control (RBAC)",
+                "Access control lists (ACLs)",
+                "Encryption and decryption",
+                "Authentication methods (LDAP, Kerberos, etc.)"
+              ]
+            },
+            {
+              "topic": "Data Masking and Anonymization",
+              "sub_topic": [
+                "Data masking techniques",
+                "Data anonymization techniques",
+                "Data de-identification",
+                "Data tokenization",
+                "Data pseudonymization",
+                "Data encryption and decryption"
+              ]
+            },
+            {
+              "topic": "Vulnerability Management and Patching",
+              "sub_topic": [
+                "Database vulnerability scanning",
+                "Database patching and updates",
+                "Vulnerability assessment and remediation",
+                "Security patches and hotfixes",
+                "Database hardening and configuration"
+              ]
+            },
+            {
+              "topic": "Security Auditing and Logging",
+              "sub_topic": [
+                "Database auditing and logging",
+                "Log analysis and monitoring",
+                "Security event monitoring and alerting",
+                "Compliance and regulatory reporting",
+                "Forensic analysis and investigation"
+              ]
+            },
+            {
+              "topic": "Database Firewall and Intrusion Detection",
+              "sub_topic": [
+                "Database firewall configuration and management",
+                "Intrusion detection systems (IDS) for databases",
+                "Network security monitoring and analysis",
+                "Threat detection and mitigation",
+                "Security information and event management (SIEM)"
+              ]
+            },
+            {
+              "topic": "Disaster Recovery and Business Continuity",
+              "sub_topic": [
+                "Database backup and recovery strategies",
+                "Disaster recovery planning and testing",
+                "Business continuity planning",
+                "Data replication and high availability",
+                "Fault tolerance and redundancy"
+              ]
+            },
+            {
+              "topic": "Database Security Best Practices",
+              "sub_topic": [
+                "Security policies and procedures",
+                "Security awareness and training",
+                "Database security checklists and standards",
+                "Industry best practices and recommendations",
+                "Compliance and regulatory requirements"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Database Monitoring and Maintenance",
+          "topics": [
+            {
+              "topic": "Database Backup and Recovery",
+              "sub_topic": [
+                "Backup strategies",
+                "Recovery techniques",
+                "Disaster recovery plans",
+                "Data protection"
+              ]
+            },
+            {
+              "topic": "Performance Monitoring and Tuning",
+              "sub_topic": [
+                "Performance metrics",
+                "Query optimization",
+                "Index management",
+                "Database configuration"
+              ]
+            },
+            {
+              "topic": "Data Integrity and Consistency",
+              "sub_topic": [
+                "Data validation",
+                "Data scrubbing",
+                "Data quality management",
+                "Data governance"
+              ]
+            },
+            {
+              "topic": "Database Security and Auditing",
+              "sub_topic": [
+                "Access control",
+                "Data encryption",
+                "Vulnerability management",
+                "Security compliance"
+              ]
+            },
+            {
+              "topic": "Database Maintenance and Optimization",
+              "sub_topic": [
+                "Data reorganization",
+                "Database cleanup",
+                "Index maintenance",
+                "Database upgrades"
+              ]
+            },
+            {
+              "topic": "Monitoring Tools and Techniques",
+              "sub_topic": [
+                "Monitoring software",
+                "Data collection methods",
+                "Alerting and notification",
+                "Performance analysis"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Database Migration",
+          "topics": [
+            {
+              "topic": "Planning and Preparation",
+              "sub_topic": [
+                "Assessment and analysis of source and target database schemas",
+                "Identification and resolution of data compatibility issues",
+                "Development of a migration strategy and timeline"
+              ]
+            },
+            {
+              "topic": "Data Transformation and Migration",
+              "sub_topic": [
+                "Data extraction, transformation, and loading (ETL) techniques",
+                "Data cleansing and validation",
+                "Incremental data migration strategies"
+              ]
+            },
+            {
+              "topic": "Schema Migration",
+              "sub_topic": [
+                "Database object conversion and mapping",
+                "Schema comparison and synchronization tools",
+                "Handling data type and structure changes"
+              ]
+            },
+            {
+              "topic": "Data Integrity and Validation",
+              "sub_topic": [
+                "Data validation and verification techniques",
+                "Referential integrity enforcement",
+                "Data recovery and rollback plans"
+              ]
+            },
+            {
+              "topic": "Performance Optimization",
+              "sub_topic": [
+                "Database tuning and optimization for target systems",
+                "Index creation and optimization",
+                "Data distribution and sharding strategies"
+              ]
+            },
+            {
+              "topic": "Tools and Technologies",
+              "sub_topic": [
+                "Database migration tools and platforms",
+                "Data integration and transformation tools",
+                "Schema comparison and synchronization tools"
+              ]
+            },
+            {
+              "topic": "Best Practices and Considerations",
+              "sub_topic": [
+                "Vendor-specific migration strategies",
+                "Cloud migration considerations",
+                "Security and compliance implications"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Big Data and Data Warehousing",
+      "sub_categories": [
+        {
+          "sub_category": "Big Data Concepts",
+          "topics": [
+            {
+              "topic": "Big Data Characteristics",
+              "sub_topic": [
+                "Volume",
+                "Variety",
+                "Velocity",
+                "Veracity",
+                "Value"
+              ]
+            },
+            {
+              "topic": "Big Data Architecture",
+              "sub_topic": [
+                "Data Lake",
+                "Data Warehouse",
+                "Hadoop Ecosystem",
+                "Cloud-Based Big Data Solutions"
+              ]
+            },
+            {
+              "topic": "Big Data Analytics",
+              "sub_topic": [
+                "Predictive Analytics",
+                "Machine Learning",
+                "Deep Learning",
+                "Natural Language Processing"
+              ]
+            },
+            {
+              "topic": "Big Data Tools and Technologies",
+              "sub_topic": [
+                "Apache Hadoop",
+                "Spark",
+                "Hive",
+                "Pig",
+                "NoSQL Databases"
+              ]
+            },
+            {
+              "topic": "Big Data Applications",
+              "sub_topic": [
+                "Fraud Detection",
+                "Customer Segmentation",
+                "Risk Management",
+                "Supply Chain Management"
+              ]
+            },
+            {
+              "topic": "Big Data Governance and Security",
+              "sub_topic": [
+                "Data Privacy Regulations",
+                "Data Security Best Practices",
+                "Data Governance Frameworks"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Hadoop",
+          "topics": [
+            {
+              "topic": "Hadoop Ecosystem",
+              "sub_topic": [
+                "HDFS",
+                "MapReduce",
+                "YARN",
+                "Hive",
+                "HBase",
+                "ZooKeeper",
+                "Oozie",
+                "Pig",
+                "Sqoop",
+                "Flume"
+              ]
+            },
+            {
+              "topic": "Hadoop Distributions",
+              "sub_topic": [
+                "Apache Hadoop",
+                "Cloudera Distribution including Apache Hadoop (CDH)",
+                "Hortonworks Data Platform (HDP)",
+                "MapR Distribution for Hadoop (MDF)",
+                "Amazon Elastic MapReduce (EMR)"
+              ]
+            },
+            {
+              "topic": "Hadoop for Big Data Analytics",
+              "sub_topic": [
+                "Data Ingestion",
+                "Data Processing",
+                "Data Storage",
+                "Data Analysis",
+                "Data Visualization"
+              ]
+            },
+            {
+              "topic": "Hadoop in Cloud Computing",
+              "sub_topic": [
+                "Hadoop on AWS",
+                "Hadoop on Azure",
+                "Hadoop on GCP"
+              ]
+            },
+            {
+              "topic": "Advanced Hadoop Concepts",
+              "sub_topic": [
+                "Hadoop Security",
+                "Hadoop Performance Tuning",
+                "Hadoop High Availability",
+                "Hadoop Scalability",
+                "Hadoop Integration with Other Technologies"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Data Warehousing Concepts",
+          "topics": [
+            {
+              "topic": "Data Warehousing Concepts",
+              "sub_topic": [
+                "Data warehouse architecture",
+                "Data warehouse types",
+                "Data warehouse design",
+                "Data warehouse implementation",
+                "Data warehouse maintenance",
+                "Data warehouse security",
+                "Data warehouse performance tuning"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "ETL (Extract, Transform, Load)",
+          "topics": [
+            {
+              "topic": "ETL Process Overview",
+              "sub_topic": [
+                "Definition and Purpose of ETL",
+                "Phases of the ETL Process",
+                "Data Extraction Techniques",
+                "Data Transformation Methods",
+                "Data Loading Strategies"
+              ]
+            },
+            {
+              "topic": "ETL Design and Architecture",
+              "sub_topic": [
+                "Designing ETL Pipelines",
+                "Choosing the Right ETL Tools",
+                "Batch vs. Real-Time ETL Processing",
+                "Considerations for Scalability and Performance",
+                "Data Quality Control in ETL"
+              ]
+            },
+            {
+              "topic": "ETL Best Practices",
+              "sub_topic": [
+                "Data Validation and Error Handling",
+                "Data Deduplication and Cleansing",
+                "Metadata Management in ETL",
+                "Version Control and Data Lineage",
+                "Monitoring and Auditing ETL Processes"
+              ]
+            },
+            {
+              "topic": "Emerging Trends in ETL",
+              "sub_topic": [
+                "Cloud-Based ETL Platforms",
+                "Big Data ETL Challenges and Solutions",
+                "Artificial Intelligence and Machine Learning in ETL",
+                "Data Virtualization and ETL Optimization",
+                "The Future of ETL Technologies"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Data Lake",
+          "topics": [
+            {
+              "topic": "Data Lake Overview",
+              "sub_topic": [
+                "Definition and purpose of a data lake",
+                "Benefits and challenges of implementing a data lake",
+                "Use cases and examples of successful data lakes"
+              ]
+            },
+            {
+              "topic": "Data Ingestion and Management",
+              "sub_topic": [
+                "Techniques for data ingestion from various sources",
+                "Data cleansing, transformation, and harmonization",
+                "Data quality and governance practices in a data lake"
+              ]
+            },
+            {
+              "topic": "Data Storage and Access",
+              "sub_topic": [
+                "Storage formats and technologies used in data lakes",
+                "Data organization and partitioning strategies",
+                "Data access methods and tools for querying and retrieving data"
+              ]
+            },
+            {
+              "topic": "Data Analytics and Visualization",
+              "sub_topic": [
+                "Techniques and tools for data exploration and analysis",
+                "Data visualization and dashboards for insights discovery",
+                "Machine learning and AI applications on data lakes"
+              ]
+            },
+            {
+              "topic": "Data Governance and Security",
+              "sub_topic": [
+                "Data lineage and metadata management",
+                "Access control and authorization mechanisms",
+                "Data privacy and compliance considerations"
+              ]
+            },
+            {
+              "topic": "Data Lake Architecture and Best Practices",
+              "sub_topic": [
+                "Data lake architecture patterns and design principles",
+                "Scalability, performance, and cost optimization strategies",
+                "Best practices for data lake implementation and management"
+              ]
+            },
+            {
+              "topic": "Emerging Trends and Innovations",
+              "sub_topic": [
+                "Cloud-based data lakes and managed services",
+                "Data mesh and decentralized data architecture",
+                "Artificial intelligence and machine learning in data lakes"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

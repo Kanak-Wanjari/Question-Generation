@@ -1,0 +1,342 @@
+{
+    "categories": [
+      {
+        "category": "Core C++",
+        "sub_categories": [
+          {
+            "sub_category": "Basic Syntax",
+            "topics": []
+          },
+          {
+            "sub_category": "Data Types and Variables",
+            "topics": []
+          },
+          {
+            "sub_category": "Control Flow Statements",
+            "topics": []
+          },
+          {
+            "sub_category": "Functions",
+            "topics": []
+          },
+          {
+            "sub_category": "Arrays and Strings",
+            "topics": []
+          },
+          {
+            "sub_category": "Pointers and References",
+            "topics": []
+          },
+          {
+            "sub_category": "Memory Management",
+            "topics": []
+          },
+          {
+            "sub_category": "File Handling",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Object-Oriented Programming (OOP)",
+        "sub_categories": [
+          {
+            "sub_category": "Classes and Objects",
+            "topics": []
+          },
+          {
+            "sub_category": "Encapsulation",
+            "topics": []
+          },
+          {
+            "sub_category": "Inheritance",
+            "topics": []
+          },
+          {
+            "sub_category": "Polymorphism",
+            "topics": []
+          },
+          {
+            "sub_category": "Abstraction",
+            "topics": []
+          },
+          {
+            "sub_category": "Virtual Functions and Function Overriding",
+            "topics": []
+          },
+          {
+            "sub_category": "Friend Functions",
+            "topics": []
+          },
+          {
+            "sub_category": "Operator Overloading",
+            "topics": []
+          },
+          {
+            "sub_category": "Constructor and Destructor",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Advanced C++",
+        "sub_categories": [
+          {
+            "sub_category": "Templates",
+            "topics": []
+          },
+          {
+            "sub_category": "STL (Standard Template Library)",
+            "topics": []
+          },
+          {
+            "sub_category": "Exceptions and Exception Handling",
+            "topics": []
+          },
+          {
+            "sub_category": "Multithreading and Concurrency",
+            "topics": []
+          },
+          {
+            "sub_category": "Lambda Expressions",
+            "topics": []
+          },
+          {
+            "sub_category": "Smart Pointers",
+            "topics": []
+          },
+          {
+            "sub_category": "Move Semantics and Rvalue References",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "C++ Memory Management",
+        "sub_categories": [
+          {
+            "sub_category": "Dynamic Memory Allocation",
+            "topics": []
+          },
+          {
+            "sub_category": "Memory Leaks and Fixes",
+            "topics": []
+          },
+          {
+            "sub_category": "Memory Pool",
+            "topics": []
+          },
+          {
+            "sub_category": "Garbage Collection",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "C++ Standard Library",
+        "sub_categories": [
+          {
+            "sub_category": "I/O Streams",
+            "topics": []
+          },
+          {
+            "sub_category": "File Handling",
+            "topics": []
+          },
+          {
+            "sub_category": "Containers (Vector, Map, List, etc.)",
+            "topics": []
+          },
+          {
+            "sub_category": "Algorithms",
+            "topics": []
+          },
+          {
+            "sub_category": "Iterators",
+            "topics": []
+          },
+          {
+            "sub_category": "String Manipulation",
+            "topics": []
+          },
+          {
+            "sub_category": "Time and Date Functions",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "C++ Design Patterns",
+        "sub_categories": [
+          {
+            "sub_category": "Creational Patterns",
+            "topics": []
+          },
+          {
+            "sub_category": "Structural Patterns",
+            "topics": []
+          },
+          {
+            "sub_category": "Behavioral Patterns",
+            "topics": []
+          },
+          {
+            "sub_category": "Singleton Pattern",
+            "topics": []
+          },
+          {
+            "sub_category": "Factory Method Pattern",
+            "topics": []
+          },
+          {
+            "sub_category": "Observer Pattern",
+            "topics": []
+          },
+          {
+            "sub_category": "Strategy Pattern",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "C++ Networking",
+        "sub_categories": [
+          {
+            "sub_category": "Socket Programming",
+            "topics": []
+          },
+          {
+            "sub_category": "Client-Server Communication",
+            "topics": []
+          },
+          {
+            "sub_category": "TCP/IP Protocol",
+            "topics": []
+          },
+          {
+            "sub_category": "UDP Communication",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "C++ Templates and Generics",
+        "sub_categories": [
+          {
+            "sub_category": "Template Classes",
+            "topics": []
+          },
+          {
+            "sub_category": "Template Functions",
+            "topics": []
+          },
+          {
+            "sub_category": "Template Specialization",
+            "topics": []
+          },
+          {
+            "sub_category": "Variadic Templates",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "C++ Build and Development Tools",
+        "sub_categories": [
+          {
+            "sub_category": "Makefile",
+            "topics": []
+          },
+          {
+            "sub_category": "CMake",
+            "topics": []
+          },
+          {
+            "sub_category": "GDB Debugger",
+            "topics": []
+          },
+          {
+            "sub_category": "Profiling Tools",
+            "topics": []
+          },
+          {
+            "sub_category": "Unit Testing (Google Test)",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "C++ Web Development",
+        "sub_categories": [
+          {
+            "sub_category": "CGI (Common Gateway Interface)",
+            "topics": []
+          },
+          {
+            "sub_category": "RESTful APIs",
+            "topics": []
+          },
+          {
+            "sub_category": "WebSockets",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "C++ Game Development",
+        "sub_categories": [
+          {
+            "sub_category": "Game Loops",
+            "topics": []
+          },
+          {
+            "sub_category": "Collision Detection",
+            "topics": []
+          },
+          {
+            "sub_category": "Game Physics",
+            "topics": []
+          },
+          {
+            "sub_category": "Event Handling",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "C++ GUI Programming",
+        "sub_categories": [
+          {
+            "sub_category": "Qt Framework",
+            "topics": []
+          },
+          {
+            "sub_category": "wxWidgets",
+            "topics": []
+          },
+          {
+            "sub_category": "GTK+",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "C++ Security",
+        "sub_categories": [
+          {
+            "sub_category": "Cryptography",
+            "topics": []
+          },
+          {
+            "sub_category": "Secure Coding Practices",
+            "topics": []
+          },
+          {
+            "sub_category": "Access Control",
+            "topics": []
+          }
+        ]
+      }
+    ]
+  }
+  

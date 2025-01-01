@@ -1,0 +1,283 @@
+{
+    "categories": [
+      {
+        "category": "Database Fundamentals",
+        "sub_categories": [
+          {
+            "sub_category": "Introduction to Databases",
+            "topics": []
+          },
+          {
+            "sub_category": "Types of Databases (Relational, NoSQL, etc.)",
+            "topics": []
+          },
+          {
+            "sub_category": "Database Models",
+            "topics": []
+          },
+          {
+            "sub_category": "DBMS Architecture",
+            "topics": []
+          },
+          {
+            "sub_category": "Data Integrity and Constraints",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Relational Databases",
+        "sub_categories": [
+          {
+            "sub_category": "Relational Data Model",
+            "topics": []
+          },
+          {
+            "sub_category": "Keys (Primary, Foreign, Composite, Candidate)",
+            "topics": []
+          },
+          {
+            "sub_category": "Normalization",
+            "topics": []
+          },
+          {
+            "sub_category": "ER Models and Diagrams",
+            "topics": []
+          },
+          {
+            "sub_category": "SQL (Structured Query Language)",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "SQL Queries and Operations",
+        "sub_categories": [
+          {
+            "sub_category": "Basic SQL Queries (SELECT, INSERT, UPDATE, DELETE)",
+            "topics": []
+          },
+          {
+            "sub_category": "Aggregate Functions (COUNT, SUM, AVG, etc.)",
+            "topics": []
+          },
+          {
+            "sub_category": "Joins (INNER JOIN, LEFT JOIN, RIGHT JOIN, FULL JOIN)",
+            "topics": []
+          },
+          {
+            "sub_category": "Subqueries and Nested Queries",
+            "topics": []
+          },
+          {
+            "sub_category": "Grouping and Sorting (GROUP BY, ORDER BY)",
+            "topics": []
+          },
+          {
+            "sub_category": "Indexes",
+            "topics": []
+          },
+          {
+            "sub_category": "Views and Materialized Views",
+            "topics": []
+          },
+          {
+            "sub_category": "Stored Procedures and Functions",
+            "topics": []
+          },
+          {
+            "sub_category": "Triggers",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Database Design",
+        "sub_categories": [
+          {
+            "sub_category": "Normalization (1NF, 2NF, 3NF, BCNF)",
+            "topics": []
+          },
+          {
+            "sub_category": "Denormalization",
+            "topics": []
+          },
+          {
+            "sub_category": "Relational Schema Design",
+            "topics": []
+          },
+          {
+            "sub_category": "Entity-Relationship (ER) Diagrams",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Transactions and Concurrency Control",
+        "sub_categories": [
+          {
+            "sub_category": "ACID Properties",
+            "topics": []
+          },
+          {
+            "sub_category": "Transaction Management",
+            "topics": []
+          },
+          {
+            "sub_category": "Concurrency Control Techniques",
+            "topics": []
+          },
+          {
+            "sub_category": "Locking Mechanisms",
+            "topics": []
+          },
+          {
+            "sub_category": "Deadlock Handling",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Database Indexing and Optimization",
+        "sub_categories": [
+          {
+            "sub_category": "Indexing Techniques",
+            "topics": []
+          },
+          {
+            "sub_category": "B-trees and Hash Indexes",
+            "topics": []
+          },
+          {
+            "sub_category": "Query Optimization",
+            "topics": []
+          },
+          {
+            "sub_category": "Database Performance Tuning",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "NoSQL Databases",
+        "sub_categories": [
+          {
+            "sub_category": "Introduction to NoSQL",
+            "topics": []
+          },
+          {
+            "sub_category": "Types of NoSQL Databases (Document, Columnar, Graph, Key-Value)",
+            "topics": []
+          },
+          {
+            "sub_category": "CAP Theorem",
+            "topics": []
+          },
+          {
+            "sub_category": "MongoDB",
+            "topics": []
+          },
+          {
+            "sub_category": "Cassandra",
+            "topics": []
+          },
+          {
+            "sub_category": "Redis",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Distributed Databases",
+        "sub_categories": [
+          {
+            "sub_category": "Distributed Database Concepts",
+            "topics": []
+          },
+          {
+            "sub_category": "Replication and Sharding",
+            "topics": []
+          },
+          {
+            "sub_category": "CAP Theorem in Distributed Databases",
+            "topics": []
+          },
+          {
+            "sub_category": "Consistency and Availability Models",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Database Security",
+        "sub_categories": [
+          {
+            "sub_category": "Authentication and Authorization",
+            "topics": []
+          },
+          {
+            "sub_category": "Encryption and Decryption",
+            "topics": []
+          },
+          {
+            "sub_category": "SQL Injection Prevention",
+            "topics": []
+          },
+          {
+            "sub_category": "Backup and Recovery Techniques",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Database Administration",
+        "sub_categories": [
+          {
+            "sub_category": "Database Backup and Recovery",
+            "topics": []
+          },
+          {
+            "sub_category": "Database Replication",
+            "topics": []
+          },
+          {
+            "sub_category": "Database Security and Access Control",
+            "topics": []
+          },
+          {
+            "sub_category": "Database Monitoring and Maintenance",
+            "topics": []
+          },
+          {
+            "sub_category": "Database Migration",
+            "topics": []
+          }
+        ]
+      },
+      {
+        "category": "Big Data and Data Warehousing",
+        "sub_categories": [
+          {
+            "sub_category": "Big Data Concepts",
+            "topics": []
+          },
+          {
+            "sub_category": "Hadoop",
+            "topics": []
+          },
+          {
+            "sub_category": "Data Warehousing Concepts",
+            "topics": []
+          },
+          {
+            "sub_category": "ETL (Extract, Transform, Load)",
+            "topics": []
+          },
+          {
+            "sub_category": "Data Lake",
+            "topics": []
+          }
+        ]
+      }
+    ]
+  }  

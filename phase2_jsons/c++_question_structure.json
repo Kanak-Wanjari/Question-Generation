@@ -1,0 +1,3243 @@
+{
+  "categories": [
+    {
+      "category": "Core C++",
+      "sub_categories": [
+        {
+          "sub_category": "Basic Syntax",
+          "topics": [
+            {
+              "topic": "Introduction to C++",
+              "sub_topic": [
+                "Overview of C++",
+                "Features of C++",
+                "Setting up a C++ development environment",
+                "Compiling and running your first C++ program"
+              ]
+            },
+            {
+              "topic": "Variables and Data Types",
+              "sub_topic": [
+                "Variables",
+                "Data types",
+                "Size of data types",
+                "Declaring and initializing variables",
+                "Scope and Lifetime of variables"
+              ]
+            },
+            {
+              "topic": "Operators and Expressions",
+              "sub_topic": [
+                "Arithmetic operators",
+                "Relational operators",
+                "Logical operators",
+                "Bitwise operators",
+                "Assignment operators",
+                "Increment and decrement operators",
+                "Conditional operator"
+              ]
+            },
+            {
+              "topic": "IO Operations",
+              "sub_topic": [
+                "Input and output streams",
+                "Manipulators",
+                "File handling"
+              ]
+            },
+            {
+              "topic": "Control Flow",
+              "sub_topic": [
+                "Control statements",
+                "Looping constructs",
+                "Conditional statements",
+                "Switch statement",
+                "The goto statement"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Data Types and Variables",
+          "topics": [
+            {
+              "topic": "Introduction to Data Types",
+              "sub_topic": [
+                "Primitive vs Non-Primitive Data Types",
+                "Built-in Data Types (int, float, double, etc.)",
+                "User-Defined Data Types (classes, structs)"
+              ]
+            },
+            {
+              "topic": "Variables",
+              "sub_topic": [
+                "Declaration and Initialization",
+                "Scope and Lifetime",
+                "Type Qualifiers (const, volatile, mutable)"
+              ]
+            },
+            {
+              "topic": "Pointers and References",
+              "sub_topic": [
+                "Pointers: Introduction and Syntax",
+                "Pointer Arithmetic and Dereferencing",
+                "References: Definition and Benefits",
+                "Pass-by-Value vs Pass-by-Reference"
+              ]
+            },
+            {
+              "topic": "Type Conversions",
+              "sub_topic": [
+                "Implicit Conversions (widening, narrowing)",
+                "Explicit Conversions (static_cast, dynamic_cast, reinterpret_cast)",
+                "Type Casting for Pointers and References"
+              ]
+            },
+            {
+              "topic": "Advanced Data Types",
+              "sub_topic": [
+                "Arrays and Strings",
+                "Structures and Unions",
+                "Enumerations and Bit Fields"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Control Flow Statements",
+          "topics": [
+            {
+              "topic": "Control Flow Statements",
+              "sub_topic": [
+                "Conditional Statements",
+                "Loop Statements",
+                "Jump Statements",
+                "Exception Handling",
+                "Advanced Control Flow"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Functions",
+          "topics": [
+            {
+              "topic": "Function Fundamentals",
+              "sub_topic": [
+                "Function definition and declaration",
+                "Function parameters and return values",
+                "Function overloading",
+                "Default and named arguments"
+              ]
+            },
+            {
+              "topic": "Function Types",
+              "sub_topic": [
+                "Member functions",
+                "Local functions",
+                "Lambda expressions",
+                "Function pointers"
+              ]
+            },
+            {
+              "topic": "Function Templates",
+              "sub_topic": [
+                "Generic functions",
+                "Function template syntax",
+                "Template specialization and instantiation"
+              ]
+            },
+            {
+              "topic": "Advanced Function Concepts",
+              "sub_topic": [
+                "Function recursion",
+                "Overloaded operators",
+                "Function try-catch blocks"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Arrays and Strings",
+          "topics": [
+            {
+              "topic": "Introduction to Arrays and Strings",
+              "sub_topic": [
+                "Defining and declaring arrays",
+                "Accessing and modifying array elements",
+                "Multi-dimensional arrays",
+                "Defining and declaring strings",
+                "Accessing and modifying string characters",
+                "String manipulation functions"
+              ]
+            },
+            {
+              "topic": "Working with Arrays",
+              "sub_topic": [
+                "Array operations (e.g., sorting, searching, inserting, deleting)",
+                "Passing arrays to functions",
+                "Using iterators to traverse arrays",
+                "Common array algorithms"
+              ]
+            },
+            {
+              "topic": "Working with Strings",
+              "sub_topic": [
+                "String operations (e.g., concatenation, substring extraction, comparison)",
+                "String streams and I/O",
+                "Regular expressions for string matching and manipulation",
+                "String algorithms (e.g., searching, sorting, compression)"
+              ]
+            },
+            {
+              "topic": "Advanced Techniques",
+              "sub_topic": [
+                "Dynamic arrays (e.g., vectors, lists)",
+                "String libraries and classes (e.g., stringstream, istringstream)",
+                "Template-based string processing",
+                "Unicode and internationalization"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Pointers and References",
+          "topics": [
+            {
+              "topic": "Pointers",
+              "sub_topic": [
+                "What is a pointer?",
+                "Pointer arithmetic",
+                "Pointers to arrays",
+                "Pointers to functions",
+                "Dangling pointers"
+              ]
+            },
+            {
+              "topic": "References",
+              "sub_topic": [
+                "What is a reference?",
+                "References vs. pointers",
+                "References in function calls",
+                "References to arrays",
+                "References to functions"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Memory Management",
+          "topics": [
+            {
+              "topic": "Introduction to Memory Management",
+              "sub_topic": [
+                "What is memory management?",
+                "Why is memory management important?",
+                "Different types of memory management",
+                "Advantages and disadvantages of different memory management techniques"
+              ]
+            },
+            {
+              "topic": "Manual Memory Management",
+              "sub_topic": [
+                "Pointers and references",
+                "Dynamic memory allocation",
+                "Memory leaks",
+                "Dangling pointers",
+                "Double free errors"
+              ]
+            },
+            {
+              "topic": "Automatic Memory Management",
+              "sub_topic": [
+                "Garbage collection",
+                "Reference counting",
+                "Smart pointers"
+              ]
+            },
+            {
+              "topic": "Memory Optimizations",
+              "sub_topic": [
+                "Memory allocation strategies",
+                "Memory profiling",
+                "Cache optimizations"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "File Handling",
+          "topics": [
+            {
+              "topic": "File Opening and Closing",
+              "sub_topic": [
+                "Opening a file",
+                "Opening a file in different modes (read, write, append, etc.)",
+                "Closing a file"
+              ]
+            },
+            {
+              "topic": "File Input and Output",
+              "sub_topic": [
+                "Reading from a file",
+                "Writing to a file",
+                "Using formatted input/output"
+              ]
+            },
+            {
+              "topic": "File Positioning",
+              "sub_topic": [
+                "Positioning the file pointer",
+                "Seeking to a specific location in a file",
+                "Getting the current position of the file pointer"
+              ]
+            },
+            {
+              "topic": "File Error Handling",
+              "sub_topic": [
+                "Handling file opening errors",
+                "Handling file input/output errors",
+                "Handling file positioning errors"
+              ]
+            },
+            {
+              "topic": "Advanced File Handling",
+              "sub_topic": [
+                "Using file streams",
+                "Using file iterators",
+                "Manipulating file attributes"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Object-Oriented Programming (OOP)",
+      "sub_categories": [
+        {
+          "sub_category": "Classes and Objects",
+          "topics": [
+            {
+              "topic": "Introduction to Classes and Objects",
+              "sub_topic": [
+                "Concept of classes and objects",
+                "Syntax for defining classes and objects",
+                "Difference between classes and objects"
+              ]
+            },
+            {
+              "topic": "Class Attributes and Methods",
+              "sub_topic": [
+                "Defining class attributes",
+                "Defining class methods",
+                "Accessing attributes and methods from objects"
+              ]
+            },
+            {
+              "topic": "Object Creation and Initialization",
+              "sub_topic": [
+                "Using constructors for object creation",
+                "Passing arguments to constructors",
+                "Initializing object attributes"
+              ]
+            },
+            {
+              "topic": "Inheritance and Polymorphism",
+              "sub_topic": [
+                "Concept of inheritance",
+                "Syntax for class inheritance",
+                "Polymorphism and its benefits"
+              ]
+            },
+            {
+              "topic": "Class Relationships and Design Patterns",
+              "sub_topic": [
+                "Aggregation and composition relationships",
+                "Common design patterns in OOP",
+                "Best practices for class design"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Encapsulation",
+          "topics": [
+            {
+              "topic": "Encapsulation in OOP",
+              "sub_topic": [
+                "Definition and Purpose",
+                "Benefits and Advantages",
+                "Implementation and Syntax",
+                "Access Modifiers (Private, Protected, Public)",
+                "Encapsulation and Data Hiding",
+                "Encapsulation and Object Security",
+                "Encapsulation and Inheritance",
+                "Encapsulation and Polymorphism",
+                "Good Practices and Guidelines",
+                "Common Pitfalls and Mistakes"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Inheritance",
+          "topics": [
+            {
+              "topic": "Types of Inheritance",
+              "sub_topic": [
+                "Single Inheritance",
+                "Multiple Inheritance",
+                "Hierarchical Inheritance",
+                "Multilevel Inheritance",
+                "Hybrid Inheritance"
+              ]
+            },
+            {
+              "topic": "Access Specifiers in Inheritance",
+              "sub_topic": [
+                "Public Inheritance",
+                "Protected Inheritance",
+                "Private Inheritance"
+              ]
+            },
+            {
+              "topic": "Constructors and Inheritance",
+              "sub_topic": [
+                "Constructor Chaining",
+                "Constructor Overloading in Inheritance"
+              ]
+            },
+            {
+              "topic": "Method Overriding",
+              "sub_topic": [
+                "Method Signatures",
+                "Method Implementation",
+                "Dynamic Method Dispatch"
+              ]
+            },
+            {
+              "topic": "Virtual Functions",
+              "sub_topic": [
+                "Pure Virtual Functions (Abstract Classes)",
+                "Virtual Function Tables (vtables)"
+              ]
+            },
+            {
+              "topic": "Polymorphism",
+              "sub_topic": [
+                "Static Polymorphism (Method Overloading)",
+                "Dynamic Polymorphism (Method Overriding)",
+                "Virtual Functions and Polymorphism"
+              ]
+            },
+            {
+              "topic": "Object Slicing",
+              "sub_topic": [
+                "Causes of Object Slicing",
+                "Preventing Object Slicing"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Polymorphism",
+          "topics": [
+            {
+              "topic": "Overview of Polymorphism",
+              "sub_topic": [
+                "Definition and benefits",
+                "Types of polymorphism: method overriding and method overloading",
+                "Dynamic binding and late binding",
+                "Liskov substitution principle",
+                "Examples in various programming languages"
+              ]
+            },
+            {
+              "topic": "Method Overriding",
+              "sub_topic": [
+                "Concept and syntax",
+                "Virtual methods and base classes",
+                "Overriding rules and method signatures",
+                "Covariance and contravariance in method overriding",
+                "Benefits and applications"
+              ]
+            },
+            {
+              "topic": "Method Overloading",
+              "sub_topic": [
+                "Concept and syntax",
+                "Overloading rules and argument types",
+                "Method signatures and overloading resolution",
+                "Ambiguous overloading and best practices",
+                "Benefits and applications"
+              ]
+            },
+            {
+              "topic": "Polymorphism in Inheritance Hierarchies",
+              "sub_topic": [
+                "Polymorphic behavior in subclasses",
+                "Method overriding and polymorphism",
+                "Virtual method dispatch and inheritance trees",
+                "Abstract classes and interfaces",
+                "Polymorphism and code reusability"
+              ]
+            },
+            {
+              "topic": "Polymorphism and Design Patterns",
+              "sub_topic": [
+                "Factory method pattern and polymorphism",
+                "Strategy pattern and interchangeable algorithms",
+                "Template method pattern and polymorphism",
+                "Decorator pattern and dynamic behavior modification",
+                "Polymorphism and design pattern flexibility"
+              ]
+            },
+            {
+              "topic": "Polymorphism and Advanced Concepts",
+              "sub_topic": [
+                "Generic polymorphism and templates",
+                "Multiple inheritance and polymorphism",
+                "Polymorphism and reflection",
+                "Polymorphism in distributed systems",
+                "Future directions in polymorphism"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Abstraction",
+          "topics": [
+            {
+              "topic": "Concept of Abstraction",
+              "sub_topic": [
+                "Definition and Purpose",
+                "Benefits and Limitations"
+              ]
+            },
+            {
+              "topic": "Levels of Abstraction",
+              "sub_topic": [
+                "Data Abstraction",
+                "Procedural Abstraction",
+                "Encapsulation"
+              ]
+            },
+            {
+              "topic": "Interface and Implementation",
+              "sub_topic": [
+                "Interface Separation Principle",
+                "Class Hierarchy and Inheritance",
+                "Polymorphism and Virtual Functions"
+              ]
+            },
+            {
+              "topic": "Abstract Classes and Interfaces",
+              "sub_topic": [
+                "Purpose and Usage",
+                "Difference between Abstract Classes and Interfaces",
+                "Example Implementations"
+              ]
+            },
+            {
+              "topic": "Design Patterns Related to Abstraction",
+              "sub_topic": [
+                "Factory Method Design Pattern",
+                "Abstract Factory Design Pattern",
+                "Bridge Design Pattern"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Virtual Functions and Function Overriding",
+          "topics": [
+            {
+              "topic": "Virtual Functions",
+              "sub_topic": [
+                "Definition and purpose",
+                "Syntax and usage",
+                "Dynamic binding and late binding",
+                "Inheritance and virtual functions",
+                "Polymorphism and virtual functions",
+                "Abstract classes and pure virtual functions",
+                "Advantages and disadvantages of virtual functions"
+              ]
+            },
+            {
+              "topic": "Function Overriding",
+              "sub_topic": [
+                "Definition and purpose",
+                "Syntax and usage",
+                "Method resolution order (MRO) and overriding",
+                "Overriding vs. overloading",
+                "Covariant return types and overriding",
+                "Abstract methods and overriding",
+                "Benefits and drawbacks of function overriding"
+              ]
+            },
+            {
+              "topic": "Application of Virtual Functions and Function Overriding",
+              "sub_topic": [
+                "Polymorphism and dynamic behavior",
+                "Object-oriented design patterns",
+                "Extensibility and maintainability",
+                "Event handling and callbacks",
+                "Implementing interfaces and contracts",
+                "Emulating multiple inheritance",
+                "Case studies and examples"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Friend Functions",
+          "topics": [
+            {
+              "topic": "Friend Function in C++",
+              "sub_topic": [
+                "Definition and Syntax",
+                "Declaration and Usage",
+                "Rules and Restrictions",
+                "Advantages and Disadvantages",
+                "Example Code",
+                "Applications in Object-Oriented Programming"
+              ]
+            },
+            {
+              "topic": "Use Cases and Scenarios",
+              "sub_topic": [
+                "Accessing Private Data Members",
+                "Overloading Non-Member Functions",
+                "Implementing Utility Functions",
+                "Encapsulation of Functionality",
+                "Cross-Class Collaboration",
+                "Real-World Examples"
+              ]
+            },
+            {
+              "topic": "Comparison with Other Access Modifiers",
+              "sub_topic": [
+                "Friend Function vs. Public Member Functions",
+                "Friend Function vs. Protected Member Functions",
+                "Friend Function vs. Private Member Functions",
+                "When to Use Friend Functions Over Other Access Modifiers"
+              ]
+            },
+            {
+              "topic": "Best Practices and Guidelines",
+              "sub_topic": [
+                "Limiting the Use of Friend Functions",
+                "Using Friend Functions Judiciously",
+                "Encapsulating Friend Functions in Separate Header Files",
+                "Consideration of Security Implications",
+                "Alternative Approaches to Friend Functions"
+              ]
+            },
+            {
+              "topic": "Advanced Concepts",
+              "sub_topic": [
+                "Friend Classes",
+                "Friend Templates",
+                "Lambda Functions as Friends",
+                "Extension of Friend Privileges",
+                "Friend Functions in Inheritance"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Operator Overloading",
+          "topics": [
+            {
+              "topic": "Overloading Arithmetic Operators",
+              "sub_topic": [
+                "+",
+                "-",
+                "*",
+                "/",
+                "%"
+              ]
+            },
+            {
+              "topic": "Overloading Relational Operators",
+              "sub_topic": [
+                "==",
+                "!=",
+                "<",
+                ">",
+                "<=",
+                ">="
+              ]
+            },
+            {
+              "topic": "Overloading Logical Operators",
+              "sub_topic": [
+                "&&",
+                "||",
+                "!"
+              ]
+            },
+            {
+              "topic": "Overloading Assignment Operators",
+              "sub_topic": [
+                "=",
+                "+=",
+                "-=",
+                "*=",
+                "/="
+              ]
+            },
+            {
+              "topic": "Overloading Increment/Decrement Operators",
+              "sub_topic": [
+                "++",
+                "--"
+              ]
+            },
+            {
+              "topic": "Overloading Function Call Operator",
+              "sub_topic": [
+                "()"
+              ]
+            },
+            {
+              "topic": "Overloading Subscript Operator",
+              "sub_topic": [
+                "[]"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Constructor and Destructor",
+          "topics": [
+            {
+              "topic": "Constructor",
+              "sub_topic": [
+                "Definition and purpose of constructor",
+                "Types of constructor (default, parameterized, copy)",
+                "Syntax and usage of constructors",
+                "Constructor overloading and its benefits",
+                "Constructor chaining and its applications"
+              ]
+            },
+            {
+              "topic": "Destructor",
+              "sub_topic": [
+                "Definition and purpose of destructor",
+                "Syntax and usage of destructors",
+                "Role of destructors in memory management",
+                "Destructor chaining and its implications",
+                "Best practices for destructor usage"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Advanced C++",
+      "sub_categories": [
+        {
+          "sub_category": "Templates",
+          "topics": [
+            {
+              "topic": "Template Basics",
+              "sub_topic": [
+                "What are templates?",
+                "Benefits of using templates",
+                "Syntax and usage of templates",
+                "Template parameters",
+                "Template specialization"
+              ]
+            },
+            {
+              "topic": "Function Templates",
+              "sub_topic": [
+                "Creating and using function templates",
+                "Function template overloading",
+                "Function template specialization",
+                "Variable templates"
+              ]
+            },
+            {
+              "topic": "Class Templates",
+              "sub_topic": [
+                "Creating and using class templates",
+                "Class template inheritance",
+                "Class template specialization",
+                "Member function templates"
+              ]
+            },
+            {
+              "topic": "Advanced Template Techniques",
+              "sub_topic": [
+                "Template metaprogramming",
+                "Variadic templates",
+                "Type traits",
+                "Template libraries (e.g., Boost)"
+              ]
+            },
+            {
+              "topic": "Error Handling in Templates",
+              "sub_topic": [
+                "Template errors and diagnostics",
+                "Error handling techniques",
+                "Static assertions"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "STL (Standard Template Library)",
+          "topics": [
+            {
+              "topic": "Containers",
+              "sub_topic": [
+                "Vectors",
+                "Lists",
+                "Maps",
+                "Sets",
+                "Stacks",
+                "Queues",
+                "Priority Queues"
+              ]
+            },
+            {
+              "topic": "Iterators",
+              "sub_topic": [
+                "Input Iterators",
+                "Output Iterators",
+                "Forward Iterators",
+                "Bidirectional Iterators",
+                "Random Access Iterators"
+              ]
+            },
+            {
+              "topic": "Algorithms",
+              "sub_topic": [
+                "Sorting Algorithms",
+                "Searching Algorithms",
+                "Modifying Algorithms",
+                "Numeric Algorithms",
+                "Relational Algorithms"
+              ]
+            },
+            {
+              "topic": "Function Objects",
+              "sub_topic": [
+                "Functors",
+                "Lambdas",
+                "Binders",
+                "Adapters"
+              ]
+            },
+            {
+              "topic": "Memory Management",
+              "sub_topic": [
+                "Smart Pointers",
+                "Allocators",
+                "Memory Pools"
+              ]
+            },
+            {
+              "topic": "Advanced Topics",
+              "sub_topic": [
+                "Type Traits",
+                "Metaprogramming",
+                "Concepts",
+                "Ranges"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Exceptions and Exception Handling",
+          "topics": [
+            {
+              "topic": "Basic Concepts",
+              "sub_topic": [
+                "What is an exception?",
+                "Exception types",
+                "Throwing and catching exceptions",
+                "Exception handling syntax"
+              ]
+            },
+            {
+              "topic": "Advanced Exception Handling",
+              "sub_topic": [
+                "Exception specifications",
+                "Exception filters",
+                "Dynamic exception handling",
+                "Custom exception classes"
+              ]
+            },
+            {
+              "topic": "Error Handling Best Practices",
+              "sub_topic": [
+                "Error handling strategies",
+                "Exception logging and monitoring",
+                "Unit testing error handling code"
+              ]
+            },
+            {
+              "topic": "Exceptions and Object-Oriented Programming",
+              "sub_topic": [
+                "Exceptions and inheritance",
+                "Exceptions and polymorphism",
+                "Exceptions and object-oriented design patterns"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Multithreading and Concurrency",
+          "topics": [
+            {
+              "topic": "Thread Management",
+              "sub_topic": [
+                "Creating and managing threads",
+                "Thread synchronization",
+                "Thread communication",
+                "Thread safety",
+                "Thread-local storage"
+              ]
+            },
+            {
+              "topic": "Concurrency Primitives",
+              "sub_topic": [
+                "Mutexes",
+                "Condition variables",
+                "Semaphores",
+                "Barriers",
+                "Atomics"
+              ]
+            },
+            {
+              "topic": "Asynchronous Programming",
+              "sub_topic": [
+                "Futures and promises",
+                "Asynchronous callbacks",
+                "Event-driven programming",
+                "Reactive programming"
+              ]
+            },
+            {
+              "topic": "Multithreading Libraries",
+              "sub_topic": [
+                "Boost.Thread",
+                "std::thread",
+                "OpenMP",
+                "TBB",
+                "PPL"
+              ]
+            },
+            {
+              "topic": "Concurrency Patterns",
+              "sub_topic": [
+                "Producer-consumer",
+                "Reader-writer",
+                "MapReduce",
+                "Thread pools",
+                "Lock-free programming"
+              ]
+            },
+            {
+              "topic": "Performance Considerations",
+              "sub_topic": [
+                "Multithreading overhead",
+                "Thread contention",
+                "Deadlocks",
+                "Profiling and debugging multithreaded code"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Lambda Expressions",
+          "topics": [
+            {
+              "topic": "Lambda Syntax and Structure",
+              "sub_topic": [
+                "Lambda Expression Basics",
+                "Syntax and General Form",
+                "Capture Clauses and Scope Rules",
+                "Return Types and Parameter Lists"
+              ]
+            },
+            {
+              "topic": "Lambda Functionalities",
+              "sub_topic": [
+                "Capturing Variables by Reference and Value",
+                "Using Lambda Expressions as Function Objects",
+                "Passing Lambda Expressions as Arguments",
+                "Returning Lambda Expressions from Functions"
+              ]
+            },
+            {
+              "topic": "Advanced Lambda Techniques",
+              "sub_topic": [
+                "Generic Lambdas and Template Parameters",
+                "Overloading Lambda Expressions",
+                "Using Lambda Expressions with Algorithms and Data Structures",
+                "Exception Handling in Lambda Expressions"
+              ]
+            },
+            {
+              "topic": "Performance and Optimization",
+              "sub_topic": [
+                "Lambda Expression Overhead and Performance Considerations",
+                "Optimizing Lambda Expressions for Efficiency",
+                "Best Practices for Using Lambda Expressions"
+              ]
+            },
+            {
+              "topic": "Applications and Use Cases",
+              "sub_topic": [
+                "Event Handling and Asynchronous Programming",
+                "Concurrency and Parallelism",
+                "Functional Programming and Data Manipulation",
+                "GUI Programming and User Interfaces"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Smart Pointers",
+          "topics": [
+            {
+              "topic": "Introduction to Smart Pointers",
+              "sub_topic": [
+                "Overview of memory management in C++",
+                "Problems with raw pointers",
+                "Benefits and uses of smart pointers"
+              ]
+            },
+            {
+              "topic": "Types of Smart Pointers in C++",
+              "sub_topic": [
+                "std::unique_ptr",
+                "std::shared_ptr",
+                "std::weak_ptr"
+              ]
+            },
+            {
+              "topic": "Using Smart Pointers in Practice",
+              "sub_topic": [
+                "Best practices for using smart pointers",
+                "Common pitfalls and how to avoid them",
+                "Real-world examples of using smart pointers"
+              ]
+            },
+            {
+              "topic": "Advanced Features of Smart Pointers",
+              "sub_topic": [
+                "Custom smart pointers",
+                "Shared ownership models",
+                "Weak references and cyclic references"
+              ]
+            },
+            {
+              "topic": "Implementing Custom Smart Pointers",
+              "sub_topic": [
+                "Creating a custom smart pointer class",
+                "Overloading operators and providing custom functionality",
+                "Testing and debugging custom smart pointers"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Move Semantics and Rvalue References",
+          "topics": [
+            {
+              "topic": "Move Semantics",
+              "sub_topic": [
+                "Definition and Purpose of Move Semantics",
+                "Copy Elision and Move Construction",
+                "Rvalue References and Lvalue References",
+                "Temporary Objects and Move Semantics",
+                "Efficiency Considerations and Performance Benefits"
+              ]
+            },
+            {
+              "topic": "Rvalue References",
+              "sub_topic": [
+                "Syntax and Declaration of Rvalue References",
+                "Perfect Forwarding and Universal References",
+                "Overloading Functions with Rvalue References",
+                "Move-Only Types and Rvalue-Only References",
+                "Impact on Class Design and Resource Management"
+              ]
+            },
+            {
+              "topic": "Advanced Techniques",
+              "sub_topic": [
+                "Implementing Custom Move Constructors and Move Assignment Operators",
+                " noexcept Move Operations and Exception Guarantees",
+                "Type Erasure and std::move",
+                "Rvalue References in Templates and Generic Programming",
+                "Applications in Memory Management and Concurrency"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "C++ Memory Management",
+      "sub_categories": [
+        {
+          "sub_category": "Dynamic Memory Allocation",
+          "topics": [
+            {
+              "topic": "Dynamic Memory Allocation in C++",
+              "sub_topic": [
+                "Introduction to dynamic memory allocation",
+                "Using the new and delete operators",
+                "Pointers and dynamic memory allocation",
+                "Memory leaks and dangling pointers",
+                "Best practices for dynamic memory management"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Memory Leaks and Fixes",
+          "topics": [
+            {
+              "topic": "Identifying Memory Leaks",
+              "sub_topic": [
+                "Using tools such as Valgrind or AddressSanitizer",
+                "Manually inspecting memory usage through debugging",
+                "Analyzing heap dumps"
+              ]
+            },
+            {
+              "topic": "Common Causes of Memory Leaks",
+              "sub_topic": [
+                "Dangling pointers",
+                "Circular references",
+                "Resource leaks (e.g., file handles, sockets)",
+                "Incorrect memory allocation and deallocation"
+              ]
+            },
+            {
+              "topic": "Fixing Memory Leaks",
+              "sub_topic": [
+                "Using smart pointers (e.g., unique_ptr, shared_ptr)",
+                "Implementing proper resource management techniques",
+                "Enforcing correct memory allocation and deallocation",
+                "Employing leak detection tools"
+              ]
+            },
+            {
+              "topic": "Best Practices for Memory Management",
+              "sub_topic": [
+                "Understanding memory ownership semantics",
+                "Adopting a consistent memory management strategy",
+                "Regularly checking for memory leaks",
+                "Using automated tools for memory leak detection"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Memory Pool",
+          "topics": [
+            {
+              "topic": "Memory Pool",
+              "sub_topic": [
+                "Introduction to Memory Pool",
+                "Implementation of Memory Pool",
+                "Advantages and Disadvantages of Memory Pool",
+                "Use Cases of Memory Pool",
+                "Comparison of Memory Pool with other Memory Management Techniques"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Garbage Collection",
+          "topics": [
+            {
+              "topic": "What is Garbage Collection?",
+              "sub_topic": [
+                "Introduction to garbage collection",
+                "Benefits of using garbage collection",
+                "Drawbacks of using garbage collection"
+              ]
+            },
+            {
+              "topic": "How Garbage Collection Works",
+              "sub_topic": [
+                "Reference counting",
+                "Mark-and-sweep algorithm"
+              ]
+            },
+            {
+              "topic": "Implementing Garbage Collection in C++",
+              "sub_topic": [
+                "Using smart pointers",
+                "Using a garbage collection library"
+              ]
+            },
+            {
+              "topic": "Best Practices for Garbage Collection",
+              "sub_topic": [
+                "Avoiding circular references",
+                "Using weak pointers",
+                "Profiling memory usage"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "C++ Standard Library",
+      "sub_categories": [
+        {
+          "sub_category": "I/O Streams",
+          "topics": [
+            {
+              "topic": "Introduction to I/O Streams",
+              "sub_topic": [
+                "What are I/O Streams?",
+                "Types of I/O Streams",
+                "Opening and Closing I/O Streams"
+              ]
+            },
+            {
+              "topic": "File I/O Streams",
+              "sub_topic": [
+                "fstream Class",
+                "ifstream Class",
+                "ofstream Class",
+                "Manipulators for File I/O"
+              ]
+            },
+            {
+              "topic": "String I/O Streams",
+              "sub_topic": [
+                "stringstream Class",
+                "ostringstream Class",
+                "istringstream Class"
+              ]
+            },
+            {
+              "topic": "Formatted Input and Output",
+              "sub_topic": [
+                "iomanip Library",
+                "Formatted I/O Functions",
+                "Manipulators for Formatted I/O"
+              ]
+            },
+            {
+              "topic": "Error Handling in I/O Streams",
+              "sub_topic": [
+                "Error States",
+                "Error Flags",
+                "Error Categories"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "File Handling",
+          "topics": [
+            {
+              "topic": "File IO",
+              "sub_topic": [
+                "Input/Output streams",
+                "File input and output",
+                "String streams"
+              ]
+            },
+            {
+              "topic": "File Manipulation",
+              "sub_topic": [
+                "File operations",
+                "Directories"
+              ]
+            },
+            {
+              "topic": "Error Handling",
+              "sub_topic": [
+                "Exceptions",
+                "Error codes"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Containers (Vector, Map, List, etc.)",
+          "topics": [
+            {
+              "topic": "Vector",
+              "sub_topic": [
+                "Introduction",
+                "Initialization",
+                "Element Access",
+                "Iterators",
+                "Capacity and Size",
+                "Modifiers",
+                "Allocator",
+                "Common Operations",
+                "Exception Safety",
+                "Thread Safety"
+              ]
+            },
+            {
+              "topic": "Map",
+              "sub_topic": [
+                "Introduction",
+                "Initialization",
+                "Element Access",
+                "Iterators",
+                "Capacity and Size",
+                "Modifiers",
+                "Allocator",
+                "Comparison",
+                "Exception Safety",
+                "Thread Safety"
+              ]
+            },
+            {
+              "topic": "List",
+              "sub_topic": [
+                "Introduction",
+                "Initialization",
+                "Element Access",
+                "Iterators",
+                "Capacity and Size",
+                "Modifiers",
+                "Allocator",
+                "Comparison",
+                "Exception Safety",
+                "Thread Safety"
+              ]
+            },
+            {
+              "topic": "Set",
+              "sub_topic": [
+                "Introduction",
+                "Initialization",
+                "Element Access",
+                "Iterators",
+                "Capacity and Size",
+                "Modifiers",
+                "Allocator",
+                "Comparison",
+                "Exception Safety",
+                "Thread Safety"
+              ]
+            },
+            {
+              "topic": "Unordered Containers",
+              "sub_topic": [
+                "Introduction",
+                "Hash Functions",
+                "Unordered Map",
+                "Unordered Set",
+                "Unordered Multimap",
+                "Unordered Multiset"
+              ]
+            },
+            {
+              "topic": "Associative Containers",
+              "sub_topic": [
+                "Introduction",
+                "Key Comparison",
+                "Multimap",
+                "Multiset",
+                "Nested Associative Containers"
+              ]
+            },
+            {
+              "topic": "Container Adaptors",
+              "sub_topic": [
+                "Introduction",
+                "Stack",
+                "Queue",
+                "Priority Queue"
+              ]
+            },
+            {
+              "topic": "General Container Requirements",
+              "sub_topic": [
+                "Container Requirements",
+                "Iterator Requirements",
+                "Allocator Requirements"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Algorithms",
+          "topics": [
+            {
+              "topic": "Sorting",
+              "sub_topic": [
+                "std::sort",
+                "std::stable_sort",
+                "std::partial_sort",
+                "std::nth_element",
+                "std::sort_heap",
+                "std::make_heap",
+                "std::push_heap",
+                "std::pop_heap",
+                "std::inplace_merge",
+                "std::inplace_merge_stable"
+              ]
+            },
+            {
+              "topic": "Searching",
+              "sub_topic": [
+                "std::binary_search",
+                "std::lower_bound",
+                "std::upper_bound",
+                "std::equal_range"
+              ]
+            },
+            {
+              "topic": "Set Operations",
+              "sub_topic": [
+                "std::set_union",
+                "std::set_intersection",
+                "std::set_difference",
+                "std::set_symmetric_difference"
+              ]
+            },
+            {
+              "topic": "Numeric Algorithms",
+              "sub_topic": [
+                "std::accumulate",
+                "std::adjacent_difference",
+                "std::partial_sum",
+                "std::inner_product",
+                "std::min",
+                "std::max",
+                "std::min_element",
+                "std::max_element"
+              ]
+            },
+            {
+              "topic": "Randomization",
+              "sub_topic": [
+                "std::random_shuffle",
+                "std::generate",
+                "std::generate_n",
+                "std::shuffle",
+                "std::random_device",
+                "std::mt19937",
+                "std::uniform_int_distribution",
+                "std::uniform_real_distribution",
+                "std::bernoulli_distribution",
+                "std::binomial_distribution",
+                "std::exponential_distribution",
+                "std::gamma_distribution",
+                "std::normal_distribution",
+                "std::poisson_distribution",
+                "std::student_t_distribution"
+              ]
+            },
+            {
+              "topic": "Other Algorithms",
+              "sub_topic": [
+                "std::copy",
+                "std::copy_backward",
+                "std::copy_n",
+                "std::move",
+                "std::move_backward",
+                "std::move_n",
+                "std::fill",
+                "std::fill_n",
+                "std::transform",
+                "std::for_each",
+                "std::count",
+                "std::count_if",
+                "std::find",
+                "std::find_if",
+                "std::find_if_not",
+                "std::find_end",
+                "std::find_first_of",
+                "std::adjacent_find",
+                "std::equal",
+                "std::is_permutation",
+                "std::mismatch",
+                "std::lexicographical_compare",
+                "std::partition",
+                "std::stable_partition",
+                "std::remove",
+                "std::remove_if",
+                "std::remove_copy",
+                "std::remove_copy_if",
+                "std::unique",
+                "std::unique_copy",
+                "std::swap",
+                "std::swap_ranges",
+                "std::reverse",
+                "std::reverse_copy",
+                "std::rotate",
+                "std::rotate_copy",
+                "std::random_shuffle",
+                "std::random_sample"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Iterators",
+          "topics": [
+            {
+              "topic": "Iterator Categories",
+              "sub_topic": [
+                "Input iterators",
+                "Output iterators",
+                "Forward iterators",
+                "Bidirectional iterators",
+                "Random access iterators"
+              ]
+            },
+            {
+              "topic": "Iterator Traits",
+              "sub_topic": [
+                "iterator_traits",
+                "iterator"
+              ]
+            },
+            {
+              "topic": "STL Iterators",
+              "sub_topic": [
+                "array",
+                "vector",
+                "deque",
+                "list",
+                "set",
+                "map"
+              ]
+            },
+            {
+              "topic": "Common Iterator Functions",
+              "sub_topic": [
+                "begin",
+                "end",
+                "rbegin",
+                "rend",
+                "cbegin",
+                "cend",
+                "crbegin",
+                "crend"
+              ]
+            },
+            {
+              "topic": "Arithmetic and Comparison Operators",
+              "sub_topic": [
+                "+",
+                "-",
+                "++",
+                "--",
+                "==",
+                "!=",
+                "<",
+                ">",
+                "<=",
+                ">="
+              ]
+            },
+            {
+              "topic": "Dereferencing Operators",
+              "sub_topic": [
+                "*",
+                "->"
+              ]
+            },
+            {
+              "topic": "Iterator Adapters",
+              "sub_topic": [
+                "reverse_iterator",
+                "move_iterator",
+                "filter_iterator",
+                "transform_iterator"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "String Manipulation",
+          "topics": [
+            {
+              "topic": "String Operations",
+              "sub_topic": [
+                "std::string",
+                "std::wstring",
+                "std::u16string",
+                "std::u32string",
+                "std::basic_string"
+              ]
+            },
+            {
+              "topic": "String Manipulation Functions",
+              "sub_topic": [
+                "std::getline",
+                "std::stringstream",
+                "std::strstream",
+                "std::ostringstream",
+                "std::istringstream"
+              ]
+            },
+            {
+              "topic": "Regular Expressions",
+              "sub_topic": [
+                "std::regex",
+                "std::regex_match",
+                "std::regex_search",
+                "std::regex_replace",
+                "std::regex_token_iterator"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Time and Date Functions",
+          "topics": [
+            {
+              "topic": "Calendar and Time Intervals",
+              "sub_topic": [
+                "chrono::duration",
+                "chrono::time_point",
+                "chrono::system_clock",
+                "chrono::steady_clock",
+                "chrono::high_resolution_clock",
+                "chrono::utc_clock",
+                "chrono::date",
+                "chrono::year",
+                "chrono::month",
+                "chrono::day",
+                "chrono::weekday",
+                "chrono::year_month",
+                "chrono::year_month_day",
+                "chrono::last_day_of_month"
+              ]
+            },
+            {
+              "topic": "Time Utilities",
+              "sub_topic": [
+                "chrono::duration_cast",
+                "chrono::floor",
+                "chrono::ceil",
+                "chrono::round",
+                "chrono::abs",
+                "chrono::floor_duration",
+                "chrono::ceil_duration",
+                "chrono::round_duration",
+                "chrono::abs_duration",
+                "chrono::microseconds",
+                "chrono::milliseconds",
+                "chrono::seconds",
+                "chrono::minutes",
+                "chrono::hours",
+                "chrono::days",
+                "chrono::weeks",
+                "chrono::months",
+                "chrono::years",
+                "chrono::duration<Rep, Period>"
+              ]
+            },
+            {
+              "topic": "Time Zones",
+              "sub_topic": [
+                "chrono::zoned_time",
+                "chrono::local_time",
+                "chrono::gmtime",
+                "chrono::utc_time",
+                "chrono::current_zone",
+                "chrono::local_clock",
+                "chrono::gm_clock",
+                "chrono::utc_clock",
+                "chrono::timezone",
+                "chrono::zoned_system_clock"
+              ]
+            },
+            {
+              "topic": "Formatters and Parsers",
+              "sub_topic": [
+                "chrono::format",
+                "chrono::strptime",
+                "chrono::from_stream",
+                "chrono::to_stream",
+                "chrono::time_zone::to_utc",
+                "chrono::time_zone::from_utc"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "C++ Design Patterns",
+      "sub_categories": [
+        {
+          "sub_category": "Creational Patterns",
+          "topics": [
+            {
+              "topic": "Factory Method",
+              "sub_topic": [
+                "Definition and Purpose",
+                "Structure and Participants",
+                "Advantages and Disadvantages",
+                "Implementation Details and Best Practices",
+                "Real-World Examples and Code Snippets"
+              ]
+            },
+            {
+              "topic": "Abstract Factory",
+              "sub_topic": [
+                "Definition and Purpose",
+                "Structure and Participants",
+                "Advantages and Disadvantages",
+                "Implementation Details and Best Practices",
+                "Real-World Examples and Code Snippets"
+              ]
+            },
+            {
+              "topic": "Builder",
+              "sub_topic": [
+                "Definition and Purpose",
+                "Structure and Participants",
+                "Advantages and Disadvantages",
+                "Implementation Details and Best Practices",
+                "Real-World Examples and Code Snippets"
+              ]
+            },
+            {
+              "topic": "Prototype",
+              "sub_topic": [
+                "Definition and Purpose",
+                "Structure and Participants",
+                "Advantages and Disadvantages",
+                "Implementation Details and Best Practices",
+                "Real-World Examples and Code Snippets"
+              ]
+            },
+            {
+              "topic": "Singleton",
+              "sub_topic": [
+                "Definition and Purpose",
+                "Structure and Participants",
+                "Advantages and Disadvantages",
+                "Implementation Details and Best Practices",
+                "Real-World Examples and Code Snippets"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Structural Patterns",
+          "topics": [
+            {
+              "topic": "Adapter",
+              "sub_topic": [
+                "Intent",
+                "Structure",
+                "Sample Code"
+              ]
+            },
+            {
+              "topic": "Bridge",
+              "sub_topic": [
+                "Intent",
+                "Structure",
+                "Sample Code"
+              ]
+            },
+            {
+              "topic": "Composite",
+              "sub_topic": [
+                "Intent",
+                "Structure",
+                "Sample Code"
+              ]
+            },
+            {
+              "topic": "Decorator",
+              "sub_topic": [
+                "Intent",
+                "Structure",
+                "Sample Code"
+              ]
+            },
+            {
+              "topic": "Facade",
+              "sub_topic": [
+                "Intent",
+                "Structure",
+                "Sample Code"
+              ]
+            },
+            {
+              "topic": "Flyweight",
+              "sub_topic": [
+                "Intent",
+                "Structure",
+                "Sample Code"
+              ]
+            },
+            {
+              "topic": "Proxy",
+              "sub_topic": [
+                "Intent",
+                "Structure",
+                "Sample Code"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Behavioral Patterns",
+          "topics": [
+            {
+              "topic": "Command",
+              "sub_topic": [
+                "Encapsulate a request as an object",
+                "Invoker invokes command objects",
+                "Concrete command contains implementation of the request"
+              ]
+            },
+            {
+              "topic": "Memento",
+              "sub_topic": [
+                "Capture and restore internal state of an object",
+                "Memento contains state snapshot",
+                "Caretaker manages Mementos"
+              ]
+            },
+            {
+              "topic": "Observer",
+              "sub_topic": [
+                "Define one-to-many dependency between objects",
+                "Subject manages a list of Observers",
+                "Observers react to changes in Subject's state"
+              ]
+            },
+            {
+              "topic": "Strategy",
+              "sub_topic": [
+                "Define a family of algorithms",
+                "Encapsulate each algorithm in concrete class",
+                "Context uses a ConcreteStrategy to implement an algorithm"
+              ]
+            },
+            {
+              "topic": "Template Method",
+              "sub_topic": [
+                "Define an algorithm with placeholder steps",
+                "Subclasses implement the placeholder steps",
+                "Template method calls placeholder steps"
+              ]
+            },
+            {
+              "topic": "Mediator",
+              "sub_topic": [
+                "Encapsulate communication between objects",
+                "Mediator manages interactions between objects",
+                "Objects refer to Mediator rather than each other"
+              ]
+            },
+            {
+              "topic": "Chain of Responsibility",
+              "sub_topic": [
+                "Pass requests along a chain of handlers",
+                "Handler handles request or passes it to next handler",
+                "Decouple sender and receiver of requests"
+              ]
+            },
+            {
+              "topic": "Iterator",
+              "sub_topic": [
+                "Traverse elements of a collection",
+                "Iterator provides a uniform interface for accessing elements",
+                "Concrete Iterators implement traversal logic for specific collections"
+              ]
+            },
+            {
+              "topic": "Visitor",
+              "sub_topic": [
+                "Separate an algorithm from an object structure",
+                "Visitor contains a method for each element type",
+                "Elements provide an accept method to invoke Visitor"
+              ]
+            },
+            {
+              "topic": "State",
+              "sub_topic": [
+                "Implement state-dependent behavior by using a hierarchical state machine",
+                "Context's behavior changes when it transitions between states",
+                "Concrete States implement the behaviors for each state"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Singleton Pattern",
+          "topics": [
+            {
+              "topic": "Singleton Pattern",
+              "sub_topic": [
+                "Definition and Purpose",
+                "Implementation Approaches",
+                "- Lazy Initialization",
+                "- Eager Initialization",
+                "- Static Initialization",
+                "- Singleton with Arguments",
+                "Benefits and Drawbacks",
+                "Alternatives",
+                "Best Practices and Anti-Patterns"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Factory Method Pattern",
+          "topics": [
+            {
+              "topic": "Introduction to Factory Method",
+              "sub_topic": [
+                "Definition and purpose",
+                "Benefits and drawbacks",
+                "Real-world examples"
+              ]
+            },
+            {
+              "topic": "Applying Factory Method in C++",
+              "sub_topic": [
+                "Creating factory classes",
+                "Implementing concrete product classes",
+                "Example code and implementation"
+              ]
+            },
+            {
+              "topic": "Variations of Factory Method",
+              "sub_topic": [
+                "Abstract Factory Pattern",
+                "Prototype Factory Pattern",
+                "Singleton Factory Pattern"
+              ]
+            },
+            {
+              "topic": "Best Practices for Factory Method",
+              "sub_topic": [
+                "Choosing appropriate criteria for product creation",
+                "Organizing factory and product classes effectively",
+                "Extending and customizing factory implementations"
+              ]
+            },
+            {
+              "topic": "Case Studies and Applications",
+              "sub_topic": [
+                "Creating dynamic UI elements",
+                "Generating database connections",
+                "Implementing logging frameworks"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Observer Pattern",
+          "topics": [
+            {
+              "topic": "Introduction to Observer Pattern",
+              "sub_topic": [
+                "Definition and Purpose",
+                "Benefits and Drawbacks",
+                "Real-World Examples"
+              ]
+            },
+            {
+              "topic": "Implementation of Observer Pattern in C++",
+              "sub_topic": [
+                "Creating Observer and Subject Classes",
+                "Registering and Removing Observers",
+                "Notifying Observers"
+              ]
+            },
+            {
+              "topic": "Variations of Observer Pattern",
+              "sub_topic": [
+                "Publish-Subscribe Pattern",
+                "Model-View-Controller (MVC) Pattern",
+                "Delegation Pattern"
+              ]
+            },
+            {
+              "topic": "Best Practices for Using Observer Pattern",
+              "sub_topic": [
+                "Loose Coupling",
+                "Observer Management",
+                "Performance Considerations"
+              ]
+            },
+            {
+              "topic": "Advanced Applications of Observer Pattern",
+              "sub_topic": [
+                "Event Handling",
+                "State Management",
+                "Data Binding"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Strategy Pattern",
+          "topics": [
+            {
+              "topic": "Strategy Pattern Overview",
+              "sub_topic": [
+                "Definition and Purpose",
+                "Problem and Solution",
+                "Structure and Participants"
+              ]
+            },
+            {
+              "topic": "Implementation Details",
+              "sub_topic": [
+                "Creating Strategies",
+                "Using Context and Strategy Classes",
+                "Encapsulation and Loose Coupling"
+              ]
+            },
+            {
+              "topic": "Common Applications",
+              "sub_topic": [
+                "Dynamic Behavior Switching",
+                "Algorithm Selection",
+                "Extensibility and Reusability"
+              ]
+            },
+            {
+              "topic": "Variations and Extensions",
+              "sub_topic": [
+                "Null Object Strategy",
+                "Composite Strategy",
+                "Decorator Strategy"
+              ]
+            },
+            {
+              "topic": "Best Practices and Anti-Patterns",
+              "sub_topic": [
+                "Choosing When to Use the Strategy Pattern",
+                "Avoiding Overuse and Unnecessary Complexity",
+                "Enforcing Strategy Consistency"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "C++ Networking",
+      "sub_categories": [
+        {
+          "sub_category": "Socket Programming",
+          "topics": [
+            {
+              "topic": "Socket Basics",
+              "sub_topic": [
+                "What is a socket?",
+                "Types of sockets (TCP, UDP, etc.)",
+                "Socket address and port numbers",
+                "Creating and binding a socket",
+                "Connecting and listening on a socket",
+                "Sending and receiving data using sockets",
+                "Closing a socket"
+              ]
+            },
+            {
+              "topic": "Socket Options",
+              "sub_topic": [
+                "Socket options overview",
+                "Setting socket options (e.g., SO_REUSEADDR, SO_LINGER)",
+                "Getting socket options",
+                "Common socket options"
+              ]
+            },
+            {
+              "topic": "Error Handling",
+              "sub_topic": [
+                "Socket error codes",
+                "Handling socket errors",
+                "Debugging socket issues"
+              ]
+            },
+            {
+              "topic": "Advanced Topics",
+              "sub_topic": [
+                "Non-blocking sockets",
+                "Socket multiplexing (select, poll, epoll)",
+                "Socket threading",
+                "Socket security"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Client-Server Communication",
+          "topics": [
+            {
+              "topic": "TCP Client-Server Communication",
+              "sub_topic": [
+                "Creating a TCP Client",
+                "Creating a TCP Server",
+                "Sending and Receiving Data",
+                "Error Handling",
+                "Advanced TCP Techniques"
+              ]
+            },
+            {
+              "topic": "UDP Client-Server Communication",
+              "sub_topic": [
+                "Creating a UDP Client",
+                "Creating a UDP Server",
+                "Sending and Receiving Data",
+                "Error Handling",
+                "Advanced UDP Techniques"
+              ]
+            },
+            {
+              "topic": "Asynchronous Client-Server Communication",
+              "sub_topic": [
+                "Using Asynchronous Sockets",
+                "Event-Based Programming",
+                "Boost Asio Library",
+                "Proactor/Reactor Patterns"
+              ]
+            },
+            {
+              "topic": "Cross-Platform Client-Server Communication",
+              "sub_topic": [
+                "Sockets vs. Winsock",
+                "Cross-Platform Socket Libraries",
+                "Network Byte Order",
+                "Data Serialization Techniques"
+              ]
+            },
+            {
+              "topic": "Secure Client-Server Communication",
+              "sub_topic": [
+                "SSL/TLS Encryption",
+                "Certificate Management",
+                "Authentication and Authorization",
+                "Secure Socket Layer (SSL)"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "TCP/IP Protocol",
+          "topics": [
+            {
+              "topic": "TCP/IP Protocol Overview",
+              "sub_topic": [
+                "Introduction to TCP/IP",
+                "TCP/IP Protocol Suite",
+                "TCP/IP Addressing and Subnetting",
+                "TCP/IP Data Encapsulation"
+              ]
+            },
+            {
+              "topic": "TCP Protocol",
+              "sub_topic": [
+                "TCP Connection Establishment and Termination",
+                "TCP Segment Structure",
+                "TCP Flow Control and Congestion Control",
+                "TCP Error Handling"
+              ]
+            },
+            {
+              "topic": "IP Protocol",
+              "sub_topic": [
+                "IP Packet Structure",
+                "IP Routing and Forwarding",
+                "IP Fragmentation and Reassembly",
+                "IP Options"
+              ]
+            },
+            {
+              "topic": "UDP Protocol",
+              "sub_topic": [
+                "UDP Datagram Structure",
+                "UDP Connectionless Communication",
+                "UDP Applications"
+              ]
+            },
+            {
+              "topic": "TCP/IP Utilities and Tools",
+              "sub_topic": [
+                "Ping",
+                "Traceroute",
+                "Netstat",
+                "Wireshark"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "UDP Communication",
+          "topics": [
+            {
+              "topic": "UDP Programming Fundamentals",
+              "sub_topic": [
+                "Introduction to UDP and its Features",
+                "Understanding UDP Headers and Data Structures",
+                "Socket Concepts and UDP Socket Programming"
+              ]
+            },
+            {
+              "topic": "UDP Client-Server Communication",
+              "sub_topic": [
+                "Setting up a UDP Server with Bind(), Listen()",
+                "Creating a UDP Client with Connect()",
+                "Data Transfer and I/O Operations in UDP"
+              ]
+            },
+            {
+              "topic": "UDP Broadcasting and Multicasting",
+              "sub_topic": [
+                "Concepts of Broadcasting and Multicasting in UDP",
+                "Setting Up a Broadcast or Multicast Server",
+                "Joining and Receiving Data from Broadcast/Multicast Groups"
+              ]
+            },
+            {
+              "topic": "Error Handling and Debugging in UDP",
+              "sub_topic": [
+                "Common Errors and Troubleshooting Techniques in UDP",
+                "Socket Options and Flags for Error Handling",
+                "Debugging Tools and Strategies for UDP Applications"
+              ]
+            },
+            {
+              "topic": "Advanced UDP Techniques",
+              "sub_topic": [
+                "Non-Blocking UDP I/O and Event-Driven Programming",
+                "UDP Hole Punching and NAT Traversal",
+                "Optimizing UDP Performance and Tuning Socket Parameters"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "C++ Templates and Generics",
+      "sub_categories": [
+        {
+          "sub_category": "Template Classes",
+          "topics": [
+            {
+              "topic": "Template Class Basics",
+              "sub_topic": [
+                "The template keyword",
+                "Defining template parameters",
+                "Using template parameters in class declarations and definitions",
+                "Instantiating template classes"
+              ]
+            },
+            {
+              "topic": "Class Templates with Multiple Parameters",
+              "sub_topic": [
+                "Defining templates with multiple parameters",
+                "Using multiple template parameters in class declarations and definitions",
+                "Instantiating templates with multiple parameters"
+              ]
+            },
+            {
+              "topic": "Template Class Specialization",
+              "sub_topic": [
+                "Specializing template classes",
+                "Partial specialization",
+                "Full specialization",
+                "Explicit specialization"
+              ]
+            },
+            {
+              "topic": "Template Class Member Functions",
+              "sub_topic": [
+                "Defining member functions in template classes",
+                "Overloading member functions in template classes",
+                "Using template parameters in member function definitions"
+              ]
+            },
+            {
+              "topic": "Advanced Template Class Techniques",
+              "sub_topic": [
+                "Using default template parameters",
+                "Using template aliases",
+                "Using template metaprogramming"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Template Functions",
+          "topics": [
+            {
+              "topic": "Template Function Syntax",
+              "sub_topic": [
+                "Function template syntax",
+                "Template parameters",
+                "Template argument deduction",
+                "Function template specialization"
+              ]
+            },
+            {
+              "topic": "Applications of Template Functions",
+              "sub_topic": [
+                "Generic algorithms (e.g., sorting, searching)",
+                "Data structures (e.g., lists, stacks, queues)",
+                "Type-safe programming",
+                "Code reusability"
+              ]
+            },
+            {
+              "topic": "Template Function Overloading",
+              "sub_topic": [
+                "Overloading template functions",
+                "Partial specialization",
+                "Function template selection"
+              ]
+            },
+            {
+              "topic": "Advanced Template Function Techniques",
+              "sub_topic": [
+                "Variadic templates",
+                "Metaprogramming",
+                "Template metaprogramming"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Template Specialization",
+          "topics": [
+            {
+              "topic": "Partial Template Specialization",
+              "sub_topic": [
+                "Syntax and Examples",
+                "Instantiation and Overloading",
+                "Advantages and Disadvantages"
+              ]
+            },
+            {
+              "topic": "Full Template Specialization",
+              "sub_topic": [
+                "Syntax and Examples",
+                "Instantiation and Overriding",
+                "Explicit vs. Implicit Specialization"
+              ]
+            },
+            {
+              "topic": "Template Metaprogramming with Specialization",
+              "sub_topic": [
+                "Creating Specialized Implementations",
+                "Generating Code at Compile-Time",
+                "Conditional Compilation and SFINAE"
+              ]
+            },
+            {
+              "topic": "Compile-Time Polymorphism",
+              "sub_topic": [
+                "Generic Programming with Templates and Specialization",
+                "Type-Safe and Efficient Code",
+                "Avoiding Runtime Overhead"
+              ]
+            },
+            {
+              "topic": "Advanced Concepts",
+              "sub_topic": [
+                "Nested Template Specialization",
+                "Variadic Templates and Specialization",
+                "Concept-Based Specialization"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Variadic Templates",
+          "topics": [
+            {
+              "topic": "Introduction to Variadic Templates",
+              "sub_topic": [
+                "What are variadic templates?",
+                "Syntax and usage of variadic templates",
+                "Benefits and drawbacks of using variadic templates"
+              ]
+            },
+            {
+              "topic": "Function Templates with Variable Number of Arguments",
+              "sub_topic": [
+                "Creating function templates with ellipsis (...)",
+                "Passing arguments to variadic function templates",
+                "Example use cases of variadic function templates"
+              ]
+            },
+            {
+              "topic": "Variadic Class Templates",
+              "sub_topic": [
+                "Defining class templates with variadic parameters",
+                "Accessing and manipulating variable arguments in class templates",
+                "Examples and applications of variadic class templates"
+              ]
+            },
+            {
+              "topic": "Fold Expressions and Variadic Templates",
+              "sub_topic": [
+                "Introduction to fold expressions",
+                "Using fold expressions with variadic templates",
+                "Common use cases and examples of fold expressions in variadic templates"
+              ]
+            },
+            {
+              "topic": "Advanced Techniques and Applications",
+              "sub_topic": [
+                "Creating type-safe variadic templates",
+                "Implementing variadic algorithms and data structures",
+                "Case studies and real-world applications of variadic templates"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "C++ Build and Development Tools",
+      "sub_categories": [
+        {
+          "sub_category": "Makefile",
+          "topics": [
+            {
+              "topic": "Makefile Basics",
+              "sub_topic": [
+                "What is a Makefile?",
+                "How to write a simple Makefile",
+                "Makefile syntax and structure"
+              ]
+            },
+            {
+              "topic": "Advanced Makefile Features",
+              "sub_topic": [
+                "Using variables and macros",
+                "Conditional statements and loops",
+                "Including other Makefiles"
+              ]
+            },
+            {
+              "topic": "Makefile Best Practices",
+              "sub_topic": [
+                "Organizing your Makefile",
+                "Writing maintainable Makefiles",
+                "Debugging Makefiles"
+              ]
+            },
+            {
+              "topic": "Makefile Generators",
+              "sub_topic": [
+                "CMake",
+                "Automake",
+                "Premake"
+              ]
+            },
+            {
+              "topic": "Makefile and IDEs",
+              "sub_topic": [
+                "Using Makefiles with Visual Studio",
+                "Using Makefiles with Xcode",
+                "Using Makefiles with Eclipse"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "CMake",
+          "topics": [
+            {
+              "topic": "CMake Fundamentals",
+              "sub_topic": [
+                "Introduction to CMake",
+                "CMake Syntax and Structure",
+                "Variables and Macros in CMake",
+                "Functions and Modules in CMake",
+                "Building and Installing Projects with CMake",
+                "Cross-Platform Development with CMake",
+                "Debugging and Troubleshooting CMake Projects"
+              ]
+            },
+            {
+              "topic": "Advanced CMake Techniques",
+              "sub_topic": [
+                "Custom Commands and Targets in CMake",
+                "Generator Expressions in CMake",
+                "Testing and Continuous Integration with CMake",
+                "Advanced CMake Modules and Macros",
+                "CMake Best Practices and Tips"
+              ]
+            },
+            {
+              "topic": "CMake Tools and Integration",
+              "sub_topic": [
+                "CMake Graphical User Interfaces",
+                "CMake Integration with IDEs",
+                "CMake with Other Build Systems",
+                "CMake for Large-Scale Projects",
+                "CMake in High-Performance Computing"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "GDB Debugger",
+          "topics": []
+        },
+        {
+          "sub_category": "Profiling Tools",
+          "topics": [
+            {
+              "topic": "Profiling Tools",
+              "sub_topic": [
+                "Valgrind",
+                "gprof",
+                "perf",
+                "FlameGraphs",
+                "Hardware Performance Counters",
+                "Callgrind",
+                "OProfile"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Unit Testing (Google Test)",
+          "topics": [
+            {
+              "topic": "Getting Started with Google Test",
+              "sub_topic": [
+                "Setting up Google Test in your project",
+                "Writing your first unit test",
+                "Running and debugging unit tests"
+              ]
+            },
+            {
+              "topic": "Test Fixtures and Test Cases",
+              "sub_topic": [
+                "Using test fixtures to share common setup and teardown code",
+                "Organizing your tests into logical test cases",
+                "Writing parameterized tests"
+              ]
+            },
+            {
+              "topic": "Assertions and Matchers",
+              "sub_topic": [
+                "Using different types of assertions to verify expected behavior",
+                "Creating custom matchers to handle complex scenarios",
+                "Best practices for writing clear and concise assertions"
+              ]
+            },
+            {
+              "topic": "Advanced Unit Testing Techniques",
+              "sub_topic": [
+                "Testing private methods and classes",
+                "Using mocks and stubs to isolate dependencies",
+                "Writing performance and integration tests"
+              ]
+            },
+            {
+              "topic": "Google Test Internals and Customization",
+              "sub_topic": [
+                "Understanding the architecture of Google Test",
+                "Customizing the test runner and reporters",
+                "Extending Google Test with plugins and adapters"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "C++ Web Development",
+      "sub_categories": [
+        {
+          "sub_category": "CGI (Common Gateway Interface)",
+          "topics": [
+            {
+              "topic": "Introduction to CGI",
+              "sub_topic": [
+                "What is CGI?",
+                "Benefits of using CGI",
+                "Different ways to implement CGI"
+              ]
+            },
+            {
+              "topic": "Creating CGI Scripts",
+              "sub_topic": [
+                "Choosing a programming language for CGI scripting",
+                "Writing and structuring a CGI script",
+                "Handling user input and form data",
+                "Generating dynamic content"
+              ]
+            },
+            {
+              "topic": "CGI Environment Variables",
+              "sub_topic": [
+                "Overview of CGI environment variables",
+                "Commonly used CGI environment variables",
+                "Accessing environment variables in CGI scripts"
+              ]
+            },
+            {
+              "topic": "Interfacing with Web Servers",
+              "sub_topic": [
+                "Configuring web servers to handle CGI requests",
+                "Testing and debugging CGI scripts",
+                "Deploying CGI scripts on a live server"
+              ]
+            },
+            {
+              "topic": "Advanced CGI Techniques",
+              "sub_topic": [
+                "Using cookies for session management",
+                "Handling file uploads and downloads",
+                "Creating dynamic web applications using CGI"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "RESTful APIs",
+          "topics": [
+            {
+              "topic": "Introduction to RESTful APIs",
+              "sub_topic": [
+                "What are RESTful APIs?",
+                "Benefits of using RESTful APIs",
+                "HTTP methods used in RESTful APIs"
+              ]
+            },
+            {
+              "topic": "Creating RESTful APIs in C++",
+              "sub_topic": [
+                "Using frameworks for RESTful API development",
+                "Building simple RESTful APIs from scratch",
+                "Handling HTTP requests and responses",
+                "Sending and receiving data in JSON format"
+              ]
+            },
+            {
+              "topic": "Security Considerations for RESTful APIs",
+              "sub_topic": [
+                "Authentication and authorization mechanisms",
+                "Preventing common attacks such as SQL injection and cross-site scripting",
+                "Best practices for securing RESTful APIs"
+              ]
+            },
+            {
+              "topic": "Performance Optimization for RESTful APIs",
+              "sub_topic": [
+                "Caching mechanisms",
+                "Load balancing techniques",
+                "Monitoring and profiling RESTful APIs"
+              ]
+            },
+            {
+              "topic": "Best Practices for RESTful API Design",
+              "sub_topic": [
+                "Choosing the right HTTP status codes",
+                "Versioning RESTful APIs",
+                "Documenting RESTful APIs"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "WebSockets",
+          "topics": [
+            {
+              "topic": "WebSocket Basics",
+              "sub_topic": [
+                "Introduction to WebSockets",
+                "WebSocket Protocol",
+                "Establishing WebSocket Connections",
+                "Sending and Receiving WebSocket Messages"
+              ]
+            },
+            {
+              "topic": "WebSocket Libraries in C++",
+              "sub_topic": [
+                "libwebsockets",
+                "Boost.Asio",
+                "cpp-websocketpp",
+                "WebSocket++"
+              ]
+            },
+            {
+              "topic": "WebSocket Applications",
+              "sub_topic": [
+                "Real-time Chat",
+                "Multiplayer Gaming",
+                "Data Streaming",
+                "Remote Control"
+              ]
+            },
+            {
+              "topic": "WebSocket Security",
+              "sub_topic": [
+                "WebSocket Security Considerations",
+                "WebSocket Origin Policies",
+                "Securing WebSocket Connections"
+              ]
+            },
+            {
+              "topic": "Advanced WebSocket Techniques",
+              "sub_topic": [
+                "WebSocket Compression",
+                "WebSocket Extensions",
+                "WebSocket Subprotocols"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "C++ Game Development",
+      "sub_categories": [
+        {
+          "sub_category": "Game Loops",
+          "topics": [
+            {
+              "topic": "Game Loops in C++",
+              "sub_topic": [
+                "Introduction to Game Loops",
+                "Different Types of Game Loops",
+                "Choosing the Right Game Loop",
+                "Implementing and Managing Game Loops",
+                "Common Game Loop Pitfalls and Solutions"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Collision Detection",
+          "topics": [
+            {
+              "topic": "Introduction to Collision Detection",
+              "sub_topic": [
+                "Definition and importance of collision detection in game development",
+                "Common types of collision detection algorithms",
+                "Overview of the process of implementing collision detection in a game engine"
+              ]
+            },
+            {
+              "topic": "Collision Detection Algorithms",
+              "sub_topic": [
+                "Bounding Volume Hierarchy (BVH)",
+                "Quadtrees and Octrees",
+                "kd-trees",
+                "Spatial Hashing",
+                "Sweep and Prune"
+              ]
+            },
+            {
+              "topic": "Collision Response",
+              "sub_topic": [
+                "Elastic and inelastic collisions",
+                "Coefficient of restitution",
+                "Impulse-based response",
+                "Collision resolution methods (e.g., Verlet integration, penalty methods)"
+              ]
+            },
+            {
+              "topic": "Optimizing Collision Detection",
+              "sub_topic": [
+                "Spatial partitioning techniques",
+                "Broad-phase and narrow-phase collision detection",
+                "Reducing the number of collision checks",
+                "Using hardware acceleration (e.g., SIMD instructions)"
+              ]
+            },
+            {
+              "topic": "Advanced Collision Detection Techniques",
+              "sub_topic": [
+                "Collision prediction",
+                "Continuous collision detection",
+                "Deformable body collision detection",
+                "Fluid simulation and collision detection"
+              ]
+            },
+            {
+              "topic": "Game-Specific Collision Detection",
+              "sub_topic": [
+                "Platformer games",
+                "First-person shooters",
+                "Vehicle simulations",
+                "Ragdoll physics"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Game Physics",
+          "topics": [
+            {
+              "topic": "Collision Detection",
+              "sub_topic": [
+                "Broad-phase collision detection",
+                "Narrow-phase collision detection",
+                "Collision response and resolution"
+              ]
+            },
+            {
+              "topic": "Rigid Body Dynamics",
+              "sub_topic": [
+                "Newton's laws of motion",
+                "Rigid body kinematics",
+                "Rigid body dynamics"
+              ]
+            },
+            {
+              "topic": "Physics Engines",
+              "sub_topic": [
+                "Box2D",
+                "PhysX",
+                "Havok Physics"
+              ]
+            },
+            {
+              "topic": "Advanced Game Physics",
+              "sub_topic": [
+                "Ragdoll physics",
+                "Cloth simulation",
+                "Fluid simulation"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Event Handling",
+          "topics": [
+            {
+              "topic": "Event Handling Basics",
+              "sub_topic": [
+                "Understanding Events and Event Handlers",
+                "Event Delegation and Propagation",
+                "Custom Event Creation and Dispatching"
+              ]
+            },
+            {
+              "topic": "Input Events",
+              "sub_topic": [
+                "Handling Mouse Events (Click, Move, Scroll)",
+                "Processing Keyboard Events (Key Press, Release)",
+                "Gamepad and Joystick Support"
+              ]
+            },
+            {
+              "topic": "State and UI Events",
+              "sub_topic": [
+                "Detecting Focus and Blur Events",
+                "Responding to Resize and Orientation Changes",
+                "Handling Load and Unload Events"
+              ]
+            },
+            {
+              "topic": "Game Loop and Event Processing",
+              "sub_topic": [
+                "Organizing Event Handling in the Game Loop",
+                "Optimizing Event Processing for Performance",
+                "Event Queues and Priority Handling"
+              ]
+            },
+            {
+              "topic": "Advanced Event Handling Techniques",
+              "sub_topic": [
+                "Event Listeners and Observers",
+                "Event Aggregators and Dispatchers",
+                "Custom Event Middleware"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "C++ GUI Programming",
+      "sub_categories": [
+        {
+          "sub_category": "Qt Framework",
+          "topics": [
+            {
+              "topic": "Qt Basics",
+              "sub_topic": [
+                "Introduction to Qt",
+                "Qt Architecture",
+                "Qt Widgets and Layouts",
+                "Qt Signals and Slots",
+                "Qt Event Handling"
+              ]
+            },
+            {
+              "topic": "Qt Widgets",
+              "sub_topic": [
+                "Qt Widget Overview",
+                "QPushButton",
+                "QLineEdit",
+                "QLabel",
+                "QListView",
+                "QTableView",
+                "Qt Item Models"
+              ]
+            },
+            {
+              "topic": "Qt Layouts",
+              "sub_topic": [
+                "Qt Layout Overview",
+                "QHBoxLayout",
+                "QVBoxLayout",
+                "QGridLayout",
+                "QFormLayout"
+              ]
+            },
+            {
+              "topic": "Qt Signals and Slots",
+              "sub_topic": [
+                "Qt Signals and Slots Overview",
+                "Connecting Signals and Slots",
+                "Custom Signals and Slots",
+                "Event Filters"
+              ]
+            },
+            {
+              "topic": "Qt Event Handling",
+              "sub_topic": [
+                "Qt Event Handling Overview",
+                "Event Propagation",
+                "Event Filters",
+                "Custom Events"
+              ]
+            },
+            {
+              "topic": "Qt Resources and Internationalization",
+              "sub_topic": [
+                "Qt Resources Overview",
+                "QRC Files",
+                "Qt Translation",
+                "Qt Internationalization"
+              ]
+            },
+            {
+              "topic": "Qt Model-View Programming",
+              "sub_topic": [
+                "Qt Model-View Programming Overview",
+                "QAbstractItemModel",
+                "QStandardItemModel",
+                "QTreeView",
+                "QTableView"
+              ]
+            },
+            {
+              "topic": "Qt Graphics Framework",
+              "sub_topic": [
+                "Qt Graphics Framework Overview",
+                "QGraphicsScene",
+                "QGraphicsView",
+                "QGraphicsItem"
+              ]
+            },
+            {
+              "topic": "Qt Network Programming",
+              "sub_topic": [
+                "Qt Network Programming Overview",
+                "QTcpSocket",
+                "QUdpSocket",
+                "QNetworkAccessManager"
+              ]
+            },
+            {
+              "topic": "Qt Thread Programming",
+              "sub_topic": [
+                "Qt Thread Programming Overview",
+                "QThread",
+                "QMutex",
+                "QWaitCondition"
+              ]
+            },
+            {
+              "topic": "Qt Advanced Topics",
+              "sub_topic": [
+                "Qt Plugins",
+                "Qt Custom Widgets",
+                "Qt Style Sheets",
+                "Qt QML"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "wxWidgets",
+          "topics": [
+            {
+              "topic": "Getting Started with wxWidgets",
+              "sub_topic": [
+                "Installing wxWidgets",
+                "Creating a new wxWidgets project",
+                "Compiling and running a wxWidgets program"
+              ]
+            },
+            {
+              "topic": "wxWidgets Main Window",
+              "sub_topic": [
+                "Creating a wxWidgets main window",
+                "Setting the main window title and size",
+                "Adding widgets to the main window"
+              ]
+            },
+            {
+              "topic": "wxWidgets Widgets",
+              "sub_topic": [
+                "Creating and using wxWidgets widgets",
+                "Common wxWidgets widgets (e.g., buttons, text boxes, menus)",
+                "Customizing wxWidgets widgets"
+              ]
+            },
+            {
+              "topic": "wxWidgets Event Handling",
+              "sub_topic": [
+                "Handling events in wxWidgets",
+                "Event types and handlers",
+                "Connecting events to handlers"
+              ]
+            },
+            {
+              "topic": "wxWidgets Layout Management",
+              "sub_topic": [
+                "Using layout managers in wxWidgets",
+                "Common layout managers (e.g., sizers, grids)",
+                "Creating custom layouts"
+              ]
+            },
+            {
+              "topic": "wxWidgets Advanced Topics",
+              "sub_topic": [
+                "Using wxWidgets with other libraries",
+                "Creating plugins for wxWidgets",
+                "Extending wxWidgets functionality"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "GTK+",
+          "topics": [
+            {
+              "topic": "Introduction to GTK+",
+              "sub_topic": [
+                "What is GTK+?",
+                "Benefits of using GTK+",
+                "Getting started with GTK+"
+              ]
+            },
+            {
+              "topic": "Creating a Basic GTK+ Window",
+              "sub_topic": [
+                "Creating a new window",
+                "Setting window properties",
+                "Handling events"
+              ]
+            },
+            {
+              "topic": "Using Widgets in GTK+",
+              "sub_topic": [
+                "Commonly used GTK+ widgets",
+                "Creating and configuring widgets",
+                "Adding widgets to a window"
+              ]
+            },
+            {
+              "topic": "Event Handling in GTK+",
+              "sub_topic": [
+                "Event handling basics",
+                "Handling common events",
+                "Using GTK+ event signals"
+              ]
+            },
+            {
+              "topic": "Creating Menus and Toolbars in GTK+",
+              "sub_topic": [
+                "Creating menus",
+                "Adding menu items",
+                "Creating toolbars",
+                "Adding toolbar buttons"
+              ]
+            },
+            {
+              "topic": "Working with Layouts in GTK+",
+              "sub_topic": [
+                "Using containers",
+                "Common layout containers",
+                "Managing widget layouts"
+              ]
+            },
+            {
+              "topic": "Styling GTK+ Applications",
+              "sub_topic": [
+                "Using CSS to style GTK+ applications",
+                "Customizing widget styles",
+                "Creating custom themes"
+              ]
+            },
+            {
+              "topic": "Advanced GTK+ Programming",
+              "sub_topic": [
+                "Using Glade to create GUI interfaces",
+                "Extending GTK+ with custom widgets",
+                "Using GTK+ in multithreaded applications"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "C++ Security",
+      "sub_categories": [
+        {
+          "sub_category": "Cryptography",
+          "topics": []
+        },
+        {
+          "sub_category": "Secure Coding Practices",
+          "topics": [
+            {
+              "topic": "Input Validation",
+              "sub_topic": [
+                "Boundary checking",
+                "Type checking",
+                "Range checking",
+                "Format checking",
+                "Sanitization"
+              ]
+            },
+            {
+              "topic": "Memory Management",
+              "sub_topic": [
+                "Use of memory pools",
+                "Automatic memory management",
+                "Detection and prevention of memory leaks",
+                "Bounds checking",
+                "Use of secure coding libraries"
+              ]
+            },
+            {
+              "topic": "Exception Handling",
+              "sub_topic": [
+                "Proper handling of exceptions",
+                "Avoidance of exception chaining",
+                "Use of exception specifications",
+                "Testing of exception handling code"
+              ]
+            },
+            {
+              "topic": "Error Handling",
+              "sub_topic": [
+                "Proper handling of errors",
+                "Use of error codes",
+                "Logging of errors",
+                "Testing of error handling code"
+              ]
+            },
+            {
+              "topic": "Cryptography",
+              "sub_topic": [
+                "Use of strong encryption algorithms",
+                "Proper key management",
+                "Avoidance of weak or insecure algorithms",
+                "Testing of cryptographic code"
+              ]
+            },
+            {
+              "topic": "Concurrency",
+              "sub_topic": [
+                "Use of synchronization primitives",
+                "Avoidance of race conditions",
+                "Testing of concurrent code"
+              ]
+            },
+            {
+              "topic": "Code Reviews and Audits",
+              "sub_topic": [
+                "Regular code reviews",
+                "Use of static analysis tools",
+                "Peer code reviews",
+                "External code audits"
+              ]
+            },
+            {
+              "topic": "Training and Awareness",
+              "sub_topic": [
+                "Security awareness training for developers",
+                "Education on secure coding practices",
+                "Ongoing reinforcement of security best practices"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Access Control",
+          "topics": [
+            {
+              "topic": "Access Control Lists (ACLs)",
+              "sub_topic": [
+                "Using ACLs to control access to files and directories",
+                "Setting and modifying ACLs",
+                "ACL inheritance and propagation"
+              ]
+            },
+            {
+              "topic": "Role-Based Access Control (RBAC)",
+              "sub_topic": [
+                "Creating and managing roles",
+                "Assigning roles to users and groups",
+                "Enforcing RBAC policies in code"
+              ]
+            },
+            {
+              "topic": "Attribute-Based Access Control (ABAC)",
+              "sub_topic": [
+                "Defining attributes and policies",
+                "Using ABAC to enforce fine-grained access control",
+                "Integrating ABAC with other security mechanisms"
+              ]
+            },
+            {
+              "topic": "Multi-Factor Authentication (MFA)",
+              "sub_topic": [
+                "Implementing MFA in C++ applications",
+                "Integrating MFA with existing authentication systems",
+                "Best practices for MFA implementation"
+              ]
+            },
+            {
+              "topic": "Least Privilege Principle",
+              "sub_topic": [
+                "Enforcing the principle of least privilege in C++ code",
+                "Techniques for implementing least privilege",
+                "Benefits and challenges of least privilege"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
