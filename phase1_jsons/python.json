@@ -1,0 +1,419 @@
+{
+  "categories": [
+    {
+      "category": "Core Python",
+      "sub_categories": [
+        {
+          "sub_category": "Basic Syntax",
+          "topics": []
+        },
+        {
+          "sub_category": "Variables and Data Types",
+          "topics": []
+        },
+        {
+          "sub_category": "Control Flow Statements",
+          "topics": []
+        },
+        {
+          "sub_category": "Functions and Scope",
+          "topics": []
+        },
+        {
+          "sub_category": "Built-in Data Structures",
+          "topics": []
+        },
+        {
+          "sub_category": "Modules and Packages",
+          "topics": []
+        },
+        {
+          "sub_category": "File Handling",
+          "topics": []
+        },
+        {
+          "sub_category": "Error and Exception Handling",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Object-Oriented Programming",
+      "sub_categories": [
+        {
+          "sub_category": "Classes and Objects",
+          "topics": []
+        },
+        {
+          "sub_category": "Inheritance",
+          "topics": []
+        },
+        {
+          "sub_category": "Polymorphism",
+          "topics": []
+        },
+        {
+          "sub_category": "Encapsulation",
+          "topics": []
+        },
+        {
+          "sub_category": "Abstract Classes and Interfaces",
+          "topics": []
+        },
+        {
+          "sub_category": "Magic/Dunder Methods",
+          "topics": []
+        },
+        {
+          "sub_category": "Class and Static Methods",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Functional Programming",
+      "sub_categories": [
+        {
+          "sub_category": "Lambda Functions",
+          "topics": []
+        },
+        {
+          "sub_category": "Map, Filter, and Reduce",
+          "topics": []
+        },
+        {
+          "sub_category": "Iterators and Generators",
+          "topics": []
+        },
+        {
+          "sub_category": "Closures",
+          "topics": []
+        },
+        {
+          "sub_category": "Decorators",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Advanced Python",
+      "sub_categories": [
+        {
+          "sub_category": "Metaclasses",
+          "topics": []
+        },
+        {
+          "sub_category": "Descriptors",
+          "topics": []
+        },
+        {
+          "sub_category": "Context Managers",
+          "topics": []
+        },
+        {
+          "sub_category": "Coroutines and Asyncio",
+          "topics": []
+        },
+        {
+          "sub_category": "Type Hinting",
+          "topics": []
+        },
+        {
+          "sub_category": "Memory Management",
+          "topics": []
+        },
+        {
+          "sub_category": "Garbage Collection",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Data Science and Machine Learning",
+      "sub_categories": [
+        {
+          "sub_category": "NumPy",
+          "topics": []
+        },
+        {
+          "sub_category": "Pandas",
+          "topics": []
+        },
+        {
+          "sub_category": "Matplotlib and Seaborn",
+          "topics": []
+        },
+        {
+          "sub_category": "Scikit-learn",
+          "topics": []
+        },
+        {
+          "sub_category": "TensorFlow and PyTorch",
+          "topics": []
+        },
+        {
+          "sub_category": "Data Cleaning and Preprocessing",
+          "topics": []
+        },
+        {
+          "sub_category": "Feature Engineering",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Web Development",
+      "sub_categories": [
+        {
+          "sub_category": "Flask",
+          "topics": []
+        },
+        {
+          "sub_category": "Django",
+          "topics": []
+        },
+        {
+          "sub_category": "FastAPI",
+          "topics": []
+        },
+        {
+          "sub_category": "RESTful APIs",
+          "topics": []
+        },
+        {
+          "sub_category": "Socket Programming",
+          "topics": []
+        },
+        {
+          "sub_category": "WebSockets",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Scripting and Automation",
+      "sub_categories": [
+        {
+          "sub_category": "OS Module",
+          "topics": []
+        },
+        {
+          "sub_category": "Subprocess Module",
+          "topics": []
+        },
+        {
+          "sub_category": "File and Directory Management",
+          "topics": []
+        },
+        {
+          "sub_category": "Task Scheduling",
+          "topics": []
+        },
+        {
+          "sub_category": "Web Scraping (BeautifulSoup, Scrapy)",
+          "topics": []
+        },
+        {
+          "sub_category": "Regular Expressions",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Testing and Debugging",
+      "sub_categories": [
+        {
+          "sub_category": "Unit Testing",
+          "topics": []
+        },
+        {
+          "sub_category": "Integration Testing",
+          "topics": []
+        },
+        {
+          "sub_category": "Pytest",
+          "topics": []
+        },
+        {
+          "sub_category": "Debugging Tools (pdb, breakpoint())",
+          "topics": []
+        },
+        {
+          "sub_category": "Code Coverage Analysis",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Networking and Security",
+      "sub_categories": [
+        {
+          "sub_category": "Socket Programming",
+          "topics": []
+        },
+        {
+          "sub_category": "HTTP and REST APIs",
+          "topics": []
+        },
+        {
+          "sub_category": "Authentication and Authorization",
+          "topics": []
+        },
+        {
+          "sub_category": "Cryptography",
+          "topics": []
+        },
+        {
+          "sub_category": "Secure Coding Practices",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "DevOps and Deployment",
+      "sub_categories": [
+        {
+          "sub_category": "Docker",
+          "topics": []
+        },
+        {
+          "sub_category": "Kubernetes",
+          "topics": []
+        },
+        {
+          "sub_category": "CI/CD Pipelines",
+          "topics": []
+        },
+        {
+          "sub_category": "Cloud Services (AWS, GCP, Azure)",
+          "topics": []
+        },
+        {
+          "sub_category": "Infrastructure as Code (Terraform, Ansible)",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Game Development",
+      "sub_categories": [
+        {
+          "sub_category": "Pygame",
+          "topics": []
+        },
+        {
+          "sub_category": "Game Loops",
+          "topics": []
+        },
+        {
+          "sub_category": "Collision Detection",
+          "topics": []
+        },
+        {
+          "sub_category": "Event Handling",
+          "topics": []
+        },
+        {
+          "sub_category": "Game Physics",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "GUI Development",
+      "sub_categories": [
+        {
+          "sub_category": "Tkinter",
+          "topics": []
+        },
+        {
+          "sub_category": "PyQt",
+          "topics": []
+        },
+        {
+          "sub_category": "Kivy",
+          "topics": []
+        },
+        {
+          "sub_category": "Custom Widgets",
+          "topics": []
+        },
+        {
+          "sub_category": "Event Binding",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Data Engineering",
+      "sub_categories": [
+        {
+          "sub_category": "ETL Pipelines",
+          "topics": []
+        },
+        {
+          "sub_category": "Database Connectivity",
+          "topics": []
+        },
+        {
+          "sub_category": "Data Serialization (JSON, XML)",
+          "topics": []
+        },
+        {
+          "sub_category": "Big Data Tools (Hadoop, Spark)",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Scientific Computing",
+      "sub_categories": [
+        {
+          "sub_category": "SciPy",
+          "topics": []
+        },
+        {
+          "sub_category": "SymPy",
+          "topics": []
+        },
+        {
+          "sub_category": "Matplotlib",
+          "topics": []
+        },
+        {
+          "sub_category": "Data Analysis",
+          "topics": []
+        },
+        {
+          "sub_category": "Statistical Computation",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Artificial Intelligence",
+      "sub_categories": [
+        {
+          "sub_category": "Natural Language Processing (NLTK, SpaCy)",
+          "topics": []
+        },
+        {
+          "sub_category": "Computer Vision (OpenCV)",
+          "topics": []
+        },
+        {
+          "sub_category": "Reinforcement Learning",
+          "topics": []
+        },
+        {
+          "sub_category": "Deep Learning",
+          "topics": []
+        },
+        {
+          "sub_category": "AI Model Deployment",
+          "topics": []
+        }
+      ]
+    }
+  ]
+}

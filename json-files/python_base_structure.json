@@ -1,0 +1,179 @@
+{
+  "tags": [
+    "python",
+    "programming",
+    "data structures",
+    "algorithms",
+    "object-oriented programming",
+    "web development",
+    "machine learning",
+    "artificial intelligence"
+  ],
+  "categories": [
+    {
+      "categorty": "Category1",
+      "sub_categories": [
+        {
+          "sub_category": "Subcategory1",
+          "topics": []
+        },
+        {
+          "sub_category": "Subcategory2",
+          "topics": [
+            {
+              "topic": "Topic1",
+              "sub_topics": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Data Structures",
+      "sub_categories": [
+        {
+          "sub_category": "Arrays",
+          "topics": []
+        },
+        {
+          "sub_category": "Lists",
+          "topics": []
+        },
+        {
+          "sub_category": "Stacks",
+          "topics": []
+        },
+        {
+          "sub_category": "Queues",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Algorithms",
+      "sub_categories": [
+        {
+          "sub_category": "Sorting",
+          "topics": []
+        },
+        {
+          "sub_category": "Searching",
+          "topics": []
+        },
+        {
+          "sub_category": "Recursion",
+          "topics": []
+        },
+        {
+          "sub_category": "Dynamic Programming",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Object-Oriented Programming",
+      "sub_categories": [
+        {
+          "sub_category": "Encapsulation",
+          "topics": []
+        },
+        {
+          "sub_category": "Inheritance",
+          "topics": []
+        },
+        {
+          "sub_category": "Polymorphism",
+          "topics": []
+        },
+        {
+          "sub_category": "Abstraction",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Python Fundamentals",
+      "sub_categories": [
+        {
+          "sub_category": "Variables",
+          "topics": []
+        },
+        {
+          "sub_category": "Data Types",
+          "topics": []
+        },
+        {
+          "sub_category": "Operators",
+          "topics": []
+        },
+        {
+          "sub_category": "Control Flow",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Libraries and Frameworks",
+      "sub_categories": [
+        {
+          "sub_category": "Data Science",
+          "topics": []
+        },
+        {
+          "sub_category": "Web Development",
+          "topics": []
+        },
+        {
+          "sub_category": "Machine Learning",
+          "topics": []
+        },
+        {
+          "sub_category": "Data Engineering",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Problem Solving",
+      "sub_categories": [
+        {
+          "sub_category": "Backtracking",
+          "topics": []
+        },
+        {
+          "sub_category": "Dynamic Programming",
+          "topics": []
+        },
+        {
+          "sub_category": "Greedy Algorithms",
+          "topics": []
+        },
+        {
+          "sub_category": "Divide and Conquer",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "System Design",
+      "sub_categories": [
+        {
+          "sub_category": "High-Level Design",
+          "topics": []
+        },
+        {
+          "sub_category": "Low-Level Design",
+          "topics": []
+        },
+        {
+          "sub_category": "Data Structures",
+          "topics": []
+        },
+        {
+          "sub_category": "Algorithms",
+          "topics": []
+        }
+      ]
+    }
+  ]
+}
