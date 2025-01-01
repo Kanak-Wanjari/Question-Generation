@@ -1,3 +1,4 @@
+#phase 1
 import google.generativeai as genai
 import json
 import os

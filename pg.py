@@ -46,8 +46,8 @@ def save_prompts(output_file, prompts):
         print(f"Error saving file: {e}")
 
 def main():
-    input_file = r"C:\Users\janhv\python_programs\technology_category_interview_question\Question-Generation\java_complete_structure.json"
-    output_file = "_generated_Prompts.json"
+    input_file = r"C:\Users\janhv\python_programs\technology_category_interview_question\Question-Generation\phase2_jsons\python_question_structure.json"
+    output_file = "python_generated_Prompts.json"
     
     prompts = generate_all_prompts(input_file)
     if prompts:
@@ -57,3 +57,8 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+

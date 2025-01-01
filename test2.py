@@ -99,8 +99,8 @@ def main():
         model = setup_environment()
         
         # Process files
-        input_file = r'C:\Users\janhv\python_programs\technology_category_interview_question\Question-Generation\java_base_structure.json'
-        output_file = 'java_question_structure.json'
+        input_file = r'C:\Users\janhv\python_programs\technology_category_interview_question\Question-Generation\python.json'
+        output_file = 'python_question_structure.json'
         
         process_json_file(input_file, output_file, model)
         
@@ -111,4 +111,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
 

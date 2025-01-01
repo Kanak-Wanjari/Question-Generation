@@ -1,129 +1,119 @@
-import json
-import os
-import time
 import google.generativeai as genai
-from typing import List, Dict
-import logging
+import json
+import time
+import random
 from dotenv import load_dotenv
+import os
 
-# Setup logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s'
-)
+# Load environment variables from .env file
+load_dotenv()
 
-def setup_gemini(api_key: str):
-    """Initialize Gemini API."""
+def setup_gemini(api_key):
+    """Initialize Gemini model."""
     genai.configure(api_key=api_key)
     return genai.GenerativeModel('gemini-pro')
 
-def generate_questions(model, prompt: Dict) -> Dict:
-    """Generate interview questions for a single prompt."""
-    try:
-        # Get response from Gemini
-        response = model.generate_content(prompt["question_prompt"])
-        
-        # Parse the response text as JSON
+def generate_with_retry(model, prompt):
+    """Generate content with rate limit handling."""
+    retry_delays = [1, 2, 4, 8, 16]
+    
+    for delay in retry_delays:
         try:
-            questions = json.loads(response.text)
-        except json.JSONDecodeError:
-            # If response isn't valid JSON, return it as raw text
-            questions = response.text
+            # Make the prompt more explicit about JSON format
+            formatted_prompt = f"""
+            Generate 10 questions about {prompt} with their difficulty levels.
+            Return ONLY a JSON array in this exact format, nothing else:
+            [
+                {{"question": "What is...", "difficulty": "Easy"}},
+                {{"question": "Explain how...", "difficulty": "Medium"}},
+                ...
+            ]
+            """
+            response = model.generate_content(formatted_prompt)
+            
+            # Try to extract JSON from the response
+            text = response.text.strip()
+            
+            # Remove any markdown code block indicators if present
+            text = text.replace('```json', '').replace('```', '').strip()
+            
+            # Validate and return JSON
+            try:
+                return json.loads(text)
+            except json.JSONDecodeError:
+                print(f"Invalid JSON response for {prompt}. Raw response: {text[:100]}...")
+                return []
+                
+        except Exception as e:
+            if "429" in str(e):
+                time.sleep(delay + random.uniform(0, 1))
+                continue
+            print(f"Error generating content: {str(e)}")
+            return []
+    
+    return []
+
+def process_prompt(model, prompt_data):
+    """Process a single prompt and generate questions."""
+    try:
+        # Generate questions
+        questions = generate_with_retry(model, prompt_data["sub_topic"])
         
-        # Create result dictionary
-        result = {
-            "category": prompt["category"],
-            "sub_category": prompt["sub_category"],
-            "topic": prompt["topic"],
-            "sub_topic": prompt["sub_topic"],
+        # If no questions were generated, create a placeholder
+        if not questions:
+            questions = [{
+                "question": f"Failed to generate question about {prompt_data['sub_topic']}",
+                "difficulty": "N/A"
+            }]
+        
+        # Return results with metadata
+        return {
+            "category": prompt_data["category"],
+            "sub_category": prompt_data["sub_category"],
+            "topic": prompt_data["topic"],
+            "sub_topic": prompt_data["sub_topic"],
             "questions": questions
         }
-        
-        return result
-    
     except Exception as e:
-        logging.error(f"Error generating questions for {prompt['sub_topic']}: {str(e)}")
-        return None
-
-def process_prompts_in_chunks(prompts: List[Dict], api_key: str, 
-                            chunk_size: int = 5, delay_seconds: int = 3):
-    """Process prompts in chunks with rate limiting."""
-    model = setup_gemini(api_key)
-    results = []
-    failed_prompts = []
-    
-    # Process prompts in chunks
-    for i in range(0, len(prompts), chunk_size):
-        chunk = prompts[i:i + chunk_size]
-        logging.info(f"Processing chunk {i//chunk_size + 1} of {len(prompts)//chunk_size + 1}")
-        
-        # Process each prompt in the chunk
-        for prompt in chunk:
-            try:
-                # Generate questions
-                result = generate_questions(model, prompt)
-                
-                if result:
-                    results.append(result)
-                    logging.info(f"Generated questions for: {prompt['sub_topic']}")
-                    
-                    # Save progress after each successful generation
-                    save_results(results, "generated_questions.json")
-                else:
-                    failed_prompts.append(prompt)
-                    logging.warning(f"Failed to generate questions for: {prompt['sub_topic']}")
-            
-            except Exception as e:
-                failed_prompts.append(prompt)
-                logging.error(f"Error processing prompt: {str(e)}")
-            
-            # Small delay between individual prompts
-            time.sleep(1)
-        
-        # Delay between chunks
-        logging.info(f"Waiting {delay_seconds} seconds before next chunk...")
-        time.sleep(delay_seconds)
-    
-    # Save failed prompts
-    if failed_prompts:
-        save_results(failed_prompts, "failed_prompts.json")
-    
-    return results, failed_prompts
-
-def save_results(data: List[Dict], filename: str):
-    """Save results to a JSON file."""
-    try:
-        with open(filename, 'w') as f:
-            json.dump(data, f, indent=4)
-        logging.info(f"Saved results to {filename}")
-    except Exception as e:
-        logging.error(f"Error saving to {filename}: {str(e)}")
+        print(f"Error processing {prompt_data['sub_topic']}: {str(e)}")
+        return {**prompt_data, "questions": []}
 
 def main():
-    load_dotenv
+    # Get API key from .env
     api_key = os.getenv('GEMINI_API_KYE')
-    input_file = r'C:\Users\janhv\python_programs\technology_category_interview_question\Question-Generation\Generated_Prompts_new.json'
-    # Load prompts from file
+    if not api_key:
+        print("Error: GOOGLE_API_KEY not found in .env file")
+        return
+
+    # Setup input/output files with raw strings for Windows paths
+    input_file = r"C:\Users\janhv\python_programs\technology_category_interview_question\QG\json.json"
+    output_file = r"C:\Users\janhv\python_programs\technology_category_interview_question\QG\Generated_Questions.json"
+    
     try:
         with open(input_file, 'r') as f:
             prompts = json.load(f)
-        logging.info(f"Loaded {len(prompts)} prompts")
+        
+        model = setup_gemini(api_key)
+        results = []
+        total = len(prompts)
+        
+        for i, prompt_data in enumerate(prompts, 1):
+            print(f"Processing {i}/{total}: {prompt_data['sub_topic']}")
+            result = process_prompt(model, prompt_data)
+            results.append(result)
+            
+            # Save after each successful generation to prevent losing progress
+            with open(output_file, 'w') as f:
+                json.dump(results, f, indent=4)
+            
+            time.sleep(1)  # Increased delay to be safer with rate limits
+        
+        print(f"Successfully generated questions and saved to {output_file}")
+        
+    except FileNotFoundError:
+        print(f"Error: Could not find file {input_file}")
     except Exception as e:
-        logging.error(f"Error loading prompts: {str(e)}")
-        return
-    
-    # Process prompts and generate questions
-    results, failed = process_prompts_in_chunks(
-        prompts=prompts,
-        api_key=api_key,
-        chunk_size=5,  # Process 5 prompts at a time
-        delay_seconds=3  # Wait 3 seconds between chunks
-    )
-    
-    # Final summary
-    logging.info(f"Processing completed!")
-    logging.info(f"Successfully generated questions: {len(results)}")
-    logging.info(f"Failed prompts: {len(failed)}")
+        print(f"Error: {str(e)}")
 
 if __name__ == "__main__":
     main()
