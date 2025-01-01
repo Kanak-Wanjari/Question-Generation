@@ -1,0 +1,3939 @@
+{
+  "tags": [
+    "Java",
+    "Interviews",
+    "Core Java",
+    "Data Structures",
+    "Algorithms",
+    "OOP",
+    "Collections",
+    "Exception Handling"
+  ],
+  "categories": [
+    {
+      "category": "Core Python",
+      "sub_categories": [
+        {
+          "sub_category": "Basic Syntax",
+          "topics": [
+            {
+              "topic": "Variables and Data Types",
+              "sub_topics": [
+                "Declaring Variables",
+                "Data Types",
+                "Type Casting"
+              ]
+            },
+            {
+              "topic": "Operators",
+              "sub_topics": [
+                "Arithmetic Operators",
+                "Comparison Operators",
+                "Logical Operators",
+                "Bitwise Operators"
+              ]
+            },
+            {
+              "topic": "Conditional Statements",
+              "sub_topics": [
+                "If-else Statements",
+                "Elif Statements",
+                "Nested Conditional Statements"
+              ]
+            },
+            {
+              "topic": "Loops",
+              "sub_topics": [
+                "For Loops",
+                "While Loops",
+                "Nested Loops"
+              ]
+            },
+            {
+              "topic": "Functions",
+              "sub_topics": [
+                "Defining Functions",
+                "Passing Arguments",
+                "Returning Values"
+              ]
+            },
+            {
+              "topic": "Strings",
+              "sub_topics": [
+                "Creating Strings",
+                "String Manipulation",
+                "String Formatting"
+              ]
+            },
+            {
+              "topic": "Lists",
+              "sub_topics": [
+                "Creating Lists",
+                "Accessing List Elements",
+                "Modifying Lists"
+              ]
+            },
+            {
+              "topic": "Tuples",
+              "sub_topics": [
+                "Creating Tuples",
+                "Accessing Tuple Elements",
+                "Modifying Tuples"
+              ]
+            },
+            {
+              "topic": "Dictionaries",
+              "sub_topics": [
+                "Creating Dictionaries",
+                "Accessing Dictionary Elements",
+                "Modifying Dictionaries"
+              ]
+            },
+            {
+              "topic": "Sets",
+              "sub_topics": [
+                "Creating Sets",
+                "Accessing Set Elements",
+                "Modifying Sets"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Variables and Data Types",
+          "topics": [
+            {
+              "topic": "Variables",
+              "sub_topics": [
+                "Variable assignment",
+                "Variable scope",
+                "Variable naming conventions",
+                "Python variable types"
+              ]
+            },
+            {
+              "topic": "Data Types",
+              "sub_topics": [
+                "Integers",
+                "Floats",
+                "Strings",
+                "Lists",
+                "Tuples",
+                "Dictionaries",
+                "Boolean",
+                "None"
+              ]
+            },
+            {
+              "topic": "Type Casting",
+              "sub_topics": [
+                "Converting between data types",
+                "Type coercion"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Control Flow Statements",
+          "topics": [
+            {
+              "topic": "Conditional Statements",
+              "sub_topics": [
+                "if Statement",
+                "else Statement",
+                "elif Statement",
+                "nested if Statements"
+              ]
+            },
+            {
+              "topic": "Looping Statements",
+              "sub_topics": [
+                "for Loop",
+                "while Loop",
+                "break Statement",
+                "continue Statement",
+                "pass Statement"
+              ]
+            },
+            {
+              "topic": "Control Flow Modifiers",
+              "sub_topics": [
+                "pass Statement",
+                "break Statement",
+                "continue Statement",
+                "else Statement"
+              ]
+            },
+            {
+              "topic": "Error Handling",
+              "sub_topics": [
+                "try Statement",
+                "except Statement",
+                "else Statement",
+                "finally Statement",
+                "raise Statement"
+              ]
+            },
+            {
+              "topic": "Advanced Control Flow",
+              "sub_topics": [
+                "Generator Expressions",
+                "List Comprehensions",
+                "lambda Expressions",
+                "map(), filter(), and reduce()",
+                "iterators and iterables"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Functions and Scope",
+          "topics": [
+            {
+              "topic": "Function Basics",
+              "sub_topics": [
+                "Defining Functions",
+                "Calling Functions",
+                "Passing Arguments",
+                "Returning Values"
+              ]
+            },
+            {
+              "topic": "Function Scope",
+              "sub_topics": [
+                "Local Scope",
+                "Global Scope",
+                "Nonlocal Scope",
+                "Closures"
+              ]
+            },
+            {
+              "topic": "Advanced Function Features",
+              "sub_topics": [
+                "Default Arguments",
+                "Variable-Length Arguments",
+                "Keyword Arguments",
+                "Lambda Expressions"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Built-in Data Structures",
+          "topics": [
+            {
+              "topic": "Lists",
+              "sub_topics": [
+                "Creating and initializing lists",
+                "Accessing and modifying list items",
+                "List comprehensions and list generators",
+                "Common list methods and operations",
+                "Working with nested lists"
+              ]
+            },
+            {
+              "topic": "Tuples",
+              "sub_topics": [
+                "Creating and initializing tuples",
+                "Accessing and modifying tuple items",
+                "Tuple unpacking and packing",
+                "Common tuple methods and operations",
+                "Working with nested tuples"
+              ]
+            },
+            {
+              "topic": "Dictionaries",
+              "sub_topics": [
+                "Creating and initializing dictionaries",
+                "Accessing and modifying dictionary items",
+                "Dictionary comprehensions and dictionary generators",
+                "Common dictionary methods and operations",
+                "Working with nested dictionaries"
+              ]
+            },
+            {
+              "topic": "Sets",
+              "sub_topics": [
+                "Creating and initializing sets",
+                "Adding and removing set items",
+                "Set operations and methods",
+                "Common set methods and operations",
+                "Working with nested sets"
+              ]
+            },
+            {
+              "topic": "Frozen Sets",
+              "sub_topics": [
+                "Creating and initializing frozen sets",
+                "Accessing and modifying frozen set items",
+                "Frozen set operations and methods",
+                "Common frozen set methods and operations",
+                "Working with nested frozen sets"
+              ]
+            },
+            {
+              "topic": "Ranges",
+              "sub_topics": [
+                "Creating and initializing ranges",
+                "Accessing and modifying range items",
+                "Range operations and methods",
+                "Common range methods and operations",
+                "Working with nested ranges"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Modules and Packages",
+          "topics": [
+            {
+              "topic": "Packages",
+              "sub_topics": [
+                "Creating packages",
+                "Publishing packages to PyPI",
+                "Installing packages from PyPI",
+                "Using packages in your code",
+                "Managing packages with pip"
+              ]
+            },
+            {
+              "topic": "Modules",
+              "sub_topics": [
+                "Creating modules",
+                "Importing modules",
+                "Using modules in your code",
+                "The Python package index (PyPI)",
+                "The import system in Python"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "File Handling",
+          "topics": [
+            {
+              "topic": "File Opening Modes",
+              "sub_topics": [
+                "Read Mode ('r')",
+                "Write Mode ('w')",
+                "Append Mode ('a')",
+                "Read and Write Mode ('r+')",
+                "Binary Modes ('rb', 'wb', 'ab', 'rb+')",
+                "Universal Newline Mode ('rU', 'wU', 'aU', 'r+U')"
+              ]
+            },
+            {
+              "topic": "File Reading Operations",
+              "sub_topics": [
+                "Reading a File Line by Line",
+                "Reading a File into a String",
+                "Reading a File into a List",
+                "Using the 'readline()' Method",
+                "Using the 'readlines()' Method"
+              ]
+            },
+            {
+              "topic": "File Writing Operations",
+              "sub_topics": [
+                "Writing to a File",
+                "Using the 'write()' Method",
+                "Using the 'writelines()' Method",
+                "Flushing and Closing a File"
+              ]
+            },
+            {
+              "topic": "File Seeking Operations",
+              "sub_topics": [
+                "Using the 'seek()' Method",
+                "Using the 'tell()' Method",
+                "Seeking to the Beginning of a File",
+                "Seeking to the End of a File"
+              ]
+            },
+            {
+              "topic": "File Manipulation Operations",
+              "sub_topics": [
+                "Creating a New File",
+                "Deleting a File",
+                "Renaming a File",
+                "Copying a File",
+                "Moving a File"
+              ]
+            },
+            {
+              "topic": "Advanced File Handling",
+              "sub_topics": [
+                "Using the 'with' Statement",
+                "Handling File Errors",
+                "Working with Binary Data",
+                "Pickling and Unpickling"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Error and Exception Handling",
+          "topics": [
+            {
+              "topic": "Introduction to Errors and Exceptions",
+              "sub_topics": [
+                "What are errors and exceptions?",
+                "Difference between errors and exceptions",
+                "Importance of error and exception handling"
+              ]
+            },
+            {
+              "topic": "Built-in Exception Types",
+              "sub_topics": [
+                "Commonly used built-in exceptions",
+                "BaseException",
+                "Exception",
+                "TypeError",
+                "ValueError",
+                "IndexError",
+                "KeyError",
+                "NameError"
+              ]
+            },
+            {
+              "topic": "Custom Exception Types",
+              "sub_topics": [
+                "Creating custom exceptions",
+                "Advantages of using custom exceptions"
+              ]
+            },
+            {
+              "topic": "Error Handling Techniques",
+              "sub_topics": [
+                "try-except statement",
+                "try-except-else statement",
+                "try-except-finally statement",
+                "raise statement"
+              ]
+            },
+            {
+              "topic": "Logging and Debugging Errors",
+              "sub_topics": [
+                "Logging framework in Python",
+                "Logging levels",
+                "Log handlers",
+                "Log formatters"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Object-Oriented Programming",
+      "sub_categories": [
+        {
+          "sub_category": "Classes and Objects",
+          "topics": [
+            {
+              "topic": "Encapsulation",
+              "sub_topics": [
+                "Defining class attributes as private",
+                "Using getter and setter methods to control access to private attributes",
+                "Benefits of encapsulation: data hiding, security, and maintainability"
+              ]
+            },
+            {
+              "topic": "Inheritance",
+              "sub_topics": [
+                "Creating subclasses that inherit properties and behaviors from superclasses",
+                "Using the 'extends' keyword to establish inheritance relationships",
+                "Types of inheritance: single, multiple, and hierarchical",
+                "Benefits of inheritance: code reusability, extensibility, and polymorphism"
+              ]
+            },
+            {
+              "topic": "Polymorphism",
+              "sub_topics": [
+                "Method overriding: defining different implementations of the same method in subclasses",
+                "Method overloading: defining methods with the same name but different parameters",
+                "Dynamic binding: calling the appropriate implementation of a method based on the object's type at runtime",
+                "Benefits of polymorphism: flexibility, extensibility, and code reusability"
+              ]
+            },
+            {
+              "topic": "Object Instantiation",
+              "sub_topics": [
+                "Using the 'new' keyword to create new objects",
+                "Passing arguments to the constructor to initialize object properties",
+                "Understanding the role of constructors in initializing objects"
+              ]
+            },
+            {
+              "topic": "Class Structure",
+              "sub_topics": [
+                "Defining classes using the 'class' keyword",
+                "Declaring class attributes and methods",
+                "Understanding the relationship between classes, objects, and instances"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Inheritance",
+          "topics": [
+            {
+              "topic": "Inheritance Basics",
+              "sub_topics": [
+                "Definition of Inheritance",
+                "Benefits and drawbacks of inheritance",
+                "Types of Inheritance (Single, Multilevel, Hierarchical)",
+                "Base class and Derived class concepts",
+                "Syntax for Inheritance in programming"
+              ]
+            },
+            {
+              "topic": "Overriding and Overloading",
+              "sub_topics": [
+                "Concept of Overriding and Overloading",
+                "Method Overriding: Rules and examples",
+                "Method Overloading: Syntax and examples",
+                "Difference between Method Overloading and Overriding",
+                "Best practices and use cases for Overriding and Overloading"
+              ]
+            },
+            {
+              "topic": "Polymorphism",
+              "sub_topics": [
+                "Definition and Types of Polymorphism",
+                "Runtime and Compile-time Polymorphism",
+                "Method Overriding and Polymorphism",
+                "Virtual Functions and their role in Polymorphism",
+                "Abstract classes and Interfaces in Polymorphism"
+              ]
+            },
+            {
+              "topic": "Advanced Inheritance Concepts",
+              "sub_topics": [
+                "Multiple Inheritance and its implications",
+                "Interface Inheritance and its advantages",
+                "Abstract Classes and their uses",
+                "Composition vs Inheritance: When to use each",
+                "Design Patterns that utilize Inheritance"
+              ]
+            },
+            {
+              "topic": "Best Practices and Pitfalls",
+              "sub_topics": [
+                "Guidelines for effective Inheritance",
+                "Common Inheritance pitfalls and how to avoid them",
+                "Code reusability and maintainability through Inheritance",
+                "Limitations and alternatives to Inheritance",
+                "Emerging trends and advancements in Inheritance"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Polymorphism",
+          "topics": [
+            {
+              "topic": "Overview of Polymorphism",
+              "sub_topics": [
+                "Definition and Basic Concepts",
+                "Benefits and Limitations"
+              ]
+            },
+            {
+              "topic": "Types of Polymorphism",
+              "sub_topics": [
+                "Ad-Hoc Polymorphism",
+                "Subtype Polymorphism",
+                "Parametric Polymorphism"
+              ]
+            },
+            {
+              "topic": "How Polymorphism is Implemented",
+              "sub_topics": [
+                "Dynamic Binding",
+                "Virtual Functions"
+              ]
+            },
+            {
+              "topic": "Applications and Examples of Polymorphism",
+              "sub_topics": [
+                "Object-Oriented Design Patterns",
+                "Database Connectivity",
+                "Event-Driven Programming"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Encapsulation",
+          "topics": [
+            {
+              "topic": "Definition of encapsulation",
+              "sub_topics": [
+                "Meaning of encapsulation",
+                "Benefits of encapsulation",
+                "How encapsulation is achieved in programming languages"
+              ]
+            },
+            {
+              "topic": "Levels of encapsulation",
+              "sub_topics": [
+                "Private",
+                "Protected",
+                "Public"
+              ]
+            },
+            {
+              "topic": "Advantages and disadvantages of encapsulation",
+              "sub_topics": [
+                "Advantages of encapsulation",
+                "Disadvantages of encapsulation"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Abstract Classes and Interfaces",
+          "topics": []
+        },
+        {
+          "sub_category": "Magic/Dunder Methods",
+          "topics": [
+            {
+              "topic": "Magic Method Overview",
+              "sub_topics": [
+                "What are magic methods?",
+                "Why use magic methods?",
+                "Commonly used magic methods"
+              ]
+            },
+            {
+              "topic": "Special Methods",
+              "sub_topics": [
+                "__init__",
+                "__repr__",
+                "__str__",
+                "__add__",
+                "__len__"
+              ]
+            },
+            {
+              "topic": "Overriding and Example",
+              "sub_topics": [
+                "How to override a magic method",
+                "Example of overriding a magic method",
+                "Benefits of overriding a magic method"
+              ]
+            },
+            {
+              "topic": "Custom Magic Methods",
+              "sub_topics": [
+                "Creating your own magic methods",
+                "Guidelines for creating custom magic methods",
+                "Examples of custom magic methods"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Class and Static Methods",
+          "topics": [
+            {
+              "topic": "Class and Static Methods",
+              "sub_topics": [
+                "Declaring Class Methods",
+                "Invoking Class Methods",
+                "Declaring Static Methods",
+                "Invoking Static Methods",
+                "Difference Between Class and Static Methods",
+                "Advantages of Using Class and Static Methods",
+                "Best Practices for Using Class and Static Methods"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Functional Programming",
+      "sub_categories": [
+        {
+          "sub_category": "Lambda Functions",
+          "topics": [
+            {
+              "topic": "Lambda Functions",
+              "sub_topics": [
+                "Syntax and Usage",
+                "Benefits and Advantages",
+                "Use Cases and Examples",
+                "Comparison with Traditional Functions",
+                "Best Practices and Guidelines",
+                "Advanced Techniques and Patterns",
+                "Limitations and Considerations",
+                "Future of Lambda Functions"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Map, Filter, and Reduce",
+          "topics": [
+            {
+              "topic": "Map",
+              "sub_topics": [
+                "Definition and Purpose",
+                "Syntax and Usage",
+                "Examples and Practical Applications",
+                "Benefits and Advantages",
+                "Limitations and Considerations"
+              ]
+            },
+            {
+              "topic": "Filter",
+              "sub_topics": [
+                "Definition and Purpose",
+                "Syntax and Usage",
+                "Examples and Practical Applications",
+                "Benefits and Advantages",
+                "Limitations and Considerations"
+              ]
+            },
+            {
+              "topic": "Reduce",
+              "sub_topics": [
+                "Definition and Purpose",
+                "Syntax and Usage",
+                "Examples and Practical Applications",
+                "Benefits and Advantages",
+                "Limitations and Considerations"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Iterators and Generators",
+          "topics": [
+            {
+              "topic": "Iterators",
+              "sub_topics": [
+                "What are iterators?",
+                "Creating iterators",
+                "Using iterators",
+                "Advantages and disadvantages of iterators"
+              ]
+            },
+            {
+              "topic": "Generators",
+              "sub_topics": [
+                "What are generators?",
+                "Creating generators",
+                "Using generators",
+                "Advantages and disadvantages of generators"
+              ]
+            },
+            {
+              "topic": "Comparison of Iterators and Generators",
+              "sub_topics": [
+                "Similarities between iterators and generators",
+                "Differences between iterators and generators",
+                "When to use iterators and when to use generators"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Closures",
+          "topics": [
+            {
+              "topic": "Closures",
+              "sub_topics": [
+                "Overview",
+                "Syntax",
+                "Capturing Variables",
+                "First-Class Functions",
+                "Higher-Order Functions",
+                "Partial Application",
+                "Currying",
+                "Uses",
+                "Examples",
+                "Benefits",
+                "Drawbacks"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Decorators",
+          "topics": [
+            {
+              "topic": "Introduction to Decorators",
+              "sub_topics": [
+                "What are decorators?",
+                "Syntax and usage",
+                "Benefits and use cases"
+              ]
+            },
+            {
+              "topic": "Types of Decorators",
+              "sub_topics": [
+                "Class decorators",
+                "Function decorators",
+                "Method decorators",
+                "Property decorators"
+              ]
+            },
+            {
+              "topic": "Decorator Implementation",
+              "sub_topics": [
+                "Creating custom decorators",
+                "Decorator factories",
+                "Higher-order functions as decorators"
+              ]
+            },
+            {
+              "topic": "Decorator Patterns",
+              "sub_topics": [
+                "Logging and profiling",
+                "Caching and memoization",
+                "Authorization and authentication"
+              ]
+            },
+            {
+              "topic": "Advanced Decorator Techniques",
+              "sub_topics": [
+                "Decorator composition",
+                "Metaprogramming with decorators",
+                "Decorators in TypeScript and Python"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Advanced Python",
+      "sub_categories": [
+        {
+          "sub_category": "Metaclasses",
+          "topics": [
+            {
+              "topic": "Understanding Metaclasses in Python",
+              "sub_topics": [
+                "What are Metaclasses?",
+                "How Metaclasses Work",
+                "Benefits and Use Cases of Metaclasses"
+              ]
+            },
+            {
+              "topic": "Creating Custom Metaclasses",
+              "sub_topics": [
+                "Defining Metaclass Attributes",
+                "Overriding Metaclass Methods",
+                "Examples of Custom Metaclasses"
+              ]
+            },
+            {
+              "topic": "Advanced Metaclass Concepts",
+              "sub_topics": [
+                "Metaclasses for Class Decoration",
+                "Metaclasses for Class Validation",
+                "Metaclasses for Dynamic Class Creation"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Descriptors",
+          "topics": [
+            {
+              "topic": "Descriptors",
+              "sub_topics": [
+                "Descriptor Protocol",
+                "Property",
+                "Method Descriptor",
+                "Data Descriptor",
+                "Non-Data Descriptor",
+                "Magic Methods",
+                "Instance-Bound Methods",
+                "Class-Bound Methods"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Context Managers",
+          "topics": [
+            {
+              "topic": "What are Context Managers?",
+              "sub_topics": [
+                "The with statement",
+                "The __enter__ and __exit__ methods",
+                "Advantages of using context managers"
+              ]
+            },
+            {
+              "topic": "Common Uses of Context Managers",
+              "sub_topics": [
+                "Opening and closing files",
+                "Acquiring and releasing locks",
+                "Connecting and disconnecting to databases"
+              ]
+            },
+            {
+              "topic": "Creating Custom Context Managers",
+              "sub_topics": [
+                "Defining the __enter__ and __exit__ methods",
+                "Using the contextlib module",
+                "Examples of custom context managers"
+              ]
+            },
+            {
+              "topic": "Advanced Techniques with Context Managers",
+              "sub_topics": [
+                "Nesting context managers",
+                "Using context managers with asynchronous code",
+                "Error handling in context managers"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Coroutines and Asyncio",
+          "topics": [
+            {
+              "topic": "Coroutines",
+              "sub_topics": [
+                "Creating and Using Coroutines",
+                "Generator-Based Coroutines",
+                "Coroutine Functions"
+              ]
+            },
+            {
+              "topic": "Asynchronous Programming with Asyncio",
+              "sub_topics": [
+                "Introduction to Asyncio",
+                "Event Loops and Tasks",
+                "Concurrency and Parallelism with Asyncio"
+              ]
+            },
+            {
+              "topic": "Advanced Asyncio Features",
+              "sub_topics": [
+                "Working with Queues and Semaphores",
+                "Customizing Event Loops",
+                "Error Handling and Debugging in Asyncio"
+              ]
+            },
+            {
+              "topic": "Async Iterators and Streams",
+              "sub_topics": [
+                "Using Async Iterators",
+                "Creating and Consuming Async Streams",
+                "Working with Async Generators"
+              ]
+            },
+            {
+              "topic": "Testing Asynchronous Code",
+              "sub_topics": [
+                "Unit Testing Coroutines and Asyncio Code",
+                "Integration Testing with Asyncio",
+                "Mocking and Stubbing in Asyncio"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Type Hinting",
+          "topics": [
+            {
+              "topic": "Introduction to Type Hinting",
+              "sub_topics": [
+                "What is type hinting?",
+                "Benefits of using type hinting",
+                "How to use type hints in Python code"
+              ]
+            },
+            {
+              "topic": "Type Annotations for Functions",
+              "sub_topics": [
+                "Annotating function parameters",
+                "Annotating function return values",
+                "Using type aliases to define complex types"
+              ]
+            },
+            {
+              "topic": "Type Checking with MyPy",
+              "sub_topics": [
+                "Installing and using MyPy",
+                "Configuring MyPy for your codebase",
+                "Interpreting MyPy error messages"
+              ]
+            },
+            {
+              "topic": "Advanced Type Hinting Techniques",
+              "sub_topics": [
+                "Using generics to define generic types",
+                "Creating custom type checkers",
+                "Integrating type hinting with other tools"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Memory Management",
+          "topics": [
+            {
+              "topic": "Reference Counting",
+              "sub_topics": [
+                "Reference Counting in Python",
+                "Optimizing Reference Counting"
+              ]
+            },
+            {
+              "topic": "Garbage Collection",
+              "sub_topics": [
+                "Python's Garbage Collector",
+                "Custom Reference Cycles and Garbage Collection"
+              ]
+            },
+            {
+              "topic": "Memory Management Techniques",
+              "sub_topics": [
+                "Using Weak References",
+                "Using Custom Memory Management Classes",
+                "Profiling and Optimizing Memory Usage"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Garbage Collection",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Data Science and Machine Learning",
+      "sub_categories": [
+        {
+          "sub_category": "NumPy",
+          "topics": [
+            {
+              "topic": "NumPy Basics",
+              "sub_topics": [
+                "Introduction to NumPy",
+                "NumPy Data Types",
+                "Creating and Initializing NumPy Arrays",
+                "Array Indexing and Slicing",
+                "Mathematical Operations with NumPy Arrays"
+              ]
+            },
+            {
+              "topic": "Advanced NumPy Techniques",
+              "sub_topics": [
+                "Broadcasting in NumPy",
+                "Universal Functions (UFuncs)",
+                "NumPy Aggregation Functions",
+                "Handling Missing Data in NumPy",
+                "NumPy Masked Arrays"
+              ]
+            },
+            {
+              "topic": "Linear Algebra with NumPy",
+              "sub_topics": [
+                "Linear Algebra Operations with NumPy",
+                "Eigenvalues and Eigenvectors with NumPy",
+                "Solving Linear Equations with NumPy",
+                "Matrix Decompositions with NumPy"
+              ]
+            },
+            {
+              "topic": "NumPy and Data Analysis",
+              "sub_topics": [
+                "Exploratory Data Analysis with NumPy",
+                "Descriptive Statistics with NumPy",
+                "Hypothesis Testing with NumPy",
+                "Visualization with NumPy and Matplotlib"
+              ]
+            },
+            {
+              "topic": "NumPy and Machine Learning",
+              "sub_topics": [
+                "Preprocessing Data with NumPy for Machine Learning",
+                "Feature Engineering with NumPy",
+                "Model Evaluation with NumPy",
+                "NumPy in Machine Learning Pipelines"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Pandas",
+          "topics": [
+            {
+              "topic": "Data Manipulation",
+              "sub_topics": [
+                "Selecting and Filtering Data",
+                "Grouping and Aggregating Data",
+                "Sorting and Ordering Data",
+                "Combining DataFrames",
+                "Reshaping and Pivoting Data",
+                "Cleaning and Preparing Data"
+              ]
+            },
+            {
+              "topic": "Data Analysis",
+              "sub_topics": [
+                "Summary Statistics",
+                "Exploratory Data Analysis",
+                "Time Series Analysis",
+                "Hypothesis Testing"
+              ]
+            },
+            {
+              "topic": "Data Visualization",
+              "sub_topics": [
+                "Plotting with Matplotlib and Seaborn",
+                "Creating Interactive Visualizations",
+                "Customizing and Styling Plots"
+              ]
+            },
+            {
+              "topic": "Machine Learning",
+              "sub_topics": [
+                "Supervised Learning",
+                "Unsupervised Learning",
+                "Model Selection and Evaluation",
+                "Feature Engineering"
+              ]
+            },
+            {
+              "topic": "Advanced Techniques",
+              "sub_topics": [
+                "Text Analysis",
+                "Time Series Forecasting",
+                "Natural Language Processing",
+                "Big Data Analysis"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Matplotlib and Seaborn",
+          "topics": [
+            {
+              "topic": "Plotting with Matplotlib",
+              "sub_topics": [
+                "Basic plotting functions",
+                "Creating custom plots",
+                "Working with different data types",
+                "Customizing plots"
+              ]
+            },
+            {
+              "topic": "Data Visualization with Seaborn",
+              "sub_topics": [
+                "Creating basic visualizations",
+                "Statistical plots",
+                "Advanced visualizations",
+                "Customizing Seaborn plots"
+              ]
+            },
+            {
+              "topic": "Working with DataFrames",
+              "sub_topics": [
+                "Creating and manipulating DataFrames",
+                "Exploring and visualizing DataFrames",
+                "Data cleaning and preprocessing"
+              ]
+            },
+            {
+              "topic": "Advanced Plotting Techniques",
+              "sub_topics": [
+                "Creating interactive plots",
+                "Using Plotly for advanced visualizations",
+                "Creating 3D plots",
+                "Animating plots"
+              ]
+            },
+            {
+              "topic": "Case Studies and Applications",
+              "sub_topics": [
+                "Real-world examples of using Matplotlib and Seaborn",
+                "Case studies in various domains",
+                "Applications in data science and machine learning"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Scikit-learn",
+          "topics": []
+        },
+        {
+          "sub_category": "TensorFlow and PyTorch",
+          "topics": [
+            {
+              "topic": "TensorFlow",
+              "sub_topics": [
+                "TensorFlow Basics",
+                "TensorFlow Architecture",
+                "TensorFlow Data Processing",
+                "TensorFlow Model Building",
+                "TensorFlow Model Evaluation",
+                "TensorFlow Advanced Concepts"
+              ]
+            },
+            {
+              "topic": "PyTorch",
+              "sub_topics": [
+                "PyTorch Basics",
+                "PyTorch Tensors",
+                "PyTorch Data Loading",
+                "PyTorch Model Definition",
+                "PyTorch Optimization",
+                "PyTorch Advanced Techniques"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Data Cleaning and Preprocessing",
+          "topics": [
+            {
+              "topic": "Data Cleaning and Preprocessing",
+              "sub_topics": [
+                "Data scrubbing",
+                "Data normalization",
+                "Data standardization",
+                "Data transformation",
+                "Feature scaling",
+                "Missing data imputation",
+                "Outlier detection and removal",
+                "Data quality assessment",
+                "Data validation"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Feature Engineering",
+          "topics": [
+            {
+              "topic": "Introduction to Feature Engineering",
+              "sub_topics": [
+                "What is Feature Engineering?",
+                "Why is Feature Engineering Important?",
+                "Types of Feature Engineering Techniques"
+              ]
+            },
+            {
+              "topic": "Feature Selection Techniques",
+              "sub_topics": [
+                "Filter Methods",
+                "Wrapper Methods",
+                "Embedded Methods",
+                "Dimensionality Reduction Techniques"
+              ]
+            },
+            {
+              "topic": "Feature Extraction Techniques",
+              "sub_topics": [
+                "Principal Component Analysis (PCA)",
+                "Linear Discriminant Analysis (LDA)",
+                "Factor Analysis",
+                "Autoencoders"
+              ]
+            },
+            {
+              "topic": "Feature Transformation Techniques",
+              "sub_topics": [
+                "Log Transformation",
+                "Box-Cox Transformation",
+                "Power Transformation",
+                "Yeo-Johnson Transformation"
+              ]
+            },
+            {
+              "topic": "Feature Scaling Techniques",
+              "sub_topics": [
+                "Normalization",
+                "Standardization",
+                "Min-Max Scaling",
+                "Max-Abs Scaling"
+              ]
+            },
+            {
+              "topic": "Best Practices in Feature Engineering",
+              "sub_topics": [
+                "Domain Knowledge and Data Understanding",
+                "Exploratory Data Analysis",
+                "Feature Engineering Pipeline",
+                "Feature Visualization and Analysis"
+              ]
+            },
+            {
+              "topic": "Feature Engineering Tools and Libraries",
+              "sub_topics": [
+                "Pandas",
+                "NumPy",
+                "Scikit-Learn",
+                "Featuretools",
+                "auto-sklearn"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Web Development",
+      "sub_categories": [
+        {
+          "sub_category": "Flask",
+          "topics": [
+            {
+              "topic": "Introduction to Flask",
+              "sub_topics": [
+                "What is Flask?",
+                "Benefits of using Flask",
+                "Setting up a Flask project"
+              ]
+            },
+            {
+              "topic": "Routing in Flask",
+              "sub_topics": [
+                "Creating routes",
+                "Handling HTTP requests",
+                "Dynamic routing"
+              ]
+            },
+            {
+              "topic": "Templating in Flask",
+              "sub_topics": [
+                "Using Jinja2 templates",
+                "Creating and using templates",
+                "Passing data to templates"
+              ]
+            },
+            {
+              "topic": "Forms in Flask",
+              "sub_topics": [
+                "Creating forms",
+                "Handling form submissions",
+                "Validating form data"
+              ]
+            },
+            {
+              "topic": "Database Integration in Flask",
+              "sub_topics": [
+                "Connecting to a database",
+                "Performing CRUD operations",
+                "Using SQLAlchemy"
+              ]
+            },
+            {
+              "topic": "Authentication and Authorization in Flask",
+              "sub_topics": [
+                "Flask-Security",
+                "Flask-Login",
+                "Implementing user authentication"
+              ]
+            },
+            {
+              "topic": "Deployment and Production",
+              "sub_topics": [
+                "Deploying Flask applications",
+                "Setting up production environments",
+                "Best practices for deployment"
+              ]
+            },
+            {
+              "topic": "Advanced Flask Techniques",
+              "sub_topics": [
+                "Using Flask extensions",
+                "Building RESTful APIs",
+                "Testing Flask applications"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Django",
+          "topics": [
+            {
+              "topic": "Django Basics",
+              "sub_topics": [
+                "Introduction to Django",
+                "Installing and Configuring Django",
+                "Creating a Django Project",
+                "Understanding Django Models",
+                "Working with Django Views"
+              ]
+            },
+            {
+              "topic": "Django Advanced Concepts",
+              "sub_topics": [
+                "Django Middleware",
+                "Django Signals",
+                "Django Class-based Views",
+                "Django Generic Views",
+                "Django REST Framework"
+              ]
+            },
+            {
+              "topic": "Django Security",
+              "sub_topics": [
+                "Django CSRF Protection",
+                "Django SQL Injection Prevention",
+                "Django XSS Protection",
+                "Django User Authentication and Authorization",
+                "Django Logging and Error Handling"
+              ]
+            },
+            {
+              "topic": "Django Deployment",
+              "sub_topics": [
+                "Deploying Django to Heroku",
+                "Deploying Django to AWS Elastic Beanstalk",
+                "Deploying Django to Docker",
+                "Django Performance Optimization",
+                "Django Scalability Techniques"
+              ]
+            },
+            {
+              "topic": "Django Best Practices",
+              "sub_topics": [
+                "Django Code Style and Conventions",
+                "Django Unit Testing",
+                "Django Debugging Techniques",
+                "Django Performance Profiling",
+                "Django Security Best Practices"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "FastAPI",
+          "topics": [
+            {
+              "topic": "FastAPI Basics",
+              "sub_topics": [
+                "What is FastAPI?",
+                "Why use FastAPI?",
+                "Installing FastAPI",
+                "Creating a FastAPI application",
+                "Routing in FastAPI",
+                "HTTP methods in FastAPI",
+                "Data validation in FastAPI",
+                "Error handling in FastAPI",
+                "Middleware in FastAPI",
+                "Deployment of FastAPI applications"
+              ]
+            },
+            {
+              "topic": "Advanced FastAPI",
+              "sub_topics": [
+                "Dependency Injection in FastAPI",
+                "Background tasks in FastAPI",
+                "Testing FastAPI applications",
+                "Security in FastAPI",
+                "Pagination and filtering in FastAPI",
+                "OpenAPI documentation in FastAPI",
+                "AsyncIO in FastAPI",
+                "FastAPI with databases"
+              ]
+            },
+            {
+              "topic": "FastAPI Best Practices",
+              "sub_topics": [
+                "Writing clean and maintainable FastAPI code",
+                "Performance optimization in FastAPI",
+                "Security best practices for FastAPI applications",
+                "Testing best practices for FastAPI applications",
+                "Deployment best practices for FastAPI applications"
+              ]
+            },
+            {
+              "topic": "FastAPI Resources",
+              "sub_topics": [
+                "FastAPI documentation",
+                "FastAPI community forum",
+                "FastAPI tutorials and courses",
+                "FastAPI examples and case studies",
+                "FastAPI tools and libraries"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "RESTful APIs",
+          "topics": [
+            {
+              "topic": "RESTful API Design",
+              "sub_topics": [
+                "Architectural principles",
+                "HTTP methods and status codes",
+                "Resource representation and formats",
+                "Request and response headers",
+                "Versioning and backward compatibility"
+              ]
+            },
+            {
+              "topic": "API Security",
+              "sub_topics": [
+                "Authentication and authorization",
+                "Data encryption and validation",
+                "Protection against attacks (e.g., CSRF, XSS)",
+                "Rate limiting and throttling",
+                "Security best practices"
+              ]
+            },
+            {
+              "topic": "API Testing and Monitoring",
+              "sub_topics": [
+                "Unit and integration testing techniques",
+                "Performance and load testing",
+                "API monitoring tools and methods",
+                "Debugging and troubleshooting strategies"
+              ]
+            },
+            {
+              "topic": "API Documentation and Communication",
+              "sub_topics": [
+                "Writing clear and comprehensive documentation",
+                "Using OpenAPI or other API description languages",
+                "Version control and change management",
+                "Community engagement and support"
+              ]
+            },
+            {
+              "topic": "Advanced RESTful API Features",
+              "sub_topics": [
+                "Pagination and filtering",
+                "Caching and performance optimization",
+                "Asynchronous APIs",
+                "Integration with other technologies (e.g., GraphQL, WebSockets)"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Socket Programming",
+          "topics": [
+            {
+              "topic": "Socket.IO",
+              "sub_topics": [
+                "Real-time communication",
+                "Event-driven programming",
+                "Websockets"
+              ]
+            },
+            {
+              "topic": "WebSockets",
+              "sub_topics": [
+                "Persistent connections",
+                "Full-duplex communication",
+                "Low latency"
+              ]
+            },
+            {
+              "topic": "Server-Sent Events (SSE)",
+              "sub_topics": [
+                "One-way communication",
+                "Server-initiated updates",
+                "Push technology"
+              ]
+            },
+            {
+              "topic": "Long Polling",
+              "sub_topics": [
+                "Simulated persistent connections",
+                "Regular AJAX requests",
+                "Data retrieval"
+              ]
+            },
+            {
+              "topic": "Message Queues",
+              "sub_topics": [
+                "Decoupled communication",
+                "Asynchronous messaging",
+                "Reliability and scalability"
+              ]
+            },
+            {
+              "topic": "Advanced Socket Programming",
+              "sub_topics": [
+                "Non-blocking I/O",
+                "Multiplexing",
+                "Concurrency patterns"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "WebSockets",
+          "topics": [
+            {
+              "topic": "WebSockets Overview",
+              "sub_topics": [
+                "Definition and Purpose",
+                "Benefits and Limitations",
+                "Use Cases and Applications"
+              ]
+            },
+            {
+              "topic": "WebSocket Protocols and Standards",
+              "sub_topics": [
+                "WebSocket Protocol (RFC 6455)",
+                "Extensions and Subprotocols",
+                "Security Considerations"
+              ]
+            },
+            {
+              "topic": "Implementing WebSockets in Different Languages",
+              "sub_topics": [
+                "JavaScript and HTML5",
+                "Python",
+                "Java",
+                "C#",
+                "Other Languages"
+              ]
+            },
+            {
+              "topic": "WebSocket Libraries and Frameworks",
+              "sub_topics": [
+                "Socket.IO",
+                "SockJS",
+                "Primus",
+                "Pusher",
+                "Other Libraries"
+              ]
+            },
+            {
+              "topic": "WebSocket Debugging and Troubleshooting",
+              "sub_topics": [
+                "Common Errors and Issues",
+                "Debugging Tools and Techniques",
+                "Performance Optimization"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Scripting and Automation",
+      "sub_categories": [
+        {
+          "sub_category": "OS Module",
+          "topics": [
+            {
+              "topic": "Retrieving OS Information",
+              "sub_topics": [
+                "name",
+                "release",
+                "version",
+                "platform",
+                "system",
+                "uname"
+              ]
+            },
+            {
+              "topic": "Managing Environment Variables",
+              "sub_topics": [
+                "getenv",
+                "putenv",
+                "unsetenv"
+              ]
+            },
+            {
+              "topic": "Handling File Paths",
+              "sub_topics": [
+                "path.abspath",
+                "path.basename",
+                "path.commonprefix",
+                "path.dirname",
+                "path.exists",
+                "path.expanduser",
+                "path.getatime",
+                "path.getmtime",
+                "path.getctime",
+                "path.getsize",
+                "path.isabs",
+                "path.isfile",
+                "path.isdir",
+                "path.join",
+                "path.normcase",
+                "path.normpath",
+                "path.realpath",
+                "path.relpath",
+                "path.split",
+                "path.splitext",
+                "path.walk"
+              ]
+            },
+            {
+              "topic": "Other OS-Related Functions",
+              "sub_topics": [
+                "confstr",
+                "ctermid",
+                "getcwd",
+                "getegid",
+                "geteuid",
+                "getgroups",
+                "getlogin",
+                "getpid",
+                "getppid",
+                "isatty",
+                "kill",
+                "putenv",
+                "system",
+                "times",
+                "urandom"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Subprocess Module",
+          "topics": [
+            {
+              "topic": "Overview of the Subprocess Module",
+              "sub_topics": [
+                "Introduction to the Subprocess Module",
+                "Benefits and Use Cases of the Subprocess Module",
+                "Installation and Setup of the Subprocess Module"
+              ]
+            },
+            {
+              "topic": "Process Creation and Management",
+              "sub_topics": [
+                "Creating Subprocesses Using Popen",
+                "Creating Subprocesses Using CreateProcess",
+                "Managing Subprocesses and Waiting for Completion",
+                "Terminating and Killing Subprocesses",
+                "Handling Errors and Exceptions"
+              ]
+            },
+            {
+              "topic": "Communication with Subprocesses",
+              "sub_topics": [
+                "Reading and Writing to Subprocess Pipes",
+                "Non-Blocking Communication Using Queues",
+                "Communicating with Subprocesses over TCP/IP"
+              ]
+            },
+            {
+              "topic": "Advanced Techniques",
+              "sub_topics": [
+                "Using Pools for Concurrent Subprocess Execution",
+                "Monitoring and Debugging Subprocesses",
+                "Dealing with Special Characters and Shell Commands",
+                "Automating Complex Workflows with Subprocesses"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "File and Directory Management",
+          "topics": [
+            {
+              "topic": "Creating and Deleting Files",
+              "sub_topics": [
+                "Creating a new file",
+                "Deleting an existing file"
+              ]
+            },
+            {
+              "topic": "Reading and Writing to Files",
+              "sub_topics": [
+                "Reading data from a file",
+                "Writing data to a file"
+              ]
+            },
+            {
+              "topic": "Copying and Moving Files",
+              "sub_topics": [
+                "Copying a file to a new location",
+                "Moving a file to a new location"
+              ]
+            },
+            {
+              "topic": "Organizing Files and Directories",
+              "sub_topics": [
+                "Creating a new directory",
+                "Moving files between directories",
+                "Deleting a directory"
+              ]
+            },
+            {
+              "topic": "Advanced File and Directory Management",
+              "sub_topics": [
+                "Working with hidden files and directories",
+                "Setting file and directory permissions",
+                "Using command-line tools for file and directory management"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Task Scheduling",
+          "topics": [
+            {
+              "topic": "Introduction to Task Scheduling",
+              "sub_topics": [
+                "What is task scheduling?",
+                "Benefits of task scheduling",
+                "Use cases for task scheduling",
+                "Challenges of task scheduling"
+              ]
+            },
+            {
+              "topic": "Types of Task Schedulers",
+              "sub_topics": [
+                "Cron-based schedulers",
+                "Event-based schedulers",
+                "Trigger-based schedulers",
+                "Hybrid schedulers"
+              ]
+            },
+            {
+              "topic": "Best Practices for Task Scheduling",
+              "sub_topics": [
+                "Defining clear task requirements",
+                "Error handling and logging",
+                "Monitoring and alerting",
+                "Security considerations"
+              ]
+            },
+            {
+              "topic": "Tools for Task Scheduling",
+              "sub_topics": [
+                "Cron",
+                "Ansible",
+                "Jenkins",
+                "Rundeck",
+                "Apache Airflow"
+              ]
+            },
+            {
+              "topic": "Advanced Topics in Task Scheduling",
+              "sub_topics": [
+                "Task dependencies and workflows",
+                "Load balancing and scalability",
+                "Fault tolerance and high availability",
+                "Cloud-based task scheduling"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Web Scraping (BeautifulSoup, Scrapy)",
+          "topics": [
+            {
+              "topic": "Introduction to Web Scraping",
+              "sub_topics": [
+                "What is web scraping?",
+                "Why use BeautifulSoup and Scrapy for web scraping?"
+              ]
+            },
+            {
+              "topic": "Getting Started with BeautifulSoup",
+              "sub_topics": [
+                "Installing BeautifulSoup",
+                "Basic usage of BeautifulSoup",
+                "Navigating HTML documents with BeautifulSoup"
+              ]
+            },
+            {
+              "topic": "Advanced BeautifulSoup Techniques",
+              "sub_topics": [
+                "Selecting specific elements using CSS selectors",
+                "Handling complex HTML structures",
+                "Parsing HTML tables and extracting data"
+              ]
+            },
+            {
+              "topic": "Introduction to Scrapy",
+              "sub_topics": [
+                "What is Scrapy?",
+                "Advantages and disadvantages of using Scrapy",
+                "Installing and setting up Scrapy"
+              ]
+            },
+            {
+              "topic": "Writing Scrapy Spiders",
+              "sub_topics": [
+                "Creating a basic Scrapy spider",
+                "Customizing Scrapy spiders",
+                "Handling pagination and dynamic content"
+              ]
+            },
+            {
+              "topic": "Advanced Scrapy Techniques",
+              "sub_topics": [
+                "Using Scrapy pipelines to process scraped data",
+                "Deploying Scrapy spiders",
+                "Best practices for web scraping with Scrapy"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Regular Expressions",
+          "topics": [
+            {
+              "topic": "Regular Expression Basics",
+              "sub_topics": [
+                "Syntax and Structure",
+                "Metacharacters and Escape Sequences",
+                "Special Characters and Character Classes",
+                "Quantifiers and Grouping"
+              ]
+            },
+            {
+              "topic": "Pattern Matching and Search",
+              "sub_topics": [
+                "Anchors and Lookarounds",
+                "Capturing and Backreferencing",
+                "Greedy and Lazy Matching",
+                "Case Sensitivity and Unicode Support"
+              ]
+            },
+            {
+              "topic": "Regular Expression Optimization",
+              "sub_topics": [
+                "Performance Considerations",
+                "Using Indexes and Data Structures",
+                "Caching and Reusing Patterns",
+                "Best Practices for Efficient Regex"
+              ]
+            },
+            {
+              "topic": "Regular Expressions in Scripting and Automation",
+              "sub_topics": [
+                "Integrating Regex into Scripts",
+                "Automating Text Processing Tasks",
+                "Data Extraction and Validation",
+                "Error Handling and Debugging"
+              ]
+            },
+            {
+              "topic": "Advanced Regular Expression Techniques",
+              "sub_topics": [
+                "Non-Greedy Matching and Atomic Groups",
+                "Recursive Regex and Lookahead/Lookbehind Assertions",
+                "Building Complex Patterns and Parsing Rules",
+                "Regular Expression Libraries and Tools"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Testing and Debugging",
+      "sub_categories": [
+        {
+          "sub_category": "Unit Testing",
+          "topics": [
+            {
+              "topic": "Unit Testing Concepts",
+              "sub_topics": [
+                "What is unit testing?",
+                "Why is unit testing important?",
+                "Types of unit tests",
+                "Unit testing frameworks",
+                "Best practices for unit testing"
+              ]
+            },
+            {
+              "topic": "Writing Unit Tests",
+              "sub_topics": [
+                "Getting started with unit testing",
+                "Writing effective unit tests",
+                "Mocking and stubbing in unit tests",
+                "Testing edge cases and error handling",
+                "Refactoring and maintaining unit tests"
+              ]
+            },
+            {
+              "topic": "Unit Testing Tools and Techniques",
+              "sub_topics": [
+                "Unit testing frameworks (e.g., JUnit, PHPUnit, pytest)",
+                "Code coverage tools",
+                "Mutation testing",
+                "Continuous integration and unit testing",
+                "Advanced unit testing techniques"
+              ]
+            },
+            {
+              "topic": "Unit Testing in Different Programming Languages",
+              "sub_topics": [
+                "Unit testing in Java",
+                "Unit testing in Python",
+                "Unit testing in C++",
+                "Unit testing in JavaScript",
+                "Unit testing in other programming languages"
+              ]
+            },
+            {
+              "topic": "Unit Testing Best Practices",
+              "sub_topics": [
+                "Writing clean and maintainable unit tests",
+                "Organizing unit tests for maximum efficiency",
+                "Automating unit tests for continuous integration",
+                "Using unit testing to improve code quality",
+                "Common unit testing pitfalls to avoid"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Integration Testing",
+          "topics": [
+            {
+              "topic": "Types of Integration Testing",
+              "sub_topics": [
+                "Big Bang Testing",
+                "Top-Down Testing",
+                "Bottom-Up Testing",
+                "Incremental Integration Testing",
+                "Parallel Integration Testing"
+              ]
+            },
+            {
+              "topic": "Integration Testing Tools",
+              "sub_topics": [
+                "JUnit",
+                "TestNG",
+                "Mockito",
+                "JMockit",
+                "Cucumber"
+              ]
+            },
+            {
+              "topic": "Best Practices for Integration Testing",
+              "sub_topics": [
+                "Identify and Prioritize Integration Points",
+                "Design for Testability",
+                "Use Mocking and Stubbing",
+                "Test in a Realistic Environment",
+                "Automate Integration Tests"
+              ]
+            },
+            {
+              "topic": "Challenges of Integration Testing",
+              "sub_topics": [
+                "Complexity and Interdependencies",
+                "Environment Setup and Configuration",
+                "Data Synchronization and Consistency",
+                "Performance and Scalability Issues",
+                "Regression Testing and Maintenance"
+              ]
+            },
+            {
+              "topic": "Advanced Techniques in Integration Testing",
+              "sub_topics": [
+                "Service Virtualization",
+                "Contract Testing",
+                "API Testing",
+                "Continuous Integration and Continuous Testing"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Pytest",
+          "topics": [
+            {
+              "topic": "Pytest Basics",
+              "sub_topics": [
+                "Installation and Setup",
+                "Writing Test Cases",
+                "Running Tests"
+              ]
+            },
+            {
+              "topic": "Fixtures",
+              "sub_topics": [
+                "What are Fixtures?",
+                "Using Fixtures",
+                "Creating Custom Fixtures"
+              ]
+            },
+            {
+              "topic": "Assertions",
+              "sub_topics": [
+                "Builtin Assertions",
+                "Custom Assertions",
+                "Best Practices for Assertions"
+              ]
+            },
+            {
+              "topic": "Test Discovery",
+              "sub_topics": [
+                "Test Naming Conventions",
+                "Test Discovery Options",
+                "Excluding Tests from Discovery"
+              ]
+            },
+            {
+              "topic": "Reporting and Capturing",
+              "sub_topics": [
+                "pytest Reports",
+                "Capturing Output and Logs",
+                "Customizing Report Plugins"
+              ]
+            },
+            {
+              "topic": "Parameterization",
+              "sub_topics": [
+                "What is Parameterization?",
+                "Using Parameterization Fixtures",
+                "Writing Parameterized Tests"
+              ]
+            },
+            {
+              "topic": "Mocking and Patching",
+              "sub_topics": [
+                "Introduction to Mocking",
+                "Using the Mock Library",
+                "Advanced Patching Techniques"
+              ]
+            },
+            {
+              "topic": "Integration Testing",
+              "sub_topics": [
+                "Testing Database Interactions",
+                "Testing HTTP Requests",
+                "End-to-End Testing"
+              ]
+            },
+            {
+              "topic": "Advanced Configuration",
+              "sub_topics": [
+                "Using Plugins",
+                "Customizing Pytest",
+                "Integrating with Continuous Integration"
+              ]
+            },
+            {
+              "topic": "Troubleshooting Pytest",
+              "sub_topics": [
+                "Common Errors and Solutions",
+                "Debugging Failed Tests",
+                "Getting Help and Support"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Debugging Tools (pdb, breakpoint())",
+          "topics": [
+            {
+              "topic": "Python Debugging Tools",
+              "sub_topics": [
+                "pdb",
+                "breakpoint()"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Code Coverage Analysis",
+          "topics": [
+            {
+              "topic": "Code Coverage Types",
+              "sub_topics": [
+                "Statement Coverage",
+                "Branch Coverage",
+                "Function Coverage",
+                "Conditional Coverage",
+                "Modified Condition/Decision Coverage (MC/DC)",
+                "Path Coverage"
+              ]
+            },
+            {
+              "topic": "Code Coverage Measurement Techniques",
+              "sub_topics": [
+                "Dynamic Code Coverage Analysis",
+                "Static Code Coverage Analysis",
+                "Structural Coverage Analysis"
+              ]
+            },
+            {
+              "topic": "Code Coverage Tools",
+              "sub_topics": [
+                "JaCoCo",
+                "Cobertura",
+                "Testwell CTC++",
+                "HP Code Coverage",
+                "Clover",
+                "BullseyeCoverage"
+              ]
+            },
+            {
+              "topic": "Challenges in Code Coverage Analysis",
+              "sub_topics": [
+                "Exceptions",
+                "Unexecutable Code",
+                "Uncovered Code"
+              ]
+            },
+            {
+              "topic": "Benefits of Code Coverage Analysis",
+              "sub_topics": [
+                "Improved Code Quality",
+                "Reduced Testing Time",
+                "Increased Test Coverage"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Networking and Security",
+      "sub_categories": [
+        {
+          "sub_category": "Socket Programming",
+          "topics": [
+            {
+              "topic": "Socket Types",
+              "sub_topics": [
+                "Stream Sockets",
+                "Datagram Sockets",
+                "Raw Sockets",
+                "Packet Sockets"
+              ]
+            },
+            {
+              "topic": "Socket Operations",
+              "sub_topics": [
+                "Socket Creation",
+                "Socket Binding",
+                "Socket Listening",
+                "Socket Acceptance",
+                "Socket Sending and Receiving"
+              ]
+            },
+            {
+              "topic": "Socket Addressing",
+              "sub_topics": [
+                "IP Addresses",
+                "Port Numbers",
+                "Socket Addresses"
+              ]
+            },
+            {
+              "topic": "Socket Options",
+              "sub_topics": [
+                "Socket Options for Stream Sockets",
+                "Socket Options for Datagram Sockets",
+                "Socket Options for Raw Sockets",
+                "Socket Options for Packet Sockets"
+              ]
+            },
+            {
+              "topic": "Socket Programming Examples",
+              "sub_topics": [
+                "Client-Server Socket Programming in C",
+                "Client-Server Socket Programming in Java",
+                "Client-Server Socket Programming in Python",
+                "Client-Server Socket Programming in Node.js"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "HTTP and REST APIs",
+          "topics": [
+            {
+              "topic": "HTTP Protocol",
+              "sub_topics": [
+                "HTTP Request Methods (GET, POST, PUT, DELETE, etc.)",
+                "HTTP Status Codes (200, 404, 500, etc.)",
+                "HTTP Headers (Content-Type, Cache-Control, etc.)",
+                "HTTP Request and Response Bodies",
+                "HTTP Caching and Performance Optimization"
+              ]
+            },
+            {
+              "topic": "RESTful APIs",
+              "sub_topics": [
+                "REST Architectural Constraints (Uniform Interface, Statelessness, etc.)",
+                "RESTful API Design Patterns",
+                "HTTP Verbs and CRUD Operations",
+                "RESTful API Documentation and Best Practices",
+                "RESTful API Security and Authentication"
+              ]
+            },
+            {
+              "topic": "HTTP Security",
+              "sub_topics": [
+                "HTTP Authentication (Basic, Digest, OAuth, etc.)",
+                "HTTP Authorization (JWT, OAuth, etc.)",
+                "Cross-Origin Resource Sharing (CORS)",
+                "HTTPS and Secure Communication",
+                "HTTP DoS and DDoS Attacks"
+              ]
+            },
+            {
+              "topic": "HTTP Tools and Technologies",
+              "sub_topics": [
+                "HTTP Clients and Libraries",
+                "HTTP Servers and Frameworks",
+                "HTTP Proxies and Gateways",
+                "HTTP Monitoring and Debugging Tools",
+                "HTTP Load Testing and Performance Analysis"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Authentication and Authorization",
+          "topics": [
+            {
+              "topic": "BASIC HTTP Authentication",
+              "sub_topics": []
+            },
+            {
+              "topic": "Digest Authentication",
+              "sub_topics": []
+            },
+            {
+              "topic": "NTLM Authentication",
+              "sub_topics": []
+            },
+            {
+              "topic": "Kerberos Authentication",
+              "sub_topics": []
+            },
+            {
+              "topic": "OAuth Authentication",
+              "sub_topics": []
+            },
+            {
+              "topic": "LDAP Authentication",
+              "sub_topics": []
+            },
+            {
+              "topic": "SAML Authentication",
+              "sub_topics": []
+            },
+            {
+              "topic": "X.509 Authentication",
+              "sub_topics": []
+            },
+            {
+              "topic": "PKI (Public Key Infrastructure)",
+              "sub_topics": []
+            },
+            {
+              "topic": "Authorization and Access Control",
+              "sub_topics": []
+            },
+            {
+              "topic": "Role-Based Access Control (RBAC)",
+              "sub_topics": []
+            },
+            {
+              "topic": "Attribute-Based Access Control (ABAC)",
+              "sub_topics": []
+            },
+            {
+              "topic": "Identity Federation",
+              "sub_topics": []
+            },
+            {
+              "topic": "Single Sign-On (SSO)",
+              "sub_topics": []
+            }
+          ]
+        },
+        {
+          "sub_category": "Cryptography",
+          "topics": [
+            {
+              "topic": "Symmetric-Key Cryptography",
+              "sub_topics": [
+                "Block Ciphers",
+                "Stream Ciphers",
+                "Modes of Operation",
+                "Key Management"
+              ]
+            },
+            {
+              "topic": "Asymmetric-Key Cryptography",
+              "sub_topics": [
+                "Public-Key Algorithms",
+                "Digital Signatures",
+                "Key Management"
+              ]
+            },
+            {
+              "topic": "Hash Functions",
+              "sub_topics": [
+                "Collision Resistance",
+                "Preimage Resistance",
+                "Applications"
+              ]
+            },
+            {
+              "topic": "Cryptosystems",
+              "sub_topics": [
+                "Hybrid Cryptosystems",
+                "Authenticated Encryption",
+                "Key Exchange Protocols"
+              ]
+            },
+            {
+              "topic": "Cryptanalysis",
+              "sub_topics": [
+                "Differential Cryptanalysis",
+                "Linear Cryptanalysis",
+                "Side-Channel Attacks"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Secure Coding Practices",
+          "topics": [
+            {
+              "topic": "Security Vulnerabilities in Software",
+              "sub_topics": [
+                "Buffer Overflows",
+                "Cross-Site Scripting (XSS)",
+                "SQL Injection",
+                "Input Validation",
+                "Resource Exhaustion"
+              ]
+            },
+            {
+              "topic": "Secure Coding Principles",
+              "sub_topics": [
+                "Least Privilege",
+                "Defense in Depth",
+                "Separation of Duties",
+                "Input Validation and Sanitization",
+                "Error Handling"
+              ]
+            },
+            {
+              "topic": "Secure Coding Techniques",
+              "sub_topics": [
+                "Input Validation and Filtering",
+                "Buffer Bounds Checking",
+                "Memory Management",
+                "Secure Data Storage",
+                "Exception Handling"
+              ]
+            },
+            {
+              "topic": "Secure Coding Tools and Resources",
+              "sub_topics": [
+                "Static Code Analysis Tools",
+                "Fuzz Testing Tools",
+                "Security Libraries and Frameworks"
+              ]
+            },
+            {
+              "topic": "Coding Best Practices for Security",
+              "sub_topics": [
+                "Code Reviews and Audits",
+                "Threat Modeling",
+                "Testing for Security Vulnerabilities"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "DevOps and Deployment",
+      "sub_categories": [
+        {
+          "sub_category": "Docker",
+          "topics": [
+            {
+              "topic": "Introduction to Docker",
+              "sub_topics": [
+                "What is Docker?",
+                "Benefits of using Docker",
+                "Setting up Docker on your system",
+                "Creating your first Docker container"
+              ]
+            },
+            {
+              "topic": "Building Docker images",
+              "sub_topics": [
+                "Understanding Dockerfiles",
+                "Creating your Dockerfile",
+                "Building your Docker image",
+                "Pushing your Docker image to a registry"
+              ]
+            },
+            {
+              "topic": "Running Docker containers",
+              "sub_topics": [
+                "Starting, stopping, and managing Docker containers",
+                "Exposing container ports",
+                "Inspecting Docker containers",
+                "Using Docker Compose to manage multiple containers"
+              ]
+            },
+            {
+              "topic": "Orchestrating Docker containers with Kubernetes",
+              "sub_topics": [
+                "What is Kubernetes?",
+                "Setting up Kubernetes on your system",
+                "Deploying Docker containers to Kubernetes",
+                "Managing Kubernetes clusters"
+              ]
+            },
+            {
+              "topic": "Advanced Docker concepts",
+              "sub_topics": [
+                "Networking with Docker",
+                "Persistent storage with Docker",
+                "Security with Docker",
+                "Troubleshooting Docker issues"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Kubernetes",
+          "topics": [
+            {
+              "topic": "Fundamentals of Kubernetes",
+              "sub_topics": [
+                "Introduction to Kubernetes",
+                "Core concepts (pods, deployments, services, nodes)",
+                "Kubernetes architecture and components"
+              ]
+            },
+            {
+              "topic": "Deploying and Managing Applications on Kubernetes",
+              "sub_topics": [
+                "Creating and managing deployments",
+                "Service discovery and load balancing",
+                "Autoscaling and resource management"
+              ]
+            },
+            {
+              "topic": "Kubernetes Networking",
+              "sub_topics": [
+                "Kubernetes networking fundamentals",
+                "Pod and service networking",
+                "Network policies and security"
+              ]
+            },
+            {
+              "topic": "Kubernetes Storage and Persistence",
+              "sub_topics": [
+                "Persistent volumes and storage classes",
+                "Managing and using persistent storage",
+                "Data backup and recovery"
+              ]
+            },
+            {
+              "topic": "Advanced Kubernetes Concepts",
+              "sub_topics": [
+                "Kubernetes operators and custom resources",
+                "Managing clusters with kubectl and Helm",
+                "Continuous integration and delivery with Kubernetes"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "CI/CD Pipelines",
+          "topics": [
+            {
+              "topic": "CI/CD Fundamentals",
+              "sub_topics": [
+                "What is CI/CD?",
+                "Benefits of CI/CD",
+                "Types of CI/CD pipelines"
+              ]
+            },
+            {
+              "topic": "Continuous Integration (CI)",
+              "sub_topics": [
+                "Building and testing code",
+                "Version control integration",
+                "Automated testing"
+              ]
+            },
+            {
+              "topic": "Continuous Delivery (CD)",
+              "sub_topics": [
+                "Deploying code to production",
+                "Automated deployment",
+                "Rollbacks and recovery"
+              ]
+            },
+            {
+              "topic": "Tools for CI/CD Pipelines",
+              "sub_topics": [
+                "Jenkins",
+                "Azure DevOps Server",
+                "CircleCI",
+                "GitLab CI/CD"
+              ]
+            },
+            {
+              "topic": "Best Practices for CI/CD Pipelines",
+              "sub_topics": [
+                "Version control branching strategies",
+                "Testing strategies",
+                "Deployment strategies"
+              ]
+            },
+            {
+              "topic": "CI/CD in the Cloud",
+              "sub_topics": [
+                "Provisioning infrastructure",
+                "Managing cloud resources",
+                "Security considerations"
+              ]
+            },
+            {
+              "topic": "Advanced CI/CD Techniques",
+              "sub_topics": [
+                "Continuous Deployment with Feature Flags",
+                "Canary Deployment",
+                "Blue/Green Deployment"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Cloud Services (AWS, GCP, Azure)",
+          "topics": [
+            {
+              "topic": "AWS",
+              "sub_topics": [
+                "EC2",
+                "S3",
+                "Lambda",
+                "CloudFormation",
+                "ECS",
+                "RDS",
+                "DynamoDB",
+                "Aurora",
+                "SQS",
+                "SNS"
+              ]
+            },
+            {
+              "topic": "GCP",
+              "sub_topics": [
+                "Compute Engine",
+                "Cloud Storage",
+                "Cloud Functions",
+                "Cloud Pub/Sub",
+                "BigQuery",
+                "Cloud SQL",
+                "Spanner",
+                "Kubernetes Engine",
+                "App Engine",
+                "Datastore"
+              ]
+            },
+            {
+              "topic": "Azure",
+              "sub_topics": [
+                "Virtual Machines",
+                "Azure Storage",
+                "Azure Functions",
+                "Azure Cosmos DB",
+                "Azure SQL Database",
+                "Service Bus",
+                "Event Hubs",
+                "Azure Kubernetes Service",
+                "App Service",
+                "Azure DevOps"
+              ]
+            },
+            {
+              "topic": "Serverless Computing",
+              "sub_topics": [
+                "AWS Lambda",
+                "GCP Cloud Functions",
+                "Azure Functions",
+                "Serverless frameworks (e.g. Serverless Framework, SAM)",
+                "Best practices for serverless architectures"
+              ]
+            },
+            {
+              "topic": "Cloud Security",
+              "sub_topics": [
+                "AWS Identity and Access Management (IAM)",
+                "GCP Cloud Identity and Access Management (IAM)",
+                "Azure Active Directory",
+                "Cloud security tools (e.g. CloudTrail, CloudWatch, Security Command Center)",
+                "Secure coding practices for cloud environments"
+              ]
+            },
+            {
+              "topic": "Infrastructure as Code (IaC)",
+              "sub_topics": [
+                "AWS CloudFormation",
+                "GCP Terraform",
+                "Azure ARM Templates",
+                "Best practices for IaC",
+                "IaC tools and frameworks"
+              ]
+            },
+            {
+              "topic": "Continuous Delivery and Deployment",
+              "sub_topics": [
+                "CI/CD pipelines for cloud environments",
+                "Blue/Green deployments",
+                "Canary deployments",
+                "Automated testing in cloud environments",
+                "Cloud-native delivery best practices"
+              ]
+            },
+            {
+              "topic": "Cloud Monitoring and Logging",
+              "sub_topics": [
+                "AWS CloudWatch",
+                "GCP Stackdriver",
+                "Azure Monitor",
+                "Log aggregation and analysis tools",
+                "Best practices for monitoring and logging in cloud environments"
+              ]
+            },
+            {
+              "topic": "Cloud Cost Optimization",
+              "sub_topics": [
+                "Cost optimization techniques for cloud environments",
+                "Cloud cost management tools",
+                "Best practices for optimizing cloud costs"
+              ]
+            },
+            {
+              "topic": "Emerging Cloud Trends",
+              "sub_topics": [
+                "Serverless computing",
+                "Edge computing",
+                "Quantum computing",
+                "Artificial intelligence and machine learning in the cloud",
+                "Future trends in cloud computing"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Infrastructure as Code (Terraform, Ansible)",
+          "topics": [
+            {
+              "topic": "Infrastructure as Code Principles and Best Practices",
+              "sub_topics": [
+                "Defining Infrastructure as Code",
+                "Benefits and Challenges of Infrastructure as Code",
+                "Best Practices for Implementing Infrastructure as Code",
+                "Security Considerations for Infrastructure as Code"
+              ]
+            },
+            {
+              "topic": "Terraform and Ansible Fundamentals",
+              "sub_topics": [
+                "Introduction to Terraform and Ansible",
+                "Core Concepts and Components",
+                "Syntax and Configuration",
+                "Hands-on Labs with Terraform and Ansible"
+              ]
+            },
+            {
+              "topic": "Provisioning and Managing Infrastructure with Terraform",
+              "sub_topics": [
+                "Creating and Managing Cloud Resources",
+                "Automating Infrastructure Configuration",
+                "State Management and Infrastructure Drift",
+                "Advanced Terraform Modules and Functions"
+              ]
+            },
+            {
+              "topic": "Automating Configuration and Deployment with Ansible",
+              "sub_topics": [
+                "Playbooks and Roles for Configuration Management",
+                "Inventory Management and Host Targeting",
+                "Advanced Ansible Features and Modules",
+                "Security and Compliance with Ansible"
+              ]
+            },
+            {
+              "topic": "Continuous Integration and Continuous Delivery (CI/CD) with Infrastructure as Code",
+              "sub_topics": [
+                "Integrating Infrastructure as Code into CI/CD Pipelines",
+                "Automating Infrastructure Testing and Validation",
+                "Version Control and Code Review for Infrastructure",
+                "Best Practices for CI/CD with Infrastructure as Code"
+              ]
+            },
+            {
+              "topic": "Advanced Topics in Infrastructure as Code",
+              "sub_topics": [
+                "Multi-Cloud and Hybrid Cloud Infrastructure Management",
+                "Security Automation and Infrastructure Compliance",
+                "Serverless Architectures and Infrastructure Provisioning",
+                "Emerging Trends and Innovations in Infrastructure as Code"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Game Development",
+      "sub_categories": [
+        {
+          "sub_category": "Pygame",
+          "topics": [
+            {
+              "topic": "Pygame Basics",
+              "sub_topics": [
+                "Installing Pygame",
+                "Creating a Pygame window",
+                "Handling events",
+                "Drawing shapes and images",
+                "Playing sounds and music"
+              ]
+            },
+            {
+              "topic": "Game Objects",
+              "sub_topics": [
+                "Creating and controlling sprites",
+                "Using groups to organize sprites",
+                "Adding collision detection",
+                "Creating custom game objects"
+              ]
+            },
+            {
+              "topic": "Game Logic",
+              "sub_topics": [
+                "Creating game states",
+                "Managing player input",
+                "Updating game objects",
+                "Drawing the game screen"
+              ]
+            },
+            {
+              "topic": "Advanced Techniques",
+              "sub_topics": [
+                "Using shaders and effects",
+                "Optimizing Pygame games",
+                "Deploying Pygame games"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Game Loops",
+          "topics": [
+            {
+              "topic": "Game Loop Basics",
+              "sub_topics": [
+                "What is a game loop?",
+                "Why is a game loop important?",
+                "How to create a game loop",
+                "Common game loop pitfalls",
+                "Best practices for game loops"
+              ]
+            },
+            {
+              "topic": "Game Loop Optimization",
+              "sub_topics": [
+                "Techniques for optimizing game loops",
+                "Profiling and debugging game loops",
+                "Multithreading and game loops",
+                "Frame pacing and synchronization",
+                "Advanced game loop techniques"
+              ]
+            },
+            {
+              "topic": "Game Loop Patterns",
+              "sub_topics": [
+                "Different game loop patterns",
+                "When to use different game loop patterns",
+                "Advantages and disadvantages of each game loop pattern",
+                "Custom game loop patterns",
+                "Case studies of game loop patterns in action"
+              ]
+            },
+            {
+              "topic": "Game Loop Libraries and Frameworks",
+              "sub_topics": [
+                "Overview of popular game loop libraries and frameworks",
+                "Features and benefits of each library or framework",
+                "How to use game loop libraries and frameworks",
+                "Comparison of different game loop libraries and frameworks",
+                "Case studies of using game loop libraries and frameworks in real-world projects"
+              ]
+            },
+            {
+              "topic": "Game Loop Performance Analysis",
+              "sub_topics": [
+                "Tools and techniques for analyzing game loop performance",
+                "Metrics for measuring game loop performance",
+                "Common performance bottlenecks in game loops",
+                "Case studies of game loop performance analysis",
+                "Best practices for improving game loop performance"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Collision Detection",
+          "topics": []
+        },
+        {
+          "sub_category": "Event Handling",
+          "topics": [
+            {
+              "topic": "Introduction to Event Handling",
+              "sub_topics": [
+                "What is event handling?",
+                "Why is event handling important?",
+                "Different types of events"
+              ]
+            },
+            {
+              "topic": "Implementing Event Handling",
+              "sub_topics": [
+                "Event listeners",
+                "Event handlers",
+                "Event delegation"
+              ]
+            },
+            {
+              "topic": "Event Propagation and Bubbling",
+              "sub_topics": [
+                "Event propagation",
+                "Event bubbling",
+                "Event stopping"
+              ]
+            },
+            {
+              "topic": "Custom Events",
+              "sub_topics": [
+                "Creating custom events",
+                "Dispatching custom events",
+                "Handling custom events"
+              ]
+            },
+            {
+              "topic": "Best Practices for Event Handling",
+              "sub_topics": [
+                "Organizing event handlers",
+                "Using event delegation",
+                "Avoiding memory leaks"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Game Physics",
+          "topics": [
+            {
+              "topic": "Collision Detection",
+              "sub_topics": [
+                "Broad-phase Collision Detection",
+                "Narrow-phase Collision Detection",
+                "Collision Resolution",
+                "Collision Filtering"
+              ]
+            },
+            {
+              "topic": "Rigid Body Dynamics",
+              "sub_topics": [
+                "Newton's Laws of Motion",
+                "Moment of Inertia",
+                "Angular Momentum",
+                "Center of Mass"
+              ]
+            },
+            {
+              "topic": "Soft Body Dynamics",
+              "sub_topics": [
+                "Mass-Spring Systems",
+                "Finite Element Method",
+                "Smoothed Particle Hydrodynamics"
+              ]
+            },
+            {
+              "topic": "Fluid Dynamics",
+              "sub_topics": [
+                "Navier-Stokes Equations",
+                "Computational Fluid Dynamics",
+                "Particle-Based Fluid Simulation"
+              ]
+            },
+            {
+              "topic": "Optimization",
+              "sub_topics": [
+                "Spatial Partitioning",
+                "Contact Culling",
+                "Multithreading"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "GUI Development",
+      "sub_categories": [
+        {
+          "sub_category": "Tkinter",
+          "topics": [
+            {
+              "topic": "Labels",
+              "sub_topics": [
+                "Creating Labels",
+                "Label Configuration",
+                "Advanced Label Usage"
+              ]
+            },
+            {
+              "topic": "Buttons",
+              "sub_topics": [
+                "Creating Buttons",
+                "Button Configuration",
+                "Button Events"
+              ]
+            },
+            {
+              "topic": "Entry Widgets",
+              "sub_topics": [
+                "Creating Entry Widgets",
+                "Entry Widget Configuration",
+                "Validation and Input Control"
+              ]
+            },
+            {
+              "topic": "Radiobuttons and Checkboxes",
+              "sub_topics": [
+                "Creating Radiobuttons and Checkboxes",
+                "Configuration and Usage",
+                "Variable Management"
+              ]
+            },
+            {
+              "topic": "Frames",
+              "sub_topics": [
+                "Creating Frames",
+                "Frame Configuration",
+                "Using Frames for Layout Management"
+              ]
+            },
+            {
+              "topic": "Layout Management",
+              "sub_topics": [
+                "Pack Geometry Manager",
+                "Grid Geometry Manager",
+                "Place Geometry Manager"
+              ]
+            },
+            {
+              "topic": "Menus",
+              "sub_topics": [
+                "Creating Menus",
+                "Menu Configuration",
+                "Event Handling and Callbacks"
+              ]
+            },
+            {
+              "topic": "Canvas",
+              "sub_topics": [
+                "Creating Canvas Objects",
+                "Canvas Configuration",
+                "Advanced Canvas Usage"
+              ]
+            },
+            {
+              "topic": "Bindings and Events",
+              "sub_topics": [
+                "Event Handling Basics",
+                "Key Bindings",
+                "Mouse Bindings"
+              ]
+            },
+            {
+              "topic": "Dialog Boxes",
+              "sub_topics": [
+                "Creating Dialog Boxes",
+                "Dialog Box Configuration",
+                "Using Dialog Boxes in Applications"
+              ]
+            },
+            {
+              "topic": "Advanced Tkinter Concepts",
+              "sub_topics": [
+                "Custom Widgets",
+                "Event Propagation",
+                "Threaded Programming"
+              ]
+            },
+            {
+              "topic": "Tkinter Resources",
+              "sub_topics": [
+                "Tkinter Documentation",
+                "Online Tutorials",
+                "Community Forums"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "PyQt",
+          "topics": [
+            {
+              "topic": "PyQt5 Widgets",
+              "sub_topics": [
+                "QLabel",
+                "QPushButton"
+              ]
+            },
+            {
+              "topic": "PyQt5 Layouts",
+              "sub_topics": [
+                "QVBoxLayout",
+                "QHBoxLayout"
+              ]
+            },
+            {
+              "topic": "PyQt5 Signals and Slots",
+              "sub_topics": [
+                "clicked",
+                "valueChanged"
+              ]
+            },
+            {
+              "topic": "PyQt5 Event Handling",
+              "sub_topics": [
+                "mousePressEvent",
+                "keyPressEvent"
+              ]
+            },
+            {
+              "topic": "PyQt5 QMainWindow",
+              "sub_topics": [
+                "statusBar",
+                "menuBar"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Kivy",
+          "topics": [
+            {
+              "topic": "Core Concepts",
+              "sub_topics": [
+                "Kivy Language (kv)",
+                "Widgets",
+                "Events and Callbacks",
+                "Properties and Bindings",
+                "Clock",
+                "Layouts"
+              ]
+            },
+            {
+              "topic": "User Interface Design",
+              "sub_topics": [
+                "Creating Custom Widgets",
+                "Styling and Theming",
+                "Internationalization",
+                "Accessibility"
+              ]
+            },
+            {
+              "topic": "Advanced Features",
+              "sub_topics": [
+                "Camera and Multimedia",
+                "Networking and HTTP",
+                "Database Integration",
+                "3D Graphics with Kivy3D",
+                "Deployment and Packaging"
+              ]
+            },
+            {
+              "topic": "Tools and Resources",
+              "sub_topics": [
+                "Kivy Editor (Kivy IDE)",
+                "Kivy Designer",
+                "Community Resources"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Custom Widgets",
+          "topics": [
+            {
+              "topic": "Creating Custom Widgets",
+              "sub_topics": [
+                "Understanding custom widget architecture",
+                "Creating a new custom widget",
+                "Defining widget properties and behaviors",
+                "Unit testing custom widgets",
+                "Deploying custom widgets"
+              ]
+            },
+            {
+              "topic": "Extending Existing Widgets",
+              "sub_topics": [
+                "Understanding the extensibility of existing widgets",
+                "Creating custom themes for existing widgets",
+                "Adding new features to existing widgets",
+                "Unit testing extended widgets",
+                "Deploying extended widgets"
+              ]
+            },
+            {
+              "topic": "Advanced Customization Techniques",
+              "sub_topics": [
+                "Creating custom layout managers",
+                "Implementing custom event handling",
+                "Using custom renderers for advanced visual effects",
+                "Optimizing custom widget performance",
+                "Debugging custom widgets"
+              ]
+            },
+            {
+              "topic": "Best Practices for Custom Widget Development",
+              "sub_topics": [
+                "Designing reusable and maintainable custom widgets",
+                "Following UI/UX best practices in custom widget design",
+                "Integrating custom widgets into existing applications",
+                "Documenting and versioning custom widgets",
+                "Contributing custom widgets to the community"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Event Binding",
+          "topics": [
+            {
+              "topic": "Event Binding Overview",
+              "sub_topics": [
+                "What is event binding?",
+                "Why use event binding?",
+                "Benefits of event binding"
+              ]
+            },
+            {
+              "topic": "Event Binding Methods",
+              "sub_topics": [
+                "Declarative event binding",
+                "Programmatic event binding"
+              ]
+            },
+            {
+              "topic": "Event Binding in Popular Frameworks",
+              "sub_topics": [
+                "Event binding in React",
+                "Event binding in Angular",
+                "Event binding in Vue"
+              ]
+            },
+            {
+              "topic": "Best Practices for Event Binding",
+              "sub_topics": [
+                "Performance considerations",
+                "Memory leaks",
+                "Cross-browser compatibility"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Data Engineering",
+      "sub_categories": [
+        {
+          "sub_category": "ETL Pipelines",
+          "topics": [
+            {
+              "topic": "ETL Pipeline Basics",
+              "sub_topics": [
+                "What is an ETL pipeline?",
+                "The benefits of using ETL pipelines",
+                "The different types of ETL pipelines"
+              ]
+            },
+            {
+              "topic": "ETL Pipeline Design",
+              "sub_topics": [
+                "How to design an ETL pipeline",
+                "The different components of an ETL pipeline",
+                "Best practices for ETL pipeline design"
+              ]
+            },
+            {
+              "topic": "ETL Pipeline Implementation",
+              "sub_topics": [
+                "How to implement an ETL pipeline",
+                "The different tools and technologies that can be used to implement ETL pipelines",
+                "Best practices for ETL pipeline implementation"
+              ]
+            },
+            {
+              "topic": "ETL Pipeline Monitoring and Maintenance",
+              "sub_topics": [
+                "How to monitor and maintain an ETL pipeline",
+                "The different metrics that can be used to monitor ETL pipelines",
+                "Best practices for ETL pipeline monitoring and maintenance"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Database Connectivity",
+          "topics": [
+            {
+              "topic": "Database Connectivity",
+              "sub_topics": [
+                "Connecting to Relational Databases",
+                "Connecting to NoSQL Databases",
+                "Connecting to Cloud Databases",
+                "Database Connection Management",
+                "Database Query Optimization",
+                "Data Replication and Synchronization",
+                "Database Security and Compliance",
+                "Database Monitoring and Troubleshooting"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Data Serialization (JSON, XML)",
+          "topics": []
+        },
+        {
+          "sub_category": "Big Data Tools (Hadoop, Spark)",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Scientific Computing",
+      "sub_categories": [
+        {
+          "sub_category": "SciPy",
+          "topics": [
+            {
+              "topic": "Linear Algebra",
+              "sub_topics": [
+                "Matrix Operations",
+                "Eigenvalue and Singular Value Decomposition",
+                "Linear Equations and Least Squares"
+              ]
+            },
+            {
+              "topic": "Optimization",
+              "sub_topics": [
+                "Unconstrained Optimization",
+                "Constrained Optimization",
+                "Global Optimization"
+              ]
+            },
+            {
+              "topic": "Integration and Differential Equations",
+              "sub_topics": [
+                "Numerical Integration",
+                "Ordinary Differential Equations",
+                "Partial Differential Equations"
+              ]
+            },
+            {
+              "topic": "Fourier Analysis",
+              "sub_topics": [
+                "Fast Fourier Transform (FFT)",
+                "Spectral Analysis",
+                "Wavelet Analysis"
+              ]
+            },
+            {
+              "topic": "Data Analysis",
+              "sub_topics": [
+                "Descriptive Statistics",
+                "Hypothesis Testing",
+                "Regression Analysis"
+              ]
+            },
+            {
+              "topic": "Image and Signal Processing",
+              "sub_topics": [
+                "Image Filtering",
+                "Image Segmentation",
+                "Signal Processing"
+              ]
+            },
+            {
+              "topic": "Machine Learning",
+              "sub_topics": [
+                "Supervised Learning",
+                "Unsupervised Learning",
+                "Model Selection and Evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "SymPy",
+          "topics": [
+            {
+              "topic": "Symbolic Calculus",
+              "sub_topics": [
+                "Differentiation",
+                "Integration",
+                "Series Expansion",
+                "Limit Calculation"
+              ]
+            },
+            {
+              "topic": "Linear Algebra",
+              "sub_topics": [
+                "Matrix Operations",
+                "Vector Operations",
+                "Eigenvalue and Eigenvector Calculations",
+                "LU Decomposition",
+                "QR Decomposition",
+                "Singular Value Decomposition"
+              ]
+            },
+            {
+              "topic": "Polynomials",
+              "sub_topics": [
+                "Factorization",
+                "Root Finding",
+                "Coefficient Extraction"
+              ]
+            },
+            {
+              "topic": "Trigonometry",
+              "sub_topics": [
+                "Function Evaluation",
+                "Identities",
+                "Derivatives and Integrals"
+              ]
+            },
+            {
+              "topic": "Special Functions",
+              "sub_topics": [
+                "Gamma Function",
+                "Beta Function",
+                "Hypergeometric Function",
+                "Bessel Function"
+              ]
+            },
+            {
+              "topic": "Calculus of Variations",
+              "sub_topics": [
+                "Euler-Lagrange Equations",
+                "Variational Principles"
+              ]
+            },
+            {
+              "topic": "Partial Differential Equations",
+              "sub_topics": [
+                "Method of Lines",
+                "Finite Element Method",
+                "Boundary Value Problems"
+              ]
+            },
+            {
+              "topic": "Numerical Integration",
+              "sub_topics": [
+                "Gauss Quadrature",
+                "Monte Carlo Integration",
+                "Adaptive Integration"
+              ]
+            },
+            {
+              "topic": "Symbolic Manipulation",
+              "sub_topics": [
+                "Pattern Matching",
+                "Substitution",
+                "Expansion"
+              ]
+            },
+            {
+              "topic": "Plotting and Visualization",
+              "sub_topics": [
+                "2D Plotting",
+                "3D Plotting",
+                "Animation"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Matplotlib",
+          "topics": [
+            {
+              "topic": "Introduction to Matplotlib",
+              "sub_topics": [
+                "What is Matplotlib?",
+                "Getting Started with Matplotlib",
+                "Basic Plotting with Matplotlib"
+              ]
+            },
+            {
+              "topic": "Plotting Basics",
+              "sub_topics": [
+                "Creating Figures and Axes",
+                "Plotting Lines and Scatterplots",
+                "Adding Labels and Titles"
+              ]
+            },
+            {
+              "topic": "Customizing Plots",
+              "sub_topics": [
+                "Changing Plot Colors and Styles",
+                "Adding Legends and Annotations",
+                "Saving and Exporting Plots"
+              ]
+            },
+            {
+              "topic": "Advanced Plotting",
+              "sub_topics": [
+                "Creating Subplots and Multi-Panel Figures",
+                "Working with DataFrames and Pandas",
+                "Interactive Plotting with Matplotlib"
+              ]
+            },
+            {
+              "topic": "Object-Oriented Interface",
+              "sub_topics": [
+                "Using the Matplotlib API",
+                "Creating Custom Artists and Axes",
+                "Writing Custom Matplotlib Functions"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Data Analysis",
+          "topics": [
+            {
+              "topic": "Data Preparation",
+              "sub_topics": [
+                "Data cleaning",
+                "Data transformation",
+                "Data integration",
+                "Data reduction"
+              ]
+            },
+            {
+              "topic": "Exploratory Data Analysis",
+              "sub_topics": [
+                "Data visualization",
+                "Statistical analysis",
+                "Pattern recognition",
+                "Hypothesis generation"
+              ]
+            },
+            {
+              "topic": "Machine Learning and Predictive Analytics",
+              "sub_topics": [
+                "Supervised learning",
+                "Unsupervised learning",
+                "Time series analysis",
+                "Decision trees"
+              ]
+            },
+            {
+              "topic": "Data Mining",
+              "sub_topics": [
+                "Association analysis",
+                "Classification",
+                "Clustering",
+                "Market basket analysis"
+              ]
+            },
+            {
+              "topic": "Big Data Analytics",
+              "sub_topics": [
+                "Hadoop",
+                "Spark",
+                "MapReduce",
+                "Scalability",
+                "Data lakes"
+              ]
+            },
+            {
+              "topic": "Cloud Computing for Data Analysis",
+              "sub_topics": [
+                "AWS",
+                "Azure",
+                "GCP",
+                "IaaS",
+                "PaaS"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Statistical Computation",
+          "topics": [
+            {
+              "topic": "Statistical Modeling",
+              "sub_topics": [
+                "Linear Regression",
+                "Logistic Regression",
+                "Decision Trees",
+                "Time Series Analysis",
+                "Clustering"
+              ]
+            },
+            {
+              "topic": "Monte Carlo Methods",
+              "sub_topics": [
+                "Markov Chain Monte Carlo",
+                "Importance Sampling",
+                "Rejection Sampling"
+              ]
+            },
+            {
+              "topic": "Optimization for Statistical Computing",
+              "sub_topics": [
+                "Convex Optimization",
+                "Non-Convex Optimization",
+                "Gradient-Based Optimization",
+                "Heuristic Optimization"
+              ]
+            },
+            {
+              "topic": "High-Performance Statistical Computing",
+              "sub_topics": [
+                "Parallelization Techniques",
+                "GPU Computing",
+                "Big Data Analytics"
+              ]
+            },
+            {
+              "topic": "Bayesian Statistics",
+              "sub_topics": [
+                "Bayesian Inference",
+                "Bayesian Networks",
+                "Bayesian Optimization"
+              ]
+            },
+            {
+              "topic": "Statistical Machine Learning",
+              "sub_topics": [
+                "Supervised Learning",
+                "Unsupervised Learning",
+                "Reinforcement Learning"
+              ]
+            },
+            {
+              "topic": "Statistical Data Analysis",
+              "sub_topics": [
+                "Exploratory Data Analysis",
+                "Confirmatory Data Analysis",
+                "Hypothesis Testing"
+              ]
+            },
+            {
+              "topic": "Statistical Software Development",
+              "sub_topics": [
+                "Open Source Software",
+                "Commercial Software",
+                "Cloud-Based Statistical Computing"
+              ]
+            },
+            {
+              "topic": "Statistical Education and Training",
+              "sub_topics": [
+                "Curriculum Development",
+                "Online Courses",
+                "Workshops and Conferences"
+              ]
+            },
+            {
+              "topic": "Statistical Applications in Various Fields",
+              "sub_topics": [
+                "Bioinformatics",
+                "Medicine",
+                "Finance",
+                "Education",
+                "Social Sciences"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Artificial Intelligence",
+      "sub_categories": [
+        {
+          "sub_category": "Natural Language Processing (NLTK, SpaCy)",
+          "topics": [
+            {
+              "topic": "Introduction to Natural Language Processing",
+              "sub_topics": [
+                "Definition and Overview of NLP",
+                "History and Evolution of NLP",
+                "Applications and Use Cases of NLP"
+              ]
+            },
+            {
+              "topic": "Core Concepts in NLP",
+              "sub_topics": [
+                "Tokenization and Stemming",
+                "Lemmatization and POS Tagging",
+                "Named Entity Recognition (NER)",
+                "Text Classification and Sentiment Analysis"
+              ]
+            },
+            {
+              "topic": "Tools and Techniques for NLP",
+              "sub_topics": [
+                "NLTK (Natural Language Toolkit)",
+                "SpaCy (SpaCy for NLP)",
+                "Regular Expressions for NLP",
+                "Vectorization and Word Embeddings"
+              ]
+            },
+            {
+              "topic": "Advanced NLP Techniques",
+              "sub_topics": [
+                "Machine Translation",
+                "Question Answering Systems",
+                "Chatbots and Conversational AI",
+                "Natural Language Generation"
+              ]
+            },
+            {
+              "topic": "Applications of NLP in Industry",
+              "sub_topics": [
+                "NLP in Healthcare",
+                "NLP in Finance",
+                "NLP in Customer Service",
+                "NLP in Social Media Analysis"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Computer Vision (OpenCV)",
+          "topics": [
+            {
+              "topic": "Image Manipulation",
+              "sub_topics": [
+                "Color Conversion",
+                "Resizing",
+                "Cropping",
+                "Drawing"
+              ]
+            },
+            {
+              "topic": "Object Detection",
+              "sub_topics": [
+                "Haar Cascades",
+                "HOG Descriptors",
+                "YOLO",
+                "Faster R-CNN"
+              ]
+            },
+            {
+              "topic": "Facial Recognition",
+              "sub_topics": [
+                "Eigenfaces",
+                "Fisherfaces",
+                "LBPH",
+                "Deep Learning"
+              ]
+            },
+            {
+              "topic": "Motion Analysis",
+              "sub_topics": [
+                "Optical Flow",
+                "Background Subtraction",
+                "Object Tracking"
+              ]
+            },
+            {
+              "topic": "Deep Learning for Computer Vision",
+              "sub_topics": [
+                "Convolutional Neural Networks (CNNs)",
+                "Generative Adversarial Networks (GANs)",
+                "Object Segmentation"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Reinforcement Learning",
+          "topics": [
+            {
+              "topic": "Markov Decision Processes (MDPs)",
+              "sub_topics": [
+                "Elements of MDPs",
+                "Types of MDPs",
+                "Solving MDPs"
+              ]
+            },
+            {
+              "topic": "Value-Based RL",
+              "sub_topics": [
+                "Value functions",
+                "Bellman equations",
+                "Dynamic programming",
+                "Q-learning",
+                "SARSA"
+              ]
+            },
+            {
+              "topic": "Policy-Based RL",
+              "sub_topics": [
+                "Policy gradients",
+                "Actor-critic methods",
+                "Proximal policy optimization (PPO)",
+                "Trust region policy optimization (TRPO)"
+              ]
+            },
+            {
+              "topic": "Deep RL",
+              "sub_topics": [
+                "Deep Q-learning",
+                "Deep policy gradients",
+                "Imitation learning",
+                "Generative adversarial networks (GANs) for RL"
+              ]
+            },
+            {
+              "topic": "Applications of RL",
+              "sub_topics": [
+                "Game playing",
+                "Robotics",
+                "Finance",
+                "Healthcare",
+                "Transportation"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Deep Learning",
+          "topics": [
+            {
+              "topic": "Convolutional Neural Networks (CNNs)",
+              "sub_topics": [
+                "Architecture and layers",
+                "Training and optimization",
+                "Applications in image and video processing"
+              ]
+            },
+            {
+              "topic": "Recurrent Neural Networks (RNNs)",
+              "sub_topics": [
+                "Types of RNNs (LSTM, GRU)",
+                "Bidirectional RNNs",
+                "Applications in natural language processing and time series analysis"
+              ]
+            },
+            {
+              "topic": "Transformer Networks",
+              "sub_topics": [
+                "Attention mechanisms",
+                "Encoder-decoder architecture",
+                "Applications in machine translation and natural language generation"
+              ]
+            },
+            {
+              "topic": "Generative Adversarial Networks (GANs)",
+              "sub_topics": [
+                "Generator and discriminator networks",
+                "Training and stability",
+                "Applications in image generation and data augmentation"
+              ]
+            },
+            {
+              "topic": "Reinforcement Learning",
+              "sub_topics": [
+                "Markov Decision Processes (MDPs)",
+                "Deep Q-learning (DQN)",
+                "Policy gradient methods"
+              ]
+            },
+            {
+              "topic": "Applications of Deep Learning",
+              "sub_topics": [
+                "Computer vision",
+                "Natural language processing",
+                "Speech recognition",
+                "Healthcare",
+                "Finance"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "AI Model Deployment",
+          "topics": [
+            {
+              "topic": "Model Deployment Pipelines",
+              "sub_topics": [
+                "Automating model deployment",
+                "Continuous integration and continuous delivery (CI/CD) for AI models",
+                "Model versioning and management",
+                "Tools and best practices for model deployment pipelines"
+              ]
+            },
+            {
+              "topic": "Model Monitoring and Observability",
+              "sub_topics": [
+                "Monitoring model performance in production",
+                "Detecting and diagnosing model drift",
+                "Alerting and notifications for model issues",
+                "Tools and techniques for model monitoring and observability"
+              ]
+            },
+            {
+              "topic": "Infrastructure for AI Deployment",
+              "sub_topics": [
+                "Choosing the right infrastructure for AI models",
+                "Cloud computing platforms for AI deployment",
+                "Edge computing and on-device AI deployment",
+                "Optimizing infrastructure for AI workloads"
+              ]
+            },
+            {
+              "topic": "Security Considerations for AI Deployment",
+              "sub_topics": [
+                "Securing AI models from attacks",
+                "Data privacy and security in AI deployment",
+                "Ethical considerations in AI deployment",
+                "Best practices for secure AI deployment"
+              ]
+            },
+            {
+              "topic": "Tools and Frameworks for AI Deployment",
+              "sub_topics": [
+                "Popular tools and frameworks for AI deployment",
+                "Comparison of different deployment tools and frameworks",
+                "Open source vs. commercial solutions for AI deployment",
+                "Case studies and examples of AI deployment tools and frameworks"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

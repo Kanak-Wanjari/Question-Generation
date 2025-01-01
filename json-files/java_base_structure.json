@@ -1,0 +1,157 @@
+{
+  "tags": [
+    "Java",
+    "Core Java",
+    "Object-Oriented Programming",
+    "Data Structures",
+    "Algorithms",
+    "Collections",
+    "Concurrency",
+    "Design Patterns"
+  ],
+  "categories": [
+    {
+      "category": "Core Java",
+      "sub_categories": [
+        {
+          "sub_category": "Object-Oriented Programming",
+          "topics": []
+        },
+        {
+          "sub_category": "Data Structures",
+          "topics": []
+        },
+        {
+          "sub_category": "Collections Framework",
+          "topics": []
+        },
+        {
+          "sub_category": "Exception Handling",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Advanced Java",
+      "sub_categories": [
+        {
+          "sub_category": "Concurrency",
+          "topics": []
+        },
+        {
+          "sub_category": "Java EE",
+          "topics": []
+        },
+        {
+          "sub_category": "JVM Internals",
+          "topics": []
+        },
+        {
+          "sub_category": "Performance Optimization",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Data Structures",
+      "sub_categories": [
+        {
+          "sub_category": "Arrays",
+          "topics": []
+        },
+        {
+          "sub_category": "Linked Lists",
+          "topics": []
+        },
+        {
+          "sub_category": "Stacks",
+          "topics": []
+        },
+        {
+          "sub_category": "Queues",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Algorithms",
+      "sub_categories": [
+        {
+          "sub_category": "Sorting",
+          "topics": []
+        },
+        {
+          "sub_category": "Searching",
+          "topics": []
+        },
+        {
+          "sub_category": "Graph Algorithms",
+          "topics": []
+        },
+        {
+          "sub_category": "String Algorithms",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Object-Oriented Programming",
+      "sub_categories": [
+        {
+          "sub_category": "Encapsulation",
+          "topics": []
+        },
+        {
+          "sub_category": "Inheritance",
+          "topics": []
+        },
+        {
+          "sub_category": "Polymorphism",
+          "topics": []
+        },
+        {
+          "sub_category": "Abstraction",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Design Patterns",
+      "sub_categories": [
+        {
+          "sub_category": "Creational",
+          "topics": []
+        },
+        {
+          "sub_category": "Structural",
+          "topics": []
+        },
+        {
+          "sub_category": "Behavioral",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Software Engineering",
+      "sub_categories": [
+        {
+          "sub_category": "Application Development",
+          "topics": []
+        },
+        {
+          "sub_category": "Systems Engineering",
+          "topics": []
+        },
+        {
+          "sub_category": "Software Testing",
+          "topics": []
+        },
+        {
+          "sub_category": "DevOps",
+          "topics": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,645 @@
+{
+  "tags": [
+    "Java",
+    "Core Java",
+    "Object-Oriented Programming",
+    "Data Structures",
+    "Algorithms",
+    "Collections",
+    "Concurrency",
+    "Design Patterns"
+  ],
+  "categories": [
+    {
+      "category": "Core Java",
+      "sub_categories": [
+        {
+          "sub_category": "Object-Oriented Programming",
+          "topics": [
+            {
+              "topic": "Encapsulation",
+              "sub_topics": [
+                "Access Specifiers",
+                "Data Hiding",
+                "Information Hiding"
+              ]
+            },
+            {
+              "topic": "Inheritance",
+              "sub_topics": [
+                "Object Inheritance",
+                "Hierarchical Inheritance",
+                "Multiple Inheritance"
+              ]
+            },
+            {
+              "topic": "Polymorphism",
+              "sub_topics": [
+                "Method Overloading",
+                "Method Overriding"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Data Structures",
+          "topics": [
+            {
+              "topic": "* Linked Lists and their Implementations\n* Binary Search Tree (BST) and its Operations\n* Hash Tables and Collision Resolution Techniques",
+              "sub_topics": [
+                "Linked Lists: Circular Linked Lists",
+                "Doubly Linked Lists\nBST: Tree Traversals",
+                "BST Balancing Techniques\nHash Tables: Linear Probing",
+                "Quadratic Probing"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Collections Framework",
+          "topics": [
+            {
+              "topic": "Lists",
+              "sub_topics": [
+                "Type Safety",
+                "Iterators",
+                "Generics"
+              ]
+            },
+            {
+              "topic": "Sets",
+              "sub_topics": [
+                "Creating and Initializing Sets",
+                "Operations on Sets"
+              ]
+            },
+            {
+              "topic": "Maps",
+              "sub_topics": [
+                "HashMaps",
+                "TreeMaps"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Exception Handling",
+          "topics": [
+            {
+              "topic": "Checked vs. Unchecked Exceptions",
+              "sub_topics": [
+                "Type Checking",
+                "Exception Handling Design"
+              ]
+            },
+            {
+              "topic": "Custom Exception Handling",
+              "sub_topics": [
+                "Creating Custom Exceptions",
+                "Using try-catch-finally Blocks",
+                "Exception Chaining"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Advanced Java",
+      "sub_categories": [
+        {
+          "sub_category": "Concurrency",
+          "topics": [
+            {
+              "topic": "Thread Synchronization",
+              "sub_topics": [
+                "Deadlock",
+                "Semaphore",
+                "Atomic Variables"
+              ]
+            },
+            {
+              "topic": "Concurrent Collections",
+              "sub_topics": [
+                "ConcurrentHashMap",
+                "ConcurrentSkipListMap"
+              ]
+            },
+            {
+              "topic": "Lock-Free Programming",
+              "sub_topics": [
+                "Lock-Free Data Structures",
+                "Lock-Free Synchronization",
+                "Lock-Free Algorithms"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Java EE",
+          "topics": [
+            {
+              "topic": "Java Persistence API (JPA)",
+              "sub_topics": [
+                "Entity Framework",
+                "Queries and Projections"
+              ]
+            },
+            {
+              "topic": "JSON Processing (JSON-B)",
+              "sub_topics": [
+                "* Reading JSON-B Entities",
+                "* Writing JSON-B Entities"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "JVM Internals",
+          "topics": [
+            {
+              "topic": "Garbage Collection",
+              "sub_topics": [
+                "* Reference Counting\n* Mark-and-Sweep\n* Copying"
+              ]
+            },
+            {
+              "topic": "Memory Management",
+              "sub_topics": [
+                "Garbage Collection",
+                "Reference Counting",
+                "Memory Leaks"
+              ]
+            },
+            {
+              "topic": "HotSpot VM Architecture",
+              "sub_topics": [
+                "Class Loading",
+                "Memory Management",
+                "Garbage Collection"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Performance Optimization",
+          "topics": [
+            {
+              "topic": "1. Profiling Java Applications for Performance Optimization",
+              "sub_topics": [
+                "- Identifying Performance Bottlenecks\n- Profiling with Tools and Techniques"
+              ]
+            },
+            {
+              "topic": "2. Optimizing Java Code for Garbage Collection Efficiency",
+              "sub_topics": [
+                "- Using Generational Garbage Collection\n- Controlling Object Creation and Destruction"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Data Structures",
+      "sub_categories": [
+        {
+          "sub_category": "Arrays",
+          "topics": [
+            {
+              "topic": "Multidimensional Arrays",
+              "sub_topics": [
+                "Accessing Elements",
+                "Manipulating Arrays"
+              ]
+            },
+            {
+              "topic": "Sorting Arrays",
+              "sub_topics": [
+                "Bubble Sort",
+                "Counting Sort",
+                "Quick Sort"
+              ]
+            },
+            {
+              "topic": "Array Manipulation",
+              "sub_topics": [
+                "Array Sorting",
+                "Array Rotation",
+                "Array Shifting"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Linked Lists",
+          "topics": [
+            {
+              "topic": "1. Implementing a Doubly Linked List",
+              "sub_topics": [
+                "- Creating Node Class\n- Inserting Nodes\n- Deleting Nodes"
+              ]
+            },
+            {
+              "topic": "2. Reverse a Linked List in-place",
+              "sub_topics": [
+                "1. Traversing the Linked List",
+                "2. Reversing the Links"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Stacks",
+          "topics": [
+            {
+              "topic": "Dynamic Arrays",
+              "sub_topics": [
+                "Resizing and Capacity",
+                "Object Storage and Efficiency",
+                "Dynamic Array Implementation"
+              ]
+            },
+            {
+              "topic": "Implementing Stacks",
+              "sub_topics": [
+                "Creating and Initializing a Stack",
+                "Operations on a Stack"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Queues",
+          "topics": [
+            {
+              "topic": "Asynchronous Message Handling",
+              "sub_topics": [
+                "Message Broker Usage",
+                "Message Formatting",
+                "Message Delivery Strategies"
+              ]
+            },
+            {
+              "topic": "Priority Queues",
+              "sub_topics": [
+                "Adding and Removing Elements",
+                "Priority Assignment Strategies"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Algorithms",
+      "sub_categories": [
+        {
+          "sub_category": "Sorting",
+          "topics": [
+            {
+              "topic": "Selection Sort",
+              "sub_topics": [
+                "Time Complexity",
+                "Space Complexity",
+                "Algorithm Implementation"
+              ]
+            },
+            {
+              "topic": "Bubble Sort",
+              "sub_topics": [
+                "Complexity Assessment",
+                "Code Implementation",
+                "Performance Optimization"
+              ]
+            },
+            {
+              "topic": "Insertion Sort",
+              "sub_topics": [
+                "Time complexity",
+                "Implementation steps"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Searching",
+          "topics": [
+            {
+              "topic": "Binary Search",
+              "sub_topics": [
+                "Time Complexity",
+                "Iterative Implementation",
+                "Recursive Implementation"
+              ]
+            },
+            {
+              "topic": "Linear Search",
+              "sub_topics": [
+                "Linear Search Using Iterative Approach",
+                "Linear Search Using Recursive Approach"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Graph Algorithms",
+          "topics": [
+            {
+              "topic": "Graph Traversal Techniques",
+              "sub_topics": [
+                "Depth-First Search",
+                "Breadth-First Search",
+                "Kruskal's Algorithm"
+              ]
+            },
+            {
+              "topic": "Minimum Spanning Trees",
+              "sub_topics": [
+                "Implementation of Kruskal's Algorithm",
+                "Implementation of Prim's Algorithm"
+              ]
+            },
+            {
+              "topic": "Shortest Path Algorithms",
+              "sub_topics": [
+                "Dijkstra's Algorithm",
+                "Bellman-Ford Algorithm"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "String Algorithms",
+          "topics": [
+            {
+              "topic": "Knuth-Morris-Pratt (KMP) Algorithm",
+              "sub_topics": [
+                "Substrings Preprocessing",
+                "Pattern Matching",
+                "Time Complexity"
+              ]
+            },
+            {
+              "topic": "Boyer-Moore Algorithm",
+              "sub_topics": [
+                "Bad Character Heuristic",
+                "Good Suffix Heuristic",
+                "Preprocessing"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Object-Oriented Programming",
+      "sub_categories": [
+        {
+          "sub_category": "Encapsulation",
+          "topics": [
+            {
+              "topic": "Data hiding",
+              "sub_topics": [
+                "Polymorphism",
+                "Encapsulation"
+              ]
+            },
+            {
+              "topic": "Information hiding",
+              "sub_topics": [
+                "Encapsulation",
+                "Abstraction",
+                "Information hiding"
+              ]
+            },
+            {
+              "topic": "Encapsulation of data",
+              "sub_topics": [
+                "Data Hiding",
+                "Information Security",
+                "Access Control"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Inheritance",
+          "topics": [
+            {
+              "topic": "Constructor Chaining",
+              "sub_topics": [
+                "Super Keyword",
+                "Multilevel Inheritance",
+                "Inheritance with Constructor"
+              ]
+            },
+            {
+              "topic": "Method Overriding",
+              "sub_topics": [
+                "Return Type Covariance",
+                "Parameterized Overriding",
+                "Method Binding"
+              ]
+            },
+            {
+              "topic": "Super Keyword",
+              "sub_topics": [
+                "Invoking Superclass Constructors",
+                "Accessing Superclass Methods",
+                "Accessing Superclass Variables"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Polymorphism",
+          "topics": [
+            {
+              "topic": "Method Overriding",
+              "sub_topics": [
+                "Method Signature",
+                "Invocation at Runtime",
+                "Benefits"
+              ]
+            },
+            {
+              "topic": "Method Overloading",
+              "sub_topics": [
+                "Overloading Constructors",
+                "Overloading Static Methods"
+              ]
+            },
+            {
+              "topic": "Static Polymorphism",
+              "sub_topics": [
+                "Method Overloading",
+                "Constructors"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Abstraction",
+          "topics": [
+            {
+              "topic": "1. Abstract Classes: Concepts and Implementation\n2. Interfaces in Java: Abstraction and Polymorphism",
+              "sub_topics": [
+                "1. **Subtopics**: Concepts of Abstract Classes",
+                "Implementing Abstract Classes\n2. **Subtopics**: Abstraction using Interfaces",
+                "Polymorphism using Interfaces"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Design Patterns",
+      "sub_categories": [
+        {
+          "sub_category": "Creational",
+          "topics": [
+            {
+              "topic": "Singleton",
+              "sub_topics": [
+                "Interface",
+                "Implementation"
+              ]
+            },
+            {
+              "topic": "Factory Method",
+              "sub_topics": [
+                "Creating Objects",
+                "Factory Method Design Pattern Implementation"
+              ]
+            },
+            {
+              "topic": "Builder",
+              "sub_topics": [
+                "- Builder Design Pattern\n- Fluent Builder Design Pattern\n- Telescoping Constructor Pattern"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Structural",
+          "topics": [
+            {
+              "topic": "- Generics and Collections\n- Encapsulation and Inheritance",
+              "sub_topics": [
+                "- Generics in Java\n- Collections Framework in Java\n- Encapsulation in Java",
+                "Inheritance in Java"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Behavioral",
+          "topics": [
+            {
+              "topic": "Object-Oriented Design Patterns",
+              "sub_topics": [
+                "Creational Patterns",
+                "Structural Patterns",
+                "Behavioral Patterns"
+              ]
+            },
+            {
+              "topic": "Java Collections Framework",
+              "sub_topics": [
+                "Collections",
+                "Generics",
+                "Iterators and Iterables"
+              ]
+            },
+            {
+              "topic": "Concurrency in Java",
+              "sub_topics": [
+                "Concurrency Control",
+                "Synchronization"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Software Engineering",
+      "sub_categories": [
+        {
+          "sub_category": "Application Development",
+          "topics": [
+            {
+              "topic": "* Java Servlets for Web Development\n* Android App Development with Java\n* Spring Boot for Enterprise Applications",
+              "sub_topics": [
+                "1. Servlet APIs and Lifecycle\n2. HTTP Request and Response Handling\n3. Session Management with Servlets\n\n1. Android Architectures and Components\n2. Android UI Development with XML and Kotlin\n3. Data Management with Room and Retrofit\n\n1. Spring Boot Architecture and Configuration\n2. Dependency Injection and Inversion of Control with Spring\n3. Data Access with Spring Data JPA and JDBC"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Systems Engineering",
+          "topics": [
+            {
+              "topic": "* Software System Design and Architecture\n* Simulation and Modeling for Systems Engineering\n* Requirements Engineering and Management in Java",
+              "sub_topics": [
+                "Architecture Patterns",
+                "Software Quality Assurance",
+                "System Evaluation"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Software Testing",
+          "topics": [
+            {
+              "topic": "Unit Testing with JUnit",
+              "sub_topics": [
+                "JUnit Basics",
+                "Writing Test Cases",
+                "Assertions"
+              ]
+            },
+            {
+              "topic": "Integration Testing with Mockito",
+              "sub_topics": [
+                "Mocking",
+                "Stubbing",
+                "Verifying"
+              ]
+            },
+            {
+              "topic": "Performance Testing with JMeter",
+              "sub_topics": [
+                "Load Testing",
+                "Stress Testing",
+                "JMeter Features"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "DevOps",
+          "topics": [
+            {
+              "topic": "Continuous Integration with Jenkins",
+              "sub_topics": [
+                "Jenkins Architecture",
+                "Pipeline Configuration",
+                "Continuous Integration Practices"
+              ]
+            },
+            {
+              "topic": "Infrastructure Automation with Terraform",
+              "sub_topics": [
+                "* Provisioning Infrastructure with Terraform\n* Managing Infrastructure with Terraform"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1289 @@
+{
+  "tags": [
+    "Java",
+    "Core Java",
+    "Object-Oriented Programming",
+    "Data Structures",
+    "Algorithms",
+    "Collections",
+    "Concurrency",
+    "Design Patterns"
+  ],
+  "categories": [
+    {
+      "category": "Core Java",
+      "sub_categories": [
+        {
+          "sub_category": "Object-Oriented Programming",
+          "topics": [
+            {
+              "topic": "Introduction to Object-Oriented Programming",
+              "sub_topic": [
+                "Encapsulation",
+                "Abstraction",
+                "Inheritance",
+                "Polymorphism"
+              ]
+            },
+            {
+              "topic": "Classes and Objects",
+              "sub_topic": [
+                "Creating Classes",
+                "Creating Objects",
+                "Accessing Class and Object Members"
+              ]
+            },
+            {
+              "topic": "Inheritance",
+              "sub_topic": [
+                "Subclass and Superclass",
+                "Method Overriding",
+                "Constructor Chaining"
+              ]
+            },
+            {
+              "topic": "Polymorphism",
+              "sub_topic": [
+                "Method Overloading",
+                "Method Overriding",
+                "Dynamic Binding"
+              ]
+            },
+            {
+              "topic": "Interfaces",
+              "sub_topic": [
+                "Creating and Implementing Interfaces",
+                "Extending Interfaces"
+              ]
+            },
+            {
+              "topic": "Packages",
+              "sub_topic": [
+                "Creating and Using Packages",
+                "Package Access Modifiers"
+              ]
+            },
+            {
+              "topic": "Exception Handling",
+              "sub_topic": [
+                "Types of Exceptions",
+                "Catching and Throwing Exceptions"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Data Structures",
+          "topics": [
+            {
+              "topic": "Arrays",
+              "sub_topic": [
+                "Single Dimensional Arrays",
+                "Multi Dimensional Arrays",
+                "Jagged Arrays",
+                "Array vs ArrayList",
+                "Searching Algorithms on Arrays",
+                "Sorting Algorithms on Arrays"
+              ]
+            },
+            {
+              "topic": "Strings",
+              "sub_topic": [
+                "String Class and its methods",
+                "String Concatenation",
+                "String Formatting",
+                "StringBuffer and StringBuilder"
+              ]
+            },
+            {
+              "topic": "ArrayList",
+              "sub_topic": [
+                "ArrayList Class and its methods",
+                "Generics in ArrayList",
+                "ArrayList vs LinkedList",
+                "ArrayList vs Vector"
+              ]
+            },
+            {
+              "topic": "LinkedList",
+              "sub_topic": [
+                "LinkedList Class and its methods",
+                "Doubly LinkedList",
+                "Circular LinkedList"
+              ]
+            },
+            {
+              "topic": "Vector",
+              "sub_topic": [
+                "Vector Class and its methods",
+                "Vector vs ArrayList"
+              ]
+            },
+            {
+              "topic": "Stack",
+              "sub_topic": [
+                "Stack Class and its methods",
+                "Stack Implementation using Arrays",
+                "Stack Implementation using LinkedList",
+                "Applications of Stack"
+              ]
+            },
+            {
+              "topic": "Queue",
+              "sub_topic": [
+                "Queue Class and its methods",
+                "Queue Implementation using Arrays",
+                "Queue Implementation using LinkedList",
+                "Applications of Queue"
+              ]
+            },
+            {
+              "topic": "Set",
+              "sub_topic": [
+                "Set Interface",
+                "HashSet",
+                "LinkedHashSet",
+                "TreeSet"
+              ]
+            },
+            {
+              "topic": "Map",
+              "sub_topic": [
+                "Map Interface",
+                "HashMap",
+                "LinkedHashMap",
+                "TreeMap"
+              ]
+            },
+            {
+              "topic": "Searching and Sorting",
+              "sub_topic": [
+                "Linear Search",
+                "Binary Search",
+                "Bubble Sort",
+                "Selection Sort",
+                "Insertion Sort",
+                "Merge Sort",
+                "Quick Sort",
+                "Heap Sort"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Collections Framework",
+          "topics": [
+            {
+              "topic": "Introduction to Collections Framework",
+              "sub_topic": [
+                "Basics of collection",
+                "API and interfaces of Collections Framework",
+                "Benefits of using Collections Framework"
+              ]
+            },
+            {
+              "topic": "List Interface",
+              "sub_topic": [
+                "Introduction to List interface",
+                "ArrayList",
+                "LinkedList",
+                "Vector",
+                "Stack"
+              ]
+            },
+            {
+              "topic": "Set Interface",
+              "sub_topic": [
+                "Introduction to Set interface",
+                "HashSet",
+                "LinkedHashSet",
+                "TreeSet"
+              ]
+            },
+            {
+              "topic": "Map Interface",
+              "sub_topic": [
+                "Introduction to Map Interface",
+                "HashMap",
+                "LinkedHashMap",
+                "TreeMap"
+              ]
+            },
+            {
+              "topic": "Queue Interface",
+              "sub_topic": [
+                "Introduction to Queue Interface",
+                "PriorityQueue",
+                "ArrayDeque",
+                "LinkedList (as a Queue)"
+              ]
+            },
+            {
+              "topic": "Advanced Collections Framework",
+              "sub_topic": [
+                "Generics and Collections Framework",
+                "Sorting and Collections Framework",
+                "Searching and Collections Framework",
+                "Concurrency and Collections Framework"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Exception Handling",
+          "topics": [
+            {
+              "topic": "Exception Handling",
+              "sub_topic": [
+                "What is an exception?",
+                "Types of exceptions",
+                "How to handle exceptions",
+                "Try-catch block",
+                "Throws keyword",
+                "Finally block",
+                "Custom exceptions",
+                "Benefits of exception handling"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Advanced Java",
+      "sub_categories": [
+        {
+          "sub_category": "Concurrency",
+          "topics": [
+            {
+              "topic": "Concurrency Fundamentals",
+              "sub_topic": [
+                "Threads and Processes",
+                "Thread States",
+                "Thread Synchronization"
+              ]
+            },
+            {
+              "topic": "Concurrency Tools",
+              "sub_topic": [
+                "Locks",
+                "Semaphores",
+                "Barriers",
+                "Atomic Variables"
+              ]
+            },
+            {
+              "topic": "Thread Management",
+              "sub_topic": [
+                "Thread Creation and Termination",
+                "Thread Pools",
+                "Thread Communication"
+              ]
+            },
+            {
+              "topic": "Concurrency Design Patterns",
+              "sub_topic": [
+                "Producer-Consumer",
+                "Monitor Pattern",
+                "Singleton Pattern"
+              ]
+            },
+            {
+              "topic": "Concurrent Data Structures",
+              "sub_topic": [
+                "Concurrent Hash Map",
+                "Concurrent Linked Queue",
+                "Copy-on-Write ArrayList"
+              ]
+            },
+            {
+              "topic": "Concurrency Testing",
+              "sub_topic": [
+                "Deadlock Detection",
+                "Race Condition Detection",
+                "Concurrency Coverage"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Java EE",
+          "topics": [
+            {
+              "topic": "Enterprise JavaBeans (EJBs)",
+              "sub_topic": [
+                "Session Beans",
+                "Message-Driven Beans",
+                "Singleton Beans",
+                "Stateful Beans",
+                "EJB Timers"
+              ]
+            },
+            {
+              "topic": "Java Persistence API (JPA)",
+              "sub_topic": [
+                "Entity Manager and Persistence Context",
+                "Entity Beans and Relationships",
+                "Queries (JPQL and Native)",
+                "Caching and Performance",
+                "Transactions and Concurrency"
+              ]
+            },
+            {
+              "topic": "JavaServer Faces (JSF)",
+              "sub_topic": [
+                "Component Lifecycle and Navigation",
+                "FacesConfig and Dependency Injection",
+                "Data Binding and Conversion",
+                "Custom Components and Converters",
+                "Validation and Error Handling"
+              ]
+            },
+            {
+              "topic": "JavaServer Pages (JSP)",
+              "sub_topic": [
+                "Expressing JSP in Java",
+                "Standard Tag Library (JSTL)",
+                "Custom Tag Libraries (TLDs)",
+                "EL and JSTL Expressions",
+                "Security and Access Control"
+              ]
+            },
+            {
+              "topic": "Servlets and Filters",
+              "sub_topic": [
+                "HTTP Request and Response Handling",
+                "Servlet Lifecycle and Configuration",
+                "Filter Chaining and Request Interception",
+                "Filters for Authentication and Authorization",
+                "Session Management and Cookies"
+              ]
+            },
+            {
+              "topic": "Concurrency and Concurrency Utilities",
+              "sub_topic": [
+                "Threads and Thread Pools",
+                "Concurrency in EJBs and JSF",
+                "Locks and Synchronization",
+                "Concurrent Collections and Atomic Variables",
+                "ExecutorService and Future"
+              ]
+            },
+            {
+              "topic": "Java EE Security",
+              "sub_topic": [
+                "Authentication and Authorization Mechanisms",
+                "JAAS and Java Security API",
+                "Single Sign-On (SSO) and Federation",
+                "Secure Communication (SSL/TLS)",
+                "Web Application Firewalls (WAFs)"
+              ]
+            },
+            {
+              "topic": "Transactions and Error Handling",
+              "sub_topic": [
+                "Transaction Scopes and Persistence Contexts",
+                "Declarative and Transaction Management APIs",
+                "Asynchronous Transactions",
+                "Error Handling and Rollbacks",
+                "Logging and Exception Handling"
+              ]
+            },
+            {
+              "topic": "Deployment and Configuration",
+              "sub_topic": [
+                "WAR and EAR Packaging",
+                "Application Servers and Containers",
+                "Deployment Descriptors (web.xml and ejb-jar.xml)",
+                "Configuration and Deployment Management Tools",
+                "Continuous Integration and CI/CD Pipelines"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "JVM Internals",
+          "topics": [
+            {
+              "topic": "Java Virtual Machine (JVM) Architecture",
+              "sub_topic": [
+                "JVM components and their roles",
+                "JVM memory model and garbage collection",
+                "Class loading and execution",
+                "Just-In-Time (JIT) compilation"
+              ]
+            },
+            {
+              "topic": "Memory Management in JVM",
+              "sub_topic": [
+                "Heap memory structure and allocation",
+                "Garbage collection algorithms (e.g., mark-and-sweep, copying, reference counting)",
+                "Memory optimization techniques"
+              ]
+            },
+            {
+              "topic": "Thread Management in JVM",
+              "sub_topic": [
+                "Thread creation and lifecycle",
+                "Thread synchronization and concurrency",
+                "Deadlock prevention and detection"
+              ]
+            },
+            {
+              "topic": "JVM Performance Tuning",
+              "sub_topic": [
+                "JVM profiling tools and techniques",
+                "JVM configuration and optimization",
+                "Performance monitoring and diagnostics"
+              ]
+            },
+            {
+              "topic": "Advanced JVM Features",
+              "sub_topic": [
+                "Native Interface (JNI)",
+                "Dynamic class loading and reflection",
+                "Instrumentation and monitoring (e.g., JMX, JVMTI)"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Performance Optimization",
+          "topics": [
+            {
+              "topic": "JVM Tuning",
+              "sub_topic": [
+                "Heap tuning (young generation, tenure, etc.)",
+                "JIT compiler optimizations",
+                "Thread tuning (stack size, concurrency, etc.)"
+              ]
+            },
+            {
+              "topic": "Code Optimization",
+              "sub_topic": [
+                "Algorithm optimizations (time complexity, space complexity)",
+                "Data structure optimizations",
+                "Concurrency optimizations (locks, synchronization, etc.)"
+              ]
+            },
+            {
+              "topic": "Profiling and Analysis",
+              "sub_topic": [
+                "Performance profiling (CPU, memory, etc.)",
+                "Code coverage analysis",
+                "Memory leak detection"
+              ]
+            },
+            {
+              "topic": "Application Architecture",
+              "sub_topic": [
+                "Caching and memoization",
+                "Load balancing and scalability",
+                "Event-driven architectures"
+              ]
+            },
+            {
+              "topic": "Advanced Techniques",
+              "sub_topic": [
+                "Garbage collection optimizations (G1, ZGC, etc.)",
+                "Just-in-time (JIT) compilation",
+                "Native image generation"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Data Structures",
+      "sub_categories": [
+        {
+          "sub_category": "Arrays",
+          "topics": [
+            {
+              "topic": "Arrays",
+              "sub_topic": [
+                "Linear Arrays",
+                "Multidimensional Arrays",
+                "Sparse Arrays",
+                "Arrays vs Linked Lists",
+                "Array Applications"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Linked Lists",
+          "topics": [
+            {
+              "topic": "Linked Lists",
+              "sub_topic": [
+                "Implementation",
+                "Types",
+                "Operations",
+                "Applications"
+              ]
+            },
+            {
+              "topic": "Implementation",
+              "sub_topic": [
+                "Node Structure",
+                "Memory Allocation",
+                "Pointers"
+              ]
+            },
+            {
+              "topic": "Types",
+              "sub_topic": [
+                "Singly Linked Lists",
+                "Doubly Linked Lists",
+                "Circular Linked Lists"
+              ]
+            },
+            {
+              "topic": "Operations",
+              "sub_topic": [
+                "Insertion",
+                "Deletion",
+                "Searching",
+                "Traversal"
+              ]
+            },
+            {
+              "topic": "Applications",
+              "sub_topic": [
+                "Stack Implementation",
+                "Queue Implementation",
+                "Graph Representation"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Stacks",
+          "topics": [
+            {
+              "topic": "Stacks",
+              "sub_topic": [
+                "Introduction to Stacks",
+                "Implementation of Stacks using Arrays and Linked Lists",
+                "Applications of Stacks",
+                "Time and Space Complexity Analysis of Stacks",
+                "Variations of Stacks: Expression Evaluation, Infix to Postfix Conversion, Balanced Parentheses Checking"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Queues",
+          "topics": [
+            {
+              "topic": "Queues",
+              "sub_topic": [
+                "Array Implementation",
+                "Linked List Implementation",
+                "Circular Queues",
+                "Priority Queues",
+                "Dequeue Operations",
+                "Enqueue Operations"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Algorithms",
+      "sub_categories": [
+        {
+          "sub_category": "Sorting",
+          "topics": [
+            {
+              "topic": "Bubble Sort",
+              "sub_topic": [
+                "Algorithm description",
+                "Time complexity",
+                "Space complexity",
+                "Performance analysis",
+                "Code implementation"
+              ]
+            },
+            {
+              "topic": "Selection Sort",
+              "sub_topic": [
+                "Algorithm description",
+                "Time complexity",
+                "Space complexity",
+                "Performance analysis",
+                "Code implementation"
+              ]
+            },
+            {
+              "topic": "Insertion Sort",
+              "sub_topic": [
+                "Algorithm description",
+                "Time complexity",
+                "Space complexity",
+                "Performance analysis",
+                "Code implementation"
+              ]
+            },
+            {
+              "topic": "Merge Sort",
+              "sub_topic": [
+                "Algorithm description",
+                "Time complexity",
+                "Space complexity",
+                "Performance analysis",
+                "Code implementation"
+              ]
+            },
+            {
+              "topic": "Quick Sort",
+              "sub_topic": [
+                "Algorithm description",
+                "Time complexity",
+                "Space complexity",
+                "Performance analysis",
+                "Code implementation"
+              ]
+            },
+            {
+              "topic": "Heap Sort",
+              "sub_topic": [
+                "Algorithm description",
+                "Time complexity",
+                "Space complexity",
+                "Performance analysis",
+                "Code implementation"
+              ]
+            },
+            {
+              "topic": "Radix Sort",
+              "sub_topic": [
+                "Algorithm description",
+                "Time complexity",
+                "Space complexity",
+                "Performance analysis",
+                "Code implementation"
+              ]
+            },
+            {
+              "topic": "Bucket Sort",
+              "sub_topic": [
+                "Algorithm description",
+                "Time complexity",
+                "Space complexity",
+                "Performance analysis",
+                "Code implementation"
+              ]
+            },
+            {
+              "topic": "Counting Sort",
+              "sub_topic": [
+                "Algorithm description",
+                "Time complexity",
+                "Space complexity",
+                "Performance analysis",
+                "Code implementation"
+              ]
+            },
+            {
+              "topic": "Advanced Sorting Algorithms",
+              "sub_topic": [
+                "Introspective Sort",
+                "TimSort",
+                "QuickSelect",
+                "Bogo Sort",
+                "Pancake Sort"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Searching",
+          "topics": [
+            {
+              "topic": "Linear Search",
+              "sub_topic": [
+                "Sequential Search",
+                "Brute-Force Search"
+              ]
+            },
+            {
+              "topic": "Binary Search",
+              "sub_topic": [
+                "Divide-and-Conquer Search",
+                "Iterative Search",
+                "Recursive Search"
+              ]
+            },
+            {
+              "topic": "Interpolation Search",
+              "sub_topic": [
+                "Linear Interpolation Search"
+              ]
+            },
+            {
+              "topic": "Jump Search",
+              "sub_topic": [
+                "Block Search"
+              ]
+            },
+            {
+              "topic": "Exponential Search",
+              "sub_topic": [
+                "Geometric Progression Search"
+              ]
+            },
+            {
+              "topic": "Ternary Search",
+              "sub_topic": [
+                "Trichotomy Search"
+              ]
+            },
+            {
+              "topic": "Fibonacci Search",
+              "sub_topic": [
+                "Golden Ratio Search"
+              ]
+            },
+            {
+              "topic": "Hashing",
+              "sub_topic": [
+                "Direct Addressing",
+                "Open Addressing (Linear Probing, Quadratic Probing, Double Hashing)",
+                "Chaining (Separate Chaining, Bucket Hashing)"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Graph Algorithms",
+          "topics": [
+            {
+              "topic": "Minimum Spanning Trees (MSTs)",
+              "sub_topic": [
+                "Kruskal's algorithm",
+                "Prim's algorithm"
+              ]
+            },
+            {
+              "topic": "Shortest Paths",
+              "sub_topic": [
+                "Dijkstra's algorithm",
+                "Bellman-Ford algorithm",
+                "Floyd-Warshall algorithm"
+              ]
+            },
+            {
+              "topic": "Network Flow",
+              "sub_topic": [
+                "Ford-Fulkerson algorithm",
+                "Edmonds-Karp algorithm"
+              ]
+            },
+            {
+              "topic": "Topological Sorting",
+              "sub_topic": [
+                "Kahn's algorithm",
+                "DFS-based algorithm"
+              ]
+            },
+            {
+              "topic": "Graph Connectivity",
+              "sub_topic": [
+                "Depth-First Search (DFS)",
+                "Breadth-First Search (BFS)"
+              ]
+            },
+            {
+              "topic": "Graph Coloring",
+              "sub_topic": [
+                "Greedy coloring",
+                "Backtracking"
+              ]
+            },
+            {
+              "topic": "Maximum Flow",
+              "sub_topic": [
+                "Ford-Fulkerson algorithm",
+                "Edmonds-Karp algorithm"
+              ]
+            },
+            {
+              "topic": "Strongly Connected Components (SCCs)",
+              "sub_topic": [
+                "Kosaraju's algorithm",
+                "Tarjan's algorithm"
+              ]
+            },
+            {
+              "topic": "Planarity Testing",
+              "sub_topic": [
+                "Kuratowski's theorem",
+                "Euler's formula"
+              ]
+            },
+            {
+              "topic": "Graph Isomorphism",
+              "sub_topic": [
+                "Fruchterman-Reingold algorithm",
+                "VF2 algorithm"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "String Algorithms",
+          "topics": [
+            {
+              "topic": "String Matching",
+              "sub_topic": [
+                "Brute-force",
+                "Knuth-Morris-Pratt (KMP)",
+                "Boyer-Moore",
+                "Rabin-Karp",
+                "Hashing",
+                "Suffix Trees"
+              ]
+            },
+            {
+              "topic": "String Editing",
+              "sub_topic": [
+                "Levenshtein Distance",
+                "Dynamic Programming",
+                "Wagner-Fischer Algorithm",
+                "Hirschberg's Algorithm"
+              ]
+            },
+            {
+              "topic": "String Compression",
+              "sub_topic": [
+                "Huffman Coding",
+                "Lempel-Ziv-Welch (LZW)",
+                "BWT Compression",
+                "LZMA"
+              ]
+            },
+            {
+              "topic": "Regular Expressions",
+              "sub_topic": [
+                "Finite Automata",
+                "Regular Expressions Syntax",
+                "Regular Expressions Matching Algorithms",
+                "Backtracking",
+                "Non-Deterministic Finite Automata (NFA)"
+              ]
+            },
+            {
+              "topic": "Other String Algorithms",
+              "sub_topic": [
+                "Longest Common Subsequence (LCS)",
+                "Longest Common Substring (LCSS)",
+                "Palindromic Substrings",
+                "Anagram Detection",
+                "String Sorting"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Object-Oriented Programming",
+      "sub_categories": [
+        {
+          "sub_category": "Encapsulation",
+          "topics": [
+            {
+              "topic": "Encapsulation",
+              "sub_topic": [
+                "Data Hiding",
+                "Information Hiding",
+                "Access Specifiers (Public, Protected, Private)",
+                "Getters and Setters",
+                "Benefits of Encapsulation"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Inheritance",
+          "topics": [
+            {
+              "topic": "Inheritance Mechanisms",
+              "sub_topic": [
+                "Inheritance with single inheritance",
+                "Inheritance with multiple inheritance",
+                "Inheritance with multilevel inheritance"
+              ]
+            },
+            {
+              "topic": "Derived Class",
+              "sub_topic": [
+                "Definition of a derived class",
+                "Access modifiers in a derived class",
+                "Benefits of derived classes"
+              ]
+            },
+            {
+              "topic": "Polymorphism",
+              "sub_topic": [
+                "Overview of polymorphism",
+                "Method overriding",
+                "Method overloading"
+              ]
+            },
+            {
+              "topic": "Abstract Classes and Interfaces",
+              "sub_topic": [
+                "Definition of abstract classes",
+                "Purpose of abstract classes",
+                "Definition of interfaces",
+                "Purpose of interfaces"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Polymorphism",
+          "topics": [
+            {
+              "topic": "Polymorphism",
+              "sub_topic": [
+                "Overloading",
+                "Overriding",
+                "Virtual Functions",
+                "Abstract Classes",
+                "Interfaces",
+                "Dynamic Binding",
+                "Benefits of Polymorphism",
+                "Challenges of Polymorphism"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Abstraction",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Design Patterns",
+      "sub_categories": [
+        {
+          "sub_category": "Creational",
+          "topics": [
+            {
+              "topic": "Singleton",
+              "sub_topic": []
+            },
+            {
+              "topic": "Factory Method",
+              "sub_topic": []
+            },
+            {
+              "topic": "Abstract Factory",
+              "sub_topic": []
+            },
+            {
+              "topic": "Builder",
+              "sub_topic": []
+            },
+            {
+              "topic": "Prototype",
+              "sub_topic": []
+            }
+          ]
+        },
+        {
+          "sub_category": "Structural",
+          "topics": [
+            {
+              "topic": "Adapter",
+              "sub_topic": [
+                "Converting incompatible interfaces",
+                "Object adaption vs class adaption",
+                "Real-world examples"
+              ]
+            },
+            {
+              "topic": "Bridge",
+              "sub_topic": [
+                "Decoupling abstraction from implementation",
+                "Example: Drawing API",
+                "Benefits: flexibility, extensibility, maintainability"
+              ]
+            },
+            {
+              "topic": "Composite",
+              "sub_topic": [
+                "Composing objects into tree structures",
+                "Representing part-whole hierarchies",
+                "Example: File system explorer"
+              ]
+            },
+            {
+              "topic": "Decorator",
+              "sub_topic": [
+                "Attaching additional responsibilities to objects dynamically",
+                "Extending functionality without changing existing code",
+                "Example: Input validation, logging, caching"
+              ]
+            },
+            {
+              "topic": "Facade",
+              "sub_topic": [
+                "Providing a simplified interface to a complex system",
+                "Example: Home theater system",
+                "Benefits: encapsulation, ease of use, maintainability"
+              ]
+            },
+            {
+              "topic": "Flyweight",
+              "sub_topic": [
+                "Reducing memory usage by sharing common objects",
+                "Example: Character sprites in a game",
+                "Benefits: improved performance, reduced memory footprint"
+              ]
+            },
+            {
+              "topic": "Proxy",
+              "sub_topic": [
+                "Providing a surrogate or placeholder for another object",
+                "Types: Remote Proxy, Virtual Proxy, Protection Proxy",
+                "Example: Network proxy, security proxy"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Behavioral",
+          "topics": []
+        }
+      ]
+    },
+    {
+      "category": "Software Engineering",
+      "sub_categories": [
+        {
+          "sub_category": "Application Development",
+          "topics": [
+            {
+              "topic": "Software Development Methodologies",
+              "sub_topic": [
+                "Waterfall",
+                "Agile",
+                "Scrum",
+                "Kanban",
+                "DevOps"
+              ]
+            },
+            {
+              "topic": "Programming Languages",
+              "sub_topic": [
+                "Java",
+                "Python",
+                "JavaScript",
+                "C#",
+                "C++"
+              ]
+            },
+            {
+              "topic": "Application Architecture",
+              "sub_topic": [
+                "Monolithic",
+                "Microservices",
+                "Serverless",
+                "Cloud-native"
+              ]
+            },
+            {
+              "topic": "Testing and Quality Assurance",
+              "sub_topic": [
+                "Unit testing",
+                "Integration testing",
+                "Performance testing",
+                "Security testing"
+              ]
+            },
+            {
+              "topic": "Tools and Technologies",
+              "sub_topic": [
+                "Integrated development environments (IDEs)",
+                "Version control systems",
+                "Continuous integration and continuous delivery (CI/CD) tools"
+              ]
+            },
+            {
+              "topic": "Design Patterns",
+              "sub_topic": [
+                "Creational",
+                "Structural",
+                "Behavioral"
+              ]
+            },
+            {
+              "topic": "Software Requirements",
+              "sub_topic": [
+                "Functional requirements",
+                "Non-functional requirements",
+                "User stories",
+                "Use cases"
+              ]
+            },
+            {
+              "topic": "Software Design",
+              "sub_topic": [
+                "Object-oriented design",
+                "Functional programming",
+                "Domain-driven design"
+              ]
+            },
+            {
+              "topic": "Software Implementation",
+              "sub_topic": [
+                "Coding standards",
+                "Refactoring",
+                "Code reviews"
+              ]
+            },
+            {
+              "topic": "Software Maintenance",
+              "sub_topic": [
+                "Bug fixing",
+                "Feature enhancements",
+                "Performance optimization"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Systems Engineering",
+          "topics": []
+        },
+        {
+          "sub_category": "Software Testing",
+          "topics": [
+            {
+              "topic": "Software Testing Techniques",
+              "sub_topic": [
+                "Unit testing",
+                "Integration testing",
+                "System testing",
+                "Acceptance testing",
+                "Performance testing",
+                "Security testing"
+              ]
+            },
+            {
+              "topic": "Test Automation",
+              "sub_topic": [
+                "Automated test tools",
+                "Automated test frameworks",
+                "Automated test scripts",
+                "Automated test reporting"
+              ]
+            },
+            {
+              "topic": "Test Management",
+              "sub_topic": [
+                "Test planning",
+                "Test execution",
+                "Test evaluation",
+                "Test reporting",
+                "Test environment management"
+              ]
+            },
+            {
+              "topic": "Software Testing Principles",
+              "sub_topic": [
+                "Independence",
+                "Exhaustiveness",
+                "Verifiability",
+                "Modifiability",
+                "Traceability"
+              ]
+            },
+            {
+              "topic": "Software Testing Metrics",
+              "sub_topic": [
+                "Test coverage",
+                "Defect density",
+                "Test reliability",
+                "Test maintainability"
+              ]
+            },
+            {
+              "topic": "Software Testing Tools",
+              "sub_topic": [
+                "Unit testing tools",
+                "Integration testing tools",
+                "System testing tools",
+                "Performance testing tools",
+                "Security testing tools"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "DevOps",
+          "topics": [
+            {
+              "topic": "DevOps Principles and Practices",
+              "sub_topic": [
+                "Continuous Integration",
+                "Continuous Delivery",
+                "Continuous Deployment",
+                "Continuous Feedback",
+                "Infrastructure as Code",
+                "Automation"
+              ]
+            },
+            {
+              "topic": "DevOps Tools",
+              "sub_topic": [
+                "Jenkins",
+                "GitLab",
+                "Azure DevOps",
+                "CircleCI",
+                "Bamboo",
+                "Terraform",
+                "Ansible"
+              ]
+            },
+            {
+              "topic": "DevOps Culture and Collaboration",
+              "sub_topic": [
+                "Communication and Coordination",
+                "Trust and Collaboration",
+                "Breaking Down Silos",
+                "Change Management"
+              ]
+            },
+            {
+              "topic": "DevOps Security",
+              "sub_topic": [
+                "Secure Code Development",
+                "Vulnerability Management",
+                "Compliance",
+                "Incident Response"
+              ]
+            },
+            {
+              "topic": "DevOps Measurement and Metrics",
+              "sub_topic": [
+                "Key Performance Indicators (KPIs)",
+                "Lead Time",
+                "Deployment Frequency",
+                "Change Failure Rate"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

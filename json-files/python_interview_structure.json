@@ -1,0 +1,68 @@
+{
+  "tags": [
+    "Python",
+    "Programming",
+    "Data Structures",
+    "Algorithms",
+    "Object-Oriented Programming",
+    "Interview Questions",
+    "Problem Solving",
+    "Conditional Statements"
+  ],
+  "categories": [
+    {
+      "category": "1. Data Structures and Algorithms\n2. Object-Oriented Programming\n3. Python Fundamentals\n4. Web Development\n5. Machine Learning and Data Science\n6. Testing and Debugging\n7. System Design and Architecture",
+      "sub_categories": [
+        {
+          "sub_category": "**1. Data Structures and Algorithms**\n- Array and Matrix\n- Linked List\n- Tree and Graph\n- Sorting and Searching Algorithms\n\n**2. Object-Oriented Programming**\n- Encapsulation and Abstraction\n- Inheritance and Polymorphism\n- Design Patterns\n- Exception Handling\n\n**3. Python Fundamentals**\n- Data Types and Variables\n- Control Flow and Conditional Statements\n- Functions and Modules\n- Object-Oriented Programming in Python\n\n**4. Web Development**\n- HTML and CSS\n- JavaScript and jQuery\n- Web Frameworks (e.g.",
+          "topics": [
+            {
+              "topic": "**Data Structures and Algorithms:** Array and Matrix\n**Object-Oriented Programming:** Inheritance and Polymorphism",
+              "sub_topics": [
+                "Array Manipulation",
+                "Matrix Transpose\nInheritance Mechanisms",
+                "Polymorphism with Method Overriding"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Django",
+          "topics": [
+            {
+              "topic": "ORM Query Optimization",
+              "sub_topics": [
+                "- Eager Loading vs Lazy Loading\n- Query Caching\n- Index Optimization"
+              ]
+            },
+            {
+              "topic": "Django Rest Framework",
+              "sub_topics": [
+                "Serializers",
+                "ViewSets"
+              ]
+            },
+            {
+              "topic": "Django Template System",
+              "sub_topics": [
+                "- Template Syntax and Structure\n- Template Tags and Filters\n- Template Inheritance and Reusability"
+              ]
+            }
+          ]
+        },
+        {
+          "sub_category": "Flask)\n- RESTful APIs and Web Services",
+          "topics": [
+            {
+              "topic": "- JSON data handling\n- HTTP request types and routing",
+              "sub_topics": [
+                "JSON Parsing and Serialization",
+                "RESTful API Design"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

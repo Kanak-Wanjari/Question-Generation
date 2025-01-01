@@ -1,0 +1,1059 @@
+[
+    {
+        "category": "Core Java",
+        "sub_category": "Object-Oriented Programming",
+        "topic": "Encapsulation",
+        "sub_topic": "Access Specifiers",
+        "question_prompt": "Generate 10 questions about Access Specifiers with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Object-Oriented Programming",
+        "topic": "Encapsulation",
+        "sub_topic": "Data Hiding",
+        "question_prompt": "Generate 10 questions about Data Hiding with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Object-Oriented Programming",
+        "topic": "Encapsulation",
+        "sub_topic": "Information Hiding",
+        "question_prompt": "Generate 10 questions about Information Hiding with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Object-Oriented Programming",
+        "topic": "Inheritance",
+        "sub_topic": "Object Inheritance",
+        "question_prompt": "Generate 10 questions about Object Inheritance with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Object-Oriented Programming",
+        "topic": "Inheritance",
+        "sub_topic": "Hierarchical Inheritance",
+        "question_prompt": "Generate 10 questions about Hierarchical Inheritance with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Object-Oriented Programming",
+        "topic": "Inheritance",
+        "sub_topic": "Multiple Inheritance",
+        "question_prompt": "Generate 10 questions about Multiple Inheritance with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Object-Oriented Programming",
+        "topic": "Polymorphism",
+        "sub_topic": "Method Overloading",
+        "question_prompt": "Generate 10 questions about Method Overloading with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Object-Oriented Programming",
+        "topic": "Polymorphism",
+        "sub_topic": "Method Overriding",
+        "question_prompt": "Generate 10 questions about Method Overriding with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Data Structures",
+        "topic": "* Linked Lists and their Implementations\n* Binary Search Tree (BST) and its Operations\n* Hash Tables and Collision Resolution Techniques",
+        "sub_topic": "Linked Lists: Circular Linked Lists",
+        "question_prompt": "Generate 10 questions about Linked Lists: Circular Linked Lists with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Data Structures",
+        "topic": "* Linked Lists and their Implementations\n* Binary Search Tree (BST) and its Operations\n* Hash Tables and Collision Resolution Techniques",
+        "sub_topic": "Doubly Linked Lists\nBST: Tree Traversals",
+        "question_prompt": "Generate 10 questions about Doubly Linked Lists\nBST: Tree Traversals with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Data Structures",
+        "topic": "* Linked Lists and their Implementations\n* Binary Search Tree (BST) and its Operations\n* Hash Tables and Collision Resolution Techniques",
+        "sub_topic": "BST Balancing Techniques\nHash Tables: Linear Probing",
+        "question_prompt": "Generate 10 questions about BST Balancing Techniques\nHash Tables: Linear Probing with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Data Structures",
+        "topic": "* Linked Lists and their Implementations\n* Binary Search Tree (BST) and its Operations\n* Hash Tables and Collision Resolution Techniques",
+        "sub_topic": "Quadratic Probing",
+        "question_prompt": "Generate 10 questions about Quadratic Probing with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Collections Framework",
+        "topic": "Lists",
+        "sub_topic": "Type Safety",
+        "question_prompt": "Generate 10 questions about Type Safety with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Collections Framework",
+        "topic": "Lists",
+        "sub_topic": "Iterators",
+        "question_prompt": "Generate 10 questions about Iterators with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Collections Framework",
+        "topic": "Lists",
+        "sub_topic": "Generics",
+        "question_prompt": "Generate 10 questions about Generics with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Collections Framework",
+        "topic": "Sets",
+        "sub_topic": "Creating and Initializing Sets",
+        "question_prompt": "Generate 10 questions about Creating and Initializing Sets with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Collections Framework",
+        "topic": "Sets",
+        "sub_topic": "Operations on Sets",
+        "question_prompt": "Generate 10 questions about Operations on Sets with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Collections Framework",
+        "topic": "Maps",
+        "sub_topic": "HashMaps",
+        "question_prompt": "Generate 10 questions about HashMaps with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Collections Framework",
+        "topic": "Maps",
+        "sub_topic": "TreeMaps",
+        "question_prompt": "Generate 10 questions about TreeMaps with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Exception Handling",
+        "topic": "Checked vs. Unchecked Exceptions",
+        "sub_topic": "Type Checking",
+        "question_prompt": "Generate 10 questions about Type Checking with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Exception Handling",
+        "topic": "Checked vs. Unchecked Exceptions",
+        "sub_topic": "Exception Handling Design",
+        "question_prompt": "Generate 10 questions about Exception Handling Design with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Exception Handling",
+        "topic": "Custom Exception Handling",
+        "sub_topic": "Creating Custom Exceptions",
+        "question_prompt": "Generate 10 questions about Creating Custom Exceptions with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Exception Handling",
+        "topic": "Custom Exception Handling",
+        "sub_topic": "Using try-catch-finally Blocks",
+        "question_prompt": "Generate 10 questions about Using try-catch-finally Blocks with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Core Java",
+        "sub_category": "Exception Handling",
+        "topic": "Custom Exception Handling",
+        "sub_topic": "Exception Chaining",
+        "question_prompt": "Generate 10 questions about Exception Chaining with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "Concurrency",
+        "topic": "Thread Synchronization",
+        "sub_topic": "Deadlock",
+        "question_prompt": "Generate 10 questions about Deadlock with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "Concurrency",
+        "topic": "Thread Synchronization",
+        "sub_topic": "Semaphore",
+        "question_prompt": "Generate 10 questions about Semaphore with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "Concurrency",
+        "topic": "Thread Synchronization",
+        "sub_topic": "Atomic Variables",
+        "question_prompt": "Generate 10 questions about Atomic Variables with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "Concurrency",
+        "topic": "Concurrent Collections",
+        "sub_topic": "ConcurrentHashMap",
+        "question_prompt": "Generate 10 questions about ConcurrentHashMap with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "Concurrency",
+        "topic": "Concurrent Collections",
+        "sub_topic": "ConcurrentSkipListMap",
+        "question_prompt": "Generate 10 questions about ConcurrentSkipListMap with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "Concurrency",
+        "topic": "Lock-Free Programming",
+        "sub_topic": "Lock-Free Data Structures",
+        "question_prompt": "Generate 10 questions about Lock-Free Data Structures with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "Concurrency",
+        "topic": "Lock-Free Programming",
+        "sub_topic": "Lock-Free Synchronization",
+        "question_prompt": "Generate 10 questions about Lock-Free Synchronization with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "Concurrency",
+        "topic": "Lock-Free Programming",
+        "sub_topic": "Lock-Free Algorithms",
+        "question_prompt": "Generate 10 questions about Lock-Free Algorithms with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "Java EE",
+        "topic": "Java Persistence API (JPA)",
+        "sub_topic": "Entity Framework",
+        "question_prompt": "Generate 10 questions about Entity Framework with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "Java EE",
+        "topic": "Java Persistence API (JPA)",
+        "sub_topic": "Queries and Projections",
+        "question_prompt": "Generate 10 questions about Queries and Projections with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "Java EE",
+        "topic": "JSON Processing (JSON-B)",
+        "sub_topic": "* Reading JSON-B Entities",
+        "question_prompt": "Generate 10 questions about * Reading JSON-B Entities with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "Java EE",
+        "topic": "JSON Processing (JSON-B)",
+        "sub_topic": "* Writing JSON-B Entities",
+        "question_prompt": "Generate 10 questions about * Writing JSON-B Entities with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "JVM Internals",
+        "topic": "Garbage Collection",
+        "sub_topic": "* Reference Counting\n* Mark-and-Sweep\n* Copying",
+        "question_prompt": "Generate 10 questions about * Reference Counting\n* Mark-and-Sweep\n* Copying with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "JVM Internals",
+        "topic": "Memory Management",
+        "sub_topic": "Garbage Collection",
+        "question_prompt": "Generate 10 questions about Garbage Collection with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "JVM Internals",
+        "topic": "Memory Management",
+        "sub_topic": "Reference Counting",
+        "question_prompt": "Generate 10 questions about Reference Counting with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "JVM Internals",
+        "topic": "Memory Management",
+        "sub_topic": "Memory Leaks",
+        "question_prompt": "Generate 10 questions about Memory Leaks with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "JVM Internals",
+        "topic": "HotSpot VM Architecture",
+        "sub_topic": "Class Loading",
+        "question_prompt": "Generate 10 questions about Class Loading with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "JVM Internals",
+        "topic": "HotSpot VM Architecture",
+        "sub_topic": "Memory Management",
+        "question_prompt": "Generate 10 questions about Memory Management with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "JVM Internals",
+        "topic": "HotSpot VM Architecture",
+        "sub_topic": "Garbage Collection",
+        "question_prompt": "Generate 10 questions about Garbage Collection with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "Performance Optimization",
+        "topic": "1. Profiling Java Applications for Performance Optimization",
+        "sub_topic": "- Identifying Performance Bottlenecks\n- Profiling with Tools and Techniques",
+        "question_prompt": "Generate 10 questions about - Identifying Performance Bottlenecks\n- Profiling with Tools and Techniques with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Advanced Java",
+        "sub_category": "Performance Optimization",
+        "topic": "2. Optimizing Java Code for Garbage Collection Efficiency",
+        "sub_topic": "- Using Generational Garbage Collection\n- Controlling Object Creation and Destruction",
+        "question_prompt": "Generate 10 questions about - Using Generational Garbage Collection\n- Controlling Object Creation and Destruction with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Arrays",
+        "topic": "Multidimensional Arrays",
+        "sub_topic": "Accessing Elements",
+        "question_prompt": "Generate 10 questions about Accessing Elements with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Arrays",
+        "topic": "Multidimensional Arrays",
+        "sub_topic": "Manipulating Arrays",
+        "question_prompt": "Generate 10 questions about Manipulating Arrays with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Arrays",
+        "topic": "Sorting Arrays",
+        "sub_topic": "Bubble Sort",
+        "question_prompt": "Generate 10 questions about Bubble Sort with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Arrays",
+        "topic": "Sorting Arrays",
+        "sub_topic": "Counting Sort",
+        "question_prompt": "Generate 10 questions about Counting Sort with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Arrays",
+        "topic": "Sorting Arrays",
+        "sub_topic": "Quick Sort",
+        "question_prompt": "Generate 10 questions about Quick Sort with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Arrays",
+        "topic": "Array Manipulation",
+        "sub_topic": "Array Sorting",
+        "question_prompt": "Generate 10 questions about Array Sorting with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Arrays",
+        "topic": "Array Manipulation",
+        "sub_topic": "Array Rotation",
+        "question_prompt": "Generate 10 questions about Array Rotation with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Arrays",
+        "topic": "Array Manipulation",
+        "sub_topic": "Array Shifting",
+        "question_prompt": "Generate 10 questions about Array Shifting with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Linked Lists",
+        "topic": "1. Implementing a Doubly Linked List",
+        "sub_topic": "- Creating Node Class\n- Inserting Nodes\n- Deleting Nodes",
+        "question_prompt": "Generate 10 questions about - Creating Node Class\n- Inserting Nodes\n- Deleting Nodes with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Linked Lists",
+        "topic": "2. Reverse a Linked List in-place",
+        "sub_topic": "1. Traversing the Linked List",
+        "question_prompt": "Generate 10 questions about 1. Traversing the Linked List with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Linked Lists",
+        "topic": "2. Reverse a Linked List in-place",
+        "sub_topic": "2. Reversing the Links",
+        "question_prompt": "Generate 10 questions about 2. Reversing the Links with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Stacks",
+        "topic": "Dynamic Arrays",
+        "sub_topic": "Resizing and Capacity",
+        "question_prompt": "Generate 10 questions about Resizing and Capacity with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Stacks",
+        "topic": "Dynamic Arrays",
+        "sub_topic": "Object Storage and Efficiency",
+        "question_prompt": "Generate 10 questions about Object Storage and Efficiency with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Stacks",
+        "topic": "Dynamic Arrays",
+        "sub_topic": "Dynamic Array Implementation",
+        "question_prompt": "Generate 10 questions about Dynamic Array Implementation with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Stacks",
+        "topic": "Implementing Stacks",
+        "sub_topic": "Creating and Initializing a Stack",
+        "question_prompt": "Generate 10 questions about Creating and Initializing a Stack with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Stacks",
+        "topic": "Implementing Stacks",
+        "sub_topic": "Operations on a Stack",
+        "question_prompt": "Generate 10 questions about Operations on a Stack with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Queues",
+        "topic": "Asynchronous Message Handling",
+        "sub_topic": "Message Broker Usage",
+        "question_prompt": "Generate 10 questions about Message Broker Usage with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Queues",
+        "topic": "Asynchronous Message Handling",
+        "sub_topic": "Message Formatting",
+        "question_prompt": "Generate 10 questions about Message Formatting with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Queues",
+        "topic": "Asynchronous Message Handling",
+        "sub_topic": "Message Delivery Strategies",
+        "question_prompt": "Generate 10 questions about Message Delivery Strategies with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Queues",
+        "topic": "Priority Queues",
+        "sub_topic": "Adding and Removing Elements",
+        "question_prompt": "Generate 10 questions about Adding and Removing Elements with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Data Structures",
+        "sub_category": "Queues",
+        "topic": "Priority Queues",
+        "sub_topic": "Priority Assignment Strategies",
+        "question_prompt": "Generate 10 questions about Priority Assignment Strategies with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Sorting",
+        "topic": "Selection Sort",
+        "sub_topic": "Time Complexity",
+        "question_prompt": "Generate 10 questions about Time Complexity with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Sorting",
+        "topic": "Selection Sort",
+        "sub_topic": "Space Complexity",
+        "question_prompt": "Generate 10 questions about Space Complexity with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Sorting",
+        "topic": "Selection Sort",
+        "sub_topic": "Algorithm Implementation",
+        "question_prompt": "Generate 10 questions about Algorithm Implementation with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Sorting",
+        "topic": "Bubble Sort",
+        "sub_topic": "Complexity Assessment",
+        "question_prompt": "Generate 10 questions about Complexity Assessment with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Sorting",
+        "topic": "Bubble Sort",
+        "sub_topic": "Code Implementation",
+        "question_prompt": "Generate 10 questions about Code Implementation with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Sorting",
+        "topic": "Bubble Sort",
+        "sub_topic": "Performance Optimization",
+        "question_prompt": "Generate 10 questions about Performance Optimization with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Sorting",
+        "topic": "Insertion Sort",
+        "sub_topic": "Time complexity",
+        "question_prompt": "Generate 10 questions about Time complexity with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Sorting",
+        "topic": "Insertion Sort",
+        "sub_topic": "Implementation steps",
+        "question_prompt": "Generate 10 questions about Implementation steps with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Searching",
+        "topic": "Binary Search",
+        "sub_topic": "Time Complexity",
+        "question_prompt": "Generate 10 questions about Time Complexity with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Searching",
+        "topic": "Binary Search",
+        "sub_topic": "Iterative Implementation",
+        "question_prompt": "Generate 10 questions about Iterative Implementation with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Searching",
+        "topic": "Binary Search",
+        "sub_topic": "Recursive Implementation",
+        "question_prompt": "Generate 10 questions about Recursive Implementation with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Searching",
+        "topic": "Linear Search",
+        "sub_topic": "Linear Search Using Iterative Approach",
+        "question_prompt": "Generate 10 questions about Linear Search Using Iterative Approach with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Searching",
+        "topic": "Linear Search",
+        "sub_topic": "Linear Search Using Recursive Approach",
+        "question_prompt": "Generate 10 questions about Linear Search Using Recursive Approach with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Graph Algorithms",
+        "topic": "Graph Traversal Techniques",
+        "sub_topic": "Depth-First Search",
+        "question_prompt": "Generate 10 questions about Depth-First Search with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Graph Algorithms",
+        "topic": "Graph Traversal Techniques",
+        "sub_topic": "Breadth-First Search",
+        "question_prompt": "Generate 10 questions about Breadth-First Search with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Graph Algorithms",
+        "topic": "Graph Traversal Techniques",
+        "sub_topic": "Kruskal's Algorithm",
+        "question_prompt": "Generate 10 questions about Kruskal's Algorithm with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Graph Algorithms",
+        "topic": "Minimum Spanning Trees",
+        "sub_topic": "Implementation of Kruskal's Algorithm",
+        "question_prompt": "Generate 10 questions about Implementation of Kruskal's Algorithm with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Graph Algorithms",
+        "topic": "Minimum Spanning Trees",
+        "sub_topic": "Implementation of Prim's Algorithm",
+        "question_prompt": "Generate 10 questions about Implementation of Prim's Algorithm with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Graph Algorithms",
+        "topic": "Shortest Path Algorithms",
+        "sub_topic": "Dijkstra's Algorithm",
+        "question_prompt": "Generate 10 questions about Dijkstra's Algorithm with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "Graph Algorithms",
+        "topic": "Shortest Path Algorithms",
+        "sub_topic": "Bellman-Ford Algorithm",
+        "question_prompt": "Generate 10 questions about Bellman-Ford Algorithm with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "String Algorithms",
+        "topic": "Knuth-Morris-Pratt (KMP) Algorithm",
+        "sub_topic": "Substrings Preprocessing",
+        "question_prompt": "Generate 10 questions about Substrings Preprocessing with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "String Algorithms",
+        "topic": "Knuth-Morris-Pratt (KMP) Algorithm",
+        "sub_topic": "Pattern Matching",
+        "question_prompt": "Generate 10 questions about Pattern Matching with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "String Algorithms",
+        "topic": "Knuth-Morris-Pratt (KMP) Algorithm",
+        "sub_topic": "Time Complexity",
+        "question_prompt": "Generate 10 questions about Time Complexity with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "String Algorithms",
+        "topic": "Boyer-Moore Algorithm",
+        "sub_topic": "Bad Character Heuristic",
+        "question_prompt": "Generate 10 questions about Bad Character Heuristic with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "String Algorithms",
+        "topic": "Boyer-Moore Algorithm",
+        "sub_topic": "Good Suffix Heuristic",
+        "question_prompt": "Generate 10 questions about Good Suffix Heuristic with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Algorithms",
+        "sub_category": "String Algorithms",
+        "topic": "Boyer-Moore Algorithm",
+        "sub_topic": "Preprocessing",
+        "question_prompt": "Generate 10 questions about Preprocessing with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Encapsulation",
+        "topic": "Data hiding",
+        "sub_topic": "Polymorphism",
+        "question_prompt": "Generate 10 questions about Polymorphism with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Encapsulation",
+        "topic": "Data hiding",
+        "sub_topic": "Encapsulation",
+        "question_prompt": "Generate 10 questions about Encapsulation with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Encapsulation",
+        "topic": "Information hiding",
+        "sub_topic": "Encapsulation",
+        "question_prompt": "Generate 10 questions about Encapsulation with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Encapsulation",
+        "topic": "Information hiding",
+        "sub_topic": "Abstraction",
+        "question_prompt": "Generate 10 questions about Abstraction with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Encapsulation",
+        "topic": "Information hiding",
+        "sub_topic": "Information hiding",
+        "question_prompt": "Generate 10 questions about Information hiding with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Encapsulation",
+        "topic": "Encapsulation of data",
+        "sub_topic": "Data Hiding",
+        "question_prompt": "Generate 10 questions about Data Hiding with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Encapsulation",
+        "topic": "Encapsulation of data",
+        "sub_topic": "Information Security",
+        "question_prompt": "Generate 10 questions about Information Security with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Encapsulation",
+        "topic": "Encapsulation of data",
+        "sub_topic": "Access Control",
+        "question_prompt": "Generate 10 questions about Access Control with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Inheritance",
+        "topic": "Constructor Chaining",
+        "sub_topic": "Super Keyword",
+        "question_prompt": "Generate 10 questions about Super Keyword with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Inheritance",
+        "topic": "Constructor Chaining",
+        "sub_topic": "Multilevel Inheritance",
+        "question_prompt": "Generate 10 questions about Multilevel Inheritance with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Inheritance",
+        "topic": "Constructor Chaining",
+        "sub_topic": "Inheritance with Constructor",
+        "question_prompt": "Generate 10 questions about Inheritance with Constructor with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Inheritance",
+        "topic": "Method Overriding",
+        "sub_topic": "Return Type Covariance",
+        "question_prompt": "Generate 10 questions about Return Type Covariance with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Inheritance",
+        "topic": "Method Overriding",
+        "sub_topic": "Parameterized Overriding",
+        "question_prompt": "Generate 10 questions about Parameterized Overriding with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Inheritance",
+        "topic": "Method Overriding",
+        "sub_topic": "Method Binding",
+        "question_prompt": "Generate 10 questions about Method Binding with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Inheritance",
+        "topic": "Super Keyword",
+        "sub_topic": "Invoking Superclass Constructors",
+        "question_prompt": "Generate 10 questions about Invoking Superclass Constructors with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Inheritance",
+        "topic": "Super Keyword",
+        "sub_topic": "Accessing Superclass Methods",
+        "question_prompt": "Generate 10 questions about Accessing Superclass Methods with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Inheritance",
+        "topic": "Super Keyword",
+        "sub_topic": "Accessing Superclass Variables",
+        "question_prompt": "Generate 10 questions about Accessing Superclass Variables with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Polymorphism",
+        "topic": "Method Overriding",
+        "sub_topic": "Method Signature",
+        "question_prompt": "Generate 10 questions about Method Signature with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Polymorphism",
+        "topic": "Method Overriding",
+        "sub_topic": "Invocation at Runtime",
+        "question_prompt": "Generate 10 questions about Invocation at Runtime with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Polymorphism",
+        "topic": "Method Overriding",
+        "sub_topic": "Benefits",
+        "question_prompt": "Generate 10 questions about Benefits with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Polymorphism",
+        "topic": "Method Overloading",
+        "sub_topic": "Overloading Constructors",
+        "question_prompt": "Generate 10 questions about Overloading Constructors with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Polymorphism",
+        "topic": "Method Overloading",
+        "sub_topic": "Overloading Static Methods",
+        "question_prompt": "Generate 10 questions about Overloading Static Methods with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Polymorphism",
+        "topic": "Static Polymorphism",
+        "sub_topic": "Method Overloading",
+        "question_prompt": "Generate 10 questions about Method Overloading with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Polymorphism",
+        "topic": "Static Polymorphism",
+        "sub_topic": "Constructors",
+        "question_prompt": "Generate 10 questions about Constructors with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Abstraction",
+        "topic": "1. Abstract Classes: Concepts and Implementation\n2. Interfaces in Java: Abstraction and Polymorphism",
+        "sub_topic": "1. **Subtopics**: Concepts of Abstract Classes",
+        "question_prompt": "Generate 10 questions about 1. **Subtopics**: Concepts of Abstract Classes with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Abstraction",
+        "topic": "1. Abstract Classes: Concepts and Implementation\n2. Interfaces in Java: Abstraction and Polymorphism",
+        "sub_topic": "Implementing Abstract Classes\n2. **Subtopics**: Abstraction using Interfaces",
+        "question_prompt": "Generate 10 questions about Implementing Abstract Classes\n2. **Subtopics**: Abstraction using Interfaces with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Object-Oriented Programming",
+        "sub_category": "Abstraction",
+        "topic": "1. Abstract Classes: Concepts and Implementation\n2. Interfaces in Java: Abstraction and Polymorphism",
+        "sub_topic": "Polymorphism using Interfaces",
+        "question_prompt": "Generate 10 questions about Polymorphism using Interfaces with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Design Patterns",
+        "sub_category": "Creational",
+        "topic": "Singleton",
+        "sub_topic": "Interface",
+        "question_prompt": "Generate 10 questions about Interface with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Design Patterns",
+        "sub_category": "Creational",
+        "topic": "Singleton",
+        "sub_topic": "Implementation",
+        "question_prompt": "Generate 10 questions about Implementation with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Design Patterns",
+        "sub_category": "Creational",
+        "topic": "Factory Method",
+        "sub_topic": "Creating Objects",
+        "question_prompt": "Generate 10 questions about Creating Objects with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Design Patterns",
+        "sub_category": "Creational",
+        "topic": "Factory Method",
+        "sub_topic": "Factory Method Design Pattern Implementation",
+        "question_prompt": "Generate 10 questions about Factory Method Design Pattern Implementation with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Design Patterns",
+        "sub_category": "Creational",
+        "topic": "Builder",
+        "sub_topic": "- Builder Design Pattern\n- Fluent Builder Design Pattern\n- Telescoping Constructor Pattern",
+        "question_prompt": "Generate 10 questions about - Builder Design Pattern\n- Fluent Builder Design Pattern\n- Telescoping Constructor Pattern with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Design Patterns",
+        "sub_category": "Structural",
+        "topic": "- Generics and Collections\n- Encapsulation and Inheritance",
+        "sub_topic": "- Generics in Java\n- Collections Framework in Java\n- Encapsulation in Java",
+        "question_prompt": "Generate 10 questions about - Generics in Java\n- Collections Framework in Java\n- Encapsulation in Java with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Design Patterns",
+        "sub_category": "Structural",
+        "topic": "- Generics and Collections\n- Encapsulation and Inheritance",
+        "sub_topic": "Inheritance in Java",
+        "question_prompt": "Generate 10 questions about Inheritance in Java with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Design Patterns",
+        "sub_category": "Behavioral",
+        "topic": "Object-Oriented Design Patterns",
+        "sub_topic": "Creational Patterns",
+        "question_prompt": "Generate 10 questions about Creational Patterns with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Design Patterns",
+        "sub_category": "Behavioral",
+        "topic": "Object-Oriented Design Patterns",
+        "sub_topic": "Structural Patterns",
+        "question_prompt": "Generate 10 questions about Structural Patterns with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Design Patterns",
+        "sub_category": "Behavioral",
+        "topic": "Object-Oriented Design Patterns",
+        "sub_topic": "Behavioral Patterns",
+        "question_prompt": "Generate 10 questions about Behavioral Patterns with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Design Patterns",
+        "sub_category": "Behavioral",
+        "topic": "Java Collections Framework",
+        "sub_topic": "Collections",
+        "question_prompt": "Generate 10 questions about Collections with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Design Patterns",
+        "sub_category": "Behavioral",
+        "topic": "Java Collections Framework",
+        "sub_topic": "Generics",
+        "question_prompt": "Generate 10 questions about Generics with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Design Patterns",
+        "sub_category": "Behavioral",
+        "topic": "Java Collections Framework",
+        "sub_topic": "Iterators and Iterables",
+        "question_prompt": "Generate 10 questions about Iterators and Iterables with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Design Patterns",
+        "sub_category": "Behavioral",
+        "topic": "Concurrency in Java",
+        "sub_topic": "Concurrency Control",
+        "question_prompt": "Generate 10 questions about Concurrency Control with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Design Patterns",
+        "sub_category": "Behavioral",
+        "topic": "Concurrency in Java",
+        "sub_topic": "Synchronization",
+        "question_prompt": "Generate 10 questions about Synchronization with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "Application Development",
+        "topic": "* Java Servlets for Web Development\n* Android App Development with Java\n* Spring Boot for Enterprise Applications",
+        "sub_topic": "1. Servlet APIs and Lifecycle\n2. HTTP Request and Response Handling\n3. Session Management with Servlets\n\n1. Android Architectures and Components\n2. Android UI Development with XML and Kotlin\n3. Data Management with Room and Retrofit\n\n1. Spring Boot Architecture and Configuration\n2. Dependency Injection and Inversion of Control with Spring\n3. Data Access with Spring Data JPA and JDBC",
+        "question_prompt": "Generate 10 questions about 1. Servlet APIs and Lifecycle\n2. HTTP Request and Response Handling\n3. Session Management with Servlets\n\n1. Android Architectures and Components\n2. Android UI Development with XML and Kotlin\n3. Data Management with Room and Retrofit\n\n1. Spring Boot Architecture and Configuration\n2. Dependency Injection and Inversion of Control with Spring\n3. Data Access with Spring Data JPA and JDBC with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "Systems Engineering",
+        "topic": "* Software System Design and Architecture\n* Simulation and Modeling for Systems Engineering\n* Requirements Engineering and Management in Java",
+        "sub_topic": "Architecture Patterns",
+        "question_prompt": "Generate 10 questions about Architecture Patterns with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "Systems Engineering",
+        "topic": "* Software System Design and Architecture\n* Simulation and Modeling for Systems Engineering\n* Requirements Engineering and Management in Java",
+        "sub_topic": "Software Quality Assurance",
+        "question_prompt": "Generate 10 questions about Software Quality Assurance with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "Systems Engineering",
+        "topic": "* Software System Design and Architecture\n* Simulation and Modeling for Systems Engineering\n* Requirements Engineering and Management in Java",
+        "sub_topic": "System Evaluation",
+        "question_prompt": "Generate 10 questions about System Evaluation with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "Software Testing",
+        "topic": "Unit Testing with JUnit",
+        "sub_topic": "JUnit Basics",
+        "question_prompt": "Generate 10 questions about JUnit Basics with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "Software Testing",
+        "topic": "Unit Testing with JUnit",
+        "sub_topic": "Writing Test Cases",
+        "question_prompt": "Generate 10 questions about Writing Test Cases with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "Software Testing",
+        "topic": "Unit Testing with JUnit",
+        "sub_topic": "Assertions",
+        "question_prompt": "Generate 10 questions about Assertions with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "Software Testing",
+        "topic": "Integration Testing with Mockito",
+        "sub_topic": "Mocking",
+        "question_prompt": "Generate 10 questions about Mocking with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "Software Testing",
+        "topic": "Integration Testing with Mockito",
+        "sub_topic": "Stubbing",
+        "question_prompt": "Generate 10 questions about Stubbing with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "Software Testing",
+        "topic": "Integration Testing with Mockito",
+        "sub_topic": "Verifying",
+        "question_prompt": "Generate 10 questions about Verifying with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "Software Testing",
+        "topic": "Performance Testing with JMeter",
+        "sub_topic": "Load Testing",
+        "question_prompt": "Generate 10 questions about Load Testing with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "Software Testing",
+        "topic": "Performance Testing with JMeter",
+        "sub_topic": "Stress Testing",
+        "question_prompt": "Generate 10 questions about Stress Testing with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "Software Testing",
+        "topic": "Performance Testing with JMeter",
+        "sub_topic": "JMeter Features",
+        "question_prompt": "Generate 10 questions about JMeter Features with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "DevOps",
+        "topic": "Continuous Integration with Jenkins",
+        "sub_topic": "Jenkins Architecture",
+        "question_prompt": "Generate 10 questions about Jenkins Architecture with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "DevOps",
+        "topic": "Continuous Integration with Jenkins",
+        "sub_topic": "Pipeline Configuration",
+        "question_prompt": "Generate 10 questions about Pipeline Configuration with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "DevOps",
+        "topic": "Continuous Integration with Jenkins",
+        "sub_topic": "Continuous Integration Practices",
+        "question_prompt": "Generate 10 questions about Continuous Integration Practices with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "category": "Software Engineering",
+        "sub_category": "DevOps",
+        "topic": "Infrastructure Automation with Terraform",
+        "sub_topic": "* Provisioning Infrastructure with Terraform\n* Managing Infrastructure with Terraform",
+        "question_prompt": "Generate 10 questions about * Provisioning Infrastructure with Terraform\n* Managing Infrastructure with Terraform with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    }
+]

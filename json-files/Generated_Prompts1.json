@@ -1,0 +1,127 @@
+[
+    {
+        "topic": "Java",
+        "sub_topic": "Java Basics",
+        "question_prompt": "Generate 10 questions about Java Basics with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "JVM and JRE",
+        "question_prompt": "Generate 10 questions about JVM and JRE with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Data Types and Variables",
+        "question_prompt": "Generate 10 questions about Data Types and Variables with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Operators in Java",
+        "question_prompt": "Generate 10 questions about Operators in Java with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Control Statements",
+        "question_prompt": "Generate 10 questions about Control Statements with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Object-Oriented Programming",
+        "question_prompt": "Generate 10 questions about Object-Oriented Programming with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Classes and Objects",
+        "question_prompt": "Generate 10 questions about Classes and Objects with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Constructors",
+        "question_prompt": "Generate 10 questions about Constructors with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Inheritance",
+        "question_prompt": "Generate 10 questions about Inheritance with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Polymorphism",
+        "question_prompt": "Generate 10 questions about Polymorphism with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Abstraction",
+        "question_prompt": "Generate 10 questions about Abstraction with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Encapsulation",
+        "question_prompt": "Generate 10 questions about Encapsulation with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Interfaces",
+        "question_prompt": "Generate 10 questions about Interfaces with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Exception Handling",
+        "question_prompt": "Generate 10 questions about Exception Handling with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Collections Framework",
+        "question_prompt": "Generate 10 questions about Collections Framework with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Multithreading",
+        "question_prompt": "Generate 10 questions about Multithreading with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "File I/O",
+        "question_prompt": "Generate 10 questions about File I/O with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Generics",
+        "question_prompt": "Generate 10 questions about Generics with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Lambda Expressions",
+        "question_prompt": "Generate 10 questions about Lambda Expressions with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Streams API",
+        "question_prompt": "Generate 10 questions about Streams API with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Serialization",
+        "question_prompt": "Generate 10 questions about Serialization with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "JDBC",
+        "question_prompt": "Generate 10 questions about JDBC with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Garbage Collection",
+        "question_prompt": "Generate 10 questions about Garbage Collection with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Java 8 Features",
+        "question_prompt": "Generate 10 questions about Java 8 Features with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    },
+    {
+        "topic": "Java",
+        "sub_topic": "Design Patterns",
+        "question_prompt": "Generate 10 questions about Design Patterns with their difficulty level. List the question followed by its difficulty level (e.g., Easy, Medium, Hard). only list the question and difficulty level. in json"
+    }
+]
