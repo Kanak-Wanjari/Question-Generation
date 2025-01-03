@@ -92,7 +92,7 @@ def process_prompt(model, prompt_data):
                 "difficulty_level": q["difficulty_level"],
                 
                 # Constant fields
-                "language_specific": "JAVA",
+                "language_specific": "Computer Networks",
                 "interview_category": "Technical"
             }
             formatted_questions.append(formatted_question)
@@ -111,8 +111,8 @@ def main():
         return
 
     # Setup input/output files with raw strings for Windows paths
-    input_file = r"C:\Users\janhv\python_programs\technology_category_interview_question\Question-Generation\python_generated_Prompts.json"
-    output_file = r"C:\Users\janhv\python_programs\technology_category_interview_question\QG\python_generated_Questions.json"
+    input_file = r"C:\Users\janhv\python_programs\technology_category_interview_question\Question-Generation\prompt_jsons\CN_generated_Prompts.json"
+    output_file = r"C:\Users\janhv\python_programs\technology_category_interview_question\Question-Generation\generated_questions\CN_generated_Questions.json"
     
     try:
         with open(input_file, 'r') as f:
